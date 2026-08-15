@@ -23,11 +23,11 @@ msgstr " 또는 "
 
 #: src/editor/clipboard/source-clipboard.ts
 msgid " Your selection could not be restored."
-msgstr ""
+msgstr " 선택 영역을 복원할 수 없습니다."
 
 #: src/editor/clipboard/source-clipboard.ts
 msgid " Your selection has been restored."
-msgstr ""
+msgstr " 선택 영역을 복원했습니다."
 
 #: src/components/settings/LintingSection.tsx
 msgid "— except"
@@ -119,11 +119,11 @@ msgstr ""
 
 #: src/editor/components/PreviewBlockedNotice.tsx
 msgid "(inline)"
-msgstr ""
+msgstr "(인라인)"
 
 #: src/editor/components/MirrorSource.tsx
 msgid "(no id)"
-msgstr ""
+msgstr "(ID 없음)"
 
 #: src/components/LinksPanel.tsx
 msgid "(opens in new tab)"
@@ -167,7 +167,7 @@ msgstr ""
 #. placeholder {0}: preview.backlinkCount
 #: src/editor/link-preview/InternalDocPreviewCard.tsx
 msgid "{0, plural, one {# backlink} other {# backlinks}}"
-msgstr ""
+msgstr "{0, plural, other {#개 백링크}}"
 
 #. placeholder {0}: tag.count
 #: src/components/CommandPalette.tsx
@@ -212,7 +212,7 @@ msgstr ""
 #. placeholder {0}: blocked.length
 #: src/editor/components/PreviewBlockedNotice.tsx
 msgid "{0, plural, one {# request blocked by the preview's security policy} other {# requests blocked by the preview's security policy}}"
-msgstr ""
+msgstr "{0, plural, other {미리보기 보안 정책으로 요청 #개가 차단되었습니다}}"
 
 #. placeholder {0}: results.length
 #: src/components/settings/SettingsDialogShell.tsx
@@ -227,7 +227,7 @@ msgstr ""
 #. placeholder {0}: item.count
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "{0, plural, one {# use} other {# uses}}"
-msgstr ""
+msgstr "{0, plural, other {#회 사용}}"
 
 #. placeholder {0}: audit.result.warningCount
 #: src/components/ProblemsPanel.tsx
@@ -354,7 +354,7 @@ msgstr ""
 #. placeholder {0}: descriptor.displayName ?? name
 #: src/editor/extensions/JsxInlineView.tsx
 msgid "{0} Properties"
-msgstr ""
+msgstr "{0} 속성"
 
 #. placeholder {0}: hostLabel(h)
 #. placeholder {1}: hostLabel(h)
@@ -432,17 +432,17 @@ msgstr ""
 #. placeholder {0}: Math.floor(diff / MONTH_MS)
 #: src/editor/link-preview/InternalDocPreviewCard.tsx
 msgid "{0}mo ago"
-msgstr ""
+msgstr "{0}개월 전"
 
 #. placeholder {0}: Math.floor(diff / WEEK_MS)
 #: src/editor/link-preview/InternalDocPreviewCard.tsx
 msgid "{0}w ago"
-msgstr ""
+msgstr "{0}주 전"
 
 #. placeholder {0}: Math.floor(diff / YEAR_MS)
 #: src/editor/link-preview/InternalDocPreviewCard.tsx
 msgid "{0}y ago"
-msgstr ""
+msgstr "{0}년 전"
 
 #: src/components/EditorTabs.tsx
 msgid "{accessibleLabel} (conflict)"
@@ -503,11 +503,11 @@ msgstr ""
 
 #: src/editor/utils/editor-strings.ts
 msgid "{componentLabel} (empty)"
-msgstr ""
+msgstr "{componentLabel} (비어 있음)"
 
 #: src/editor/utils/editor-strings.ts
 msgid "{componentLabel} with {childCount, plural, one {# item} other {# items}}"
-msgstr ""
+msgstr "{componentLabel}, 항목 {childCount, plural, other {#개}}"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{conflictCount, plural, one {# conflict} other {# conflicts}}"
@@ -580,7 +580,7 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "{descriptorLabel} — render error, source editable below"
-msgstr ""
+msgstr "{descriptorLabel}, 렌더링 오류, 아래에서 소스를 편집할 수 있습니다"
 
 #: src/components/FileTree.tsx
 msgid "{detail} - {kind} \"{createdPath}\" still exists on disk"
@@ -819,7 +819,7 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "{propPanelDescriptorLabel} Properties"
-msgstr ""
+msgstr "{propPanelDescriptorLabel} 속성"
 
 #: src/components/ActivityModeContent.tsx
 #: src/components/ActivityPanelBurstRow.tsx
@@ -829,7 +829,7 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "{settingsDescriptorLabel} properties"
-msgstr ""
+msgstr "{settingsDescriptorLabel} 속성"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "{shareBranch} isn't a valid branch name."
@@ -916,7 +916,7 @@ msgstr ""
 #. placeholder {0}: slashHint.name
 #: src/editor/ComposerMentionInput.tsx
 msgid "/{0} isn't a command this agent offers — it will be sent as plain text"
-msgstr ""
+msgstr "/{0}은(는) 이 에이전트가 제공하는 명령이 아니므로 일반 텍스트로 전송됩니다"
 
 #: src/components/settings/ThemePreviewCanvas.tsx
 msgid "// note"
@@ -948,7 +948,7 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "+ Add {addChildName}"
-msgstr ""
+msgstr "+ {addChildName} 추가"
 
 #: src/components/NavigatorApp.tsx
 msgid "+{overflowCount} more"
@@ -956,11 +956,11 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "<{componentName}> isn't a known component. Copy the source to use it elsewhere, or delete the block."
-msgstr ""
+msgstr "<{componentName}>은(는) 알려진 컴포넌트가 아닙니다. 다른 곳에서 사용하려면 소스를 복사하거나 블록을 삭제하세요."
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "<{descriptorLabel}> failed to render (likely a bad prop). Copy the source to see what went wrong, or delete the block."
-msgstr ""
+msgstr "<{descriptorLabel}>을(를) 렌더링하지 못했습니다. 잘못된 속성 때문일 수 있습니다. 문제를 확인하려면 소스를 복사하거나 블록을 삭제하세요."
 
 #: src/components/settings/AiToolsSection.tsx
 msgid "<0>~/.ok/bin</0> and <1>~/.ok/env.sh</1> stay either way — the app always maintains them."
@@ -972,15 +972,15 @@ msgstr ""
 
 #: src/editor/components/Mirror.tsx
 msgid "<0>Mirror — pick a source.</0> Set <1>src</1> + <2>anchor</2> via the property panel to point at a <3><MirrorSource></3> elsewhere."
-msgstr ""
+msgstr "<0>미러, 소스를 선택하세요.</0> 속성 패널에서 <1>src</1>와 <2>anchor</2>를 설정해 다른 곳의 <3><MirrorSource></3>를 가리키세요."
 
 #: src/editor/components/Mirror.tsx
 msgid "<0>Mirror anchor not found.</0> No <1>{mirrorSourceTag}</1> exists in <2>{src}</2>."
-msgstr ""
+msgstr "<0>미러 앵커를 찾을 수 없습니다.</0> <2>{src}</2>에 <1>{mirrorSourceTag}</1>이(가) 없습니다."
 
 #: src/editor/components/Mirror.tsx
 msgid "<0>Mirror source removed.</0> The doc <1>{src}</1> is no longer available."
-msgstr ""
+msgstr "<0>미러 소스가 삭제되었습니다.</0> 문서 <1>{src}</1>을(를) 더 이상 사용할 수 없습니다."
 
 #. Warning shown when the user unchecks the PATH toggle — only external terminals degrade
 #: src/components/McpConsentDialogBody.tsx
@@ -1055,7 +1055,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "A line with a footnote<0><1>[1]</1></0> and a definition shown below."
-msgstr ""
+msgstr "각주<0><1>[1]</1></0>와 아래에 표시되는 정의가 있는 줄입니다."
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "A linked worktree of this repository"
@@ -1114,7 +1114,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "A pull quote stands out from the surrounding text."
-msgstr ""
+msgstr "인용문이 주변 텍스트에서 돋보입니다."
 
 #: src/components/settings/TerminalSection.tsx
 msgid "A real shell is off for this project. Turning it on runs commands with the full access of your user account."
@@ -1186,7 +1186,7 @@ msgstr "{appName} 정보"
 
 #: src/editor/slash-command/items.tsx
 msgid "Above"
-msgstr ""
+msgstr "위"
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid "absent"
@@ -1239,7 +1239,7 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Active panel content for the selected tab shows here."
-msgstr ""
+msgstr "선택한 탭의 활성 패널 콘텐츠가 여기에 표시됩니다."
 
 #: src/components/FolderTimelineCard.tsx
 msgid "Activity"
@@ -1359,7 +1359,7 @@ msgstr ""
 
 #: src/editor/components/Tabs.tsx
 msgid "Add tab"
-msgstr ""
+msgstr "탭 추가"
 
 #: src/components/ui/tag-pill-input.tsx
 msgid "Add tag"
@@ -1430,7 +1430,7 @@ msgstr ""
 
 #: src/editor/components/PropPanel.tsx
 msgid "Advanced"
-msgstr ""
+msgstr "고급"
 
 #: src/components/ConsentDialogBody.tsx
 #: src/components/CreateProjectDialog.tsx
@@ -1501,15 +1501,15 @@ msgstr "AI 도구 및 CLI"
 
 #: src/editor/bubble-menu/ImageAlignButtons.tsx
 msgid "Align center"
-msgstr ""
+msgstr "가운데 정렬"
 
 #: src/editor/bubble-menu/ImageAlignButtons.tsx
 msgid "Align left"
-msgstr ""
+msgstr "왼쪽 정렬"
 
 #: src/editor/bubble-menu/ImageAlignButtons.tsx
 msgid "Align right"
-msgstr ""
+msgstr "오른쪽 정렬"
 
 #: src/components/SkillForkDialog.tsx
 msgid "Aligned {editor} to the source (its bytes are backed up)"
@@ -1553,7 +1553,7 @@ msgstr "{field}에 허용되는 값"
 
 #: src/editor/image-upload/index.ts
 msgid "Already at {assetContentPath} — reusing."
-msgstr ""
+msgstr "이미 {assetContentPath}에 있으므로 재사용합니다."
 
 #: src/components/settings/applies-to-folder-picker.tsx
 msgid "Already covered by a picked parent folder"
@@ -1594,7 +1594,7 @@ msgstr ""
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Anchor in this page"
-msgstr ""
+msgstr "이 페이지의 앵커"
 
 #: src/components/ConsentDialogBody.tsx
 msgid "and {remaining} more"
@@ -1667,7 +1667,7 @@ msgstr "이 컴퓨터의 모든 프로젝트에 적용됩니다. 기본 제공 �
 
 #: src/editor/bubble-menu/LinkEditPopover.tsx
 msgid "Apply link"
-msgstr ""
+msgstr "링크 적용"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Applying your change"
@@ -1763,19 +1763,19 @@ msgstr ""
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 #: src/editor/link-path-suggestions.tsx
 msgid "Asset"
-msgstr ""
+msgstr "에셋"
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Asset reference"
-msgstr ""
+msgstr "에셋 참조"
 
 #: src/editor/components/SrcAutocomplete.tsx
 msgid "Asset suggestions"
-msgstr ""
+msgstr "에셋 제안"
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Asset: {title}"
-msgstr ""
+msgstr "에셋: {title}"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Attach a file"
@@ -1799,7 +1799,7 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Authoritative content; mirrored verbatim everywhere it's referenced."
-msgstr ""
+msgstr "기준 콘텐츠이며, 참조되는 모든 곳에 그대로 미러링됩니다."
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Authorize in browser"
@@ -1940,7 +1940,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Below"
-msgstr ""
+msgstr "아래"
 
 #: src/components/acp/AgentBetaBadge.tsx
 #: src/components/settings/PluginBetaBadge.tsx
@@ -1957,7 +1957,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Big section heading."
-msgstr ""
+msgstr "큰 섹션 제목입니다."
 
 #: src/components/empty-state/use-create-suggestions.ts
 msgid "Bird wiki"
@@ -1976,7 +1976,7 @@ msgstr "Blob 실행"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Block math equation rendered with KaTeX from a LaTeX source string."
-msgstr ""
+msgstr "LaTeX 소스 문자열에서 KaTeX로 렌더링되는 블록 수식입니다."
 
 #: src/components/TemplateForm.tsx
 msgid "Blog post"
@@ -2125,7 +2125,7 @@ msgstr "글머리 기호 목록"
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Bullet List"
-msgstr ""
+msgstr "글머리 기호 목록"
 
 #: src/components/CommandPalette.tsx
 msgid "By meaning"
@@ -2145,7 +2145,7 @@ msgstr "캐시된 임베딩은 이를 생성한 엔드포인트와 모델에 속
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Callouts draw attention to key information."
-msgstr ""
+msgstr "콜아웃은 중요한 정보에 주의를 집중시킵니다."
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Can't nest projects. An OpenKnowledge project already exists at <0>{rootPath}</0>. Choose a location outside it, or open that project instead."
@@ -2226,7 +2226,7 @@ msgstr "해결되지 않은 충돌이 있는 파일은 삭제할 수 없습니�
 
 #: src/editor/image-upload/index.ts
 msgid "Cannot upload: no document is open"
-msgstr ""
+msgstr "업로드할 수 없습니다. 열린 문서가 없습니다"
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Change pack"
@@ -2349,7 +2349,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Checklist with checkboxes."
-msgstr ""
+msgstr "체크박스가 있는 체크리스트입니다."
 
 #: src/components/CreatedItemsList.tsx
 msgid "Checks your project against the Open Knowledge Format. Turn it off any time in Settings."
@@ -2370,7 +2370,7 @@ msgstr ""
 
 #: src/editor/components/ColorPickerInput.tsx
 msgid "Choose color"
-msgstr ""
+msgstr "색상 선택"
 
 #: src/components/ImportSkillForm.tsx
 msgid "Choose file"
@@ -2382,7 +2382,7 @@ msgstr ""
 
 #: src/editor/components/IconPickerInput.tsx
 msgid "Choose icon"
-msgstr ""
+msgstr "아이콘 선택"
 
 #: src/components/TerminalNewChatButton.tsx
 msgid "Choose what a new tab starts"
@@ -2435,7 +2435,7 @@ msgstr ""
 
 #: src/editor/components/ColorPickerInput.tsx
 msgid "Clear color"
-msgstr ""
+msgstr "색상 지우기"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
@@ -2468,7 +2468,7 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Click to expand"
-msgstr ""
+msgstr "클릭하여 펼치기"
 
 #: src/components/SkillInstallMenu.tsx
 msgid "Click to install in {label}"
@@ -2633,15 +2633,15 @@ msgstr "코드 블록"
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Code Block"
-msgstr ""
+msgstr "코드 블록"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Code block language: {currentLabel}. Click to change."
-msgstr ""
+msgstr "코드 블록 언어: {currentLabel}. 클릭하여 변경하세요."
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Code block settings"
-msgstr ""
+msgstr "코드 블록 설정"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Code copied"
@@ -2710,11 +2710,11 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Collapsible content block (Notion-style toggle)."
-msgstr ""
+msgstr "접을 수 있는 콘텐츠 블록입니다. Notion 스타일 토글입니다."
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Collapsible section with a clickable summary."
-msgstr ""
+msgstr "클릭할 수 있는 요약이 있는 접을 수 있는 섹션입니다."
 
 #: src/components/settings/settings-fields.ts
 msgid "Color theme"
@@ -2722,7 +2722,7 @@ msgstr "색상 테마"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Column options"
-msgstr ""
+msgstr "열 옵션"
 
 #: src/components/CommandPalette.tsx
 msgid "Command failed."
@@ -2763,11 +2763,11 @@ msgstr ""
 #. placeholder {0}: descriptor.displayName ?? descriptor.name
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Comment or ask AI about this {0}"
-msgstr ""
+msgstr "이 {0}에 댓글을 남기거나 AI에 질문"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Comment or ask AI about this code block"
-msgstr ""
+msgstr "이 코드 블록에 댓글을 남기거나 AI에 질문"
 
 #: src/comments/comment-chips.tsx
 #: src/comments/CommentListPanel.tsx
@@ -3057,7 +3057,7 @@ msgstr ""
 
 #: src/editor/bubble-menu/FootnoteBubbleButton.tsx
 msgid "Convert selection to footnote"
-msgstr ""
+msgstr "선택 영역을 각주로 변환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Convert the current block to a paragraph."
@@ -3142,7 +3142,7 @@ msgstr "YAML로 복사"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Copy code"
-msgstr ""
+msgstr "코드 복사"
 
 #: src/components/AuthModal.tsx
 msgid "Copy code {userCode}"
@@ -3192,7 +3192,7 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Copy source"
-msgstr ""
+msgstr "소스 복사"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Copy the code {code}"
@@ -3499,7 +3499,7 @@ msgstr ""
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "Couldn't load docs — type @ again to retry"
-msgstr ""
+msgstr "문서를 불러오지 못했습니다. 다시 시도하려면 @를 입력하세요"
 
 #: src/components/DocumentErrorBoundary.tsx
 msgid "Couldn't load document"
@@ -3625,7 +3625,7 @@ msgstr "엔드포인트에 연결하지 못했습니다. URL과 서버 실행 �
 
 #: src/editor/image-upload/upload-failure.ts
 msgid "Couldn't reach the Open Knowledge server to upload {fileName}."
-msgstr ""
+msgstr "{fileName}을(를) 업로드하기 위해 Open Knowledge 서버에 연결할 수 없습니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Couldn't read {fileName}."
@@ -3633,7 +3633,7 @@ msgstr ""
 
 #: src/editor/image-upload/upload-failure.ts
 msgid "Couldn't read {fileName}. It may have been moved, deleted, or not finished downloading. Try adding it again."
-msgstr ""
+msgstr "{fileName}을(를) 읽을 수 없습니다. 이동되었거나 삭제되었거나 다운로드가 아직 끝나지 않았을 수 있습니다. 다시 추가해 보세요."
 
 #: src/components/SkillTrackInGitDialog.tsx
 msgid "Couldn't read the {gitignorePath} rule: {previewError}"
@@ -3918,7 +3918,7 @@ msgstr ""
 
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "Create new tag #{tagValue}"
-msgstr ""
+msgstr "새 태그 #{tagValue} 만들기"
 
 #: src/components/settings/ColorThemePicker.tsx
 msgid "Create new theme"
@@ -4010,7 +4010,7 @@ msgstr ""
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Creating..."
-msgstr ""
+msgstr "만드는 중..."
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Creating…"
@@ -4026,7 +4026,7 @@ msgstr ""
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Custom display text"
-msgstr ""
+msgstr "사용자 지정 표시 텍스트"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Custom endpoint"
@@ -4034,7 +4034,7 @@ msgstr "사용자 지정 엔드포인트"
 
 #: src/editor/slash-command/embed-starter-items.tsx
 msgid "Custom HTML with a live preview pane (sandboxed iframe)."
-msgstr ""
+msgstr "실시간 미리보기 창이 있는 사용자 지정 HTML입니다. 샌드박스 처리된 iframe입니다."
 
 #: src/components/settings/AiToolsSection.tsx
 #: src/components/settings/ProjectAiToolsSection.tsx
@@ -4097,7 +4097,7 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Delete {deleteDescriptorLabel}"
-msgstr ""
+msgstr "{deleteDescriptorLabel} 삭제"
 
 #: src/components/DeleteConfirmationDialog.tsx
 msgid "Delete {itemName}"
@@ -4121,15 +4121,15 @@ msgstr "인접한 위키 링크 또는 태그 칩을 삭제합니다."
 
 #: src/editor/extensions/RawMdxFallbackCMView.tsx
 msgid "Delete block"
-msgstr ""
+msgstr "블록 삭제"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Delete code block"
-msgstr ""
+msgstr "코드 블록 삭제"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Delete column"
-msgstr ""
+msgstr "열 삭제"
 
 #: src/components/TrashFailureModal.tsx
 msgid "Delete Permanently"
@@ -4141,7 +4141,7 @@ msgstr ""
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Delete row"
-msgstr ""
+msgstr "행 삭제"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Delete schema file {file}"
@@ -4161,7 +4161,7 @@ msgstr "선택한 표 삭제"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Delete table"
-msgstr ""
+msgstr "표 삭제"
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 msgid "Delete this chat?"
@@ -4261,7 +4261,7 @@ msgstr ""
 
 #: src/editor/components/Callout.tsx
 msgid "Details"
-msgstr ""
+msgstr "세부 정보"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Details about the error you just hit are included. Secrets like API keys and tokens are redacted automatically."
@@ -4303,7 +4303,7 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Diagram from Mermaid source — flowchart, sequence, class, state, ER, gantt, pie."
-msgstr ""
+msgstr "Mermaid 소스에서 만든 다이어그램입니다. 플로차트, 시퀀스, 클래스, 상태, ER, 간트, 파이 차트를 지원합니다."
 
 #: src/components/MermaidFileViewer.tsx
 msgid "Diagram view mode"
@@ -4393,7 +4393,7 @@ msgstr ""
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Display text"
-msgstr ""
+msgstr "표시 텍스트"
 
 #: src/components/TrashFailureModal.tsx
 msgid "Do you want to permanently delete instead?"
@@ -4401,7 +4401,7 @@ msgstr ""
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "Doc mention suggestions"
-msgstr ""
+msgstr "문서 멘션 제안"
 
 #: src/components/ExploreSkills.tsx
 #: src/components/HelpPopover.tsx
@@ -4467,7 +4467,7 @@ msgstr "문서 응답이 예상한 형식과 일치하지 않습니다."
 
 #: src/editor/components/TagDialog.tsx
 msgid "Documents tagged <0>#{tagName}</0>"
-msgstr ""
+msgstr "<0>#{tagName}</0> 태그가 지정된 문서"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Don't see <0>Skills</0>? Enable <1>Settings <2/> Capabilities <3/> Code execution and file creation</1> first."
@@ -4511,7 +4511,7 @@ msgstr ""
 
 #: src/editor/bubble-menu/FileBubbleButtons.tsx
 msgid "Download file"
-msgstr ""
+msgstr "파일 다운로드"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Download started"
@@ -4598,7 +4598,7 @@ msgstr "예: drafts/ 또는 *.draft.md"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "e.g. server.ts"
-msgstr ""
+msgstr "예: server.ts"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "e.g. Switching projects while a sync was running"
@@ -4636,7 +4636,7 @@ msgstr "{0} 편집"
 #. placeholder {0}: descriptor.displayName ?? descriptor.name
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Edit {0} source"
-msgstr ""
+msgstr "{0} 소스 편집"
 
 #: src/components/PropertyWidgets.tsx
 msgid "Edit {keyName}"
@@ -4656,7 +4656,7 @@ msgstr "config 파일에서 편집"
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Edit markdown link"
-msgstr ""
+msgstr "Markdown 링크 편집"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Edit queued message"
@@ -4668,7 +4668,7 @@ msgstr "스키마 {file} 편집"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Edit source"
-msgstr ""
+msgstr "소스 편집"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Edit source pane and code property fields"
@@ -4680,11 +4680,11 @@ msgstr ""
 
 #: src/editor/slash-command/embed-starter-items.tsx
 msgid "Edit this HTML — the preview updates live."
-msgstr ""
+msgstr "이 HTML을 편집하세요. 미리보기가 실시간으로 업데이트됩니다."
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Edit wiki link"
-msgstr ""
+msgstr "위키 링크 편집"
 
 #: src/components/TimelinePanel.tsx
 msgid "Edited"
@@ -4692,7 +4692,7 @@ msgstr ""
 
 #: src/editor/link-preview/InternalDocPreviewCard.tsx
 msgid "Edited {editedAgo}"
-msgstr ""
+msgstr "{editedAgo}에 편집됨"
 
 #: src/components/SkillOriginInline.tsx
 msgid "Edited locally since it was installed"
@@ -4717,7 +4717,7 @@ msgstr ""
 
 #: src/editor/extensions/RawMdxFallbackCMView.tsx
 msgid "Editing broken MDX source: {reason}"
-msgstr ""
+msgstr "손상된 MDX 소스 편집 중: {reason}"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Editor"
@@ -4749,7 +4749,7 @@ msgstr "편집 내용이 실시간으로 적용됩니다. 밝은 테마와 어�
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Edits at the source land here — no copy-paste drift."
-msgstr ""
+msgstr "소스에서 편집한 내용이 여기에 반영됩니다. 복사하여 붙여넣을 때 내용이 어긋나지 않습니다."
 
 #: src/components/settings/frontmatter-schema-field-editor.tsx
 msgid "Element fields"
@@ -4774,19 +4774,19 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Embed a video with native player controls."
-msgstr ""
+msgstr "기본 플레이어 컨트롤이 있는 동영상을 삽입합니다."
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Embed an audio file with native player controls."
-msgstr ""
+msgstr "기본 플레이어 컨트롤이 있는 오디오 파일을 삽입합니다."
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Embed an external page in an inline iframe (docs, demos, Figma, CodeSandbox)."
-msgstr ""
+msgstr "외부 페이지를 인라인 iframe에 삽입합니다. 문서, 데모, Figma, CodeSandbox를 지원합니다."
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Embed an image with optional alt text."
-msgstr ""
+msgstr "대체 텍스트를 추가할 수 있는 이미지를 삽입합니다."
 
 #: src/components/settings/SearchSection.tsx
 msgid "Embeddings API key"
@@ -4798,7 +4798,7 @@ msgstr "검색을 실행할 때만 임베딩을 계산하며, <0>.ok/local</0>�
 
 #: src/editor/slash-command/items.tsx
 msgid "Emoji"
-msgstr ""
+msgstr "이모지"
 
 #: src/components/PageHeaderWidgets.tsx
 #: src/editor/components/EmojiInsertPopover.tsx
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: src/editor/components/Mermaid.tsx
 msgid "Empty diagram"
-msgstr ""
+msgstr "빈 다이어그램"
 
 #: src/components/NewItemDialog.tsx
 msgid "Empty starting content"
@@ -5081,7 +5081,7 @@ msgstr ""
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "External link"
-msgstr ""
+msgstr "외부 링크"
 
 #: src/components/settings/LinkPreviewsSection.tsx
 msgid "External link previews"
@@ -5093,7 +5093,7 @@ msgstr "외부 링크 위에 마우스를 올리면 사이트 이름, 페이지 
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "External wiki link"
-msgstr ""
+msgstr "외부 위키 링크"
 
 #: src/components/acp/ThreadView.tsx
 msgid "failed"
@@ -5247,11 +5247,11 @@ msgstr ""
 
 #: src/editor/components/Pdf.tsx
 msgid "Failed to load PDF"
-msgstr ""
+msgstr "PDF를 불러오지 못했습니다"
 
 #: src/editor/components/Pdf.tsx
 msgid "Failed to load PDF: {error}"
-msgstr ""
+msgstr "PDF를 불러오지 못했습니다: {error}"
 
 #: src/components/settings/ProjectTemplatesSection.tsx
 msgid "Failed to load project templates"
@@ -5350,7 +5350,7 @@ msgstr "필드 이름을 변경하지 못했습니다"
 
 #: src/editor/components/Pdf.tsx
 msgid "Failed to render PDF"
-msgstr ""
+msgstr "PDF를 렌더링하지 못했습니다"
 
 #: src/components/ArrayOfObjectsWidget.tsx
 #: src/components/ObjectWidget.tsx
@@ -5427,7 +5427,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Fenced code block with monospace text."
-msgstr ""
+msgstr "고정폭 텍스트가 있는 펜스 코드 블록입니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Fetch failed — check the server logs for details."
@@ -5527,7 +5527,7 @@ msgstr "파일 도구 모음"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Filter languages"
-msgstr ""
+msgstr "언어 필터"
 
 #: src/components/ExploreSkills.tsx
 msgid "Filter skills"
@@ -5541,7 +5541,7 @@ msgstr "찾기"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Find and replace"
-msgstr ""
+msgstr "찾기 및 바꾸기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Find field navigation"
@@ -5565,15 +5565,15 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "First item"
-msgstr ""
+msgstr "첫 번째 항목"
 
 #: src/editor/components/Pdf.tsx
 msgid "Fit height"
-msgstr ""
+msgstr "높이에 맞추기"
 
 #: src/editor/components/Pdf.tsx
 msgid "Fit width"
-msgstr ""
+msgstr "너비에 맞추기"
 
 #: src/components/ProblemsPanel.tsx
 #: src/editor/extensions/markdown-lint-decorations.ts
@@ -5715,7 +5715,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Footnote"
-msgstr ""
+msgstr "각주"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
@@ -5946,7 +5946,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Grid of rows and columns with a header row."
-msgstr ""
+msgstr "헤더 행이 있는 행과 열 그리드입니다."
 
 #: src/components/CreatedItemsList.tsx
 msgid "Guides your AI agents on how to work here."
@@ -5954,7 +5954,7 @@ msgstr ""
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "guides/install or https://example.com"
-msgstr ""
+msgstr "guides/install 또는 https://example.com"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Hand the checked comments to an agent in one turn. On This doc, that document's comments only; on This project, every checked comment. Does nothing while the Comments tab is closed."
@@ -5975,21 +5975,21 @@ msgstr ""
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Heading 1"
-msgstr ""
+msgstr "제목 1"
 
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Heading 2"
-msgstr ""
+msgstr "제목 2"
 
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Heading 3"
-msgstr ""
+msgstr "제목 3"
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Heading H{level}: {text}"
-msgstr ""
+msgstr "제목 H{level}: {text}"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Heading levels"
@@ -5997,12 +5997,12 @@ msgstr "제목 수준"
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Heading suggestions"
-msgstr ""
+msgstr "제목 제안"
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "heading-slug"
-msgstr ""
+msgstr "heading-slug"
 
 #: src/components/settings/markdownlint-rule-browser.tsx
 msgid "Headings"
@@ -6023,7 +6023,7 @@ msgstr ""
 
 #: src/editor/slash-command/embed-starter-items.tsx
 msgid "Hello, world!"
-msgstr ""
+msgstr "안녕하세요, 여러분!"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
@@ -6052,7 +6052,7 @@ msgstr "숨김 “{basename}”"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Hidden content goes here."
-msgstr ""
+msgstr "숨겨진 콘텐츠가 여기에 표시됩니다."
 
 #: src/components/FileSidebar.tsx
 #: src/components/NotInSidebarIndicator.tsx
@@ -6118,7 +6118,7 @@ msgstr "폴더 가리기"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Hide HTML preview"
-msgstr ""
+msgstr "HTML 미리보기 숨기기"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Hide Others"
@@ -6140,7 +6140,7 @@ msgstr "문제 표시 숨기기"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Hide replace"
-msgstr ""
+msgstr "바꾸기 숨기기"
 
 #: src/comments/CommentListPanel.tsx
 msgid "Hide resolved"
@@ -6175,7 +6175,7 @@ msgstr "이 파일 가리기"
 
 #: src/editor/components/Pdf.tsx
 msgid "Hide thumbnails"
-msgstr ""
+msgstr "썸네일 숨기기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Highlight"
@@ -6183,7 +6183,7 @@ msgstr "강조 표시"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Highlight tips, warnings, and notes."
-msgstr ""
+msgstr "팁, 경고, 노트를 강조합니다."
 
 #: src/components/TimelinePanel.tsx
 msgid "History unavailable"
@@ -6203,11 +6203,11 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Horizontal pill strip + active panel below; click a pill to switch panels."
-msgstr ""
+msgstr "가로 필 스트립과 아래의 활성 패널입니다. 필을 클릭해 패널을 전환하세요."
 
 #: src/editor/slash-command/items.tsx
 msgid "Horizontal rule that divides sections."
-msgstr ""
+msgstr "섹션을 나누는 가로줄입니다."
 
 #: src/components/settings/HotkeysSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
@@ -6249,11 +6249,11 @@ msgstr "프로젝트 전체에서 검증 결과가 나타나는 방식을 설정
 
 #: src/editor/slash-command/embed-starter-items.tsx
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "HTML preview"
-msgstr ""
+msgstr "HTML 미리보기"
 
 #: src/components/CloneDialog.tsx
 msgid "https://github.com/owner/repo or owner/repo"
@@ -6277,7 +6277,7 @@ msgstr ""
 
 #: src/editor/components/IconPickerInput.tsx
 msgid "Icon picker"
-msgstr ""
+msgstr "아이콘 선택기"
 
 #. placeholder {0}: createIdentity.stem
 #: src/components/settings/SavedThemesTiles.tsx
@@ -6324,11 +6324,11 @@ msgstr ""
 
 #: src/editor/localized-validation-message.ts
 msgid "Image target \"{shown}\" could not be resolved to a project-local file."
-msgstr ""
+msgstr "이미지 대상 \"{shown}\"을 프로젝트 로컬 파일로 확인할 수 없습니다."
 
 #: src/editor/localized-validation-message.ts
 msgid "Image target \"{shown}\" does not resolve to an existing file."
-msgstr ""
+msgstr "이미지 대상 \"{shown}\"이 존재하는 파일로 확인되지 않습니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Images from anywhere · non-image files must be in the workspace"
@@ -6426,7 +6426,7 @@ msgstr "현재 목록 항목의 들여쓰기 또는 내어쓰기를 조정합니
 
 #: src/editor/slash-command/items.tsx
 msgid "Indented blockquote for citations."
-msgstr ""
+msgstr "인용을 위한 들여쓰기 블록 인용입니다."
 
 #: src/components/settings/LintingSection.tsx
 msgid "Index documents carry no frontmatter, except the one at your knowledge base's root. Log documents are not covered — OKF does not constrain their frontmatter."
@@ -6515,19 +6515,19 @@ msgstr "인라인 코드"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Inline hashtag for cross-doc grouping."
-msgstr ""
+msgstr "문서 간 그룹화에 사용하는 인라인 해시태그입니다."
 
 #: src/editor/slash-command/items.tsx
 msgid "Inline LaTeX math rendered with KaTeX."
-msgstr ""
+msgstr "KaTeX로 렌더링되는 인라인 LaTeX 수식입니다."
 
 #: src/editor/slash-command/items.tsx
 msgid "Inline Math"
-msgstr ""
+msgstr "인라인 수식"
 
 #: src/editor/extensions/MathInlineView.tsx
 msgid "Inline Math Properties"
-msgstr ""
+msgstr "인라인 수식 속성"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Input"
@@ -6535,7 +6535,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Insert a footnote reference + matching definition stub."
-msgstr ""
+msgstr "각주 참조와 대응하는 정의 초안을 삽입합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Insert a markdown hard break."
@@ -6543,23 +6543,23 @@ msgstr "Markdown 하드 줄바꿈을 삽입합니다."
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Insert column left"
-msgstr ""
+msgstr "왼쪽에 열 삽입"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Insert column right"
-msgstr ""
+msgstr "오른쪽에 열 삽입"
 
 #: src/editor/bubble-menu/LinkEditPopover.tsx
 msgid "Insert link"
-msgstr ""
+msgstr "링크 삽입"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Insert row above"
-msgstr ""
+msgstr "위에 행 삽입"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Insert row below"
-msgstr ""
+msgstr "아래에 행 삽입"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Insert, delete, move, copy, and indent source editor lines through CodeMirror's default keymap."
@@ -6788,7 +6788,7 @@ msgstr "마지막 탭으로 이동"
 
 #: src/editor/components/Pdf.tsx
 msgid "Jump to page {pageNumber}"
-msgstr ""
+msgstr "{pageNumber}페이지로 이동"
 
 #: src/comments/ThreadCard.tsx
 msgid "Jump to selected text in property"
@@ -6886,11 +6886,11 @@ msgstr "터미널 종료"
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Label <0>(optional display text)</0>"
-msgstr ""
+msgstr "레이블 <0>(선택적 표시 텍스트)</0>"
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Label <0>(visible link text)</0>"
-msgstr ""
+msgstr "레이블 <0>(표시되는 링크 텍스트)</0>"
 
 #: src/components/settings/settings-fields.ts
 msgid "Language"
@@ -6902,11 +6902,11 @@ msgstr ""
 
 #: src/editor/components/Pdf.tsx
 msgid "Layout"
-msgstr ""
+msgstr "레이아웃"
 
 #: src/editor/components/Pdf.tsx
 msgid "Layout options"
-msgstr ""
+msgstr "레이아웃 옵션"
 
 #: src/components/settings/PluginSectionHeader.tsx
 msgid "Learn more"
@@ -6954,7 +6954,7 @@ msgstr ""
 #: src/editor/bubble-menu/LinkEditPopover.tsx
 #: src/editor/slash-command/component-items.tsx
 msgid "Link"
-msgstr ""
+msgstr "링크"
 
 #: src/components/PublishToGitHubDialog.tsx
 #: src/lib/share/run-share-action.ts
@@ -6976,19 +6976,19 @@ msgstr ""
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Link target"
-msgstr ""
+msgstr "링크 대상"
 
 #: src/editor/localized-validation-message.ts
 msgid "Link target \"{shown}\" could not be resolved to a project-local target."
-msgstr ""
+msgstr "링크 대상 \"{shown}\"을 프로젝트 로컬 대상으로 확인할 수 없습니다."
 
 #: src/editor/localized-validation-message.ts
 msgid "Link target \"{shown}\" does not resolve to an existing document."
-msgstr ""
+msgstr "링크 대상 \"{shown}\"이 존재하는 문서로 확인되지 않습니다."
 
 #: src/editor/localized-validation-message.ts
 msgid "Link target \"{shown}\" does not resolve to an existing file."
-msgstr ""
+msgstr "링크 대상 \"{shown}\"이 존재하는 파일로 확인되지 않습니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Link the selected text, or edit the link under the caret."
@@ -6996,11 +6996,11 @@ msgstr "선택한 텍스트에 링크를 추가하거나 커서 아래의 링크
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Link to a page or external URL."
-msgstr ""
+msgstr "페이지 또는 외부 URL로 연결합니다."
 
 #: src/editor/bubble-menu/LinkEditPopover.tsx
 msgid "Link URL"
-msgstr ""
+msgstr "링크 URL"
 
 #: src/components/ProblemsPanel.tsx
 msgid "Link validation is unavailable."
@@ -7112,7 +7112,7 @@ msgstr ""
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Loading headings for {pageTarget}"
-msgstr ""
+msgstr "{pageTarget}의 제목을 불러오는 중"
 
 #: src/components/ui/loading-image.tsx
 msgid "Loading image"
@@ -7124,15 +7124,15 @@ msgstr ""
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Loading pages"
-msgstr ""
+msgstr "페이지를 불러오는 중"
 
 #: src/editor/link-path-suggestions.tsx
 msgid "Loading paths…"
-msgstr ""
+msgstr "경로를 불러오는 중…"
 
 #: src/editor/components/Pdf.tsx
 msgid "Loading PDF"
-msgstr ""
+msgstr "PDF를 불러오는 중"
 
 #: src/components/ExploreSkills.tsx
 #: src/components/SkillsBasePage.tsx
@@ -7301,7 +7301,7 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Mark a block as the source of truth. Mirrors elsewhere update live as you edit it."
-msgstr ""
+msgstr "블록을 기준 소스로 지정합니다. 편집하면 다른 곳의 미러가 실시간으로 업데이트됩니다."
 
 #. placeholder {0}: docBasename(group.docName)
 #: src/comments/CommentListPanel.tsx
@@ -7326,7 +7326,7 @@ msgstr "markdownlint 규칙"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Match case"
-msgstr ""
+msgstr "대소문자 구분"
 
 #: src/components/FeedbackForm.tsx
 msgid "Maximum {MAX_ATTACHMENTS} attachments"
@@ -7355,7 +7355,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Medium section heading."
-msgstr ""
+msgstr "중간 크기 섹션 제목입니다."
 
 #: src/components/MermaidDocEditor.tsx
 msgid "Mermaid diagram"
@@ -7363,11 +7363,11 @@ msgstr ""
 
 #: src/editor/components/Mermaid.tsx
 msgid "Mermaid diagram controls"
-msgstr ""
+msgstr "Mermaid 다이어그램 컨트롤"
 
 #: src/editor/components/Mermaid.tsx
 msgid "Mermaid diagram failed to render."
-msgstr ""
+msgstr "Mermaid 다이어그램을 렌더링하지 못했습니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Message {agentName}"
@@ -7385,23 +7385,23 @@ msgstr "최소화"
 
 #: src/editor/components/Mirror.tsx
 msgid "Mirror loading <0>{mirrorRef}</0>"
-msgstr ""
+msgstr "미러 로드 중 <0>{mirrorRef}</0>"
 
 #: src/editor/components/Mirror.tsx
 msgid "Mirror of <0>{src}</0>"
-msgstr ""
+msgstr "<0>{src}</0>의 미러"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Mirror of <0>api-spec</0>"
-msgstr ""
+msgstr "<0>api-spec</0>의 미러"
 
 #: src/editor/components/MirrorSource.tsx
 msgid "Mirror source <0>{label}</0>"
-msgstr ""
+msgstr "미러 소스 <0>{label}</0>"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Mirror source <0>api-spec</0>"
-msgstr ""
+msgstr "미러 소스 <0>api-spec</0>"
 
 #: src/components/LinksPanel.tsx
 msgid "Missing"
@@ -7460,7 +7460,7 @@ msgstr ""
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Modify the link target, anchor, and display label."
-msgstr ""
+msgstr "링크 대상, 앵커, 표시 레이블을 수정합니다."
 
 #: src/components/ui/breadcrumb.tsx
 msgid "More"
@@ -7476,7 +7476,7 @@ msgstr ""
 
 #: src/editor/components/PreviewBlockedNotice.tsx
 msgid "More requests were blocked."
-msgstr ""
+msgstr "더 많은 요청이 차단되었습니다."
 
 #: src/components/SkillToolbarControls.tsx
 msgid "More skill actions"
@@ -7485,7 +7485,7 @@ msgstr ""
 #. placeholder {0}: blocked.length
 #: src/editor/components/PreviewBlockedNotice.tsx
 msgid "More than {0} requests were blocked by the preview's security policy"
-msgstr ""
+msgstr "{0}개를 초과하는 요청이 미리보기 보안 정책으로 차단되었습니다"
 
 #: src/components/ExploreSkills.tsx
 msgid "Most installed"
@@ -7505,7 +7505,7 @@ msgstr "블록 이동"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Move down"
-msgstr ""
+msgstr "아래로 이동"
 
 #: src/components/SkillFileRenameDialog.tsx
 msgid "Move or rename this file inside the skill — the path stays under references/ or scripts/."
@@ -7594,7 +7594,7 @@ msgstr "휴지통으로 이동"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Move up"
-msgstr ""
+msgstr "위로 이동"
 
 #. placeholder {0}: skill.name
 #. placeholder {1}: scopeLabels[toScope]
@@ -7636,7 +7636,7 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Multi-page PDF viewer with toolbar controls (thumbnails, page nav, zoom)."
-msgstr ""
+msgstr "도구 모음 컨트롤이 있는 여러 페이지 PDF 뷰어입니다. 썸네일, 페이지 탐색, 확대/축소를 지원합니다."
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Multiple files use this theme name"
@@ -7999,7 +7999,7 @@ msgstr ""
 
 #: src/editor/link-preview/InternalDocPreviewCard.tsx
 msgid "No excerpt"
-msgstr ""
+msgstr "발췌문 없음"
 
 #: src/components/FileSidebar.tsx
 msgid "No file or folder selected"
@@ -8036,11 +8036,11 @@ msgstr "이곳에 git 저장소 없음"
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "No headings in {pageTarget}"
-msgstr ""
+msgstr "{pageTarget}에 제목이 없습니다"
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "No headings match \"{trimmedAnchorQuery}\""
-msgstr ""
+msgstr "\"{trimmedAnchorQuery}\"과 일치하는 제목이 없습니다"
 
 #: src/components/OutlinePanel.tsx
 msgid "No headings yet."
@@ -8056,7 +8056,7 @@ msgstr ""
 
 #: src/editor/components/IconPickerInput.tsx
 msgid "No icons match."
-msgstr ""
+msgstr "일치하는 아이콘이 없습니다."
 
 #: src/components/GraphPanel.tsx
 msgid "No Incoming"
@@ -8064,7 +8064,7 @@ msgstr ""
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "No language match."
-msgstr ""
+msgstr "일치하는 언어가 없습니다."
 
 #: src/components/GraphView.tsx
 msgid "No links yet. Add wiki links or markdown links to build a graph."
@@ -8084,7 +8084,7 @@ msgstr ""
 
 #: src/editor/composer-mention/ComposerSlashMenu.tsx
 msgid "No matching commands"
-msgstr ""
+msgstr "일치하는 명령 없음"
 
 #: src/components/CommandPalette.tsx
 msgid "No matching commands."
@@ -8092,11 +8092,11 @@ msgstr "일치하는 명령이 없습니다."
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "No matching docs"
-msgstr ""
+msgstr "일치하는 문서 없음"
 
 #: src/editor/link-path-suggestions.tsx
 msgid "No matching paths"
-msgstr ""
+msgstr "일치하는 경로 없음"
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "No matching projects."
@@ -8128,11 +8128,11 @@ msgstr ""
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "No pages found"
-msgstr ""
+msgstr "페이지를 찾을 수 없음"
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "No pages found for \"{trimmedQuery}\""
-msgstr ""
+msgstr "\"{trimmedQuery}\"에 해당하는 페이지를 찾을 수 없습니다"
 
 #: src/components/LinksPanel.tsx
 msgid "No pages link here yet."
@@ -8182,7 +8182,7 @@ msgstr ""
 #: src/editor/find-replace/FindReplaceBar.tsx
 #: src/editor/slash-command/SlashCommandMenu.tsx
 msgid "No results"
-msgstr ""
+msgstr "결과 없음"
 
 #: src/components/settings/markdownlint-rule-browser.tsx
 msgid "No rules match your filters."
@@ -8222,7 +8222,7 @@ msgstr "“{tagListQuery}”와 일치하는 태그가 없습니다."
 
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "No tags match \"{trimmed}\". Continue typing to create one."
-msgstr ""
+msgstr "\"{trimmed}\"과 일치하는 태그가 없습니다. 계속 입력하여 태그를 만드세요."
 
 #: src/components/CommandPalette.tsx
 msgid "No tags yet — author `#tagname` in any doc to populate the index."
@@ -8230,7 +8230,7 @@ msgstr "아직 태그가 없습니다. 문서에서 `#tagname`을 작성하면 �
 
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "No tags yet. Continue typing to create one."
-msgstr ""
+msgstr "아직 태그가 없습니다. 계속 입력하여 태그를 만드세요."
 
 #: src/components/template-menu-rows.tsx
 msgid "No templates available"
@@ -8341,7 +8341,7 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Notion-style inline row for a downloadable file. Drag-drop also works."
-msgstr ""
+msgstr "다운로드 가능한 파일을 위한 Notion 스타일 인라인 행입니다. 드래그 앤 드롭도 사용할 수 있습니다."
 
 #: src/components/PropertyWidgets.tsx
 msgid "Number"
@@ -8349,7 +8349,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Numbered list of items."
-msgstr ""
+msgstr "번호 매기기 목록입니다."
 
 #: src/components/PropertyWidgets.tsx
 msgid "Object"
@@ -8366,7 +8366,7 @@ msgstr ""
 
 #: src/editor/components/Pdf.tsx
 msgid "of {totalPages}"
-msgstr ""
+msgstr "{totalPages}페이지 중"
 
 #: src/components/settings/SyncSection.tsx
 msgid "Off"
@@ -8460,7 +8460,7 @@ msgstr ""
 
 #: src/editor/components/TagDialog.tsx
 msgid "Only the current document uses <0>#{tag}</0>."
-msgstr ""
+msgstr "현재 문서만 <0>#{tag}</0>을 사용합니다."
 
 #: src/components/GraphPanel.tsx
 msgid "Open"
@@ -8583,7 +8583,7 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Open embedded URL in new tab"
-msgstr ""
+msgstr "새 탭에서 삽입된 URL 열기"
 
 #: src/components/PageHeaderWidgets.tsx
 msgid "Open emoji picker for {keyName}"
@@ -8680,7 +8680,7 @@ msgstr ""
 
 #: src/editor/bubble-menu/LinkEditPopover.tsx
 msgid "Open link in new tab"
-msgstr ""
+msgstr "새 탭에서 링크 열기"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Open Navigator"
@@ -8717,7 +8717,7 @@ msgstr "스킬 열기"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Open source doc: {mirrorSrc}"
-msgstr ""
+msgstr "소스 문서 열기: {mirrorSrc}"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open source lint panel"
@@ -8725,7 +8725,7 @@ msgstr "소스 lint 패널 열기"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Open source: {mirrorSrc}"
-msgstr ""
+msgstr "소스 열기: {mirrorSrc}"
 
 #: src/components/TerminalRevealTab.tsx
 msgid "Open terminal"
@@ -9053,7 +9053,7 @@ msgstr "번호 매기기 목록"
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Ordered List"
-msgstr ""
+msgstr "번호 매기기 목록"
 
 #: src/components/empty-state/use-create-suggestions.ts
 msgid "Organize my existing specs into a linked index grouped by area, and flag any that have drifted out of sync with the current code."
@@ -9119,15 +9119,15 @@ msgstr ""
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 #: src/editor/link-path-suggestions.tsx
 msgid "Page"
-msgstr ""
+msgstr "페이지"
 
 #: src/editor/components/Pdf.tsx
 msgid "Page {pageNumber}"
-msgstr ""
+msgstr "{pageNumber}페이지"
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Page <0>*</0>"
-msgstr ""
+msgstr "페이지 <0>*</0>"
 
 #: src/components/OutlinePanel.tsx
 msgid "Page headings error response did not match RFC 9457"
@@ -9143,24 +9143,24 @@ msgstr ""
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Page link"
-msgstr ""
+msgstr "페이지 링크"
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Page not found"
-msgstr ""
+msgstr "페이지를 찾을 수 없습니다"
 
 #: src/editor/components/Pdf.tsx
 msgid "Page number"
-msgstr ""
+msgstr "페이지 번호"
 
 #: src/editor/components/Pdf.tsx
 msgid "Page thumbnails"
-msgstr ""
+msgstr "페이지 썸네일"
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "page-name"
-msgstr ""
+msgstr "page-name"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Pages are embedded the first time a search needs them."
@@ -9168,19 +9168,19 @@ msgstr "검색에 필요할 때 페이지를 처음 임베딩합니다."
 
 #: src/editor/components/Mermaid.tsx
 msgid "Pan down"
-msgstr ""
+msgstr "아래로 이동"
 
 #: src/editor/components/Mermaid.tsx
 msgid "Pan left"
-msgstr ""
+msgstr "왼쪽으로 이동"
 
 #: src/editor/components/Mermaid.tsx
 msgid "Pan right"
-msgstr ""
+msgstr "오른쪽으로 이동"
 
 #: src/editor/components/Mermaid.tsx
 msgid "Pan up"
-msgstr ""
+msgstr "위로 이동"
 
 #. placeholder {0}: position + 1
 #: src/components/EditorWorkspace.tsx
@@ -9193,11 +9193,11 @@ msgstr "문단"
 
 #: src/editor/utils/severity.ts
 msgid "parse error"
-msgstr ""
+msgstr "구문 분석 오류"
 
 #: src/editor/extensions/RawMdxFallbackCMView.tsx
 msgid "Parse failed"
-msgstr ""
+msgstr "구문 분석 실패"
 
 #. placeholder {0}: det.provenance.plugin
 #: src/components/SkillsTree.tsx
@@ -9227,7 +9227,7 @@ msgstr "복제하여 붙여넣기"
 
 #: src/editor/clipboard/source-clipboard.ts
 msgid "Paste failed.{restoreSuffix}"
-msgstr ""
+msgstr "붙여넣기에 실패했습니다.{restoreSuffix}"
 
 #: src/components/PageHeaderWidgets.tsx
 msgid "Paste image URL or click upload"
@@ -9235,7 +9235,7 @@ msgstr ""
 
 #: src/editor/bubble-menu/LinkEditPopover.tsx
 msgid "Paste link"
-msgstr ""
+msgstr "링크 붙여넣기"
 
 #: src/components/CloneDialog.tsx
 msgid "Paste URL, owner/repo, or search your repos"
@@ -9243,7 +9243,7 @@ msgstr ""
 
 #: src/editor/clipboard/source-clipboard.ts
 msgid "Paste was incomplete — {chunksCompleted} of {totalChunks} chunks landed.{restoreSuffix}"
-msgstr ""
+msgstr "붙여넣기가 완료되지 않았습니다. {chunksCompleted}/{totalChunks}개 청크가 적용되었습니다.{restoreSuffix}"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Paste your API key"
@@ -9280,7 +9280,7 @@ msgstr ""
 
 #: src/editor/link-path-suggestions.tsx
 msgid "Path suggestions"
-msgstr ""
+msgstr "경로 제안"
 
 #: src/components/settings/frontmatter-schema-field-editor.tsx
 msgid "Pattern (regex)"
@@ -9356,7 +9356,7 @@ msgstr "테마를 선택하거나 직접 만듭니다."
 
 #: src/editor/slash-command/items.tsx
 msgid "Pick an emoji to insert at the cursor."
-msgstr ""
+msgstr "커서 위치에 삽입할 이모지를 선택하세요."
 
 #: src/components/settings/applies-to-folder-picker.tsx
 msgid "Pick folders"
@@ -9394,11 +9394,11 @@ msgstr ""
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Plain"
-msgstr ""
+msgstr "일반"
 
 #: src/editor/extensions/code-block-languages.ts
 msgid "Plain text"
-msgstr ""
+msgstr "일반 텍스트"
 
 #. placeholder {0}: plan.length
 #: src/components/acp/ThreadView.tsx
@@ -9736,7 +9736,7 @@ msgstr "{appName} 종료"
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Quote"
-msgstr ""
+msgstr "인용"
 
 #: src/components/FeedbackForm.tsx
 msgid "Rate your experience"
@@ -9772,7 +9772,7 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Read-only copy of a MirrorSource block from another doc. Edit at the source and it updates live."
-msgstr ""
+msgstr "다른 문서의 MirrorSource 블록을 읽기 전용으로 복사한 내용입니다. 소스에서 편집하면 실시간으로 업데이트됩니다."
 
 #: src/components/SkillFileViewer.tsx
 msgid "Read-only file in the {name} skill"
@@ -9953,7 +9953,7 @@ msgstr ""
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Remove"
-msgstr ""
+msgstr "제거"
 
 #. placeholder {0}: file.name
 #. placeholder {0}: image.name
@@ -9968,7 +9968,7 @@ msgstr ""
 
 #: src/editor/composer-mention/composer-mention.ts
 msgid "Remove {fullLabel} from context"
-msgstr ""
+msgstr "현재 내용에서 {fullLabel} 제거"
 
 #: src/components/FrontmatterRow.tsx
 msgid "Remove {keyName}"
@@ -10014,7 +10014,7 @@ msgstr ""
 
 #: src/editor/bubble-menu/LinkEditPopover.tsx
 msgid "Remove link"
-msgstr ""
+msgstr "링크 제거"
 
 #. placeholder {0}: project.path
 #: src/uninstall/UninstallPickerScreen.tsx
@@ -10129,7 +10129,7 @@ msgstr ""
 
 #: src/editor/utils/severity.ts
 msgid "render error"
-msgstr ""
+msgstr "렌더링 오류"
 
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
@@ -10175,11 +10175,11 @@ msgstr ""
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Replace all matches"
-msgstr ""
+msgstr "일치 항목 모두 바꾸기"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Replace current match"
-msgstr ""
+msgstr "현재 일치 항목 바꾸기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Replace current match from field"
@@ -10296,7 +10296,7 @@ msgstr "기본값으로 재설정"
 
 #: src/editor/components/Mermaid.tsx
 msgid "Reset view"
-msgstr ""
+msgstr "보기 재설정"
 
 #: src/components/FileTreeFilteredToZeroNotice.tsx
 msgid "Reset view filters"
@@ -10304,7 +10304,7 @@ msgstr ""
 
 #: src/editor/components/ResizeHandles.tsx
 msgid "Resize {handleKey}"
-msgstr ""
+msgstr "{handleKey} 크기 조정"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Resolve conflict in your terminal"
@@ -10503,7 +10503,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Role"
-msgstr ""
+msgstr "역할"
 
 #: src/components/NewItemDialog.tsx
 msgid "root"
@@ -10511,7 +10511,7 @@ msgstr ""
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Row options"
-msgstr ""
+msgstr "행 옵션"
 
 #: src/components/LintConfigEditor.tsx
 msgid "Rule editing is available for the project's root markdownlint config"
@@ -10556,11 +10556,11 @@ msgstr "현재 파일과 같은 폴더"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Sample image"
-msgstr ""
+msgstr "샘플 이미지"
 
 #: src/editor/slash-command/embed-starter-items.tsx
 msgid "Sandboxed HTML embed — write HTML, see the rendered preview live."
-msgstr ""
+msgstr "샌드박스 처리된 HTML 삽입입니다. HTML을 작성하면 렌더링된 미리보기가 실시간으로 표시됩니다."
 
 #: src/comments/ThreadCard.tsx
 #: src/components/AuthModal.tsx
@@ -10575,7 +10575,7 @@ msgstr ""
 
 #: src/editor/components/CodePreviewEditModal.tsx
 msgid "Save changes"
-msgstr ""
+msgstr "변경 사항 저장"
 
 #: src/components/FolderPropertiesCard.tsx
 msgid "Save failed: {error}"
@@ -10726,7 +10726,7 @@ msgstr "폴더 검색"
 
 #: src/editor/components/IconPickerInput.tsx
 msgid "Search icons..."
-msgstr ""
+msgstr "아이콘 검색..."
 
 #. placeholder {0}: formatShortcut('find')
 #: src/components/CommandPalette.tsx
@@ -10796,11 +10796,11 @@ msgstr "의미로 검색 중"
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "Searching docs"
-msgstr ""
+msgstr "문서 검색 중"
 
 #: src/editor/slash-command/items.tsx
 msgid "Second item"
-msgstr ""
+msgstr "두 번째 항목"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Secrets like API keys and tokens are redacted automatically."
@@ -10809,7 +10809,7 @@ msgstr ""
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Section <0>(optional heading anchor)</0>"
-msgstr ""
+msgstr "섹션 <0>(선택적 제목 앵커)</0>"
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Sections"
@@ -10821,11 +10821,11 @@ msgstr ""
 
 #: src/editor/slash-command/component-items.tsx
 msgid "See <0>#design-docs</0> for the latest specs."
-msgstr ""
+msgstr "최신 사양은 <0>#design-docs</0>에서 확인하세요."
 
 #: src/editor/slash-command/component-items.tsx
 msgid "See <0>Architecture</0> for the system overview."
-msgstr ""
+msgstr "시스템 개요는 <0>Architecture</0>에서 확인하세요."
 
 #. placeholder {0}: packs.length
 #: src/components/NavigatorApp.tsx
@@ -10993,7 +10993,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Separator"
-msgstr ""
+msgstr "구분선"
 
 #: src/components/DocumentErrorBoundary.tsx
 msgid "Server can't open documents"
@@ -11195,7 +11195,7 @@ msgstr ""
 
 #: src/editor/extensions/code-block-languages.ts
 msgid "Shell session"
-msgstr ""
+msgstr "셸 세션"
 
 #: src/components/settings/ThemePreviewCanvas.tsx
 msgid "Ship the editor with a"
@@ -11282,7 +11282,7 @@ msgstr "숨김 파일 표시"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Show HTML preview"
-msgstr ""
+msgstr "HTML 미리보기 표시"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Show in Explorer"
@@ -11331,7 +11331,7 @@ msgstr "문제 표시 보기"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Show replace"
-msgstr ""
+msgstr "바꾸기 표시"
 
 #: src/comments/CommentListPanel.tsx
 msgid "Show resolved"
@@ -11369,7 +11369,7 @@ msgstr ""
 
 #: src/editor/components/Pdf.tsx
 msgid "Show thumbnails"
-msgstr ""
+msgstr "썸네일 표시"
 
 #: src/components/CommandPalette.tsx
 msgid "Showing results for \"{semanticResultsLabel}\""
@@ -11378,20 +11378,20 @@ msgstr "“{semanticResultsLabel}”에 대한 결과 표시"
 #. placeholder {0}: items.length
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Showing top {0} headings — keep typing to narrow"
-msgstr ""
+msgstr "상위 {0}개 제목을 표시합니다. 계속 입력하여 범위를 좁히세요"
 
 #. placeholder {0}: items.length
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Showing top {0} matches — keep typing to narrow"
-msgstr ""
+msgstr "상위 {0}개 일치 항목을 표시합니다. 계속 입력하여 범위를 좁히세요"
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "Showing top matches — keep typing to narrow"
-msgstr ""
+msgstr "상위 일치 항목을 표시합니다. 계속 입력하여 범위를 좁히세요"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Shows above the code body. Round-trips as `title=\"...\"` in markdown."
-msgstr ""
+msgstr "코드 본문 위에 표시됩니다. Markdown에서 title=\"...\" 형식으로 왕복 변환됩니다."
 
 #: src/components/acp/working-status.ts
 msgid "Sifting…"
@@ -11437,7 +11437,7 @@ msgstr ""
 
 #: src/editor/components/Pdf.tsx
 msgid "Single page"
-msgstr ""
+msgstr "한 페이지"
 
 #. placeholder {0}: skill.name
 #: src/components/SkillDeleteDialog.tsx
@@ -11520,11 +11520,11 @@ msgstr "슬래시 명령 메뉴"
 
 #: src/editor/composer-mention/ComposerSlashMenu.tsx
 msgid "Slash command suggestions"
-msgstr ""
+msgstr "슬래시 명령 제안"
 
 #: src/editor/slash-command/SlashCommandMenu.tsx
 msgid "Slash commands"
-msgstr ""
+msgstr "슬래시 명령"
 
 #: src/components/settings/LintingSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
@@ -11561,7 +11561,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Small section heading."
-msgstr ""
+msgstr "작은 섹션 제목입니다."
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Some saved themes aren’t shown because the theme folder exceeds the scan limit."
@@ -12068,27 +12068,27 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Table"
-msgstr ""
+msgstr "표"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Tag"
-msgstr ""
+msgstr "태그"
 
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "Tag #{tagValue}, {uses}"
-msgstr ""
+msgstr "태그 #{tagValue}, {uses}"
 
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "Tag suggestions"
-msgstr ""
+msgstr "태그 제안"
 
 #: src/editor/components/TagView.tsx
 msgid "Tag value"
-msgstr ""
+msgstr "태그 값"
 
 #: src/editor/components/TagView.tsx
 msgid "tag-name"
-msgstr ""
+msgstr "tag-name"
 
 #: src/components/SkillBundlePreview.tsx
 msgid "tags"
@@ -12117,7 +12117,7 @@ msgstr "작업 목록"
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Task List"
-msgstr ""
+msgstr "할 일 목록"
 
 #. Subtext for the project runtime-skill row
 #: src/components/settings/ProjectAiToolsSection.tsx
@@ -12372,7 +12372,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "The formula <0>c = √(a² + b²)</0> renders inline."
-msgstr ""
+msgstr "수식 <0>c = √(a² + b²)</0>이 인라인으로 렌더링됩니다."
 
 #: src/components/settings/SharingSection.tsx
 #: src/components/SkillsSidebarSection.tsx
@@ -12409,7 +12409,7 @@ msgstr ""
 
 #: src/editor/components/PreviewBlockedNotice.tsx
 msgid "The preview blocks resources that don't meet its security rules (for example plain http:// URLs, or code that uses eval). The content above may render incompletely."
-msgstr ""
+msgstr "미리보기는 보안 규칙을 충족하지 않는 리소스를 차단합니다. 예를 들어 일반 http:// URL이나 eval을 사용하는 코드가 차단됩니다. 위 콘텐츠가 완전히 렌더링되지 않을 수 있습니다."
 
 #: src/components/PropertyPanel.tsx
 msgid "The properties block at the top of this doc has a formatting error. Switch to source mode to fix it."
@@ -12617,15 +12617,15 @@ msgstr ""
 
 #: src/editor/composer-mention/ComposerSlashMenu.tsx
 msgid "This agent doesn't offer slash commands"
-msgstr ""
+msgstr "이 에이전트는 슬래시 명령을 제공하지 않습니다"
 
 #: src/editor/ComposerMentionInput.tsx
 msgid "This agent doesn't offer slash commands — your message will be sent as plain text"
-msgstr ""
+msgstr "이 에이전트는 슬래시 명령을 제공하지 않습니다. 메시지는 일반 텍스트로 전송됩니다"
 
 #: src/editor/composer-mention/ComposerSlashMenu.tsx
 msgid "This agent hasn't announced its commands yet"
-msgstr ""
+msgstr "이 에이전트는 아직 명령을 알리지 않았습니다"
 
 #. placeholder {0}: item.provides
 #. placeholder {1}: item.displayName
@@ -12976,7 +12976,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "To do"
-msgstr ""
+msgstr "할 일"
 
 #: src/uninstall/UninstallNoticeScreen.tsx
 msgid "To do."
@@ -13018,11 +13018,11 @@ msgstr "전체 화면 전환"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Toggle header column"
-msgstr ""
+msgstr "헤더 열 전환"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Toggle header row"
-msgstr ""
+msgstr "헤더 행 전환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle heading levels 1 through 6."
@@ -13074,7 +13074,7 @@ msgstr "오른쪽 문서 패널 전환"
 
 #: src/editor/components/Pdf.tsx
 msgid "Toggle thumbnails"
-msgstr ""
+msgstr "썸네일 전환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle underline formatting."
@@ -13192,11 +13192,11 @@ msgstr ""
 
 #: src/editor/components/Pdf.tsx
 msgid "Two-page (even)"
-msgstr ""
+msgstr "두 페이지 (짝수)"
 
 #: src/editor/components/Pdf.tsx
 msgid "Two-page (odd)"
-msgstr ""
+msgstr "두 페이지 (홀수)"
 
 #: src/components/settings/frontmatter-schema-field-editor.tsx
 #: src/components/TemplateForm.tsx
@@ -13205,7 +13205,7 @@ msgstr "유형"
 
 #: src/editor/TiptapEditor.tsx
 msgid "Type '/' for commands"
-msgstr ""
+msgstr "명령을 사용하려면 '/' 입력"
 
 #: src/components/CommandPalette.tsx
 msgid "Type a query, then press <0>↵</0> to search your pages by meaning."
@@ -13213,11 +13213,11 @@ msgstr "쿼리를 입력한 다음 <0>↵</0> 키를 눌러 페이지를 의미�
 
 #: src/editor/components/CodePreviewEditModal.tsx
 msgid "Type to edit; <0>⌘ Enter</0> saves, <1>Esc</1> cancels."
-msgstr ""
+msgstr "입력하여 편집하세요. <0>⌘ Enter</0>로 저장하고 <1>Esc</1>로 취소합니다."
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "Type to find a doc"
-msgstr ""
+msgstr "문서를 찾으려면 입력"
 
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
@@ -13293,7 +13293,7 @@ msgstr ""
 
 #: src/editor/utils/severity.ts
 msgid "unknown"
-msgstr ""
+msgstr "알 수 없음"
 
 #: src/components/BugReportHistory.tsx
 #: src/components/FolderTimelineCard.tsx
@@ -13306,11 +13306,11 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Unknown component: {componentName} — source editable below"
-msgstr ""
+msgstr "알 수 없는 컴포넌트: {componentName}, 아래에서 소스를 편집할 수 있습니다"
 
 #: src/editor/extensions/RawMdxFallbackCMView.tsx
 msgid "Unknown component: {unregisteredComponentName}"
-msgstr ""
+msgstr "알 수 없는 컴포넌트: {unregisteredComponentName}"
 
 #: src/components/BugReportHistory.tsx
 msgid "Unknown date"
@@ -13340,7 +13340,7 @@ msgstr ""
 
 #: src/editor/slash-command/items.tsx
 msgid "Unordered list of items."
-msgstr ""
+msgstr "글머리 기호 목록입니다."
 
 #: src/components/EditorTabs.tsx
 msgid "Unpin {accessibleLabel}"
@@ -13352,11 +13352,11 @@ msgstr ""
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Unrecognized link"
-msgstr ""
+msgstr "인식할 수 없는 링크"
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Unrecognized wiki link"
-msgstr ""
+msgstr "인식할 수 없는 위키 링크"
 
 #: src/components/LinksPanel.tsx
 msgid "Unresolvable"
@@ -13398,7 +13398,7 @@ msgstr ""
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Update the destination and optional section anchor."
-msgstr ""
+msgstr "대상과 선택적 섹션 앵커를 업데이트하세요."
 
 #. placeholder {0}: skill.name
 #. placeholder {1}: label(added)
@@ -13454,7 +13454,7 @@ msgstr ""
 
 #: src/editor/image-upload/index.ts
 msgid "Upload failed"
-msgstr ""
+msgstr "업로드 실패"
 
 #: src/components/PageHeaderWidgets.tsx
 msgid "Upload failed — please try again"
@@ -13467,11 +13467,11 @@ msgstr ""
 
 #: src/editor/components/PropPanel.tsx
 msgid "Upload failed: {message}"
-msgstr ""
+msgstr "업로드 실패: {message}"
 
 #: src/editor/components/PropPanel.tsx
 msgid "Upload from computer"
-msgstr ""
+msgstr "컴퓨터에서 업로드"
 
 #: src/components/FileTree.tsx
 msgid "Upload may have succeeded but the sidebar is out of date — refresh to resync"
@@ -13499,7 +13499,7 @@ msgstr ""
 
 #: src/editor/image-upload/index.ts
 msgid "Uploading {fileName}"
-msgstr ""
+msgstr "{fileName} 업로드 중"
 
 #: src/components/PageHeaderWidgets.tsx
 msgid "Uploading {keyName}"
@@ -13507,7 +13507,7 @@ msgstr ""
 
 #: src/editor/image-upload/index.ts
 msgid "Uploading file"
-msgstr ""
+msgstr "파일 업로드 중"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Uploading securely"
@@ -13657,7 +13657,7 @@ msgstr "소스에서 보기"
 
 #: src/editor/bubble-menu/ViewInSourceBubbleButton.tsx
 msgid "View in source markdown"
-msgstr ""
+msgstr "소스 Markdown에서 보기"
 
 #: src/lib/native-menu-catalog.ts
 msgid "View in Source Markdown"
@@ -13861,15 +13861,15 @@ msgstr ""
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Whole word"
-msgstr ""
+msgstr "전체 단어"
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Wiki link"
-msgstr ""
+msgstr "위키 링크"
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Wiki link suggestions"
-msgstr ""
+msgstr "위키 링크 제안"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Wiki-links like [[Page]] — a supported way to link here, but an external reader resolves nothing and shows the brackets."
@@ -14164,7 +14164,7 @@ msgstr "확대/축소"
 #: src/editor/components/Mermaid.tsx
 #: src/editor/components/Pdf.tsx
 msgid "Zoom in"
-msgstr ""
+msgstr "확대"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
@@ -14174,7 +14174,7 @@ msgstr "확대"
 #: src/editor/components/Mermaid.tsx
 #: src/editor/components/Pdf.tsx
 msgid "Zoom out"
-msgstr ""
+msgstr "축소"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
