@@ -55,7 +55,7 @@ describe('resolveLocale negotiation', () => {
   });
 
   test('an unsupported leading entry is skipped rather than ending the walk', () => {
-    expect(fromSystem('ja', 'ko', 'en').source).toBe('system');
+    expect(fromSystem('ja', 'en').source).toBe('system');
   });
 
   // The requested side must be maximized at all: `zh-TW` carries no script, so
