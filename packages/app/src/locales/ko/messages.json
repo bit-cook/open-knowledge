@@ -1247,7 +1247,7 @@
     "H-hzll": ["Please choose Good or Not great."],
     "H-vDm3": ["업데이트를 설치하기 위해 다시 시작하는 중…"],
     "H08D2X": ["프로젝트 설정 없이 임시 세션에서 Markdown 파일 하나를 엽니다."],
-    "H0VUMo": [["fileName"], "을(를) 업로드하기 위해 Open Knowledge 서버에 연결할 수 없습니다."],
+    "H0VUMo": [["fileName"], " 파일을 업로드하려고 Open Knowledge 서버에 연결할 수 없습니다."],
     "H0WlWQ": ["헤더 행이 있는 행과 열 그리드입니다."],
     "H1TmTu": ["Stopped fixing. Files already fixed stay fixed."],
     "H3oH0g": ["다시 실행"],
@@ -1260,7 +1260,7 @@
     "HIb0vl": ["네트워크 오류입니다. 다시 시도하세요."],
     "HKH-W-": ["Data"],
     "HLoO-Z": ["Server returned a malformed import response."],
-    "HM56Bx": ["만드는 중..."],
+    "HM56Bx": ["만드는 중…"],
     "HPTPGr": ["Create a new spec file for my user story"],
     "HPaAxt": [
       "Slidev가 설치되지 않아 Slidev 작업이 숨겨져 있습니다. 설치한 후 이 창으로 돌아옵니다."
@@ -1449,7 +1449,7 @@
     "Kh1n4a": [
       "<",
       ["componentName"],
-      ">은(는) 알려진 컴포넌트가 아닙니다. 다른 곳에서 사용하려면 소스를 복사하거나 블록을 삭제하세요."
+      ">는 알려진 컴포넌트가 아닙니다. 다른 곳에서 사용하려면 소스를 복사하거나 블록을 삭제하세요."
     ],
     "Khxcyu": ["Terminal access isn't enabled for this project."],
     "Kiytqd": ["예외: 스킬은 공유됨"],
@@ -2152,7 +2152,7 @@
     "Ud0Pj9": [
       "<0>미러 소스가 삭제되었습니다.</0> 문서 <1>",
       ["src"],
-      "</1>을(를) 더 이상 사용할 수 없습니다."
+      "</1>는 더 이상 사용할 수 없습니다."
     ],
     "Udgz4J": ["Nothing was uploaded. The report stays on this computer until you email it to us."],
     "UfW9Kr": [
@@ -2450,7 +2450,7 @@
     "YwPUUP": ["This pack is already set up here."],
     "YxZDGh": [
       ["fileName"],
-      "을(를) 읽을 수 없습니다. 이동되었거나 삭제되었거나 다운로드가 아직 끝나지 않았을 수 있습니다. 다시 추가해 보세요."
+      " 파일을 읽을 수 없습니다. 이동되었거나 삭제되었거나 다운로드가 아직 끝나지 않았을 수 있습니다. 다시 추가해 보세요."
     ],
     "Yy90sM": ["Skill \"", ["name"], "\" created"],
     "YyXtnN": ["밑줄"],
@@ -3004,7 +3004,7 @@
     "g58Kwy": [
       "<",
       ["descriptorLabel"],
-      ">을(를) 렌더링하지 못했습니다. 잘못된 속성 때문일 수 있습니다. 문제를 확인하려면 소스를 복사하거나 블록을 삭제하세요."
+      "> 컴포넌트를 렌더링하지 못했습니다. 잘못된 속성 때문일 수 있습니다. 문제를 확인하려면 소스를 복사하거나 블록을 삭제하세요."
     ],
     "g5V4_P": ["Collapse agent panel"],
     "g5w1sF": [
@@ -3477,7 +3477,7 @@
     "lZAiSP": ["Backlinks response did not match expected shape."],
     "lZoQdy": ["스킬 열기"],
     "lZvQrY": ["어두운 테마로 ", ["0"], " 사용"],
-    "l_6JHD": ["아이콘 검색..."],
+    "l_6JHD": ["아이콘 검색…"],
     "l_FAT6": ["Use letters, digits, <0>-</0> or <1>_</1> only."],
     "l_UFPv": ["Properties"],
     "lb_UU4": ["Sync now"],
@@ -3516,11 +3516,7 @@
     "m2T1Xj": ["태그 #", ["tagValue"], ", ", ["uses"]],
     "m6YGpY": ["선택한 탭의 활성 패널 콘텐츠가 여기에 표시됩니다."],
     "mAzs2H": [["file"], " 비활성화"],
-    "mBK8zm": [
-      "/",
-      ["0"],
-      "은(는) 이 에이전트가 제공하는 명령이 아니므로 일반 텍스트로 전송됩니다"
-    ],
+    "mBK8zm": ["/", ["0"], "는 이 에이전트가 제공하는 명령이 아니므로 일반 텍스트로 전송됩니다"],
     "mBltnd": ["경로 제안"],
     "mCB6Je": ["모두 선택"],
     "mGaZwZ": ["See the full install guide"],
@@ -3581,11 +3577,11 @@
     "mo22UP": ["인라인 코드 서식을 전환합니다."],
     "moUeZ_": ["Drop a file to attach"],
     "mqSwZH": [
-      "<0>미러 앵커를 찾을 수 없습니다.</0> <2>",
-      ["src"],
-      "</2>에 <1>",
+      "<0>미러 앵커를 찾을 수 없습니다.</0> <1>",
       ["mirrorSourceTag"],
-      "</1>이(가) 없습니다."
+      "</1>가 <2>",
+      ["src"],
+      "</2>에 없습니다."
     ],
     "ms4r8V": [
       ["0"],

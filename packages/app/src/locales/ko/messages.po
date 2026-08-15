@@ -916,7 +916,7 @@ msgstr ""
 #. placeholder {0}: slashHint.name
 #: src/editor/ComposerMentionInput.tsx
 msgid "/{0} isn't a command this agent offers — it will be sent as plain text"
-msgstr "/{0}은(는) 이 에이전트가 제공하는 명령이 아니므로 일반 텍스트로 전송됩니다"
+msgstr "/{0}는 이 에이전트가 제공하는 명령이 아니므로 일반 텍스트로 전송됩니다"
 
 #: src/components/settings/ThemePreviewCanvas.tsx
 msgid "// note"
@@ -956,11 +956,11 @@ msgstr ""
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "<{componentName}> isn't a known component. Copy the source to use it elsewhere, or delete the block."
-msgstr "<{componentName}>은(는) 알려진 컴포넌트가 아닙니다. 다른 곳에서 사용하려면 소스를 복사하거나 블록을 삭제하세요."
+msgstr "<{componentName}>는 알려진 컴포넌트가 아닙니다. 다른 곳에서 사용하려면 소스를 복사하거나 블록을 삭제하세요."
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "<{descriptorLabel}> failed to render (likely a bad prop). Copy the source to see what went wrong, or delete the block."
-msgstr "<{descriptorLabel}>을(를) 렌더링하지 못했습니다. 잘못된 속성 때문일 수 있습니다. 문제를 확인하려면 소스를 복사하거나 블록을 삭제하세요."
+msgstr "<{descriptorLabel}> 컴포넌트를 렌더링하지 못했습니다. 잘못된 속성 때문일 수 있습니다. 문제를 확인하려면 소스를 복사하거나 블록을 삭제하세요."
 
 #: src/components/settings/AiToolsSection.tsx
 msgid "<0>~/.ok/bin</0> and <1>~/.ok/env.sh</1> stay either way — the app always maintains them."
@@ -976,11 +976,11 @@ msgstr "<0>미러, 소스를 선택하세요.</0> 속성 패널에서 <1>src</1>
 
 #: src/editor/components/Mirror.tsx
 msgid "<0>Mirror anchor not found.</0> No <1>{mirrorSourceTag}</1> exists in <2>{src}</2>."
-msgstr "<0>미러 앵커를 찾을 수 없습니다.</0> <2>{src}</2>에 <1>{mirrorSourceTag}</1>이(가) 없습니다."
+msgstr "<0>미러 앵커를 찾을 수 없습니다.</0> <1>{mirrorSourceTag}</1>가 <2>{src}</2>에 없습니다."
 
 #: src/editor/components/Mirror.tsx
 msgid "<0>Mirror source removed.</0> The doc <1>{src}</1> is no longer available."
-msgstr "<0>미러 소스가 삭제되었습니다.</0> 문서 <1>{src}</1>을(를) 더 이상 사용할 수 없습니다."
+msgstr "<0>미러 소스가 삭제되었습니다.</0> 문서 <1>{src}</1>는 더 이상 사용할 수 없습니다."
 
 #. Warning shown when the user unchecks the PATH toggle — only external terminals degrade
 #: src/components/McpConsentDialogBody.tsx
@@ -3625,7 +3625,7 @@ msgstr "엔드포인트에 연결하지 못했습니다. URL과 서버 실행 �
 
 #: src/editor/image-upload/upload-failure.ts
 msgid "Couldn't reach the Open Knowledge server to upload {fileName}."
-msgstr "{fileName}을(를) 업로드하기 위해 Open Knowledge 서버에 연결할 수 없습니다."
+msgstr "{fileName} 파일을 업로드하려고 Open Knowledge 서버에 연결할 수 없습니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Couldn't read {fileName}."
@@ -3633,7 +3633,7 @@ msgstr ""
 
 #: src/editor/image-upload/upload-failure.ts
 msgid "Couldn't read {fileName}. It may have been moved, deleted, or not finished downloading. Try adding it again."
-msgstr "{fileName}을(를) 읽을 수 없습니다. 이동되었거나 삭제되었거나 다운로드가 아직 끝나지 않았을 수 있습니다. 다시 추가해 보세요."
+msgstr "{fileName} 파일을 읽을 수 없습니다. 이동되었거나 삭제되었거나 다운로드가 아직 끝나지 않았을 수 있습니다. 다시 추가해 보세요."
 
 #: src/components/SkillTrackInGitDialog.tsx
 msgid "Couldn't read the {gitignorePath} rule: {previewError}"
@@ -4010,7 +4010,7 @@ msgstr ""
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Creating..."
-msgstr "만드는 중..."
+msgstr "만드는 중…"
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Creating…"
@@ -10726,7 +10726,7 @@ msgstr "폴더 검색"
 
 #: src/editor/components/IconPickerInput.tsx
 msgid "Search icons..."
-msgstr "아이콘 검색..."
+msgstr "아이콘 검색…"
 
 #. placeholder {0}: formatShortcut('find')
 #: src/components/CommandPalette.tsx
