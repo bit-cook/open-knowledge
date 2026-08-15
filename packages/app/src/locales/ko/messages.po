@@ -107,7 +107,7 @@ msgstr "(폴더 이름만 입력하면 내부 항목과 일치하도록 뒤에 /
 #. placeholder {0}: seed.parentProjectName
 #: src/components/ShareReceiveDialog.tsx
 msgid "(a worktree of {0})"
-msgstr ""
+msgstr "({0}의 워크트리)"
 
 #: src/components/SkillBundlePreview.tsx
 msgid "(binary file, not previewable)"
@@ -399,14 +399,14 @@ msgstr "{0}, 워크스페이스 없음"
 #. placeholder {2}: shareTargetPath(share.target)
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "{0}/{1} — {2}"
-msgstr ""
+msgstr "{0}/{1}: {2}"
 
 #. placeholder {0}: share.owner
 #. placeholder {1}: share.repo
 #. placeholder {2}: shareTargetPath(share.target) ? `— ${shareTargetPath(share.target)}` : ''
 #: src/components/ShareReceiveDialog.tsx
 msgid "{0}/{1} {2}"
-msgstr ""
+msgstr "{0}/{1} {2}"
 
 #. placeholder {0}: Math.floor(diff / DAY_MS)
 #. placeholder {0}: Math.floor(diffSec / 86400)
@@ -462,11 +462,11 @@ msgstr "{agentName}: 이미지 첨부 미지원"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{ahead} ahead"
-msgstr ""
+msgstr "{ahead}개 앞서 있음"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{ahead} ahead, {behind} behind"
-msgstr ""
+msgstr "{ahead}개 앞서 있고 {behind}개 뒤처져 있음"
 
 #: src/components/TextDocEditor.tsx
 msgid "{basename} — text editor"
@@ -474,15 +474,15 @@ msgstr ""
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{behind, plural, one {# commit behind} other {# commits behind}}"
-msgstr ""
+msgstr "{behind, plural, other {커밋 #개 뒤처짐}}"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{behind} behind"
-msgstr ""
+msgstr "{behind}개 뒤처져 있음"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "{behind} behind origin"
-msgstr ""
+msgstr "origin보다 {behind}개 뒤처져 있음"
 
 #. placeholder {0}: pluginInfo.plugin
 #: src/components/SkillPreviewTab.tsx
@@ -511,11 +511,11 @@ msgstr "{componentLabel}, 항목 {childCount, plural, other {#개}}"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{conflictCount, plural, one {# conflict} other {# conflicts}}"
-msgstr ""
+msgstr "{conflictCount, plural, other {충돌 #개}}"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{conflictCount, plural, one {# file conflicted} other {# files conflicted}}"
-msgstr ""
+msgstr "{conflictCount, plural, other {충돌한 파일 #개}}"
 
 #: src/comments/comment-chips.tsx
 msgid "{count, plural, one {# comment} other {# comments}}"
@@ -743,7 +743,7 @@ msgstr ""
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{minutes} min ago"
-msgstr ""
+msgstr "{minutes}분 전"
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 #: src/components/ActivityModeContent.tsx
@@ -770,11 +770,11 @@ msgstr ""
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "{owner}/{name} already exists"
-msgstr ""
+msgstr "{owner}/{name}이 이미 존재합니다"
 
 #: src/lib/share/publish-wizard.ts
 msgid "{owner}/{name} already exists. Pick a different name."
-msgstr ""
+msgstr "{owner}/{name}이 이미 존재합니다. 다른 이름을 선택하세요."
 
 #: src/components/SeedDialog.tsx
 msgid "{packName} initialized ({projectEntries, plural, one {# entry} other {# entries}})"
@@ -802,7 +802,7 @@ msgstr "{percent}% 사용됨 ({left}% 남음)"
 
 #: src/lib/share/clone-controller.ts
 msgid "{phase} — {pct}%"
-msgstr ""
+msgstr "{phase}: {pct}%"
 
 #: src/components/CreatedItemsList.tsx
 msgid "{pluginCount, plural, one {plugin} other {plugins}}"
@@ -833,7 +833,7 @@ msgstr "{settingsDescriptorLabel} 속성"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "{shareBranch} isn't a valid branch name."
-msgstr ""
+msgstr "유효하지 않은 브랜치 이름입니다: {shareBranch}"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "{sizeText} · secrets redacted"
@@ -870,7 +870,7 @@ msgstr "{source}에서 스킬 {count}개를 게시합니다. 원하는 스킬을
 
 #: src/components/EnableSyncConfirmDialog.tsx
 msgid "{strandedCommitCount, plural, one {You have 1 change you haven't shared. It will stay on this computer.} other {You have # changes you haven't shared. They will stay on this computer.}}"
-msgstr ""
+msgstr "{strandedCommitCount, plural, other {공유하지 않은 변경 사항이 #개 있습니다. 이 변경 사항은 이 컴퓨터에 남습니다.}}"
 
 #: src/components/CreatedItemsList.tsx
 msgid "{templateCount, plural, one {template} other {templates}}"
@@ -1014,11 +1014,11 @@ msgstr "<0>수정됨</0> 배지는 config가 직접 설정했거나 <1>extends</
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "A branch named {shareBranch} already exists. Open its worktree from the switcher instead."
-msgstr ""
+msgstr "{shareBranch} 브랜치가 이미 있습니다. 대신 전환기에서 해당 워크트리를 여세요."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "A branch with that name already exists. Open its worktree from the switcher instead."
-msgstr ""
+msgstr "해당 이름의 브랜치가 이미 있습니다. 대신 전환기에서 해당 워크트리를 여세요."
 
 #: src/components/SkillInstallMenu.tsx
 msgid "A copy is a real folder of its own, and OK keeps it in step with the source: edit the skill here and every copy is refreshed. That stops the moment you hand-edit a copy outside OK — from then on it goes its own way and shows up as a separate skill."
@@ -1035,7 +1035,7 @@ msgstr "이 스킬과 같은 이름의 다른 스킬이 {0}에 있습니다. 해
 
 #: src/components/SyncStatusBadge.tsx
 msgid "A document has a conflict — resolve it to keep it up to date."
-msgstr ""
+msgstr "문서에 충돌이 있습니다. 최신 상태로 유지하려면 충돌을 해결하세요."
 
 #: src/components/ImportSkillForm.tsx
 msgid "A folder containing SKILL.md."
@@ -1067,7 +1067,7 @@ msgstr ""
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "A network problem or GitHub outage interrupted the clone."
-msgstr ""
+msgstr "네트워크 문제 또는 GitHub 장애로 클론이 중단되었습니다."
 
 #. placeholder {0}: paneLabel(data.paneId)
 #: src/components/EditorWorkspace.tsx
@@ -1126,7 +1126,7 @@ msgstr ""
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "a required git tool"
-msgstr ""
+msgstr "필수 git 도구"
 
 #: src/components/NewTemplateDialog.tsx
 msgid "A reusable starting point for new documents in this folder."
@@ -1170,11 +1170,11 @@ msgstr ""
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "A worktree folder for {shareBranch} already exists."
-msgstr ""
+msgstr "{shareBranch}용 워크트리 폴더가 이미 있습니다."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "A worktree folder for that branch already exists."
-msgstr ""
+msgstr "해당 브랜치용 워크트리 폴더가 이미 있습니다."
 
 #: src/lib/native-menu-catalog.ts
 msgid "About"
@@ -1606,7 +1606,7 @@ msgstr ""
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Another sync operation is in progress. Try again in a moment."
-msgstr ""
+msgstr "다른 동기화 작업이 진행 중입니다. 잠시 후 다시 시도하세요."
 
 #: src/components/settings/frontmatter-schema-field-editor.tsx
 msgid "any"
@@ -1627,7 +1627,7 @@ msgstr "스크립트는 검토용으로만 표시하며 실행하지 않습니�
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Anyone can see"
-msgstr ""
+msgstr "누구나 볼 수 있음"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Anything you'd like to add? (optional)"
@@ -1803,7 +1803,7 @@ msgstr "기준 콘텐츠이며, 참조되는 모든 곳에 그대로 미러링�
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Authorize in browser"
-msgstr ""
+msgstr "브라우저에서 인증"
 
 #: src/components/settings/TerminalSection.tsx
 msgid "Auto-approve settings not yet loaded — try again in a moment"
@@ -1840,11 +1840,11 @@ msgstr ""
 
 #: src/hooks/use-worktree-autosync-notice.tsx
 msgid "Auto-sync is off for this worktree, inherited from {project}. Change it in Settings → Sync."
-msgstr ""
+msgstr "이 워크트리의 자동 동기화가 꺼져 있습니다. {project}에서 상속되었습니다. 설정 → 동기화에서 변경하세요."
 
 #: src/hooks/use-worktree-autosync-notice.tsx
 msgid "Auto-sync is on for this worktree, inherited from {project}. Change it in Settings → Sync."
-msgstr ""
+msgstr "이 워크트리의 자동 동기화가 켜져 있습니다. {project}에서 상속되었습니다. 설정 → 동기화에서 변경하세요."
 
 #: src/components/settings/SyncSection.tsx
 msgid "Auto-sync is paused — sign in to resume."
@@ -1856,7 +1856,7 @@ msgstr "자동 동기화가 일시 중지되었습니다. 이 저장소에 푸�
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Auto-sync periodically fetches, pulls, and pushes commits to your remote git repository so your edits stay in sync across machines."
-msgstr ""
+msgstr "자동 동기화는 원격 git 저장소에서 커밋을 주기적으로 가져오고 풀하고 푸시하여 여러 컴퓨터에서 편집 내용이 동기화된 상태로 유지되도록 합니다."
 
 #: src/components/SkillOriginInline.tsx
 msgid "Auto-update"
@@ -1885,7 +1885,7 @@ msgstr "자동"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Available"
-msgstr ""
+msgstr "사용 가능"
 
 #: src/lib/skill-scope.ts
 msgid "Available in every project on this machine. Not shared through git."
@@ -1920,7 +1920,7 @@ msgstr ""
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Base branch"
-msgstr ""
+msgstr "기준 브랜치"
 
 #: src/components/TemplateBody.tsx
 msgid "Becomes the document's content when someone creates a doc from this template. Type <0>{dateToken}</0> or <1>{userToken}</1> to fill in today's date or the author's name automatically."
@@ -1932,7 +1932,7 @@ msgstr ""
 
 #: src/components/AuthModal.tsx
 msgid "Before syncing, set your identity for git commits:"
-msgstr ""
+msgstr "동기화하기 전에 git 커밋에 사용할 사용자 정보를 설정하세요:"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Before you go, mind sharing why?"
@@ -1996,40 +1996,40 @@ msgstr ""
 
 #: src/components/share-metadata-rows.tsx
 msgid "Branch"
-msgstr ""
+msgstr "브랜치"
 
 #. placeholder {0}: event.branch
 #: src/lib/share/clone-controller.ts
 msgid "Branch {0} no longer exists. Cloned to default branch."
-msgstr ""
+msgstr "브랜치 {0}는 더 이상 존재하지 않습니다. 기본 브랜치로 클론했습니다."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Branch {shareBranch} no longer exists on the remote."
-msgstr ""
+msgstr "원격에 {shareBranch} 브랜치가 더 이상 없습니다."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Branch <0>{shareBranch}</0> is checked out in:"
-msgstr ""
+msgstr "브랜치 <0>{shareBranch}</0>의 체크아웃 위치:"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Branch <0>{trimmed}</0> already has a worktree — it'll open in its own window."
-msgstr ""
+msgstr "브랜치 <0>{trimmed}</0>에 이미 워크트리가 있습니다. 자체 창에서 엽니다."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Branch name"
-msgstr ""
+msgstr "브랜치 이름"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Branch switch failed — try opening the {targetNoun} manually."
-msgstr ""
+msgstr "브랜치 전환에 실패했습니다. 직접 {targetNoun} 열기를 시도해 보세요."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Branch switch timed out — try opening the {targetNoun} manually."
-msgstr ""
+msgstr "브랜치 전환 시간이 초과되었습니다. 직접 {targetNoun} 열기를 시도해 보세요."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Branch switched but the {targetNoun} could not be opened — try navigating to it manually."
-msgstr ""
+msgstr "브랜치 전환은 완료됐지만 {targetNoun} 열기에 실패했습니다. 직접 이동해 보세요."
 
 #: src/components/ui/breadcrumb.tsx
 msgid "breadcrumb"
@@ -2062,7 +2062,7 @@ msgstr "모두 찾아보기"
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Browse folder"
-msgstr ""
+msgstr "폴더 찾아보기"
 
 #: src/components/settings/CustomThemeEditor.tsx
 msgid "Browse hundreds of themes"
@@ -2078,7 +2078,7 @@ msgstr "skills.sh 찾아보기"
 
 #: src/components/CloneDialog.tsx
 msgid "Browse your repos:"
-msgstr ""
+msgstr "저장소 찾아보기:"
 
 #. placeholder {0}: phase.reference
 #: src/components/ReportBugDialogBody.tsx
@@ -2161,7 +2161,7 @@ msgstr "이 도구의 config를 안전하게 편집할 수 없습니다."
 
 #: src/lib/share/run-share-action.ts
 msgid "Can't share this path."
-msgstr ""
+msgstr "이 경로는 공유할 수 없습니다."
 
 #: src/comments/PropertyCommentButton.tsx
 #: src/comments/ThreadCard.tsx
@@ -2246,7 +2246,7 @@ msgstr ""
 
 #: src/components/ChangedOutsideBadge.tsx
 msgid "changed outside"
-msgstr ""
+msgstr "외부에서 변경됨"
 
 #: src/components/SkillInstallMenu.tsx
 msgid "Changed outside OK since it last wrote here — the state shown is what's on disk now"
@@ -2274,11 +2274,11 @@ msgstr "업데이트 확인…"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Check out remote branch"
-msgstr ""
+msgstr "원격 브랜치 체크아웃"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Check out worktree"
-msgstr ""
+msgstr "워크트리 체크아웃"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -2308,16 +2308,16 @@ msgstr "Slidev 확인 중"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Checking for updates"
-msgstr ""
+msgstr "업데이트 확인 중"
 
 #: src/components/share-receive-miss-content.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Checking for updates on GitHub"
-msgstr ""
+msgstr "GitHub에서 업데이트 확인 중"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Checking GitHub connection..."
-msgstr ""
+msgstr "GitHub 연결 확인 중…"
 
 #: src/components/ProblemsPanel.tsx
 msgid "Checking links"
@@ -2325,11 +2325,11 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Checking out files"
-msgstr ""
+msgstr "파일 체크아웃 중"
 
 #: src/components/AuthModal.tsx
 msgid "Checking sign-in status"
-msgstr ""
+msgstr "로그인 상태 확인 중"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Checking skill"
@@ -2345,7 +2345,7 @@ msgstr "GitHub 연결 확인 중"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Checking..."
-msgstr ""
+msgstr "확인 중…"
 
 #: src/editor/slash-command/items.tsx
 msgid "Checklist with checkboxes."
@@ -2476,15 +2476,15 @@ msgstr "{label}에 설치하려면 클릭"
 
 #: src/components/CloneDialog.tsx
 msgid "Clone"
-msgstr ""
+msgstr "클론"
 
 #: src/components/CloneDialog.tsx
 msgid "Clone complete — opening project"
-msgstr ""
+msgstr "클론 완료. 프로젝트 여는 중"
 
 #: src/lib/share/clone-controller.ts
 msgid "Clone ended unexpectedly."
-msgstr ""
+msgstr "클론이 예기치 않게 종료되었습니다."
 
 #: src/lib/transports/clone-transport.ts
 msgid "Clone failed — check the URL and try again ({status})"
@@ -2493,7 +2493,7 @@ msgstr ""
 #: src/components/CloneDialog.tsx
 #: src/lib/transports/clone-transport.ts
 msgid "Clone failed — connection error"
-msgstr ""
+msgstr "클론 실패. 연결 오류"
 
 #: src/lib/transports/clone-transport.ts
 msgid "Clone failed — empty response body"
@@ -2501,7 +2501,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Clone failed: {cloneError}"
-msgstr ""
+msgstr "클론 실패: {cloneError}"
 
 #: src/lib/transports/clone-transport.ts
 msgid "Clone failed: {title}"
@@ -2510,40 +2510,40 @@ msgstr ""
 #: src/components/CloneDialog.tsx
 #: src/components/NavigatorApp.tsx
 msgid "Clone from GitHub"
-msgstr ""
+msgstr "GitHub에서 클론"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Clone happens in the Project Navigator. Reclick the share link there."
-msgstr ""
+msgstr "클론은 프로젝트 탐색기에서 진행됩니다. 그곳에서 공유 링크를 다시 클릭하세요."
 
 #: src/components/CloneDialog.tsx
 #: src/lib/transports/clone-transport.ts
 msgid "Clone stream ended unexpectedly — check if the clone completed"
-msgstr ""
+msgstr "클론 스트림이 예기치 않게 종료되었습니다. 클론이 완료됐는지 확인하세요."
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Clone to a new folder"
-msgstr ""
+msgstr "새 폴더에 클론"
 
 #: src/lib/share/clone-controller.ts
 msgid "Cloned {repoName}."
-msgstr ""
+msgstr "{repoName} 클론 완료."
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Cloned successfully, but could not open the project."
-msgstr ""
+msgstr "클론에 성공했지만 프로젝트를 열 수 없습니다."
 
 #: src/components/CloneDialog.tsx
 msgid "Cloning"
-msgstr ""
+msgstr "클론 중"
 
 #: src/lib/share/clone-controller.ts
 msgid "Cloning {repoName}..."
-msgstr ""
+msgstr "{repoName} 클론 중…"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Cloning..."
-msgstr ""
+msgstr "클론 중…"
 
 #: src/components/EditorTabs.tsx
 #: src/components/FeedbackForm.tsx
@@ -2649,12 +2649,12 @@ msgstr "코드 복사됨"
 
 #: src/components/AuthModal.tsx
 msgid "Code copied to clipboard"
-msgstr ""
+msgstr "코드가 클립보드에 복사되었습니다."
 
 #: src/components/AuthModal.tsx
 #: src/lib/transports/auth-transport.ts
 msgid "Code expired — please try again"
-msgstr ""
+msgstr "코드가 만료되었습니다. 다시 시도하세요."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Code field undo or redo"
@@ -2666,7 +2666,7 @@ msgstr "이 프로젝트의 터미널에서 \"ok init\"을 실행할 때까지 C
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Collaborators see your in-progress edits as soon as they sync."
-msgstr ""
+msgstr "공동 작업자는 동기화가 완료되면 진행 중인 편집 내용을 바로 볼 수 있습니다."
 
 #: src/components/GraphPanel.tsx
 msgid "Collapse"
@@ -2777,11 +2777,11 @@ msgstr "댓글"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Commit or stash changes to switch:"
-msgstr ""
+msgstr "전환하려면 변경 사항을 커밋하거나 스태시하세요:"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Commits happen automatically"
-msgstr ""
+msgstr "커밋은 자동으로 생성됩니다."
 
 #: src/components/settings/LintingSection.tsx
 msgid "Common markdown issues — hard tabs, heading increments, list markers, and more."
@@ -2797,7 +2797,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Complete"
-msgstr ""
+msgstr "완료"
 
 #: src/components/OnboardingCard.tsx
 msgid "Completed:"
@@ -2874,11 +2874,11 @@ msgstr "충돌"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Conflict"
-msgstr ""
+msgstr "충돌"
 
 #: src/components/ConflictsSection.tsx
 msgid "Conflicted files"
-msgstr ""
+msgstr "충돌한 파일"
 
 #. placeholder {0}: warning.conflictingFilenames.join(', ')
 #: src/components/settings/SavedThemesTiles.tsx
@@ -2887,13 +2887,13 @@ msgstr "충돌하는 파일: {0}."
 
 #: src/components/ConflictsSection.tsx
 msgid "Conflicts"
-msgstr ""
+msgstr "충돌"
 
 #. Primary button that writes MCP config for the selected AI tools
 #: src/components/AuthModal.tsx
 #: src/components/McpConsentDialogBody.tsx
 msgid "Connect"
-msgstr ""
+msgstr "연결"
 
 #: src/components/settings/AccountSection.tsx
 msgid "Connect a GitHub account to browse and sync your repositories."
@@ -2907,11 +2907,11 @@ msgstr "기존 저장소 연결"
 #: src/components/CloneDialog.tsx
 #: src/components/ShareReceiveDialog.tsx
 msgid "Connect GitHub"
-msgstr ""
+msgstr "GitHub 연결"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Connect GitHub to continue."
-msgstr ""
+msgstr "계속하려면 GitHub에 연결하세요."
 
 #: src/components/settings/IntegrationsSection.tsx
 msgid "Connect OpenKnowledge to other tools you use."
@@ -2938,7 +2938,7 @@ msgstr "GitHub에 연결"
 
 #: src/components/AuthModal.tsx
 msgid "Connect to GitHub Enterprise Server"
-msgstr ""
+msgstr "GitHub Enterprise Server에 연결"
 
 #: src/components/ClaudeReadinessBanner.tsx
 msgid "Connect tools"
@@ -2956,11 +2956,11 @@ msgstr "연결됨. 이 엔드포인트가 {0}차원 벡터를 반환합니다."
 #: src/components/AuthModal.tsx
 #: src/components/settings/AccountSection.tsx
 msgid "Connected as @{login}"
-msgstr ""
+msgstr "계정 @{login}으로 연결됨"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Connected as <0>@{signedInLogin}</0>"
-msgstr ""
+msgstr "계정 <0>@{signedInLogin}</0>으로 연결됨"
 
 #: src/components/settings/SyncSection.tsx
 msgid "Connected to"
@@ -2968,12 +2968,12 @@ msgstr "연결 대상"
 
 #: src/components/AuthModal.tsx
 msgid "Connected to GitHub"
-msgstr ""
+msgstr "GitHub에 연결됨"
 
 #: src/components/AuthModal.tsx
 #: src/components/PropertyPanel.tsx
 msgid "Connecting"
-msgstr ""
+msgstr "연결 중"
 
 #: src/components/ConnectingBanner.tsx
 msgid "Connecting — waiting for collab server"
@@ -2990,7 +2990,7 @@ msgstr ""
 #: src/components/AuthModal.tsx
 #: src/lib/transports/auth-transport.ts
 msgid "Connection error — try again"
-msgstr ""
+msgstr "연결 오류. 다시 시도하세요."
 
 #: src/presence/use-sync-toasts.ts
 msgid "Connection lost — keep this tab open, your edits will sync when reconnected"
@@ -3037,7 +3037,7 @@ msgstr "컨텍스트 창: {percent}% 사용됨, {usedLabel} / {sizeLabel} 토큰
 
 #: src/components/AuthModal.tsx
 msgid "Continue in browser"
-msgstr ""
+msgstr "브라우저에서 계속"
 
 #: src/components/FileTree.tsx
 msgid "Convert"
@@ -3146,7 +3146,7 @@ msgstr "코드 복사"
 
 #: src/components/AuthModal.tsx
 msgid "Copy code {userCode}"
-msgstr ""
+msgstr "코드 {userCode} 복사"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Copy command"
@@ -3188,7 +3188,7 @@ msgstr "선택한 파일 또는 폴더 복사"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Copy share link"
-msgstr ""
+msgstr "공유 링크 복사"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Copy source"
@@ -3208,7 +3208,7 @@ msgstr "복사 중"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Copying..."
-msgstr ""
+msgstr "복사 중…"
 
 #: src/components/FileTree.tsx
 msgid "Could not complete delete"
@@ -3217,7 +3217,7 @@ msgstr "삭제를 완료하지 못했습니다"
 #: src/components/ShareButton.tsx
 #: src/lib/share/run-share-action.ts
 msgid "Could not construct share URL."
-msgstr ""
+msgstr "공유 URL을 만들 수 없습니다."
 
 #: src/components/EditorTabTargetMenuItems.tsx
 #: src/components/FileSidebar.tsx
@@ -3245,7 +3245,7 @@ msgstr "항목을 복제하지 못했습니다"
 
 #: src/components/AutoSyncOnboardingDialog.tsx
 msgid "Could not enable sync: {detail}"
-msgstr ""
+msgstr "동기화를 활성화할 수 없습니다: {detail}"
 
 #. placeholder {0}: result.error
 #: src/components/settings/TerminalSection.tsx
@@ -3255,11 +3255,11 @@ msgstr "터미널을 켜지 못했습니다: {0}"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Could not fetch branch — sign in to GitHub and try again."
-msgstr ""
+msgstr "브랜치를 가져올 수 없습니다. GitHub에 로그인한 후 다시 시도하세요."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Could not fetch branch. Check your connection."
-msgstr ""
+msgstr "브랜치를 가져올 수 없습니다. 연결을 확인하세요."
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Could not finalize project setup. Try again."
@@ -3273,7 +3273,7 @@ msgstr ""
 #. placeholder {0}: seed.candidatePath
 #: src/components/ShareReceiveDialog.tsx
 msgid "Could not initialize {0}."
-msgstr ""
+msgstr "{0} 초기화에 실패했습니다."
 
 #: src/components/NewItemDialog.tsx
 msgid "Could not load templates: {templatesError}. You can still create a blank note."
@@ -3289,11 +3289,11 @@ msgstr ""
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Could not open {shareBranch} in a worktree. Try again."
-msgstr ""
+msgstr "워크트리에서 {shareBranch} 브랜치 열기에 실패했습니다. 다시 시도하세요."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Could not open {target}. Try opening it manually."
-msgstr ""
+msgstr "{target} 열기에 실패했습니다. 직접 열어 보세요."
 
 #: src/components/ConsentDialogBody.tsx
 msgid "Could not open folder picker"
@@ -3301,7 +3301,7 @@ msgstr ""
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Could not open GitHub sign-in. Please try again."
-msgstr ""
+msgstr "GitHub 로그인 화면을 열 수 없습니다. 다시 시도하세요."
 
 #: src/lib/open-note-window.ts
 msgid "Could not open this document in a new window."
@@ -3313,11 +3313,11 @@ msgstr "서버에 연결하지 못했습니다"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Could not read branch state for this project. Close this dialog and open the share link again."
-msgstr ""
+msgstr "이 프로젝트의 브랜치 상태를 읽을 수 없습니다. 이 대화 상자를 닫고 공유 링크를 다시 여세요."
 
 #: src/components/AutoSyncOnboardingDialog.tsx
 msgid "Could not save sync preference: {detail}"
-msgstr ""
+msgstr "동기화 환경설정을 저장할 수 없습니다: {detail}"
 
 #: src/components/FileTree.tsx
 msgid "Could not start creating a new item"
@@ -3325,7 +3325,7 @@ msgstr "새 항목 만들기를 시작하지 못했습니다"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Could not switch to {shareBranch}. Try switching manually."
-msgstr ""
+msgstr "{shareBranch} 브랜치로 전환할 수 없습니다. 직접 전환해 보세요."
 
 #. placeholder {0}: result.error
 #: src/components/settings/TerminalSection.tsx
@@ -3340,7 +3340,7 @@ msgstr "사이드바 설정을 업데이트하지 못했습니다"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Could not validate folder. Please try again."
-msgstr ""
+msgstr "폴더를 확인할 수 없습니다. 다시 시도하세요."
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Could not write project files. Try a different location."
@@ -3375,7 +3375,7 @@ msgstr "에이전트 서비스 연결 실패. OpenKnowledge 서버 실행 및 �
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Couldn't construct the share URL. Try Done and re-share."
-msgstr ""
+msgstr "공유 URL을 만들 수 없습니다. 완료를 누른 후 다시 공유하세요."
 
 #: src/components/skill-actions.tsx
 msgid "Couldn't copy path"
@@ -3387,7 +3387,7 @@ msgstr "복사 실패: {detail}"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Couldn't copy. Select the URL above to copy it manually."
-msgstr ""
+msgstr "복사할 수 없습니다. 위 URL을 선택해 직접 복사하세요."
 
 #. placeholder {0}: result.error
 #: src/components/SkillFileCreateDialog.tsx
@@ -3409,7 +3409,7 @@ msgstr ""
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Couldn't create the worktree. Try a different name."
-msgstr ""
+msgstr "워크트리를 만들 수 없습니다. 다른 이름을 사용해 보세요."
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Couldn’t create this theme. Try again."
@@ -3495,7 +3495,7 @@ msgstr ""
 
 #: src/components/ConflictsSection.tsx
 msgid "Couldn't load conflicts — reload to retry."
-msgstr ""
+msgstr "충돌을 불러올 수 없습니다. 다시 로드해 시도하세요."
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "Couldn't load docs — type @ again to retry"
@@ -3568,7 +3568,7 @@ msgstr "터미널 열기 실패. 다시 시도하세요."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Couldn't open the worktree. Try again."
-msgstr ""
+msgstr "워크트리를 열 수 없습니다. 다시 시도하세요."
 
 #: src/components/SlidesToolbarControls.tsx
 msgid "Couldn't open this document in Slidev."
@@ -3576,11 +3576,11 @@ msgstr ""
 
 #: src/lib/share/publish-wizard.ts
 msgid "Couldn't prepare this project for publish."
-msgstr ""
+msgstr "이 프로젝트를 게시할 준비를 할 수 없습니다."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Couldn't pull from GitHub. Check your connection and sign-in, then retry."
-msgstr ""
+msgstr "GitHub에서 풀할 수 없습니다. 연결과 로그인 상태를 확인한 후 다시 시도하세요."
 
 #: src/comments/store.ts
 msgid "Couldn't re-place that comment."
@@ -3601,7 +3601,7 @@ msgstr "협업 서버 연결 실패: {errorDetail}. <0>ok status</0> 실행 또�
 #: src/components/PublishToGitHubDialog.tsx
 #: src/lib/share/publish-wizard.ts
 msgid "Couldn't reach GitHub. Try again?"
-msgstr ""
+msgstr "GitHub에 연결할 수 없습니다. 다시 시도할까요?"
 
 #: src/components/settings/ConfigureAgentsSection.tsx
 msgid "Couldn't reach the agent registry."
@@ -3687,7 +3687,7 @@ msgstr "포크 해결 실패: {0}"
 
 #: src/lib/restart-collab-server.ts
 msgid "Couldn't restart the server — another process owns it. Quit other OpenKnowledge windows for this project, then try again."
-msgstr ""
+msgstr "서버를 다시 시작할 수 없습니다. 다른 프로세스가 사용 중입니다. 이 프로젝트의 다른 OpenKnowledge 창을 닫은 후 다시 시도하세요."
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Couldn't restart the server — it's running under a different account. Restart your computer to clear it, then reopen this project."
@@ -3699,7 +3699,7 @@ msgstr ""
 
 #: src/lib/restart-collab-server.ts
 msgid "Couldn't restart the server. Try `ok start` in this folder."
-msgstr ""
+msgstr "서버를 다시 시작할 수 없습니다. 이 폴더에서 `ok start`를 실행해 보세요."
 
 #. placeholder {0}: theme.label
 #: src/components/settings/SavedThemesTiles.tsx
@@ -3789,7 +3789,7 @@ msgstr "에이전트 스레드 시작 실패. 다시 시도하세요."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Couldn't start the sync. Check your connection, then retry."
-msgstr ""
+msgstr "동기화를 시작할 수 없습니다. 연결을 확인한 후 다시 시도하세요."
 
 #: src/lib/locale-load-failure-notice.ts
 msgid "Couldn't switch to {language}."
@@ -3865,7 +3865,7 @@ msgstr "현재 문서 또는 폴더를 기준으로 폴더를 만듭니다."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Create a new branch, or check out an existing one, in its own window."
-msgstr ""
+msgstr "새 브랜치를 만들거나 기존 브랜치를 별도 창에서 체크아웃하세요."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Create a new list item from the current list item."
@@ -3893,7 +3893,7 @@ msgstr "스킬을 만듭니다."
 
 #: src/components/AuthModal.tsx
 msgid "Create a token on {host}"
-msgstr ""
+msgstr "{host}에서 토큰 만들기"
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "Create a worktree from this branch"
@@ -3972,7 +3972,7 @@ msgstr "{0} 생성됨"
 
 #: src/lib/share/publish-wizard.ts
 msgid "Created {owner}/{name}, push failed."
-msgstr ""
+msgstr "{owner}/{name} 생성 완료. 푸시에 실패했습니다."
 
 #: src/components/ProblemsPanel.tsx
 msgid "Created {target}"
@@ -4022,7 +4022,7 @@ msgstr ""
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Current commit"
-msgstr ""
+msgstr "현재 커밋"
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Custom display text"
@@ -4241,7 +4241,7 @@ msgstr "설명"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Description (optional)"
-msgstr ""
+msgstr "설명(선택 사항)"
 
 #: src/components/settings/frontmatter-schema-field-editor.tsx
 msgid "Description for {field}"
@@ -4253,7 +4253,7 @@ msgstr "디자인"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Detached HEAD — checkout a branch to resume"
-msgstr ""
+msgstr "HEAD가 분리되었습니다. 계속하려면 브랜치를 체크아웃하세요."
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Detailed diagnostics"
@@ -4426,7 +4426,7 @@ msgstr "#{tagDocsName} 태그가 지정된 문서"
 #: src/components/ShareBranchSwitchDialog.tsx
 #: src/components/ShareReceiveDialog.tsx
 msgid "document"
-msgstr ""
+msgstr "문서"
 
 #: src/components/DocumentErrorBoundary.tsx
 msgid "Document not found"
@@ -4525,7 +4525,7 @@ msgstr "{0} {1} 다운로드 중…"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Downloads a fresh copy from GitHub."
-msgstr ""
+msgstr "GitHub에서 최신 사본을 다운로드합니다."
 
 #: src/components/empty-state/use-create-suggestions.ts
 msgid "Draft a spec"
@@ -4761,7 +4761,7 @@ msgstr "요소 유형"
 
 #: src/components/AuthModal.tsx
 msgid "Email"
-msgstr ""
+msgstr "이메일"
 
 #: src/components/SubscribeForm.tsx
 #: src/uninstall/UninstallSurveyScreen.tsx
@@ -4853,7 +4853,7 @@ msgstr "{id} 활성화"
 #: src/components/share-receive-miss-content.tsx
 #: src/components/ShareFreshnessWarning.tsx
 msgid "Enable auto-sync"
-msgstr ""
+msgstr "자동 동기화 사용"
 
 #: src/components/settings/LinkPreviewsSection.tsx
 msgid "Enable external link previews"
@@ -4862,15 +4862,15 @@ msgstr "외부 링크 미리보기 사용"
 #: src/components/AutoSyncOnboardingDialog.tsx
 #: src/components/EnableSyncConfirmDialog.tsx
 msgid "Enable Follow"
-msgstr ""
+msgstr "팔로우 사용"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Enable Follow?"
-msgstr ""
+msgstr "팔로우를 사용하시겠습니까?"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Enable git auto-sync?"
-msgstr ""
+msgstr "git 자동 동기화를 사용하시겠습니까?"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Enable indexes"
@@ -4943,7 +4943,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Enter a repository URL or owner/repo"
-msgstr ""
+msgstr "저장소 URL 또는 owner/repo 입력"
 
 #: src/components/TemplateForm.tsx
 msgid "Enter a title for this template."
@@ -4951,7 +4951,7 @@ msgstr "이 템플릿의 제목을 입력하세요."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Enter a valid branch name (no spaces, no leading dot, no \"..\")."
-msgstr ""
+msgstr "유효한 브랜치 이름을 입력하세요(공백, 앞의 점, \"..\" 제외)."
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Enter a valid theme name."
@@ -4973,7 +4973,7 @@ msgstr "오류"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Error:"
-msgstr ""
+msgstr "오류:"
 
 #: src/components/CommandPalette.tsx
 msgid "Escape"
@@ -5009,7 +5009,7 @@ msgstr "예외: 스킬은 공유됨"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Existing branch <0>{trimmed}</0> will be checked out into its own window, under <1>.ok/worktrees/</1>."
-msgstr ""
+msgstr "기존 브랜치 <0>{trimmed}</0>는 별도 창의 <1>.ok/worktrees/</1> 아래에 체크아웃됩니다."
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
@@ -5055,7 +5055,7 @@ msgstr ""
 
 #: src/components/AuthModal.tsx
 msgid "Expires in {timeLabel}"
-msgstr ""
+msgstr "{timeLabel} 후 만료"
 
 #: src/lib/pack-copy.ts
 msgid "Explain how your codebase works so teammates and AI agents can find their way around. Good for documenting the architecture, the main parts, and the questions new contributors always ask."
@@ -5382,7 +5382,7 @@ msgstr ""
 #: src/components/AuthModal.tsx
 #: src/lib/transports/auth-transport.ts
 msgid "Failed to store the token — try again"
-msgstr ""
+msgstr "토큰 저장 실패. 다시 시도하세요."
 
 #: src/components/settings/AttachmentsSection.tsx
 msgid "Failed to update attachment location — {detail}"
@@ -5431,11 +5431,11 @@ msgstr "고정폭 텍스트가 있는 펜스 코드 블록입니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Fetch failed — check the server logs for details."
-msgstr ""
+msgstr "가져오기 실패. 자세한 내용은 서버 로그를 확인하세요."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Fetching"
-msgstr ""
+msgstr "가져오는 중"
 
 #: src/components/SchemaConfigEditor.tsx
 msgid "Field editing is available for schema files mapped in the Frontmatter schemas plugin"
@@ -5629,7 +5629,7 @@ msgstr "소스 범위를 접거나 펼치거나 모두 접거나 펼칩니다."
 #: src/components/ShareReceiveDialog.tsx
 #: src/components/TemplateProperties.tsx
 msgid "folder"
-msgstr ""
+msgstr "폴더"
 
 #: src/components/ImportSkillForm.tsx
 #: src/components/settings/AttachmentsSection.tsx
@@ -5659,7 +5659,7 @@ msgstr ""
 
 #: src/lib/share/run-share-action.ts
 msgid "Folder share link copied."
-msgstr ""
+msgstr "폴더 공유 링크가 복사되었습니다."
 
 #: src/components/LinksPanel.tsx
 msgid "Folder target: {linkTitle}. Click to open the overview."
@@ -5683,15 +5683,15 @@ msgstr "따라오기, 원격 변경사항을 가져오고 편집 내용은 이 �
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Follow fetches updates from your remote git repository and fast-forwards your copy automatically. Your local edits stay on this computer and are never pushed."
-msgstr ""
+msgstr "팔로우는 원격 git 저장소에서 업데이트를 가져와 사본을 자동으로 빨리 감기합니다. 로컬 편집 내용은 이 컴퓨터에만 남고 절대 푸시되지 않습니다."
 
 #: src/hooks/use-worktree-autosync-notice.tsx
 msgid "Follow is on for this worktree, inherited from {project}. Change it in Settings → Sync."
-msgstr ""
+msgstr "이 워크트리의 팔로우가 켜져 있습니다. {project}에서 상속되었습니다. 설정 → 동기화에서 변경하세요."
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Follow never pushes or commits your local changes. They stay only on this machine."
-msgstr ""
+msgstr "팔로우는 로컬 변경 사항을 푸시하거나 커밋하지 않습니다. 이 컴퓨터에만 남습니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Follow the agent's edits"
@@ -5752,7 +5752,7 @@ msgstr "스킬 1개를 찾았습니다: {0}"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Found the repo but could not open the project. Please try again."
-msgstr ""
+msgstr "저장소를 찾았지만 프로젝트를 열 수 없습니다. 다시 시도하세요."
 
 #: src/hooks/use-skill-origin.ts
 msgid "From {harnessLabel}"
@@ -5803,7 +5803,7 @@ msgstr "전체 동기화, 커밋을 푸시하고 원격 변경사항을 자동�
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Full sync — your edits are committed and pushed to your remote automatically."
-msgstr ""
+msgstr "전체 동기화. 편집 내용이 원격에 자동으로 커밋되고 푸시됩니다."
 
 #: src/components/OkBlobRunner.tsx
 msgid "Game over · press space to play again"
@@ -5839,7 +5839,7 @@ msgstr "Git 및 PR"
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "Git can't track this folder — it's empty or contains only ignored files. The link won't work until you add a tracked document."
-msgstr ""
+msgstr "Git이 이 폴더를 추적할 수 없습니다. 비어 있거나 무시된 파일만 포함되어 있습니다. 추적할 문서를 추가해야 링크가 작동합니다."
 
 #: src/components/settings/SharingSection.tsx
 #: src/components/SkillsSidebarSection.tsx
@@ -5848,7 +5848,7 @@ msgstr "git 설정을 사용할 수 없음"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Git identity isn't set — commits use a default author. Set yours so teammates see your name."
-msgstr ""
+msgstr "Git 사용자 정보가 설정되지 않았습니다. 커밋에 기본 작성자가 사용됩니다. 팀원이 이름을 볼 수 있도록 사용자 정보를 설정하세요."
 
 #: src/components/settings/LintingSection.tsx
 msgid "Git merge rule"
@@ -5856,11 +5856,11 @@ msgstr "Git 병합 규칙"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Git needs {tool} for this repository, but it isn't installed or couldn't be found. Install it, then try again."
-msgstr ""
+msgstr "{tool} 설치 상태를 확인할 수 없습니다. 설치한 후 다시 시도하세요."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Git needs a helper tool (such as git-lfs) that isn't installed or couldn't be found. Install it, then try again."
-msgstr ""
+msgstr "필요한 Git 도우미 도구(예: git-lfs)를 찾을 수 없습니다. 설치한 후 다시 시도하세요."
 
 #: src/components/settings/SyncSection.tsx
 msgid "Git sync"
@@ -5868,19 +5868,19 @@ msgstr "Git 동기화"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "GitHub authentication failed. Try signing in again."
-msgstr ""
+msgstr "GitHub 인증에 실패했습니다. 다시 로그인하세요."
 
 #: src/lib/share/publish-wizard.ts
 msgid "GitHub connection expired. Connect again to continue."
-msgstr ""
+msgstr "GitHub 연결이 만료되었습니다. 계속하려면 다시 연결하세요."
 
 #: src/lib/share/publish-wizard.ts
 msgid "GitHub denied the request. You may need to authorize OpenKnowledge for {owner} in your browser."
-msgstr ""
+msgstr "GitHub에서 요청을 거부했습니다. 브라우저에서 {owner}에 OpenKnowledge 권한을 부여해야 할 수 있습니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "GitHub sign-in is missing or expired. Reconnect to resume syncing."
-msgstr ""
+msgstr "GitHub 로그인이 없거나 만료되었습니다. 동기화를 계속하려면 다시 연결하세요."
 
 #: src/components/ImportSkillForm.tsx
 msgid "GitHub, a git URL, or a local path."
@@ -6220,7 +6220,7 @@ msgstr ""
 
 #: src/components/ShareButton.tsx
 msgid "How does sharing work?"
-msgstr ""
+msgstr "공유는 어떻게 작동하나요?"
 
 #: src/components/settings/ContentRulesSection.tsx
 msgid "How missing project-local documents, files, and images are reported in Problems, editor diagnostics, audits, and agent tools."
@@ -6228,7 +6228,7 @@ msgstr "프로젝트 로컬 문서, 파일, 이미지의 누락을 Problems, 편
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "How to push manually"
-msgstr ""
+msgstr "수동으로 푸시하는 방법"
 
 #. Link on an undetected tool row to its OpenKnowledge setup guide
 #. Link on an undetected tool row to its OpenKnowledge setup guide
@@ -6257,7 +6257,7 @@ msgstr "HTML 미리보기"
 
 #: src/components/CloneDialog.tsx
 msgid "https://github.com/owner/repo or owner/repo"
-msgstr ""
+msgstr "https://github.com/owner/repo 또는 owner/repo"
 
 #: src/components/GraphPanel.tsx
 msgid "Hubs"
@@ -6265,11 +6265,11 @@ msgstr ""
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "I already have it locally"
-msgstr ""
+msgstr "이미 로컬에 있음"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "I already have it locally →"
-msgstr ""
+msgstr "이미 로컬에 있음 →"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "I'm switching to another tool"
@@ -6286,7 +6286,7 @@ msgstr "ID: {0}"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "If an update arrives for something you are editing, you choose which version to keep, like a merge conflict."
-msgstr ""
+msgstr "편집 중인 항목에 업데이트가 도착하면 병합 충돌처럼 유지할 버전을 선택합니다."
 
 #: src/components/ConsentDialogBody.tsx
 #: src/components/settings/OkignoreSection.tsx
@@ -6486,7 +6486,7 @@ msgstr "스타터 팩 초기화"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Initialize and open"
-msgstr ""
+msgstr "초기화 후 열기"
 
 #: src/components/SeedDialog.tsx
 msgid "Initialize failed: {errorDetail}"
@@ -6499,7 +6499,7 @@ msgstr "스타터 팩 초기화"
 #. placeholder {0}: seed.candidatePath
 #: src/components/ShareReceiveDialog.tsx
 msgid "Initialized {0} but could not open it."
-msgstr ""
+msgstr "{0} 초기화 완료. 열기에 실패했습니다."
 
 #: src/lib/install-onboarding-toast.ts
 msgid "Initialized OpenKnowledge at {gitRoot} — opened parent of {subPath} because it contains a .git folder"
@@ -6507,7 +6507,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Initializing project"
-msgstr ""
+msgstr "프로젝트 초기화 중"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Inline code"
@@ -6646,7 +6646,7 @@ msgstr "스킬 설치"
 
 #: src/components/AuthModal.tsx
 msgid "Install the gh CLI"
-msgstr ""
+msgstr "gh CLI 설치"
 
 #: src/components/settings/AiToolsSection.tsx
 #: src/components/settings/LintingSection.tsx
@@ -6747,7 +6747,7 @@ msgstr "잘못된 서버 응답 형식"
 
 #: src/lib/share/receive-flow.ts
 msgid "Invalid share URL."
-msgstr ""
+msgstr "잘못된 공유 URL입니다."
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Invalid YAML"
@@ -6825,7 +6825,7 @@ msgstr "둘 다 유지"
 
 #: src/components/AutoSyncOnboardingDialog.tsx
 msgid "Keep disabled"
-msgstr ""
+msgstr "사용 안 함 유지"
 
 #: src/components/DiffViewBoundary.tsx
 msgid "Keep file deleted"
@@ -6959,7 +6959,7 @@ msgstr "링크"
 #: src/components/PublishToGitHubDialog.tsx
 #: src/lib/share/run-share-action.ts
 msgid "Link copied."
-msgstr ""
+msgstr "링크가 복사되었습니다."
 
 #: src/components/settings/LinkPreviewsSection.tsx
 msgid "Link preview settings not yet loaded — try again in a moment"
@@ -6972,7 +6972,7 @@ msgstr "링크 미리보기"
 
 #: src/lib/share/run-share-action.ts
 msgid "Link ready but could not copy to clipboard."
-msgstr ""
+msgstr "링크가 준비됐지만 클립보드에 복사할 수 없습니다."
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Link target"
@@ -7070,7 +7070,7 @@ msgstr "두 버전 불러오는 중"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Loading branch state"
-msgstr ""
+msgstr "브랜치 상태 불러오는 중"
 
 #: src/components/DiffViewBoundary.tsx
 msgid "Loading conflict for {filePath}"
@@ -7145,7 +7145,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Loading repositories"
-msgstr ""
+msgstr "저장소 불러오는 중"
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Loading settings"
@@ -7184,15 +7184,15 @@ msgstr ""
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Loading..."
-msgstr ""
+msgstr "불러오는 중…"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Local changes blocked the merge"
-msgstr ""
+msgstr "로컬 변경 사항 때문에 병합할 수 없습니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Local changes overlap with incoming sync"
-msgstr ""
+msgstr "로컬 변경 사항이 들어오는 동기화와 겹칩니다."
 
 #: src/components/EditorActivityPool.tsx
 msgid "Local collaboration data for \"{docName}\" could not be cleared in time. Reload to retry."
@@ -7204,7 +7204,7 @@ msgstr ""
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Local commits are keeping this copy from updating"
-msgstr ""
+msgstr "로컬 커밋 때문에 이 사본을 업데이트할 수 없습니다."
 
 #: src/components/LinksPanel.tsx
 msgid "Local file details aren't available yet."
@@ -7216,7 +7216,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Local path"
-msgstr ""
+msgstr "로컬 경로"
 
 #: src/lib/install-onboarding-toast.ts
 msgid "Local-only requested but no git repository was created. Switch later via Settings → Config sharing once the project is in a git repo."
@@ -7236,7 +7236,7 @@ msgstr "“{word}” 찾아보기"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Looking for <0>{lookingForUrl}</0>."
-msgstr ""
+msgstr "<0>{lookingForUrl}</0> 찾는 중입니다."
 
 #: src/components/DocumentErrorBoundary.tsx
 msgid "Lost connection to \"{docName}\"."
@@ -7437,7 +7437,7 @@ msgstr "테마 이름 누락"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Mode"
-msgstr ""
+msgstr "모드"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Model"
@@ -7648,7 +7648,7 @@ msgstr "생각 중…"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "my-feature"
-msgstr ""
+msgstr "my-feature"
 
 #: src/components/SubscribeForm.tsx
 msgid "my@email.com"
@@ -7667,11 +7667,11 @@ msgstr "이름"
 #: src/components/SkillRenameDialog.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #: src/components/AuthModal.tsx
 msgid "Name (e.g. {login})"
-msgstr ""
+msgstr "이름(예: {login})"
 
 #: src/components/NewItemDialog.tsx
 #: src/components/NewSkillDialog.tsx
@@ -7731,7 +7731,7 @@ msgstr "정리 중 네트워크 오류가 발생했습니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "never"
-msgstr ""
+msgstr "없음"
 
 #: src/components/FolderOverview.tsx
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
@@ -7750,15 +7750,15 @@ msgstr ""
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "New branch <0>{trimmed}</0> will be created from <1>{currentBaseLabel}</1>, in its own worktree under <2>.ok/worktrees/</2>."
-msgstr ""
+msgstr "새 브랜치 <0>{trimmed}</0>는 <1>{currentBaseLabel}</1>에서 생성되며 <2>.ok/worktrees/</2> 아래 자체 워크트리에 배치됩니다."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "New branch <0>{trimmed}</0> will be created from the current commit, in its own worktree under <1>.ok/worktrees/</1>."
-msgstr ""
+msgstr "새 브랜치 <0>{trimmed}</0>는 현재 커밋에서 생성되며 <1>.ok/worktrees/</1> 아래 자체 워크트리에 배치됩니다."
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "New changes from your remote appear in your copy automatically."
-msgstr ""
+msgstr "원격의 새 변경 사항이 사본에 자동으로 표시됩니다."
 
 #. placeholder {0}: info.agent.name
 #: src/components/acp/ThreadView.tsx
@@ -8023,7 +8023,7 @@ msgstr "일치하는 폴더 없음."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "No git remote"
-msgstr ""
+msgstr "git 원격 없음"
 
 #: src/components/settings/SharingSection.tsx
 msgid "No git repository — config sharing does not apply here."
@@ -8080,7 +8080,7 @@ msgstr "일치하는 항목이 없습니다. 일부 파일은 숨김 파일 또�
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "No matching branches."
-msgstr ""
+msgstr "일치하는 브랜치가 없습니다."
 
 #: src/editor/composer-mention/ComposerSlashMenu.tsx
 msgid "No matching commands"
@@ -8104,7 +8104,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "No matching repositories."
-msgstr ""
+msgstr "일치하는 저장소가 없습니다."
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "No matching worktrees or branches."
@@ -8173,7 +8173,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "No repositories found on your GitHub account."
-msgstr ""
+msgstr "GitHub 계정에서 저장소를 찾을 수 없습니다."
 
 #: src/components/ConnectingBanner.tsx
 msgid "no response"
@@ -8291,7 +8291,7 @@ msgstr "연결되지 않음"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Not connected to GitHub."
-msgstr ""
+msgstr "GitHub에 연결되지 않음"
 
 #: src/components/FeedbackForm.tsx
 msgid "Not great"
@@ -8382,7 +8382,7 @@ msgstr "꺼짐, 검색은 키워드로만 순위를 매깁니다. 이 컴퓨터 
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Offline"
-msgstr ""
+msgstr "오프라인"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "OK Desktop"
@@ -8434,7 +8434,7 @@ msgstr ""
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Only collaborators"
-msgstr ""
+msgstr "공동 작업자만"
 
 #: src/components/settings/LinkPreviewsSection.tsx
 msgid "Only external links trigger a request. Links to other documents in this project preview from the local index and never leave your computer."
@@ -8486,7 +8486,7 @@ msgstr ""
 
 #: src/components/AuthModal.tsx
 msgid "Open <0><1>{verificationUri}</1><2/></0> and enter this code:"
-msgstr ""
+msgstr "다음 주소를 열어 이 코드를 입력하세요: <0><1>{verificationUri}</1><2/></0>"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Open <0>Customize</0> in the sidebar <1/> <2>Skills</2>."
@@ -8498,7 +8498,7 @@ msgstr "빈 편집기 탭을 엽니다."
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Open a doc to share its URL."
-msgstr ""
+msgstr "URL을 공유할 문서를 여세요."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open a new session with your preferred AI. With text selected, stage it there instead of running it."
@@ -8506,7 +8506,7 @@ msgstr "선호하는 AI로 새 세션을 엽니다. 텍스트를 선택한 경�
 
 #: src/lib/share/publish-wizard.ts
 msgid "Open a project first."
-msgstr ""
+msgstr "먼저 프로젝트를 여세요."
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Open a project to edit."
@@ -8621,7 +8621,7 @@ msgstr "그래프 열기"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Open in current branch"
-msgstr ""
+msgstr "현재 브랜치에서 열기"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Open in default app"
@@ -8642,12 +8642,12 @@ msgstr ""
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Open in worktree"
-msgstr ""
+msgstr "워크트리에서 열기"
 
 #: src/components/share-receive-miss-content.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Open it there"
-msgstr ""
+msgstr "그곳에서 열기"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Open Knowledge creates and maintains a navigation file named index.md in every folder that contains Markdown."
@@ -8684,7 +8684,7 @@ msgstr "새 탭에서 링크 열기"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Open Navigator"
-msgstr ""
+msgstr "탐색기 열기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open or close visual-editor find."
@@ -8709,7 +8709,7 @@ msgstr "설정 열기"
 #: src/components/ShareBranchSwitchDialog.tsx
 #: src/components/ShareReceiveDialog.tsx
 msgid "Open shared {targetNoun}"
-msgstr ""
+msgstr "공유된 {targetNoun} 열기"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Open skill"
@@ -8733,7 +8733,7 @@ msgstr "터미널 열기"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Open that worktree instead"
-msgstr ""
+msgstr "대신 해당 워크트리 열기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open the comment composer on the current selection and add it to the dispatch queue."
@@ -8794,7 +8794,7 @@ msgstr "AI로 {targetDisplayName} 열기, {hint}"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Open worktree"
-msgstr ""
+msgstr "워크트리 열기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open, navigate, accept, or dismiss CodeMirror completion suggestions."
@@ -8814,11 +8814,11 @@ msgstr ""
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Opening worktree"
-msgstr ""
+msgstr "워크트리 여는 중"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Opening..."
-msgstr ""
+msgstr "여는 중…"
 
 #: src/components/ExploreSkills.tsx
 msgid "OpenKnowledge"
@@ -9003,7 +9003,7 @@ msgstr ""
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "OpenKnowledge will create commits and push them to your remote automatically. If you do not want automatic commits in your git history, you should not enable auto-sync."
-msgstr ""
+msgstr "OpenKnowledge는 자동으로 커밋을 생성해 원격에 푸시합니다. git 기록에 자동 커밋을 남기고 싶지 않다면 자동 동기화를 사용하지 마세요."
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge wrote a document"
@@ -9015,7 +9015,7 @@ msgstr "OpenKnowledge에서 {subject} 작성"
 
 #: src/components/CloneDialog.tsx
 msgid "Opens a folder picker to choose where to clone the repository."
-msgstr ""
+msgstr "저장소를 클론할 위치를 선택하는 폴더 선택기를 엽니다."
 
 #: src/components/LinksPanel.tsx
 msgid "Opens in a new tab"
@@ -9032,11 +9032,11 @@ msgstr ""
 
 #: src/components/AuthModal.tsx
 msgid "or paste a token"
-msgstr ""
+msgstr "또는 토큰 붙여넣기"
 
 #: src/components/AuthModal.tsx
 msgid "Or to use browser sign-in instead:"
-msgstr ""
+msgstr "또는 브라우저 로그인을 사용하려면:"
 
 #: src/components/NavigatorApp.tsx
 msgid "or use a starter pack"
@@ -9102,11 +9102,11 @@ msgstr ""
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Overlapping edits"
-msgstr ""
+msgstr "겹치는 편집 내용"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Owner"
-msgstr ""
+msgstr "소유자"
 
 #: src/components/ImportSkillForm.tsx
 msgid "owner/repo, a git URL, or a local path"
@@ -9219,7 +9219,7 @@ msgstr "base16 테마 붙여넣기"
 
 #: src/components/AuthModal.tsx
 msgid "Paste a personal access token for <0>{host}</0>."
-msgstr ""
+msgstr "<0>{host}</0>용 개인 액세스 토큰을 붙여넣으세요."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Paste duplicate"
@@ -9239,7 +9239,7 @@ msgstr "링크 붙여넣기"
 
 #: src/components/CloneDialog.tsx
 msgid "Paste URL, owner/repo, or search your repos"
-msgstr ""
+msgstr "URL 또는 owner/repo를 붙여넣거나 저장소 검색"
 
 #: src/editor/clipboard/source-clipboard.ts
 msgid "Paste was incomplete — {chunksCompleted} of {totalChunks} chunks landed.{restoreSuffix}"
@@ -9304,7 +9304,7 @@ msgstr "패턴 경고: {summary}"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Pause sync"
-msgstr ""
+msgstr "동기화 일시 중지"
 
 #: src/components/acp/ThreadView.tsx
 msgid "pending"
@@ -9328,7 +9328,7 @@ msgstr "권한 필요"
 
 #: src/components/AuthModal.tsx
 msgid "Personal access token"
-msgstr ""
+msgstr "개인 액세스 토큰"
 
 #: src/components/settings/ScopeBadge.tsx
 msgid "Personal to this device — stored in your user config, not shared."
@@ -9344,7 +9344,7 @@ msgstr "병합 대상 폴더를 {display} 안에서 선택합니다. 해당 폴�
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Pick a name"
-msgstr ""
+msgstr "이름 선택"
 
 #: src/components/settings/settings-fields.ts
 msgid "Pick a palette for light mode and one for dark mode. The theme setting in Preferences chooses between them — on “System”, so does your OS."
@@ -9368,7 +9368,7 @@ msgstr "이 스키마를 적용할 폴더 선택"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Pick the folder where you've cloned it."
-msgstr ""
+msgstr "클론한 폴더 선택"
 
 #: src/components/SkillPluginBundleDialog.tsx
 msgid "Pick the skills to install. Each one lands as an editable skill you own; the plugin's hooks, commands, and MCP servers are not installed."
@@ -9453,7 +9453,7 @@ msgstr "검색 준비 중"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Preparing share URL..."
-msgstr ""
+msgstr "공유 URL 준비 중…"
 
 #: src/uninstall/UninstallApp.tsx
 msgid "Preparing to uninstall OpenKnowledge"
@@ -9481,7 +9481,7 @@ msgstr "위의 사용자 지정에서 태양 또는 달을 눌러 이 테마를 
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Preview browsers can't auto-copy. Use Cmd/Ctrl+C on the URL above, or open OK in the desktop app."
-msgstr ""
+msgstr "미리보기 브라우저에서는 자동 복사가 지원되지 않습니다. 위 URL에서 Cmd/Ctrl+C를 사용하거나 데스크톱 앱에서 OK를 여세요."
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Preview of the screenshot"
@@ -9522,11 +9522,11 @@ msgstr ""
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Private"
-msgstr ""
+msgstr "비공개"
 
 #: src/components/CloneDialog.tsx
 msgid "Private repository"
-msgstr ""
+msgstr "비공개 저장소"
 
 #: src/components/ConsentDialogBody.tsx
 msgid "probe failed"
@@ -9638,7 +9638,7 @@ msgstr "속성 값"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Protected branch — cannot push"
-msgstr ""
+msgstr "보호된 브랜치. 푸시할 수 없음"
 
 #: src/components/TemplateForm.tsx
 msgid "provisional"
@@ -9646,68 +9646,68 @@ msgstr "임시"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Public"
-msgstr ""
+msgstr "공개"
 
 #: src/components/CloneDialog.tsx
 msgid "Public repository"
-msgstr ""
+msgstr "공개 저장소"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Publish"
-msgstr ""
+msgstr "게시"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Publish to GitHub"
-msgstr ""
+msgstr "GitHub에 게시"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Published"
-msgstr ""
+msgstr "게시됨"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Publishing..."
-msgstr ""
+msgstr "게시 중…"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Pull"
-msgstr ""
+msgstr "풀"
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Pull latest changes"
-msgstr ""
+msgstr "최신 변경 사항 풀"
 
 #: src/components/share-receive-miss-content.tsx
 #: src/components/SyncStatusBadge.tsx
 msgid "Pulling"
-msgstr ""
+msgstr "풀하는 중"
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Pulling the latest changes"
-msgstr ""
+msgstr "최신 변경 사항 풀하는 중"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Pulls may overwrite uncommitted edits in your local files."
-msgstr ""
+msgstr "풀하면 로컬 파일의 커밋되지 않은 편집 내용이 덮어써질 수 있습니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Push"
-msgstr ""
+msgstr "푸시"
 
 #: src/lib/share/run-share-action.ts
 msgid "Push {branch} to GitHub before sharing."
-msgstr ""
+msgstr "공유하기 전에 {branch}를 GitHub에 푸시하세요."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Push failed — check the server logs for details."
-msgstr ""
+msgstr "푸시 실패. 자세한 내용은 서버 로그를 확인하세요."
 
 #: src/lib/share/run-share-action.ts
 msgid "Push this branch to GitHub before sharing."
-msgstr ""
+msgstr "공유 전에 이 브랜치를 GitHub에 푸시하세요."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Pushing"
-msgstr ""
+msgstr "푸시 중"
 
 #: src/components/acp/working-status.ts
 msgid "Puzzling…"
@@ -9744,11 +9744,11 @@ msgstr ""
 
 #: src/components/AuthModal.tsx
 msgid "Re-authenticate with GitHub"
-msgstr ""
+msgstr "GitHub 재인증"
 
 #: src/components/AuthModal.tsx
 msgid "Re-authenticate with GitHub Enterprise Server"
-msgstr ""
+msgstr "GitHub Enterprise Server 재인증"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Re-embedding happens as searches run, so coverage restarts at zero and refills."
@@ -9808,7 +9808,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Receiving objects"
-msgstr ""
+msgstr "객체 수신 중"
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "recent"
@@ -9837,7 +9837,7 @@ msgstr "권장 에이전트 스킬"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Reconnect required"
-msgstr ""
+msgstr "다시 연결 필요"
 
 #: src/presence/use-sync-toasts.ts
 msgid "Reconnected"
@@ -9936,7 +9936,7 @@ msgstr "새로 고침"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "remote"
-msgstr ""
+msgstr "원격"
 
 #: src/components/ImportSkillForm.tsx
 msgid "Remote"
@@ -9944,7 +9944,7 @@ msgstr "원격"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Remote branch <0>{remoteCheckoutRef}</0> will be checked out as a new local tracking branch <1>{trimmed}</1>, in its own window under <2>.ok/worktrees/</2>."
-msgstr ""
+msgstr "원격 브랜치 <0>{remoteCheckoutRef}</0>에서 새 로컬 추적 브랜치 <1>{trimmed}</1>로 체크아웃합니다. <2>.ok/worktrees/</2> 아래 자체 창에서 엽니다."
 
 #: src/components/ImportSkillForm.tsx
 msgid "Remote skill source"
@@ -10154,7 +10154,7 @@ msgstr "가장 최근에 닫은 편집기 탭을 다시 엽니다."
 
 #: src/components/AuthModal.tsx
 msgid "Reopen this window to sign in with your browser"
-msgstr ""
+msgstr "브라우저로 로그인하려면 이 창을 다시 여세요"
 
 #: src/components/EditorActivityPool.tsx
 msgid "Reopening \"{docName}\" with a fresh local collaboration cache."
@@ -10242,15 +10242,15 @@ msgstr "이미 클론한 저장소는 연결을 해제한 후에도 git에 저�
 #: src/components/SkillPreviewTab.tsx
 #: src/components/SyncStatusBadge.tsx
 msgid "Repository"
-msgstr ""
+msgstr "저장소"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Repository name"
-msgstr ""
+msgstr "저장소 이름"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Repository not found. It may have been renamed, deleted, or moved."
-msgstr ""
+msgstr "저장소 검색 실패. 이름 변경, 삭제 또는 이동됐을 수 있습니다."
 
 #: src/components/AddPropertyNameField.tsx
 msgid "required"
@@ -10308,7 +10308,7 @@ msgstr "{handleKey} 크기 조정"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Resolve conflict in your terminal"
-msgstr ""
+msgstr "터미널에서 충돌 해결"
 
 #: src/components/FileTree.tsx
 msgid "Resolve the conflict on {files} before deleting."
@@ -10328,7 +10328,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Resolving deltas"
-msgstr ""
+msgstr "델타 해결 중"
 
 #: src/components/HelpPopover.tsx
 msgid "Resources"
@@ -10421,7 +10421,7 @@ msgstr "결과가 제한되었습니다. 이 워크스페이스에는 검색에�
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Resume sync"
-msgstr ""
+msgstr "동기화 재개"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Resuming the chat"
@@ -10444,7 +10444,7 @@ msgstr "다시 시도"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Retry push"
-msgstr ""
+msgstr "푸시 재시도"
 
 #: src/components/TrashFailureModal.tsx
 msgid "Retrying"
@@ -10495,7 +10495,7 @@ msgstr "되돌리는 중"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Review conflicts"
-msgstr ""
+msgstr "충돌 검토"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Review your report"
@@ -10686,11 +10686,11 @@ msgstr "에이전트 검색"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Search branches"
-msgstr ""
+msgstr "브랜치 검색"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Search branches..."
-msgstr ""
+msgstr "브랜치 검색…"
 
 #: src/components/CommandPalette.tsx
 msgid "Search by meaning"
@@ -11062,11 +11062,11 @@ msgstr ""
 
 #: src/components/AuthModal.tsx
 msgid "Set git identity"
-msgstr ""
+msgstr "git 사용자 정보 설정"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Set identity"
-msgstr ""
+msgstr "사용자 정보 설정"
 
 #: src/components/settings/plugin-enabled-notice.ts
 msgid "Set it up on its own page under Plugins."
@@ -11141,7 +11141,7 @@ msgstr "공유"
 
 #: src/components/ShareButton.tsx
 msgid "Share doc"
-msgstr ""
+msgstr "문서 공유"
 
 #: src/components/FeedbackCard.tsx
 msgid "Share feedback"
@@ -11149,7 +11149,7 @@ msgstr ""
 
 #: src/components/ShareButton.tsx
 msgid "Share folder"
-msgstr ""
+msgstr "폴더 공유"
 
 #: src/components/SkillsSidebarSection.tsx
 msgid "Share skills"
@@ -11162,7 +11162,7 @@ msgstr ""
 #: src/components/PublishToGitHubDialog.tsx
 #: src/components/ShareButton.tsx
 msgid "Share URL"
-msgstr ""
+msgstr "공유 URL"
 
 #: src/components/FeedbackForm.tsx
 msgid "Share your email for followups"
@@ -11179,7 +11179,7 @@ msgstr "공유 기본값"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Shared repositories"
-msgstr ""
+msgstr "공유 저장소"
 
 #: src/components/settings/ScopeBadge.tsx
 msgid "Shared with everyone on this project — committed to config.yml via git."
@@ -11187,11 +11187,11 @@ msgstr "이 프로젝트의 모든 사람과 공유됨, git을 통해 config.yml
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Sharing a doc needs a GitHub repository. Create one for this project."
-msgstr ""
+msgstr "문서 공유에는 GitHub 저장소가 필요합니다. 이 프로젝트용 저장소를 만드세요."
 
 #: src/lib/share/run-share-action.ts
 msgid "Sharing supports GitHub remotes only."
-msgstr ""
+msgstr "공유는 GitHub 원격만 지원합니다."
 
 #: src/editor/extensions/code-block-languages.ts
 msgid "Shell session"
@@ -11425,7 +11425,7 @@ msgstr "로그인 실패: {0}"
 #: src/components/AuthModal.tsx
 #: src/lib/transports/auth-transport.ts
 msgid "Sign-in stream ended without confirmation — please try again"
-msgstr ""
+msgstr "로그인 스트림이 확인 없이 종료되었습니다. 다시 시도하세요."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Signing in to {agentName}"
@@ -11502,7 +11502,7 @@ msgstr "skills.sh를 사용할 수 없어 GitHub 결과를 보기로 전환합�
 #: src/components/AuthModal.tsx
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Skip"
-msgstr ""
+msgstr "건너뛰기"
 
 #. Secondary button — dismisses the dialog without wiring any tools
 #: src/components/McpConsentDialogBody.tsx
@@ -11741,11 +11741,11 @@ msgstr "{agentName} 시작 중…"
 
 #: src/components/CloneDialog.tsx
 msgid "Starting clone"
-msgstr ""
+msgstr "클론 시작 중"
 
 #: src/components/AuthModal.tsx
 msgid "Starting sign-in flow"
-msgstr ""
+msgstr "로그인 흐름 시작 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Starting the agent…"
@@ -11877,7 +11877,7 @@ msgstr "이번 주 변경한 내용 모두 요약"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Switch and update branch"
-msgstr ""
+msgstr "브랜치 전환 및 업데이트"
 
 #: src/components/FilesSkillsToggle.tsx
 msgid "Switch between Files and Skills"
@@ -11889,7 +11889,7 @@ msgstr "현재 위치를 유지하면서 비주얼 편집기와 소스 편집기
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Switch branch"
-msgstr ""
+msgstr "브랜치 전환"
 
 #: src/components/command-palette-commands.ts
 #: src/components/ProjectSwitcher.tsx
@@ -11903,7 +11903,7 @@ msgstr "프로젝트 전환…"
 
 #: src/lib/share/run-share-action.ts
 msgid "Switch to a branch to share."
-msgstr ""
+msgstr "공유하려면 브랜치로 전환하세요."
 
 #: src/components/settings/SyncSection.tsx
 msgid "Switch to Follow"
@@ -11919,7 +11919,7 @@ msgstr "워크트리 전환…"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Switching branches"
-msgstr ""
+msgstr "브랜치 전환 중"
 
 #: src/components/settings/SharingSection.tsx
 msgid "Switching to <0>local-only</0> will refuse until they're untracked via<1> git rm --cached</1>."
@@ -11963,15 +11963,15 @@ msgstr "동기화"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync disabled"
-msgstr ""
+msgstr "동기화 사용 안 함"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync failed — check the server logs for details."
-msgstr ""
+msgstr "동기화 실패. 자세한 내용은 서버 로그를 확인하세요."
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "Sync is failing. See the sync status for details."
-msgstr ""
+msgstr "동기화에 실패하고 있습니다. 자세한 내용은 동기화 상태를 확인하세요."
 
 #: src/components/settings/SyncSection.tsx
 msgid "Sync is off — your edits stay on this computer until you commit and push manually."
@@ -11979,28 +11979,28 @@ msgstr "동기화가 꺼져 있어 커밋하고 수동으로 푸시할 때까지
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync is paused. Turn it back on to resume."
-msgstr ""
+msgstr "동기화가 일시 중지되었습니다. 재개하려면 다시 켜세요."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync mode"
-msgstr ""
+msgstr "동기화 모드"
 
 #: src/components/share-receive-miss-content.tsx
 #: src/components/ShareFreshnessWarning.tsx
 msgid "Sync now"
-msgstr ""
+msgstr "지금 동기화"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync off"
-msgstr ""
+msgstr "동기화 끔"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync paused"
-msgstr ""
+msgstr "동기화 일시 중지됨"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync paused — resolve conflicts to resume."
-msgstr ""
+msgstr "동기화가 일시 중지되었습니다. 재개하려면 충돌을 해결하세요."
 
 #: src/hooks/use-no-push-permission-toast.ts
 msgid "Sync paused — you don't have permission to push to this repo"
@@ -12010,35 +12010,35 @@ msgstr ""
 #: src/components/settings/SyncSection.tsx
 #: src/hooks/use-enable-sync-with-confirm.ts
 msgid "Sync settings not yet loaded — try again in a moment"
-msgstr ""
+msgstr "동기화 설정이 아직 로드되지 않았습니다. 잠시 후 다시 시도하세요."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync status unavailable"
-msgstr ""
+msgstr "동기화 상태 사용 불가"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync status unavailable — server error."
-msgstr ""
+msgstr "동기화 상태 사용 불가. 서버 오류입니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync status unavailable — server unreachable."
-msgstr ""
+msgstr "동기화 상태 사용 불가. 서버에 연결할 수 없습니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync status: {syncStateLabel}"
-msgstr ""
+msgstr "동기화 상태: {syncStateLabel}"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync status: {syncStateLabel} — git identity unset"
-msgstr ""
+msgstr "동기화 상태: {syncStateLabel}. git 사용자 정보가 설정되지 않았습니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Synced"
-msgstr ""
+msgstr "동기화됨"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Synced {lastSyncedRelative}"
-msgstr ""
+msgstr "동기화됨 {lastSyncedRelative}"
 
 #: src/components/TimelinePanel.tsx
 msgid "Synced from disk"
@@ -12046,16 +12046,16 @@ msgstr ""
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "Synced. The link is up to date."
-msgstr ""
+msgstr "동기화됨. 링크가 최신 상태입니다."
 
 #: src/components/share-receive-miss-content.tsx
 #: src/components/ShareFreshnessWarning.tsx
 msgid "Syncing"
-msgstr ""
+msgstr "동기화 중"
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Syncing your changes"
-msgstr ""
+msgstr "변경 사항 동기화 중"
 
 #: src/components/settings/field-controls.tsx
 #: src/components/settings/LanguageSelect.tsx
@@ -12266,7 +12266,7 @@ msgstr ""
 #: src/components/NewWorktreeDialog.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "That branch is already open in another worktree."
-msgstr ""
+msgstr "해당 브랜치는 다른 워크트리에서 이미 열려 있습니다."
 
 #: src/comments/reveal-comment.ts
 msgid "That document didn't open in time. Try again once it has synced."
@@ -12278,7 +12278,7 @@ msgstr "이 엔드포인트는 사용할 수 없습니다. https:// URL을 입�
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "That folder isn't an OpenKnowledge project yet. Initialize it and open?"
-msgstr ""
+msgstr "해당 폴더는 아직 OpenKnowledge 프로젝트가 아닙니다. 초기화하고 여시겠습니까?"
 
 #: src/components/acp/ThreadView.tsx
 msgid "That message already went out — your edit wasn't applied."
@@ -12299,7 +12299,7 @@ msgstr "{editor} 버전이 이제 소스입니다"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "The {targetNoun} could not be opened — try navigating to it manually."
-msgstr ""
+msgstr "{targetNoun} 열기에 실패했습니다. 직접 이동해 보세요."
 
 #: src/components/TemplateForm.tsx
 msgid "The <0>type</0> every document created from this template gets (e.g. <1>research-note</1>). Keeps new docs Open Knowledge Format–conformant."
@@ -12331,7 +12331,7 @@ msgstr "Claude Desktop App 파일 열기 실패. 설치 상태 확인: ({msg})"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "The default branch is protected — pushes need a pull request."
-msgstr ""
+msgstr "기본 브랜치가 보호되어 푸시하려면 풀 리퀘스트가 필요합니다."
 
 #: src/components/SkillProperties.tsx
 msgid "the default skills folder (the exact path appears once saved)"
@@ -12442,11 +12442,11 @@ msgstr ""
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "The repository is private and your GitHub account doesn't have access to it."
-msgstr ""
+msgstr "비공개 저장소에 접근 권한이 없습니다. 접근 권한이 있는 GitHub 계정으로 로그인하세요."
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "The repository was moved, renamed, or deleted."
-msgstr ""
+msgstr "저장소가 이동, 이름 변경 또는 삭제됐습니다."
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "The repository's original clone directory"
@@ -12508,7 +12508,7 @@ msgstr "터미널 예기치 않게 중지됨."
 
 #: src/components/AuthModal.tsx
 msgid "The token needs the repo and read:user scopes."
-msgstr ""
+msgstr "토큰에 repo 및 read:user 범위가 필요합니다."
 
 #: src/components/settings/settings-fields.ts
 msgid "Theme"
@@ -12570,50 +12570,50 @@ msgstr "생각 중…"
 
 #: src/components/share-receive-miss-content.tsx
 msgid "This {targetNoun} has been moved, renamed, or deleted in your local copy of branch <0>{branch}</0>, and that change hasn't synced yet."
-msgstr ""
+msgstr "현재 브랜치 <0>{branch}</0> 로컬 사본에서 {targetNoun} 이동, 이름 변경 또는 삭제가 발생했으며 아직 동기화되지 않았습니다."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "This {targetNoun} has been moved, renamed, or deleted in your local copy of branch <0>{branch}</0>. Please commit your changes or enable auto-sync."
-msgstr ""
+msgstr "{targetNoun} 이동, 이름 변경 또는 삭제가 현재 브랜치 <0>{branch}</0> 로컬 사본에서 발생했습니다. 변경 사항을 커밋하거나 자동 동기화를 사용하세요."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "This {targetNoun} has been moved, renamed, or deleted in your local copy, and that change hasn't synced yet."
-msgstr ""
+msgstr "{targetNoun} 이동, 이름 변경 또는 삭제가 로컬 사본에서 발생했으며 아직 동기화되지 않았습니다."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "This {targetNoun} has been moved, renamed, or deleted in your local copy. Please commit your changes or enable auto-sync."
-msgstr ""
+msgstr "{targetNoun} 이동, 이름 변경 또는 삭제가 로컬 사본에서 발생했습니다. 변경 사항을 커밋하거나 자동 동기화를 사용하세요."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "This {targetNoun} isn't on branch <0>{branch}</0>. It may not have been pushed yet."
-msgstr ""
+msgstr "<0>{branch}</0> 브랜치에 {targetNoun} 없음. 아직 푸시되지 않았을 수 있습니다."
 
 #. placeholder {0}: branchSwitchState.resolution.renamedTo
 #. placeholder {0}: resolution.renamedTo
 #: src/components/share-receive-miss-content.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "This {targetNoun} moved to <0>{0}</0>. Open it there?"
-msgstr ""
+msgstr "이동 위치: <0>{0}</0>. 그곳에서 {targetNoun} 열까요?"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "This {targetNoun} only exists on branch <0>{shareBranch}</0>. You have uncommitted changes that prevent switching here — open it in a worktree to leave your changes untouched."
-msgstr ""
+msgstr "<0>{shareBranch}</0> 브랜치에만 있는 {targetNoun}입니다. 커밋되지 않은 변경 사항 때문에 여기서 전환할 수 없습니다. 변경 사항을 그대로 두고 워크트리에서 여세요."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "This {targetNoun} was added to branch <0>{shareBranch}</0> recently. Switch and update to open it."
-msgstr ""
+msgstr "<0>{shareBranch}</0> 브랜치에 최근 추가된 {targetNoun}입니다. 열려면 전환 후 업데이트하세요."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "This {targetNoun} was removed from branch <0>{branch}</0>."
-msgstr ""
+msgstr "{targetNoun} 삭제됨: <0>{branch}</0> 브랜치"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "This {targetNoun} was shared from branch <0>{shareBranch}</0>. It doesn't exist on your current branch (<1>{currentLabel}</1>)."
-msgstr ""
+msgstr "<0>{shareBranch}</0> 브랜치에서 공유된 {targetNoun}입니다. 현재 브랜치(<1>{currentLabel}</1>)에는 없습니다."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "This {targetNoun} was shared from branch <0>{shareBranch}</0>. You're currently on <1>{currentLabel}</1>."
-msgstr ""
+msgstr "<0>{shareBranch}</0> 브랜치에서 공유된 {targetNoun}입니다. 현재 브랜치는 <1>{currentLabel}</1>입니다."
 
 #: src/editor/composer-mention/ComposerSlashMenu.tsx
 msgid "This agent doesn't offer slash commands"
@@ -12648,7 +12648,7 @@ msgstr "이 에이전트는 {0}을 통해 실행됩니다. 현재 설치되어 �
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "This branch is checked out in:"
-msgstr ""
+msgstr "이 브랜치의 체크아웃 위치:"
 
 #: src/components/McpConsentDialogBody.tsx
 msgid "This can be configured in Settings > AI tools & CLI"
@@ -12664,15 +12664,15 @@ msgstr ""
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "This doc has unpushed changes. Recipients will see the last pushed version."
-msgstr ""
+msgstr "이 문서에는 푸시되지 않은 변경 사항이 있습니다. 수신자는 마지막으로 푸시된 버전을 보게 됩니다."
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "This doc hasn't synced to GitHub yet. The link will work after the next sync."
-msgstr ""
+msgstr "이 문서는 아직 GitHub와 동기화되지 않았습니다. 다음 동기화 후 링크가 작동합니다."
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "This doc isn't on GitHub yet. The link won't work until it's pushed."
-msgstr ""
+msgstr "이 문서는 아직 GitHub에 없습니다. 푸시해야 링크가 작동합니다."
 
 #: src/components/GraphPanel.tsx
 msgid "This document is already active in the editor. Use Open to collapse the graph."
@@ -12712,23 +12712,23 @@ msgstr ""
 
 #: src/lib/share/receive-flow.ts
 msgid "This folder doesn't contain a git repository. Pick a different folder?"
-msgstr ""
+msgstr "이 폴더에 git 저장소가 없습니다. 다른 폴더를 선택하시겠습니까?"
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "This folder has unpushed changes. Recipients will see the last pushed version."
-msgstr ""
+msgstr "이 폴더에는 푸시되지 않은 변경 사항이 있습니다. 수신자는 마지막으로 푸시된 버전을 보게 됩니다."
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "This folder hasn't synced to GitHub yet. The link will work after the next sync."
-msgstr ""
+msgstr "이 폴더는 아직 GitHub와 동기화되지 않았습니다. 다음 동기화 후 링크가 작동합니다."
 
 #: src/lib/share/receive-flow.ts
 msgid "This folder is a clone of {actualOwner}/{actualRepo}, not {expectedOwner}/{expectedRepo}. Pick a different folder?"
-msgstr ""
+msgstr "이 폴더는 {actualOwner}/{actualRepo} 클론이며 {expectedOwner}/{expectedRepo} 클론이 아닙니다. 다른 폴더를 선택하시겠습니까?"
 
 #: src/lib/share/receive-flow.ts
 msgid "This folder is a clone of {expectedOwner}/{expectedRepo} on {actualHost}, not {expectedHost}. Pick a folder cloned from {expectedHost}?"
-msgstr ""
+msgstr "이 폴더는 {actualHost}의 {expectedOwner}/{expectedRepo} 클론이며 {expectedHost} 클론이 아닙니다. {expectedHost}에서 클론한 폴더를 선택하시겠습니까?"
 
 #: src/components/FolderOverview.tsx
 msgid "This folder is empty."
@@ -12736,11 +12736,11 @@ msgstr ""
 
 #: src/lib/share/receive-flow.ts
 msgid "This folder isn't a clone of {expectedOwner}/{expectedRepo}. Pick a different folder?"
-msgstr ""
+msgstr "이 폴더는 {expectedOwner}/{expectedRepo} 클론이 아닙니다. 다른 폴더를 선택하시겠습니까?"
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "This folder isn't on GitHub yet. The link won't work until it's pushed."
-msgstr ""
+msgstr "이 폴더는 아직 GitHub에 없습니다. 푸시해야 링크가 작동합니다."
 
 #: src/components/SkillPreviewTab.tsx
 msgid "This is a preview of {boldName} — a built-in skill shipped with Open Knowledge. It's read-only."
@@ -12838,7 +12838,7 @@ msgstr "이 프로젝트"
 #: src/components/NewWorktreeDialog.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "This project has no commits yet, so there's no branch to base a worktree on. Make a first commit, then try again."
-msgstr ""
+msgstr "이 프로젝트에는 아직 커밋이 없어 워크트리 기반으로 사용할 브랜치가 없습니다. 첫 커밋을 만든 후 다시 시도하세요."
 
 #: src/components/settings/SharingSection.tsx
 msgid "This project has no git repository — sharing mode does not apply. Initialize a repo to enable the toggle."
@@ -12846,7 +12846,7 @@ msgstr "이 프로젝트에는 git 저장소가 없어 공유 모드가 적용�
 
 #: src/lib/share/run-share-action.ts
 msgid "This project has no GitHub remote."
-msgstr ""
+msgstr "이 프로젝트에는 GitHub 원격이 없습니다."
 
 #: src/components/SkillsSidebarSection.tsx
 msgid "This project is local-only, so .ok/skills is hidden from git and these skills can't be committed or shared. Share just the skills folder — the rest of your OK config stays on this computer."
@@ -12866,7 +12866,7 @@ msgstr ""
 #: src/components/NewWorktreeDialog.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "This project isn't a git repository, so worktrees aren't available."
-msgstr ""
+msgstr "이 프로젝트는 git 저장소가 아니므로 워크트리를 사용할 수 없습니다."
 
 #: src/components/settings/SyncSection.tsx
 msgid "This project lives only on this computer. Connect it to GitHub to back it up and share it with other people."
@@ -12946,11 +12946,11 @@ msgstr "이 테마 파일은 너무 큽니다"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "This usually means one of:"
-msgstr ""
+msgstr "일반적으로 다음 중 하나입니다:"
 
 #: src/components/AuthModal.tsx
 msgid "This window can't store a token — open Settings from the main app window."
-msgstr ""
+msgstr "이 창에는 토큰을 저장할 수 없습니다. 기본 앱 창에서 설정을 여세요."
 
 #: src/components/acp/working-status.ts
 msgid "Tidying up…"
@@ -13226,7 +13226,7 @@ msgstr "이 플랫폼에서 사용 불가"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Uncommitted changes"
-msgstr ""
+msgstr "커밋되지 않은 변경 사항"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Underline"
@@ -13372,7 +13372,7 @@ msgstr ""
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Up to date"
-msgstr ""
+msgstr "최신 상태"
 
 #: src/components/SkillOriginInline.tsx
 #: src/components/SkillPreviewTab.tsx
@@ -13394,7 +13394,7 @@ msgstr "소스에서 업데이트"
 
 #: src/lib/share/receive-flow.ts
 msgid "Update OpenKnowledge to open this share."
-msgstr ""
+msgstr "이 공유를 열려면 OpenKnowledge를 업데이트하세요."
 
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 msgid "Update the destination and optional section anchor."
@@ -13414,7 +13414,7 @@ msgstr "\"{name}\"을 {0}에서 업데이트했습니다"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Updated {lastSyncedRelative}"
-msgstr ""
+msgstr "업데이트됨 {lastSyncedRelative}"
 
 #: src/components/FolderTimelineCard.tsx
 msgid "updated folder properties"
@@ -13426,7 +13426,7 @@ msgstr ""
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Updates flow in"
-msgstr ""
+msgstr "업데이트가 들어옴"
 
 #: src/components/SkillOriginInline.tsx
 msgid "Updates from the source apply automatically (unless edited locally)"
@@ -13543,7 +13543,7 @@ msgstr "{editor} 버전 사용"
 
 #: src/components/ShareButton.tsx
 msgid "Use <0>{copyShortcut}</0> to copy the link below, or open OK in the desktop app."
-msgstr ""
+msgstr "아래 링크 복사에는 <0>{copyShortcut}</0> 사용, 또는 데스크톱 앱에서 OK 열기"
 
 #: src/components/NavigatorApp.tsx
 msgid "Use a folder you already have."
@@ -13564,7 +13564,7 @@ msgstr ""
 
 #: src/components/AuthModal.tsx
 msgid "Use a token instead"
-msgstr ""
+msgstr "대신 토큰 사용"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Use an https:// URL — http:// is only allowed for localhost."
@@ -13669,7 +13669,7 @@ msgstr "플러그인 보기"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Visibility"
-msgstr ""
+msgstr "공개 범위"
 
 #: src/components/EditorModeToggle.tsx
 msgid "Visual"
@@ -13710,7 +13710,7 @@ msgstr "비주얼 편집기 표 선택 영역"
 
 #: src/components/AuthModal.tsx
 msgid "Waiting for authorization"
-msgstr ""
+msgstr "인증 대기 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Waiting for your approval"
@@ -13731,7 +13731,7 @@ msgstr "GitHub 연결을 확인하지 못했습니다."
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "We couldn't clone this repository."
-msgstr ""
+msgstr "이 저장소를 클론할 수 없습니다."
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "We'll build <0>openknowledge.skill</0>, save it to <1>~/Downloads</1>, and open the Claude Desktop App for you."
@@ -13779,7 +13779,7 @@ msgstr "복사본과 심볼릭 링크의 차이는 무엇인가요?"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "What is this knowledge base for?"
-msgstr ""
+msgstr "이 지식 베이스는 무엇에 쓰나요?"
 
 #: src/components/handoff/OpenInAgentMenu.tsx
 msgid "What should the AI do? (optional)"
@@ -13877,7 +13877,7 @@ msgstr "위키 링크([[Page]] 등)는 이곳에서 지원되지만 외부 리�
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Will be created as <0>{sanitizedName}</0>"
-msgstr ""
+msgstr "<0>{sanitizedName}</0> 이름으로 생성됩니다."
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Will be created at: <0>{targetPreview}</0>"
@@ -13979,7 +13979,7 @@ msgstr ""
 
 #: src/components/AutoSyncOnboardingDialog.tsx
 msgid "You can change this later in <0>Settings → Sync</0>."
-msgstr ""
+msgstr "나중에 <0>설정 → 동기화</0>에서 변경할 수 있습니다."
 
 #: src/components/file-tree-trash-copy.ts
 msgid "You can restore this file from the Recycle Bin."
@@ -13999,11 +13999,11 @@ msgstr ""
 
 #: src/components/SyncStatusBadge.tsx
 msgid "You don't have access to this private repo. Sign in with an account that does."
-msgstr ""
+msgstr "이 비공개 저장소에 접근 권한이 없습니다. 접근 권한이 있는 계정으로 로그인하세요."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "You don't have access to this repository."
-msgstr ""
+msgstr "이 저장소에 접근 권한이 없습니다."
 
 #: src/components/settings/SyncSection.tsx
 #: src/components/SyncStatusBadge.tsx
@@ -14012,7 +14012,7 @@ msgstr "이 저장소에 푸시할 권한이 없습니다"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "You don't have permission to push to this repo."
-msgstr ""
+msgstr "이 저장소에 푸시 권한이 없습니다."
 
 #: src/components/settings/SyncSection.tsx
 msgid "You don't have permission to push to this repo. Follow can still keep your copy up to date."
@@ -14020,7 +14020,7 @@ msgstr "이 저장소에 푸시할 권한이 없습니다. 따라오기를 사�
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "You don't have write access to this repo."
-msgstr ""
+msgstr "이 저장소에 쓰기 권한이 없습니다."
 
 #: src/components/SkillUpdateConflictDialog.tsx
 msgid "You edited this skill locally and the source has new changes. Taking upstream replaces your version; your edits stay recoverable in version history."
@@ -14056,7 +14056,7 @@ msgstr ""
 
 #: src/components/SyncStatusBadge.tsx
 msgid "You're signed out — sign in to resume syncing."
-msgstr ""
+msgstr "로그아웃된 상태입니다. 동기화를 계속하려면 로그인하세요."
 
 #: src/components/SubscribeForm.tsx
 msgid "You're subscribed!"
@@ -14081,7 +14081,7 @@ msgstr "현재 실행 뒤 댓글 대기 중. 에이전트 메시지 수신 전�
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Your copy of branch <0>{shareBranch}</0> has changes that aren't on GitHub. The {targetNoun} will appear once the branch syncs."
-msgstr ""
+msgstr "브랜치 <0>{shareBranch}</0> 사본에 GitHub 미반영 변경 사항이 있습니다. 브랜치 동기화 후 {targetNoun} 표시"
 
 #: src/components/TimelineDiffPane.tsx
 #: src/components/TimelinePanel.tsx
@@ -14090,7 +14090,7 @@ msgstr ""
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Your edits stay on this computer"
-msgstr ""
+msgstr "편집 내용은 이 컴퓨터에 남습니다."
 
 #: src/components/settings/SyncSection.tsx
 #: src/components/SyncStatusBadge.tsx
@@ -14099,27 +14099,27 @@ msgstr "GitHub 세션이 만료되었습니다. 푸시 권한을 확인하려면
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Your GitHub token is missing required scopes. Try signing in again."
-msgstr ""
+msgstr "GitHub 토큰에 필요한 범위가 없습니다. 다시 로그인하세요."
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Your knowledge base is now on GitHub at <0>{ownerLogin}/{repoName}</0>."
-msgstr ""
+msgstr "지식 베이스가 이제 GitHub의 <0>{ownerLogin}/{repoName}</0>에 있습니다."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Your local copy is behind."
-msgstr ""
+msgstr "로컬 사본이 뒤처져 있습니다."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Your local copy is behind. Pull the latest changes, then open the link again."
-msgstr ""
+msgstr "로컬 사본이 뒤처져 있습니다. 최신 변경 사항을 푼 후 링크를 다시 여세요."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Your local copy of branch <0>{branch}</0> is behind."
-msgstr ""
+msgstr "브랜치 <0>{branch}</0>의 로컬 사본이 뒤처져 있습니다."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Your local copy of branch <0>{branch}</0> is behind. Pull the latest changes, then open the link again."
-msgstr ""
+msgstr "브랜치 <0>{branch}</0>의 로컬 사본이 뒤처져 있습니다. 최신 변경 사항을 푼 후 링크를 다시 여세요."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Your message didn't reach {agentName}."
@@ -14139,7 +14139,7 @@ msgstr ""
 
 #: src/components/CloneDialog.tsx
 msgid "Your repositories"
-msgstr ""
+msgstr "내 저장소"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Your search queries and the full text of matching pages are sent to your embeddings provider (OpenAI by default) to compute embeddings."
@@ -14147,7 +14147,7 @@ msgstr "검색어와 일치하는 페이지의 전체 텍스트가 임베딩 제
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Your share link is ready below."
-msgstr ""
+msgstr "공유 링크가 아래에 준비되어 있습니다."
 
 #: src/components/settings/SkillsManagerSection.tsx
 msgid "Your user-level skill folders — available in every project on this machine. Each skill's install menu controls where it lives."
