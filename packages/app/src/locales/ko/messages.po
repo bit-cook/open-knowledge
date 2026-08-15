@@ -649,7 +649,7 @@ msgstr "{enabledCount}/{0}개 켜짐"
 #. placeholder {0}: ids.length
 #: src/comments/store.ts
 msgid "{failed} of {0} comments could not be updated."
-msgstr "댓글 {failed}개 중 {0}개 업데이트에 실패했습니다."
+msgstr "댓글 {0}개 중 {failed}개 업데이트에 실패했습니다."
 
 #: src/components/FileTree.tsx
 msgid "{failedCount, plural, one {1 file failed to upload} other {{failedCount} files failed to upload}}"
