@@ -31,13 +31,13 @@ const ISOLATED_HOME = mkdtempSync(join(tmpdir(), 'ok-language-home-'));
 test.use({ workerServerEnv: { HOME: ISOLATED_HOME } });
 
 // The row's own label is translated, so the control this test drives renames
-// itself as a side effect of the thing under test. Matching all three keeps the
+// itself as a side effect of the thing under test. Matching all four keeps the
 // locator valid whichever language the previous test left behind.
-const TRIGGER_NAME = /Language|Idioma|语言/;
+const TRIGGER_NAME = /Language|Idioma|语言|언어/;
 
 // The language names are endonyms and read the same in every locale; the
 // sentinel is ordinary copy and does not.
-const SYSTEM_OPTION = /^(System|Sistema|跟随系统)$/;
+const SYSTEM_OPTION = /^(System|Sistema|跟随系统|시스템)$/;
 
 async function openLanguagePicker(page: Page) {
   await page.goto('/#settings');
@@ -115,6 +115,7 @@ test.describe('language picker', () => {
       'বাংলা',
       'português (Brasil)',
       'Indonesia',
+      '한국어',
     ]);
   });
 });

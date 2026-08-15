@@ -38,7 +38,8 @@ describe('resolveLocale negotiation', () => {
     { request: ['es-MX', 'en-US'], expected: 'es' },
     { request: ['fr-CA', 'es-ES'], expected: 'fr' },
     { request: ['pt-PT'], expected: 'pt-BR' },
-    { request: ['ja', 'ko', 'en'], expected: 'en' },
+    { request: ['ja', 'ko', 'en'], expected: 'ko' },
+    { request: ['ko-KR'], expected: 'ko' },
     { request: ['ja'], expected: 'en' },
   ] as const satisfies readonly { request: readonly string[]; expected: SupportedLocale }[];
 
@@ -76,6 +77,10 @@ describe('resolveLocale negotiation', () => {
     expect(fromSystem('fr-CA').locale).toBe('fr');
     expect(fromSystem('id-ID').locale).toBe('id');
     expect(fromSystem('en-GB').locale).toBe('en');
+  });
+
+  test('a Korean region tag folds to the language catalog', () => {
+    expect(fromSystem('ko-KR').locale).toBe('ko');
   });
 
   test('a platform signal cannot land on a locale held out of auto-detection', () => {
