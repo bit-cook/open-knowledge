@@ -24,7 +24,7 @@ These carry through every locale byte-for-byte:
 - **Markdown**, **Git**, **GitHub**, **MCP**, **YAML**, **JSON**, **PATH** — proper nouns and
   format names.
 - **frontmatter** — names a Markdown construct, the way `<head>` names an HTML one. There is no
-  settled translation in any of the eleven locales, so eleven inventions is the likely outcome
+  settled translation in any of the twelve locales, so twelve inventions is the likely outcome
   of translating it. Gloss it on first use if a sentence needs the help; do not replace it.
 - **ICU placeholders** — `{name}`, `{count}`, `#` inside a plural. Renaming one silently breaks
   the substitution; the string compiles and renders the literal brace text.
@@ -65,6 +65,17 @@ These carry through every locale byte-for-byte:
 | agent | وكيل | ایجنٹ |
 | checkpoint | نقطة تحقق | چیک پوائنٹ |
 | branch | فرع | برانچ |
+
+| Term | `ko` |
+| --- | --- |
+| document | 문서 |
+| folder | 폴더 |
+| workspace | 워크스페이스 |
+| knowledge base | 지식 베이스 |
+| wiki-link | 위키 링크 |
+| agent | 에이전트 |
+| checkpoint | 체크포인트 |
+| branch | 브랜치 |
 
 ## Why these forms
 
