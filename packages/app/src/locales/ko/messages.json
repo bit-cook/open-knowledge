@@ -99,7 +99,9 @@
     ],
     "0eHrMb": ["삭제를 완료하지 못했습니다"],
     "0g7rCZ": ["Duplicated to \"", ["0"], "\""],
-    "0inVGS": ["코딩 에이전트의 OpenKnowledge 프로젝트 인식과 읽기 및 쓰기 전달 지원."],
+    "0inVGS": [
+      "코딩 에이전트가 OpenKnowledge 프로젝트를 인식하고 읽기와 쓰기를 OpenKnowledge로 전달하도록 돕습니다."
+    ],
     "0jD-Gn": ["A team knowledge base, a personal wiki, project docs..."],
     "0kTAXe": ["소스 열기: ", ["mirrorSrc"]],
     "0pZmTP": ["Can't share this path."],
@@ -1697,15 +1699,15 @@
     "OEEQKT": ["Good"],
     "OETysD": ["No hub pages yet. Hubs appear once pages accumulate inbound graph links."],
     "OJ4VDl": [
-      "에이전트 실행 경로 ",
+      "이 에이전트는 ",
       ["0"],
-      ". 설치 상태지만 실행 불가, ",
+      "을 통해 실행됩니다. 설치되어 있지만 실행되지 않으며 ",
       ["1"],
-      " 손상 의심. OpenKnowledge에서 시스템 나머지에 영향 없는 개인 복사본 ",
+      "이 손상된 것으로 보입니다. OpenKnowledge에서 시스템 나머지에 영향을 주지 않는 ",
       ["2"],
       " ",
       ["3"],
-      " 다운로드 가능(약 ",
+      " 개인 복사본을 다운로드할 수 있습니다(약 ",
       ["4"],
       "MB, ",
       ["5"],
@@ -2000,7 +2002,10 @@
     "SkTkKV": ["에이전트 중지 실패. 강제 중지 시 채팅 종료 및 에이전트 종료."],
     "Skr_7L": ["Search worktrees"],
     "SlfejT": ["오류"],
-    "Soy_80": ["권한 확인 추가를 지원하지 않는 OpenKnowledge에서 ", ["0"], " 확인 없이 작업합니다"],
+    "Soy_80": [
+      ["0"],
+      "이 확인 없이 작업합니다. OpenKnowledge는 이 에이전트에 권한 확인을 추가할 수 없습니다."
+    ],
     "SqIoy_": ["Auto-fix — no problems here have an automatic fix"],
     "Sr9xtj": ["이 스키마를 적용할 폴더 선택"],
     "SrOuyg": ["Document panels"],
@@ -3290,17 +3295,17 @@
     "jxtXZI": ["Install the gh CLI"],
     "k0dL2I": ["에이전트 서비스 재연결 중…"],
     "k0jsmJ": [
-      "OpenKnowledge 자체 복사본 ",
+      "OpenKnowledge의 ",
       ["0"],
-      " 손상으로 실행 불가. 새 복사본 ",
+      " 복사본이 손상되어 실행할 수 없습니다. 교체용으로 ",
       ["1"],
       " ",
       ["2"],
-      " 다운로드 가능(약 ",
+      " 새 복사본을 다운로드할 수 있습니다(약 ",
       ["3"],
       "MB, ",
       ["4"],
-      "에서). 교체용."
+      "에서)."
     ],
     "k2fEi7": [
       "사용자 플러그인은 이 디바이스에만 적용됩니다. 여기서 켜거나 끌 수 있습니다. 선택은 사용자 config에 저장되며 프로젝트에 커밋되지 않습니다. 활성화한 플러그인마다 설정 사이드바의 플러그인 아래에 자체 페이지가 생깁니다."
@@ -3410,13 +3415,13 @@
       "</0>, and that change hasn't synced yet."
     ],
     "l7Qq48": [
-      "에이전트 실행 경로 ",
+      "이 에이전트는 ",
       ["0"],
-      ". 미설치 상태. OpenKnowledge에서 시스템 나머지에 영향 없는 개인 복사본 ",
+      "을 통해 실행됩니다. 현재 설치되어 있지 않습니다. OpenKnowledge에서 시스템 나머지에 영향을 주지 않는 ",
       ["1"],
       " ",
       ["2"],
-      " 다운로드 가능(약 ",
+      " 개인 복사본을 다운로드할 수 있습니다(약 ",
       ["3"],
       "MB, ",
       ["4"],
