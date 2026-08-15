@@ -584,7 +584,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "{detail} - {kind} \"{createdPath}\" still exists on disk"
-msgstr "{detail} - {kind} “{createdPath}”이(가) 디스크에 여전히 있습니다"
+msgstr "{detail} - {kind} “{createdPath}”가 디스크에 그대로 있습니다"
 
 #: src/components/FolderOverview.tsx
 msgid "{diffDays}d ago"
@@ -3853,11 +3853,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Create a file from the current document or folder context."
-msgstr "현재 문서 또는 폴더의 컨텍스트에서 파일을 만듭니다."
+msgstr "현재 문서 또는 폴더를 기준으로 파일을 만듭니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Create a folder from the current document or folder context."
-msgstr "현재 문서 또는 폴더의 컨텍스트에서 폴더를 만듭니다."
+msgstr "현재 문서 또는 폴더를 기준으로 폴더를 만듭니다."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Create a new branch, or check out an existing one, in its own window."
@@ -10461,12 +10461,12 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/lib/platform-labels.ts
 msgid "Reveal in File Explorer"
-msgstr "파일 탐색기에서 표시"
+msgstr "파일 탐색기에서 보기"
 
 #: src/components/command-palette-commands.ts
 #: src/lib/platform-labels.ts
 msgid "Reveal in Finder"
-msgstr "Finder에서 표시"
+msgstr "Finder에서 보기"
 
 #: src/components/SkillOriginInline.tsx
 msgid "Revert"
@@ -10727,7 +10727,7 @@ msgstr ""
 #. placeholder {0}: formatShortcut('find')
 #: src/components/CommandPalette.tsx
 msgid "Search matches file names, paths, and folders. Open a file to search its body <0>{0}</0>."
-msgstr "검색 결과는 파일 이름, 경로 및 폴더와 일치합니다. 파일을 열면 본문을 검색할 수 있습니다 <0>{0}</0>."
+msgstr "파일 이름, 경로 및 폴더를 검색합니다. 파일을 열면 본문을 검색할 수 있습니다 <0>{0}</0>."
 
 #: src/components/ProjectSwitcher.tsx
 msgid "Search projects"
@@ -11042,7 +11042,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Server-side cleanup failed for {failedCount, plural, one {# item} other {# items}}"
-msgstr "{failedCount, plural, other {서버 측 정리에 실패했습니다. #개 항목}}"
+msgstr "{failedCount, plural, other {서버 측에서 #개 항목을 정리하지 못했습니다}}"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Services"
@@ -11282,7 +11282,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Show in Explorer"
-msgstr "탐색기에서 표시"
+msgstr "탐색기에서 보기"
 
 #: src/components/PackCardGrid.tsx
 #: src/components/settings/ConfigureAgentsSection.tsx
@@ -11675,7 +11675,7 @@ msgstr "목록 항목 분할"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Stage the selected passage in the agents panel, ready to extend and send."
-msgstr "선택한 구절을 에이전트 패널에 전송할 준비를 합니다."
+msgstr "선택한 구절을 에이전트 패널에 올려 이어서 작성하고 전송할 수 있게 합니다."
 
 #: src/components/SubscribeCard.tsx
 msgid "Star us on GitHub"
@@ -13619,7 +13619,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "via {viaTags}"
-msgstr "{viaTags}을(를) 통해"
+msgstr "{viaTags} 경유"
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid "via parent"

@@ -287,7 +287,7 @@
     "3__SjS": ["breadcrumb"],
     "3a_Bd7": ["Open source doc: ", ["mirrorSrc"]],
     "3aeN7X": ["All files"],
-    "3cOo2C": ["현재 문서 또는 폴더의 컨텍스트에서 폴더를 만듭니다."],
+    "3cOo2C": ["현재 문서 또는 폴더를 기준으로 폴더를 만듭니다."],
     "3ePd3I": ["What's new"],
     "3h5zMp": ["Something went wrong loading the settings panel."],
     "3iyGWF": ["최근 프로젝트 열기"],
@@ -914,7 +914,7 @@
     "ChMshD": [["appName"], " 종료"],
     "Ck9XRt": ["Couldn't save the key — please try again."],
     "ClII5l": ["Press the sun or moon on “Custom” above to use this theme."],
-    "ClTEde": ["선택한 구절을 에이전트 패널에 전송할 준비를 합니다."],
+    "ClTEde": ["선택한 구절을 에이전트 패널에 올려 이어서 작성하고 전송할 수 있게 합니다."],
     "CmeH9S": ["Add property to ", ["keyName"]],
     "CnOGgs": ["Sync mode"],
     "CoHvYd": ["Moved ", ["0"], " to position ", ["1"], " of ", ["2"]],
@@ -924,7 +924,7 @@
       "\" — the pack's version will not be installed, and yours won't be touched. Rename yours to install the pack's version."
     ],
     "Cu6GXQ": ["The source folder itself does not move."],
-    "CvsD6Y": [["viaTags"], "을(를) 통해"],
+    "CvsD6Y": [["viaTags"], " 경유"],
     "CwOXMT": ["Value for ", ["keyName"]],
     "CxCOFx": [
       "In Git projects, Open Knowledge adds a scoped rule to the repository-root .gitattributes file so concurrent index changes combine."
@@ -1241,7 +1241,7 @@
     ],
     "Gu9pRm": [["0"], " was not moved."],
     "GuLeuE": [
-      "검색 결과는 파일 이름, 경로 및 폴더와 일치합니다. 파일을 열면 본문을 검색할 수 있습니다 <0>",
+      "파일 이름, 경로 및 폴더를 검색합니다. 파일을 열면 본문을 검색할 수 있습니다 <0>",
       ["0"],
       "</0>."
     ],
@@ -1347,7 +1347,7 @@
     "IoHQYP": ["Link validation is unavailable. Showing last known problems."],
     "Iq8zdU": ["Close terminal"],
     "IrB5AK": [
-      ["failedCount", "plural", { "other": ["서버 측 정리에 실패했습니다. ", "#", "개 항목"] }]
+      ["failedCount", "plural", { "other": ["서버 측에서 ", "#", "개 항목을 정리하지 못했습니다"] }]
     ],
     "IrC12v": ["애플리케이션"],
     "IreQBq": ["Repository"],
@@ -1459,7 +1459,7 @@
     "Khxcyu": ["Terminal access isn't enabled for this project."],
     "Kiytqd": ["Exception: skills are shared"],
     "KjTmeO": ["Update OpenKnowledge to open this share."],
-    "KkEAud": ["현재 문서 또는 폴더의 컨텍스트에서 파일을 만듭니다."],
+    "KkEAud": ["현재 문서 또는 폴더를 기준으로 파일을 만듭니다."],
     "KmydK6": ["굵게"],
     "KnoB--": ["Will be saved as <0>", ["sanitized"], "</0>."],
     "KpOJFY": ["Enable external link previews"],
@@ -1540,7 +1540,7 @@
     "LpB85N": ["Plain"],
     "Lrsl_h": ["Missing file ", ["identity"], ". Go to reference."],
     "LtI9AS": ["Owner"],
-    "LtSYdi": ["Finder에서 표시"],
+    "LtSYdi": ["Finder에서 보기"],
     "LtiJ5c": ["Project skill"],
     "LuoJWu": [
       [
@@ -2434,14 +2434,7 @@
     "YKLP_-": ["Template renamed"],
     "YLMBSd": ["e.g. The editor froze after I pasted a large table"],
     "YMlS7s": ["기본 앱에서 열기"],
-    "YPFBfr": [
-      ["detail"],
-      " - ",
-      ["kind"],
-      " “",
-      ["createdPath"],
-      "”이(가) 디스크에 여전히 있습니다"
-    ],
+    "YPFBfr": [["detail"], " - ", ["kind"], " “", ["createdPath"], "”가 디스크에 그대로 있습니다"],
     "YRavYS": [
       "A personal color-theme picker — not shared with your project. When on, it appears under Plugins in the sidebar."
     ],
@@ -3896,7 +3889,7 @@
     "qbWjTl": ["맞춤법 검사 비활성화"],
     "qbfj1f": ["Receiving objects"],
     "qdBUHP": ["Couldn't load ", ["fileName"]],
-    "qi1F96": ["파일 탐색기에서 표시"],
+    "qi1F96": ["파일 탐색기에서 보기"],
     "qiRoLb": ["Summarize everything I changed this week"],
     "qioCwA": ["Jump to page ", ["pageNumber"]],
     "qjHMHf": ["Failed to disable sync — ", ["detail"]],
@@ -3926,7 +3919,7 @@
     "rDOuNw": ["템플릿을 가져오지 못했습니다"],
     "rENNI6": ["Invalid share URL."],
     "rFL-yb": ["Edit a copy"],
-    "rFTdVq": ["탐색기에서 표시"],
+    "rFTdVq": ["탐색기에서 보기"],
     "rFmBG3": ["색상 테마"],
     "rFw02Q": ["Uploading ", ["keyName"]],
     "rJVoVX": ["소스 찾기 결과"],
