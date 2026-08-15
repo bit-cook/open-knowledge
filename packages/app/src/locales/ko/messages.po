@@ -15,7 +15,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid " · references only (no embedded contents)"
-msgstr ""
+msgstr " · 참조만(내용을 포함하지 않음)"
 
 #: src/components/settings/HotkeysSection.tsx
 msgid " or "
@@ -35,7 +35,7 @@ msgstr "제외"
 
 #: src/components/acp/ThreadView.tsx
 msgid "… earlier output trimmed"
-msgstr ""
+msgstr "… 이전 출력은 생략되었습니다"
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid ".myteam/skills"
@@ -177,7 +177,7 @@ msgstr "{0, plural, other {#개 문서}}"
 #. placeholder {0}: found.length
 #: src/lib/acp/tool-call-display.ts
 msgid "{0, plural, one {# document} other {# documents}}"
-msgstr ""
+msgstr "{0, plural, other {#개 문서}}"
 
 #. placeholder {0}: audit.result.errorCount
 #: src/components/ProblemsPanel.tsx
@@ -271,7 +271,7 @@ msgstr ""
 #. placeholder {0}: editorList.hiddenCount
 #: src/components/McpConsentDialogBody.tsx
 msgid "{0, plural, one {Show # more tool} other {Show # more tools}}"
-msgstr ""
+msgstr "{0, plural, other {도구 #개 더 보기}}"
 
 #. placeholder {0}: skillRows.length
 #: src/components/CreatedItemsList.tsx
@@ -281,12 +281,12 @@ msgstr ""
 #. placeholder {0}: sibling.name
 #: src/lib/acp/config-value-hints.ts
 msgid "{0} · default"
-msgstr ""
+msgstr "{0} · 기본값"
 
 #. placeholder {0}: info.agent.name
 #: src/components/acp/ThreadView.tsx
 msgid "{0} acts without asking — OpenKnowledge can't add permission prompts for it"
-msgstr ""
+msgstr "권한 확인 추가를 지원하지 않는 OpenKnowledge에서 {0} 확인 없이 작업합니다"
 
 #. placeholder {0}: result.additions
 #. placeholder {0}: stat.additions
@@ -295,22 +295,22 @@ msgstr ""
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "{0} added, {1} removed"
-msgstr ""
+msgstr "{0}개 추가, {1}개 제거"
 
 #. placeholder {0}: info.agent.name
 #: src/components/acp/ThreadView.tsx
 msgid "{0} can't continue this chat — the transcript is kept, but the agent session is gone."
-msgstr ""
+msgstr "{0} 이 채팅을 계속할 수 없습니다. 대화 기록은 남아 있지만 에이전트 세션이 종료되었습니다."
 
 #. placeholder {0}: info.agent.name
 #: src/components/acp/ThreadView.tsx
 msgid "{0} doesn't offer any settings to adjust"
-msgstr ""
+msgstr "{0}에서 조정할 설정을 제공하지 않습니다"
 
 #. placeholder {0}: info.agent.name
 #: src/components/acp/ThreadView.tsx
 msgid "{0} hasn't reported its settings yet"
-msgstr ""
+msgstr "{0}에서 아직 설정을 보고하지 않았습니다"
 
 #. placeholder {0}: activeData.label
 #: src/components/EditorWorkspace.tsx
@@ -320,24 +320,24 @@ msgstr ""
 #. placeholder {0}: resolvedTarget.displayName
 #: src/components/BottomComposer.tsx
 msgid "{0} isn't installed yet — opening its download page."
-msgstr ""
+msgstr "{0} 미설치 상태입니다. 다운로드 페이지를 엽니다."
 
 #. placeholder {0}: modeSurface.currentName
 #. placeholder {1}: info.agent.name
 #: src/components/acp/ThreadView.tsx
 msgid "{0} lets {1} act without asking"
-msgstr ""
+msgstr "{0}에서 {1} 확인 없이 작업할 수 있습니다"
 
 #. placeholder {0}: item.agentName
 #. placeholder {1}: item.displayName
 #: src/components/acp/ThreadView.tsx
 msgid "{0} needs {1}"
-msgstr ""
+msgstr "{0}에 {1} 필요"
 
 #. placeholder {0}: item.displayName
 #: src/components/acp/ThreadView.tsx
 msgid "{0} needs replacing"
-msgstr ""
+msgstr "{0} 교체 필요"
 
 #. placeholder {0}: selected.size
 #. placeholder {1}: projects.length
@@ -377,7 +377,7 @@ msgstr ""
 #. placeholder {1}: info.agent.version
 #: src/components/acp/ThreadView.tsx
 msgid "{0} version {1}"
-msgstr ""
+msgstr "{0} 버전 {1}"
 
 #. placeholder {0}: theme.label
 #: src/components/settings/SavedThemesTiles.tsx
@@ -450,15 +450,15 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "{agentName} couldn't start a conversation."
-msgstr ""
+msgstr "{agentName} 대화 시작 실패."
 
 #: src/components/acp/ThreadView.tsx
 msgid "{agentName} couldn't start."
-msgstr ""
+msgstr "{agentName} 시작 실패."
 
 #: src/components/acp/ThreadView.tsx
 msgid "{agentName} doesn't accept image attachments."
-msgstr ""
+msgstr "{agentName}: 이미지 첨부 미지원"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "{ahead} ahead"
@@ -576,7 +576,7 @@ msgstr ""
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 msgid "{days}d ago"
-msgstr ""
+msgstr "{days}일 전"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "{descriptorLabel} — render error, source editable below"
@@ -612,7 +612,7 @@ msgstr ""
 
 #: src/components/TerminalCliMissingBanner.tsx
 msgid "{displayName} ({bin}) isn't installed or on your PATH."
-msgstr ""
+msgstr "{displayName} ({bin}) 미설치 또는 PATH 미등록"
 
 #: src/components/BottomComposer.tsx
 #: src/components/empty-state/CreatePromptComposer.tsx
@@ -621,17 +621,17 @@ msgstr ""
 #: src/components/handoff/OpenInAgentMenu.tsx
 #: src/components/settings/ConfigureAgentsSection.tsx
 msgid "{displayName} CLI"
-msgstr ""
+msgstr "{displayName} CLI"
 
 #: src/components/handoff/OpenInAgentContextSubmenu.tsx
 #: src/components/handoff/OpenInAgentEmptySpaceSubmenu.tsx
 msgid "{displayName} CLI, {hint}"
-msgstr ""
+msgstr "{displayName} CLI, {hint}"
 
 #: src/components/handoff/agent-launcher-labels.tsx
 #: src/components/settings/ConfigureAgentsSection.tsx
 msgid "{displayName} Desktop"
-msgstr ""
+msgstr "{displayName} Desktop"
 
 #. placeholder {0}: formatFileSize(size)
 #. placeholder {1}: formatFileSize(limit)
@@ -680,7 +680,7 @@ msgstr ""
 #: src/components/ActivityPanelFileRow.tsx
 #: src/components/SyncStatusBadge.tsx
 msgid "{hours}h ago"
-msgstr ""
+msgstr "{hours}시간 전"
 
 #: src/components/TimelinePanel.tsx
 msgid "{hrs}h ago"
@@ -750,11 +750,11 @@ msgstr ""
 #: src/components/ActivityPanelBurstRow.tsx
 #: src/components/ActivityPanelFileRow.tsx
 msgid "{minutes}m ago"
-msgstr ""
+msgstr "{minutes}분 전"
 
 #: src/components/TerminalNewChatButton.tsx
 msgid "{name} CLI"
-msgstr ""
+msgstr "{name} CLI"
 
 #: src/components/GraphPanel.tsx
 msgid "{nodeCount, plural, one {# node} other {# nodes}}"
@@ -798,7 +798,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "{percent}% used ({left}% left)"
-msgstr ""
+msgstr "{percent}% 사용됨 ({left}% 남음)"
 
 #: src/lib/share/clone-controller.ts
 msgid "{phase} — {pct}%"
@@ -815,7 +815,7 @@ msgstr ""
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "{propertyCount, plural, one {# property} other {# properties}}"
-msgstr ""
+msgstr "{propertyCount, plural, other {속성 #개}}"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "{propPanelDescriptorLabel} Properties"
@@ -899,7 +899,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "{usedLabel} / {sizeLabel} tokens used"
-msgstr ""
+msgstr "{usedLabel} / {sizeLabel} 토큰 사용"
 
 #: src/presence/PresenceBar.tsx
 msgid "{userName} · {tabCount, plural, one {# tab} other {# tabs}}"
@@ -924,11 +924,11 @@ msgstr "// 참고"
 
 #: src/components/ConnectingBanner.tsx
 msgid "/api/config returned a malformed body"
-msgstr ""
+msgstr "/api/config 반환 본문 형식 오류"
 
 #: src/components/ConnectingBanner.tsx
 msgid "/api/config returned HTTP {code}"
-msgstr ""
+msgstr "/api/config HTTP {code} 반환"
 
 #: src/components/settings/OkignoreSection.tsx
 msgid "# One pattern per line.\n"
@@ -985,7 +985,7 @@ msgstr "<0>미러 소스가 삭제되었습니다.</0> 문서 <1>{src}</1>는 �
 #. Warning shown when the user unchecks the PATH toggle — only external terminals degrade
 #: src/components/McpConsentDialogBody.tsx
 msgid "<0>ok</0> won't run in external terminals until you add it later from the File menu. OpenKnowledge's built-in terminal and AI tools keep working."
-msgstr ""
+msgstr "<0>ok</0> 외부 터미널 실행 불가. File 메뉴에서 나중에 추가하면 실행할 수 있습니다. OpenKnowledge 내장 터미널과 AI 도구도 계속 작동합니다."
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid "~/.myteam/skills"
@@ -994,7 +994,7 @@ msgstr "~/.myteam/skills"
 #. placeholder {0}: row.count
 #: src/components/acp/ThreadView.tsx
 msgid "⋯ {0} unchanged lines"
-msgstr ""
+msgstr "⋯ 변경되지 않은 줄 {0}개"
 
 #: src/components/PageHeaderWidgets.tsx
 msgid "📝 or assets/icon.png"
@@ -1370,7 +1370,7 @@ msgstr ""
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 msgid "Add the <0>ok</0> command to your terminal"
-msgstr ""
+msgstr "터미널에 <0>ok</0> 명령 추가"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Add the next matching source selection."
@@ -1402,7 +1402,7 @@ msgstr ""
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 msgid "Adds a guided workflow for authoring new Agent Skills."
-msgstr ""
+msgstr "새 에이전트 스킬 작성용 안내 워크플로 추가"
 
 #: src/components/settings/AiToolsSection.tsx
 msgid "Adds a managed block to"
@@ -1413,7 +1413,7 @@ msgstr "관리 블록을 다음 대상에 추가합니다"
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 msgid "Adds a managed block to {0}"
-msgstr ""
+msgstr "{0}에 관리 블록 추가"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Adds telemetry, server state, and runtime info when available. Credentials are always removed; document names, if included, appear in cleartext (not redacted)."
@@ -1421,7 +1421,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Adds the OpenKnowledge skill to the <0>Claude Desktop App</0> so it's available in Chat and Cowork sessions."
-msgstr ""
+msgstr "Chat과 Cowork 세션에서 사용할 수 있도록 <0>Claude Desktop App</0>에 OpenKnowledge 스킬 추가"
 
 #. placeholder {0}: subs.map(hostLabel).join(', ')
 #: src/components/SkillInstallMenu.tsx
@@ -1444,7 +1444,7 @@ msgstr ""
 #: src/components/SessionsHost.tsx
 #: src/presence/PresenceBar.tsx
 msgid "Agent"
-msgstr ""
+msgstr "에이전트"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Agent activity"
@@ -1452,7 +1452,7 @@ msgstr ""
 
 #: src/components/TerminalTabStrip.tsx
 msgid "Agent chats"
-msgstr ""
+msgstr "에이전트 채팅"
 
 #: src/components/FileTree.tsx
 msgid "Agent configuration file"
@@ -1460,7 +1460,7 @@ msgstr "에이전트 설정 파일"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Agent mode"
-msgstr ""
+msgstr "에이전트 모드"
 
 #: src/components/EditorArea.tsx
 msgid "Agent panel closed to keep Terminal readable."
@@ -1468,18 +1468,18 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Agent settings"
-msgstr ""
+msgstr "에이전트 설정"
 
 #. Group label above the skill rows in Settings → AI tools & CLI
 #. Section label above the skill checkboxes in the first-launch dialog
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 msgid "Agent Skills"
-msgstr ""
+msgstr "에이전트 스킬"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Agent transcript"
-msgstr ""
+msgstr "에이전트 대화 기록"
 
 #: src/components/ExploreSkills.tsx
 msgid "Agents"
@@ -1577,11 +1577,11 @@ msgstr ""
 
 #: src/components/McpConsentDialogBody.tsx
 msgid "Already set up — ok is available in your terminal"
-msgstr ""
+msgstr "이미 설정됨. 터미널에서 ok 사용 가능"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Already signed in?"
-msgstr ""
+msgstr "이미 로그인했나요?"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Always included"
@@ -1675,11 +1675,11 @@ msgstr "변경사항 적용 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Approved"
-msgstr ""
+msgstr "승인됨"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Approved — {optionName}"
-msgstr ""
+msgstr "승인됨: {optionName}"
 
 #: src/components/FileTree.tsx
 msgid "Are you sure you want to convert this file into a template? The original file will be deleted. This action cannot be undone."
@@ -1715,13 +1715,13 @@ msgstr ""
 
 #: src/components/BottomComposer.tsx
 msgid "Ask"
-msgstr ""
+msgstr "질문"
 
 #. placeholder {0}: TERMINAL_CLIS[selectedCli].displayName
 #: src/components/BottomComposer.tsx
 #: src/components/empty-state/CreatePromptComposer.tsx
 msgid "Ask {0} CLI"
-msgstr ""
+msgstr "{0} CLI 질문"
 
 #: src/components/acp/ThreadView.tsx
 #: src/components/handoff/agent-launcher-labels.tsx
@@ -1729,12 +1729,12 @@ msgstr ""
 #: src/components/handoff/OpenInAgentEmptySpaceSubmenu.tsx
 #: src/components/handoff/OpenInAgentMenu.tsx
 msgid "Ask {agentName}"
-msgstr ""
+msgstr "{agentName}에게 질문"
 
 #: src/components/handoff/OpenInAgentContextSubmenu.tsx
 #: src/components/handoff/OpenInAgentEmptySpaceSubmenu.tsx
 msgid "Ask {agentName}, {hint}"
-msgstr ""
+msgstr "{agentName}에게 질문, {hint}"
 
 #: src/components/BottomComposer.tsx
 #: src/components/EditorFooter.tsx
@@ -1758,7 +1758,7 @@ msgstr ""
 
 #: src/components/BottomComposer.tsx
 msgid "Ask an agent"
-msgstr ""
+msgstr "에이전트에게 질문"
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 #: src/editor/link-path-suggestions.tsx
@@ -1779,7 +1779,7 @@ msgstr "에셋: {title}"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Attach a file"
-msgstr ""
+msgstr "파일 첨부"
 
 #: src/components/FeedbackForm.tsx
 msgid "Attach images"
@@ -1811,11 +1811,11 @@ msgstr "자동 승인 설정을 아직 불러오지 못했습니다. 잠시 후 
 
 #: src/components/acp/ThreadView.tsx
 msgid "Auto-approved"
-msgstr ""
+msgstr "자동 승인됨"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Auto-denied"
-msgstr ""
+msgstr "자동 거부됨"
 
 #: src/components/ProblemsPanel.tsx
 msgid "Auto-fix — no problems here have an automatic fix"
@@ -1881,7 +1881,7 @@ msgstr ""
 #. Section label for the automatic, one-click install path
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Automatic"
-msgstr ""
+msgstr "자동"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Available"
@@ -1945,7 +1945,7 @@ msgstr "아래"
 #: src/components/acp/AgentBetaBadge.tsx
 #: src/components/settings/PluginBetaBadge.tsx
 msgid "Beta"
-msgstr ""
+msgstr "베타"
 
 #: src/components/BetaBadge.tsx
 msgid "BETA"
@@ -2112,7 +2112,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Building <0>openknowledge.skill</0> and opening the Claude Desktop App"
-msgstr ""
+msgstr "<0>openknowledge.skill</0> 빌드 중, Claude Desktop App 여는 중"
 
 #: src/components/SkillsTree.tsx
 msgid "Built-in (read-only)"
@@ -2209,7 +2209,7 @@ msgstr "취소"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Cancel editing"
-msgstr ""
+msgstr "편집 취소"
 
 #: src/components/DocumentErrorBoundary.tsx
 msgid "Cancelled"
@@ -2300,7 +2300,7 @@ msgstr ""
 
 #: src/components/BottomComposer.tsx
 msgid "Checking for agents"
-msgstr ""
+msgstr "에이전트 확인 중"
 
 #: src/components/settings/SlidesPluginSection.tsx
 msgid "Checking for Slidev"
@@ -2366,7 +2366,7 @@ msgstr ""
 #: src/components/BottomComposer.tsx
 #: src/components/empty-state/CreatePromptComposer.tsx
 msgid "Choose agent"
-msgstr ""
+msgstr "에이전트 선택"
 
 #: src/editor/components/ColorPickerInput.tsx
 msgid "Choose color"
@@ -2386,7 +2386,7 @@ msgstr "아이콘 선택"
 
 #: src/components/TerminalNewChatButton.tsx
 msgid "Choose what a new tab starts"
-msgstr ""
+msgstr "새 탭 시작 화면 선택"
 
 #: src/comments/CommentSendFooter.tsx
 msgid "Choose where to send these comments"
@@ -2402,19 +2402,19 @@ msgstr "앱의 에이전트 메뉴에 포함할 에이전트를 선택합니다.
 
 #: src/components/handoff/AgentSplitButton.tsx
 msgid "Claude"
-msgstr ""
+msgstr "Claude"
 
 #: src/components/handoff/AgentSplitButton.tsx
 msgid "Claude CLI"
-msgstr ""
+msgstr "Claude CLI"
 
 #: src/components/ClaudeReadinessBanner.tsx
 msgid "Claude Code (claude) isn't installed or on your PATH."
-msgstr ""
+msgstr "Claude Code (claude) 미설치 또는 PATH 미등록"
 
 #: src/components/ClaudeReadinessBanner.tsx
 msgid "Claude Code is installed, but OpenKnowledge tools aren't connected to it yet."
-msgstr ""
+msgstr "Claude Code 설치됨. OpenKnowledge 도구 연결 대기 중."
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Claude Desktop"
@@ -2456,7 +2456,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Click <0>+</0> <1/> <2>Create skill</2> <3/> <4>Upload skill</4>."
-msgstr ""
+msgstr "<0>+</0> <1/> <2>스킬 만들기</2> <3/> <4>스킬 업로드</4> 클릭하세요."
 
 #: src/components/ActivityModeContent.tsx
 msgid "Click an agent's avatar in the presence bar to view their session."
@@ -2561,7 +2561,7 @@ msgstr "닫기"
 #. placeholder {0}: session.label
 #: src/components/TerminalTabStrip.tsx
 msgid "Close {0}"
-msgstr ""
+msgstr "{0} 닫기"
 
 #: src/components/EditorTabs.tsx
 msgid "Close {accessibleLabel}"
@@ -2582,7 +2582,7 @@ msgstr "댓글 닫기"
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Close diff"
-msgstr ""
+msgstr "Diff 닫기"
 
 #: src/components/ProseFindBar.tsx
 #: src/editor/find-replace/FindReplaceBar.tsx
@@ -2603,11 +2603,11 @@ msgstr "탭 닫기"
 
 #: src/components/TerminalRefusalNotice.tsx
 msgid "Close terminal"
-msgstr ""
+msgstr "터미널 닫기"
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 msgid "Close this chat's tab to delete it"
-msgstr ""
+msgstr "삭제할 채팅 탭 닫기"
 
 #: src/components/NoteWindowDeletedState.tsx
 msgid "Close window"
@@ -2645,7 +2645,7 @@ msgstr "코드 블록 설정"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Code copied"
-msgstr ""
+msgstr "코드 복사됨"
 
 #: src/components/AuthModal.tsx
 msgid "Code copied to clipboard"
@@ -2679,7 +2679,7 @@ msgstr ""
 
 #: src/components/TerminalTabStrip.tsx
 msgid "Collapse agent panel"
-msgstr ""
+msgstr "에이전트 패널 접기"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -2698,7 +2698,7 @@ msgstr "모든 파일 접기"
 
 #: src/components/BottomComposer.tsx
 msgid "Collapse Ask AI"
-msgstr ""
+msgstr "Ask AI 접기"
 
 #: src/components/GraphPanel.tsx
 msgid "Collapse graph"
@@ -2706,7 +2706,7 @@ msgstr ""
 
 #: src/components/TerminalTabStrip.tsx
 msgid "Collapse Terminal"
-msgstr ""
+msgstr "터미널 접기"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Collapsible content block (Notion-style toggle)."
@@ -2809,7 +2809,7 @@ msgstr "구성 요소 경계 탐색"
 
 #: src/components/BottomComposer.tsx
 msgid "Condense my AGENTS.md file to less than 40k characters"
-msgstr ""
+msgstr "내 AGENTS.md 파일을 40k자 미만으로 압축"
 
 #: src/components/settings/SettingsDialogShell.tsx
 #: src/components/settings/SharingSection.tsx
@@ -2942,11 +2942,11 @@ msgstr ""
 
 #: src/components/ClaudeReadinessBanner.tsx
 msgid "Connect tools"
-msgstr ""
+msgstr "도구 연결"
 
 #: src/components/McpConsentDialogBody.tsx
 msgid "Connect your AI tools to OpenKnowledge"
-msgstr ""
+msgstr "사용할 AI 도구를 OpenKnowledge에 연결"
 
 #. placeholder {0}: response.dimensions
 #: src/components/settings/SearchSection.tsx
@@ -2977,11 +2977,11 @@ msgstr ""
 
 #: src/components/ConnectingBanner.tsx
 msgid "Connecting — waiting for collab server"
-msgstr ""
+msgstr "협업 서버 연결 대기 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Connecting to {agentName}…"
-msgstr ""
+msgstr "{agentName} 연결 중…"
 
 #: src/components/DocumentErrorBoundary.tsx
 msgid "Connection dropped"
@@ -3003,7 +3003,7 @@ msgstr "다음에 신뢰할 수 있는 Codex 세션에서 이 프로젝트를 �
 
 #: src/components/acp/working-status.ts
 msgid "Contemplating…"
-msgstr ""
+msgstr "숙고 중…"
 
 #: src/components/ConsentDialogBody.tsx
 msgid "Content directory"
@@ -3029,11 +3029,11 @@ msgstr "콘텐츠 규칙을 아직 불러오지 못했습니다. 잠시 후 다�
 
 #: src/components/acp/ThreadView.tsx
 msgid "Context window:"
-msgstr ""
+msgstr "컨텍스트 창:"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Context window: {percent}% used, {usedLabel} of {sizeLabel} tokens"
-msgstr ""
+msgstr "컨텍스트 창: {percent}% 사용됨, {usedLabel} / {sizeLabel} 토큰 사용"
 
 #: src/components/AuthModal.tsx
 msgid "Continue in browser"
@@ -3150,7 +3150,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Copy command"
-msgstr ""
+msgstr "명령 복사"
 
 #: src/components/command-palette-commands.ts
 #: src/components/FileSidebar.tsx
@@ -3196,7 +3196,7 @@ msgstr "소스 복사"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Copy the code {code}"
-msgstr ""
+msgstr "코드 {code} 복사"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Copy the focused file-tree item so Paste can duplicate it."
@@ -3367,11 +3367,11 @@ msgstr "키를 지우지 못했습니다. 다시 시도합니다."
 
 #: src/components/ClaudeReadinessBanner.tsx
 msgid "Couldn't connect OpenKnowledge tools to Claude Code. Please try again."
-msgstr ""
+msgstr "OpenKnowledge 도구와 Claude Code 연결 실패. 다시 시도하세요."
 
 #: src/lib/acp/launch-agent-thread.ts
 msgid "Couldn't connect to the agent service. Make sure the OpenKnowledge server is running and up to date (restart it if it was already running), then try again."
-msgstr ""
+msgstr "에이전트 서비스 연결 실패. OpenKnowledge 서버 실행 및 최신 상태 확인 후 다시 시도하세요. 이미 실행 중이면 재시작하세요."
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Couldn't construct the share URL. Try Done and re-share."
@@ -3383,7 +3383,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Couldn't copy: {detail}"
-msgstr ""
+msgstr "복사 실패: {detail}"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Couldn't copy. Select the URL above to copy it manually."
@@ -3458,7 +3458,7 @@ msgstr "해당 구절을 찾지 못했습니다. 원문 변경 가능성이 있�
 #. placeholder {0}: item.displayName
 #: src/components/acp/ThreadView.tsx
 msgid "Couldn't finish installing {0} — see below."
-msgstr ""
+msgstr "{0} 설치 완료 실패. 아래 내용 확인."
 
 #. placeholder {0}: projected.error
 #: src/components/SkillPluginBundleDialog.tsx
@@ -3473,7 +3473,7 @@ msgstr ""
 
 #: src/components/handoff/useHandoffDispatch.ts
 msgid "Couldn't install OpenKnowledge skill — {message}"
-msgstr ""
+msgstr "OpenKnowledge 스킬 설치 실패: {message}"
 
 #. placeholder {0}: result.error
 #: src/components/skill-actions.tsx
@@ -3564,7 +3564,7 @@ msgstr ""
 
 #: src/components/BottomComposer.tsx
 msgid "Couldn't open the terminal — please try again."
-msgstr ""
+msgstr "터미널 열기 실패. 다시 시도하세요."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Couldn't open the worktree. Try again."
@@ -3588,15 +3588,15 @@ msgstr "댓글 다시 배치에 실패했습니다."
 
 #: src/components/handoff/useHandoffDispatch.ts
 msgid "Couldn't reach {displayName} — please try again later."
-msgstr ""
+msgstr "{displayName} 연결 실패. 잠시 후 다시 시도하세요."
 
 #: src/components/handoff/useHandoffDispatch.ts
 msgid "Couldn't reach {displayName} — try again?"
-msgstr ""
+msgstr "{displayName} 연결 실패. 다시 시도할까요?"
 
 #: src/components/ConnectingBanner.tsx
 msgid "Couldn't reach collab server — {errorDetail}. Try <0>ok status</0> or check <1>.ok/local/last-spawn-error.log</1>."
-msgstr ""
+msgstr "협업 서버 연결 실패: {errorDetail}. <0>ok status</0> 실행 또는 <1>.ok/local/last-spawn-error.log</1> 확인."
 
 #: src/components/PublishToGitHubDialog.tsx
 #: src/lib/share/publish-wizard.ts
@@ -3629,7 +3629,7 @@ msgstr "{fileName} 파일을 업로드하려고 Open Knowledge 서버에 연결�
 
 #: src/components/acp/ThreadView.tsx
 msgid "Couldn't read {fileName}."
-msgstr ""
+msgstr "{fileName} 읽기 실패."
 
 #: src/editor/image-upload/upload-failure.ts
 msgid "Couldn't read {fileName}. It may have been moved, deleted, or not finished downloading. Try adding it again."
@@ -3714,7 +3714,7 @@ msgstr "{0} 복원에 실패했습니다. 다시 시도합니다."
 #. placeholder {0}: resumeError.message
 #: src/components/acp/ThreadView.tsx
 msgid "Couldn't resume this chat: {0}"
-msgstr ""
+msgstr "채팅 재개 실패: {0}"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Couldn't run the test. Check that OpenKnowledge is still running."
@@ -3751,7 +3751,7 @@ msgstr ""
 
 #: src/components/BottomComposer.tsx
 msgid "Couldn't send your comments — please try again."
-msgstr ""
+msgstr "댓글 전송 실패. 다시 시도하세요."
 
 #: src/comments/use-comment-delivery.ts
 msgid "Couldn't send your comments — the workspace isn't ready."
@@ -3759,7 +3759,7 @@ msgstr "댓글 전송에 실패했습니다. 워크스페이스 준비 전입니
 
 #: src/components/BottomComposer.tsx
 msgid "Couldn't send your prompt — please try again."
-msgstr ""
+msgstr "프롬프트 전송 실패. 다시 시도하세요."
 
 #: src/components/SkillsSidebarSection.tsx
 msgid "Couldn't share skills"
@@ -3777,7 +3777,7 @@ msgstr ""
 #. placeholder {1}: errorText(err)
 #: src/components/acp/ThreadView.tsx
 msgid "Couldn't start {0}: {1}"
-msgstr ""
+msgstr "{0} 시작 실패: {1}"
 
 #: src/components/SlidesToolbarControls.tsx
 msgid "Couldn't start Slidev."
@@ -3785,7 +3785,7 @@ msgstr ""
 
 #: src/lib/acp/launch-agent-thread.ts
 msgid "Couldn't start the agent thread — please try again."
-msgstr ""
+msgstr "에이전트 스레드 시작 실패. 다시 시도하세요."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Couldn't start the sync. Check your connection, then retry."
@@ -3877,7 +3877,7 @@ msgstr ""
 
 #: src/components/BottomComposer.tsx
 msgid "Create a new spec file for my user story"
-msgstr ""
+msgstr "사용자 스토리용 새 사양 파일 만들기"
 
 #: src/components/NewSkillDialog.tsx
 msgid "Create a personal skill, available across every project."
@@ -4086,14 +4086,14 @@ msgstr "기본값: <0>{0}</0>"
 #: src/components/TemplateRow.tsx
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 #. placeholder {0}: theme.label
 #. placeholder {0}: thread.title
 #: src/components/acp/ThreadHistoryMenu.tsx
 #: src/components/settings/ColorThemePicker.tsx
 msgid "Delete {0}"
-msgstr ""
+msgstr "{0} 삭제"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Delete {deleteDescriptorLabel}"
@@ -4165,7 +4165,7 @@ msgstr "표 삭제"
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 msgid "Delete this chat?"
-msgstr ""
+msgstr "채팅 삭제?"
 
 #: src/comments/ThreadCard.tsx
 msgid "Delete this comment"
@@ -4195,15 +4195,15 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Denied"
-msgstr ""
+msgstr "거부됨"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Denied — {optionName}"
-msgstr ""
+msgstr "거부됨: {optionName}"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Deny"
-msgstr ""
+msgstr "거부"
 
 #: src/components/empty-state/CreatePromptComposer.tsx
 msgid "Describe the project you want to create"
@@ -4312,12 +4312,12 @@ msgstr ""
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Diff render mode"
-msgstr ""
+msgstr "Diff 렌더링 모드"
 
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Diff unavailable"
-msgstr ""
+msgstr "Diff 사용 불가"
 
 #: src/components/SkillInstallMenu.tsx
 msgid "Different version here — click to compare and resolve"
@@ -4325,7 +4325,7 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Digging…"
-msgstr ""
+msgstr "탐색 중…"
 
 #. placeholder {0}: plugin.label
 #. placeholder {0}: rule.name
@@ -4384,7 +4384,7 @@ msgstr "연결 해제 중"
 #: src/components/settings/SharingSection.tsx
 #: src/components/TerminalCliMissingBanner.tsx
 msgid "Dismiss"
-msgstr ""
+msgstr "닫기"
 
 #: src/components/UpdateNotices.tsx
 #: src/editor/components/PreviewBlockedNotice.tsx
@@ -4471,7 +4471,7 @@ msgstr "<0>#{tagName}</0> 태그가 지정된 문서"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Don't see <0>Skills</0>? Enable <1>Settings <2/> Capabilities <3/> Code execution and file creation</1> first."
-msgstr ""
+msgstr "<0>Skills</0> 미표시? 먼저 <1>설정 <2/> 기능 <3/> 코드 실행 및 파일 생성</1> 활성화."
 
 #: src/comments/ThreadCard.tsx
 msgid "Don't send this comment"
@@ -4483,7 +4483,7 @@ msgstr "표시하지 않음"
 
 #: src/components/acp/ThreadView.tsx
 msgid "done"
-msgstr ""
+msgstr "완료"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 #: src/components/PublishToGitHubDialog.tsx
@@ -4494,7 +4494,7 @@ msgstr ""
 #: src/editor/extensions/MathInlineView.tsx
 #: src/editor/slash-command/items.tsx
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #: src/uninstall/UninstallNoticeScreen.tsx
 msgid "Done."
@@ -4507,7 +4507,7 @@ msgstr ""
 #. placeholder {0}: item.displayName
 #: src/components/acp/ThreadView.tsx
 msgid "Download {0}"
-msgstr ""
+msgstr "{0} 다운로드"
 
 #: src/editor/bubble-menu/FileBubbleButtons.tsx
 msgid "Download file"
@@ -4515,13 +4515,13 @@ msgstr "파일 다운로드"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Download started"
-msgstr ""
+msgstr "다운로드 시작됨"
 
 #. placeholder {0}: item.displayName
 #. placeholder {1}: item.version
 #: src/components/acp/ThreadView.tsx
 msgid "Downloading {0} {1}…"
-msgstr ""
+msgstr "{0} {1} 다운로드 중…"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Downloads a fresh copy from GitHub."
@@ -4537,7 +4537,7 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Drafting…"
-msgstr ""
+msgstr "초안 작성 중…"
 
 #: src/components/FrontmatterRow.tsx
 msgid "Drag {keyName} to reorder"
@@ -4554,7 +4554,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Drop a file to attach"
-msgstr ""
+msgstr "첨부할 파일 드롭"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -4660,7 +4660,7 @@ msgstr "Markdown 링크 편집"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Edit queued message"
-msgstr ""
+msgstr "대기 중인 메시지 편집"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Edit schema {file}"
@@ -4894,7 +4894,7 @@ msgstr "맞춤법 검사 활성화"
 
 #: src/components/TerminalGate.tsx
 msgid "Enable terminal"
-msgstr ""
+msgstr "터미널 활성화"
 
 #: src/components/settings/TerminalSection.tsx
 msgid "Enable terminal for this project"
@@ -4965,7 +4965,7 @@ msgstr "유효한 URL 입력, 예: https://api.openai.com/v1"
 #: src/components/settings/AiToolsSection.tsx
 #: src/components/settings/ProjectAiToolsSection.tsx
 msgid "Entry"
-msgstr ""
+msgstr "항목"
 
 #: src/components/settings/ContentRulesSection.tsx
 msgid "Error"
@@ -5019,7 +5019,7 @@ msgstr "종료"
 #. placeholder {0}: exit.exitCode ?? 0
 #: src/components/acp/ThreadView.tsx
 msgid "exit {0}"
-msgstr ""
+msgstr "exit {0}"
 
 #: src/components/DiffView.tsx
 msgid "Exit merge"
@@ -5097,7 +5097,7 @@ msgstr "외부 위키 링크"
 
 #: src/components/acp/ThreadView.tsx
 msgid "failed"
-msgstr ""
+msgstr "실패"
 
 #: src/components/BugReportHistory.tsx
 msgid "Failed"
@@ -5490,11 +5490,11 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "File saved & Claude Desktop App opened"
-msgstr ""
+msgstr "파일 저장됨, Claude Desktop App 열림"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "File saves to <0>~/Downloads/openknowledge.skill</0>."
-msgstr ""
+msgstr "파일 저장 위치: <0>~/Downloads/openknowledge.skill</0>."
 
 #: src/components/ui/sidebar.tsx
 msgid "File sidebar"
@@ -5695,7 +5695,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Follow the agent's edits"
-msgstr ""
+msgstr "에이전트 변경 내용 따라가기"
 
 #: src/components/SubscribeCard.tsx
 msgid "Follow us on"
@@ -5711,7 +5711,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Following the agent's edits"
-msgstr ""
+msgstr "에이전트 변경 내용 따라가는 중"
 
 #: src/editor/slash-command/items.tsx
 msgid "Footnote"
@@ -5724,7 +5724,7 @@ msgstr "강제 새로 고침"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Force stop"
-msgstr ""
+msgstr "강제 중지"
 
 #: src/components/FeedbackForm.tsx
 msgid "Formatting looked wrong"
@@ -5786,7 +5786,7 @@ msgstr "전체"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Full guide"
-msgstr ""
+msgstr "전체 안내서"
 
 #: src/components/AppMenubar.tsx
 #: src/components/FileTargetMenuItems.tsx
@@ -5819,11 +5819,11 @@ msgstr "생성된 파일"
 
 #: src/components/TerminalCliMissingBanner.tsx
 msgid "Get {displayName}"
-msgstr ""
+msgstr "{displayName} 가져오기"
 
 #: src/components/ClaudeReadinessBanner.tsx
 msgid "Get Claude Code"
-msgstr ""
+msgstr "Claude Code 받기"
 
 #: src/components/SubscribeForm.tsx
 msgid "Get product updates in your inbox."
@@ -5896,7 +5896,7 @@ msgstr "사용하는 AI 도구에 프로젝트를 읽고 업데이트할 권한�
 
 #: src/components/McpConsentDialogBody.tsx
 msgid "Give the AI tools you use access to read and update your projects. Pick what to set up below, and change it anytime in Settings > AI tools & CLI."
-msgstr ""
+msgstr "사용할 AI 도구에 프로젝트 읽기 및 업데이트 권한 부여. 아래에서 설정하고 설정 > AI 도구 및 CLI에서 언제든 변경할 수 있습니다."
 
 #: src/components/settings/LintingSection.tsx
 msgid "Glob patterns this schema applies to"
@@ -5970,7 +5970,7 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Having a look around…"
-msgstr ""
+msgstr "둘러보는 중…"
 
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
@@ -6019,7 +6019,7 @@ msgstr "주의: 여기서 규칙이나 옵션을 편집하면 변경사항을 �
 
 #: src/components/acp/ThreadView.tsx
 msgid "Held"
-msgstr ""
+msgstr "보류됨"
 
 #: src/editor/slash-command/embed-starter-items.tsx
 msgid "Hello, world!"
@@ -6039,7 +6039,7 @@ msgstr "코딩 에이전트가 OKF 문서 유형을 선택하고 출처를 보�
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 msgid "Helps your coding agent recognize OpenKnowledge projects and route reads and writes through it."
-msgstr ""
+msgstr "코딩 에이전트의 OpenKnowledge 프로젝트 인식과 읽기 및 쓰기 전달 지원."
 
 #: src/components/OkBlobRunner.tsx
 msgid "HI"
@@ -6087,7 +6087,7 @@ msgstr "에이전트 가리기"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Hide details"
-msgstr ""
+msgstr "세부 정보 숨기기"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -6128,7 +6128,7 @@ msgstr "다른 앱 가리기"
 #: src/components/EditorToolbar.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Hide panel"
-msgstr ""
+msgstr "패널 숨기기"
 
 #: src/components/EditorToolbar.tsx
 msgid "Hide panel ({panelShortcutLabel})"
@@ -6153,7 +6153,7 @@ msgstr "해결된 댓글 숨기기 ({0})"
 
 #: src/components/BottomComposer.tsx
 msgid "Hide selection preview"
-msgstr ""
+msgstr "선택 영역 미리보기 숨기기"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -6235,13 +6235,13 @@ msgstr ""
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 msgid "How to set up"
-msgstr ""
+msgstr "설정 방법"
 
 #. placeholder {0}: editor.label
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 msgid "How to set up {0} (opens in browser)"
-msgstr ""
+msgstr "{0} 설정 방법(브라우저에서 열림)"
 
 #: src/components/settings/ContentRulesSection.tsx
 msgid "How validation findings surface across the project. These choices are committed to config.yml and shared with every collaborator via git."
@@ -6320,7 +6320,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Image preview"
-msgstr ""
+msgstr "이미지 미리보기"
 
 #: src/editor/localized-validation-message.ts
 msgid "Image target \"{shown}\" could not be resolved to a project-local file."
@@ -6332,7 +6332,7 @@ msgstr "이미지 대상 \"{shown}\"이 존재하는 파일로 확인되지 않�
 
 #: src/components/acp/ThreadView.tsx
 msgid "Images from anywhere · non-image files must be in the workspace"
-msgstr ""
+msgstr "어디서든 가져온 이미지 · 이미지 외 파일, 워크스페이스 필요"
 
 #: src/components/ImportSkillForm.tsx
 msgid "Import"
@@ -6406,7 +6406,7 @@ msgstr "Git 프로젝트에서 Open Knowledge는 다음 재빌드 전에 동시�
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "In the Claude Desktop App"
-msgstr ""
+msgstr "Claude Desktop App에서"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Indent or outdent list item"
@@ -6531,7 +6531,7 @@ msgstr "인라인 수식 속성"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Input"
-msgstr ""
+msgstr "입력"
 
 #: src/editor/slash-command/items.tsx
 msgid "Insert a footnote reference + matching definition stub."
@@ -6571,7 +6571,7 @@ msgstr "CodeMirror 기본 키맵을 통해 소스 편집기 줄을 삽입, 삭�
 #: src/components/SkillPreviewTab.tsx
 #: src/components/SkillsTree.tsx
 msgid "Install"
-msgstr ""
+msgstr "설치"
 
 #. placeholder {0}: skill.name
 #: src/components/SkillsTree.tsx
@@ -6580,7 +6580,7 @@ msgstr ""
 
 #: src/components/handoff/OpenInAgentMenuItem.tsx
 msgid "Install {brand} →"
-msgstr ""
+msgstr "{brand} 설치 →"
 
 #. placeholder {0}: res.error
 #: src/hooks/use-explore-preview-install.ts
@@ -6590,7 +6590,7 @@ msgstr ""
 #. Dialog title — installing the OpenKnowledge skill into the Claude Desktop App
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Install for Claude Chat & Cowork"
-msgstr ""
+msgstr "Claude Chat 및 Cowork용 설치"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Install for Claude Chat & Cowork (desktop app)"
@@ -6610,7 +6610,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Install handoff failed: {msg}"
-msgstr ""
+msgstr "handoff 설치 실패: {msg}"
 
 #: src/components/settings/IntegrationsSection.tsx
 msgid "Install in Claude Desktop"
@@ -6669,7 +6669,7 @@ msgstr ""
 #. placeholder {1}: item.version
 #: src/components/acp/ThreadView.tsx
 msgid "Installed {0} {1}"
-msgstr ""
+msgstr "설치됨: {0} {1}"
 
 #: src/components/SkillPluginBundleDialog.tsx
 msgid "Installed {imported} skills ({alreadyImported} were already present)"
@@ -6706,11 +6706,11 @@ msgstr ""
 #: src/components/SkillPluginBundleDialog.tsx
 #: src/components/SkillPreviewTab.tsx
 msgid "Installing"
-msgstr ""
+msgstr "설치 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Installing {agentName}…"
-msgstr ""
+msgstr "{agentName} 설치 중…"
 
 #: src/components/SkillDirectoryResult.tsx
 msgid "installs:"
@@ -6718,7 +6718,7 @@ msgstr ""
 
 #: src/components/handoff/OpenInAgentMenu.tsx
 msgid "Instruction for the AI"
-msgstr ""
+msgstr "AI용 지침"
 
 #: src/components/settings/IntegrationsSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
@@ -6739,11 +6739,11 @@ msgstr ""
 
 #: src/lib/handoff/skill-installer.ts
 msgid "Invalid server response"
-msgstr ""
+msgstr "잘못된 서버 응답"
 
 #: src/lib/handoff/skill-installer.ts
 msgid "Invalid server response shape"
-msgstr ""
+msgstr "잘못된 서버 응답 형식"
 
 #: src/lib/share/receive-flow.ts
 msgid "Invalid share URL."
@@ -6813,7 +6813,7 @@ msgstr "커서가 있는 블록의 Markdown 소스로 이동해 가운데에 표
 #: src/components/TimelinePanel.tsx
 #: src/editor/link-preview/InternalDocPreviewCard.tsx
 msgid "just now"
-msgstr ""
+msgstr "방금"
 
 #: src/lib/pack-copy.ts
 msgid "Keep a written record of how your product gets built. A home for proposing ideas, recording decisions, writing specs, and capturing what you learned after something broke."
@@ -7079,12 +7079,12 @@ msgstr ""
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Loading diff"
-msgstr ""
+msgstr "Diff 불러오는 중"
 
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Loading diff renderer"
-msgstr ""
+msgstr "Diff 렌더러 불러오는 중"
 
 #: src/components/CommandPalette.tsx
 msgid "Loading docs"
@@ -7172,7 +7172,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Loading the chat"
-msgstr ""
+msgstr "채팅 불러오는 중"
 
 #: src/components/TimelinePanel.tsx
 msgid "Loading timeline history"
@@ -7334,7 +7334,7 @@ msgstr ""
 
 #: src/components/TerminalNewChatButton.tsx
 msgid "Maximum agents already running"
-msgstr ""
+msgstr "에이전트 최대 실행 수 도달"
 
 #: src/lib/install-onboarding-toast.ts
 msgid "MCP auto-repair failed"
@@ -7347,7 +7347,7 @@ msgstr ""
 #: src/components/settings/AiToolsSection.tsx
 #: src/components/settings/ProjectAiToolsSection.tsx
 msgid "MCP connections"
-msgstr ""
+msgstr "MCP 연결"
 
 #: src/components/SkillPluginBundleBanner.tsx
 msgid "MCP servers"
@@ -7371,12 +7371,12 @@ msgstr "Mermaid 다이어그램을 렌더링하지 못했습니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Message {agentName}"
-msgstr ""
+msgstr "{agentName} 메시지"
 
 #. placeholder {0}: frame.message
 #: src/lib/acp/thread-client.ts
 msgid "Message not sent: {0}"
-msgstr ""
+msgstr "메시지 전송 실패: {0}"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
@@ -7450,7 +7450,7 @@ msgstr "모델: <0>{0}</0>"
 
 #: src/lib/acp/config-value-hints.ts
 msgid "Model's default effort"
-msgstr ""
+msgstr "모델 기본 작업 수준"
 
 #: src/components/FolderOverview.tsx
 #: src/components/settings/markdownlint-rule-browser.tsx
@@ -7468,11 +7468,11 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "More grant options"
-msgstr ""
+msgstr "권한 부여 옵션 더 보기"
 
 #: src/components/acp/ThreadView.tsx
 msgid "More refusal options"
-msgstr ""
+msgstr "거부 옵션 더 보기"
 
 #: src/editor/components/PreviewBlockedNotice.tsx
 msgid "More requests were blocked."
@@ -7568,7 +7568,7 @@ msgstr "휴지통으로 이동"
 
 #: src/components/TerminalTabStrip.tsx
 msgid "Move to right panel"
-msgstr ""
+msgstr "오른쪽 패널로 이동"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move to the next CodeMirror lint diagnostic."
@@ -7612,7 +7612,7 @@ msgstr ""
 #. placeholder {2}: moved.total
 #: src/components/SessionsHost.tsx
 msgid "Moved {0} to position {1} of {2}"
-msgstr ""
+msgstr "{0} 이동 완료. 위치: {1}/{2}"
 
 #: src/components/EditorTabs.tsx
 msgid "Moved {label} to a new pane on the left."
@@ -7632,7 +7632,7 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Mulling…"
-msgstr ""
+msgstr "고민 중…"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Multi-page PDF viewer with toolbar controls (thumbnails, page nav, zoom)."
@@ -7644,7 +7644,7 @@ msgstr "여러 파일이 이 테마 이름을 사용함"
 
 #: src/components/acp/working-status.ts
 msgid "Musing…"
-msgstr ""
+msgstr "생각 중…"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "my-feature"
@@ -7723,7 +7723,7 @@ msgstr "네트워크 오류입니다. 다시 시도하세요."
 
 #: src/components/ConnectingBanner.tsx
 msgid "network error (is `ok start` running?)"
-msgstr ""
+msgstr "네트워크 오류 (`ok start` 실행 중인가요?)"
 
 #: src/components/FileTree.tsx
 msgid "Network error during cleanup"
@@ -7742,7 +7742,7 @@ msgstr ""
 #. placeholder {0}: selected.agent.name
 #: src/components/TerminalNewChatButton.tsx
 msgid "New {0} chat"
-msgstr ""
+msgstr "새 {0} 채팅"
 
 #: src/components/OkBlobRunner.tsx
 msgid "New best · press space to play again"
@@ -7763,7 +7763,7 @@ msgstr ""
 #. placeholder {0}: info.agent.name
 #: src/components/acp/ThreadView.tsx
 msgid "New chat with {0}"
-msgstr ""
+msgstr "{0}와 새 채팅"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -7863,7 +7863,7 @@ msgstr ""
 
 #: src/components/TerminalNewChatButton.tsx
 msgid "New terminal"
-msgstr ""
+msgstr "새 터미널"
 
 #: src/components/command-palette-commands.ts
 msgid "New Terminal"
@@ -7914,7 +7914,7 @@ msgstr "에이전트 미설정. 에이전트 설정을 엽니다."
 
 #: src/components/BottomComposer.tsx
 msgid "No agent is set up yet — pick one from the send menu."
-msgstr ""
+msgstr "아직 설정된 에이전트 없음. 전송 메뉴에서 선택하세요."
 
 #: src/components/settings/ConfigureAgentsSection.tsx
 msgid "No agents available."
@@ -7943,7 +7943,7 @@ msgstr "이 엔드포인트에 API 키가 설정되지 않았습니다. 위에�
 
 #: src/components/AgentDiffPane.tsx
 msgid "No body changes at this version."
-msgstr ""
+msgstr "이 버전에서 본문 변경 없음."
 
 #: src/components/TimelineDiffPane.tsx
 msgid "No body changes in this version"
@@ -7959,7 +7959,7 @@ msgstr ""
 
 #: src/components/ConnectingBanner.tsx
 msgid "No collab server for this worktree — run <0>ok start</0> here, or reopen the project."
-msgstr ""
+msgstr "이 워크스페이스에 협업 서버 없음. 여기서 <0>ok start</0> 실행하거나 프로젝트 다시 열기."
 
 #: src/comments/CommentProjectPanel.tsx
 msgid "No comments in this project yet. Comment on a passage to start one."
@@ -7971,7 +7971,7 @@ msgstr "아직 댓글 없음. 문서에서 텍스트 선택 후 댓글 추가"
 
 #: src/components/AgentDiffPane.tsx
 msgid "No content changes at this version."
-msgstr ""
+msgstr "이 버전에서 내용 변경 없음."
 
 #: src/components/TimelineDiffPane.tsx
 msgid "No content changes in this version"
@@ -8112,7 +8112,7 @@ msgstr ""
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 msgid "No open chats. Reopen a past one, or start a new one with the ＋ button."
-msgstr ""
+msgstr "열린 채팅 없음. 이전 채팅을 다시 열거나 ＋ 버튼으로 새 채팅 시작하세요."
 
 #: src/components/GraphPanel.tsx
 msgid "No Outgoing"
@@ -8177,7 +8177,7 @@ msgstr ""
 
 #: src/components/ConnectingBanner.tsx
 msgid "no response"
-msgstr ""
+msgstr "응답 없음"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 #: src/editor/slash-command/SlashCommandMenu.tsx
@@ -8274,7 +8274,7 @@ msgstr "base16 테마가 아님"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Not answered"
-msgstr ""
+msgstr "응답하지 않음"
 
 #: src/lib/consent-store.ts
 #: src/lib/mcp-consent-store.ts
@@ -8311,7 +8311,7 @@ msgstr "설치되지 않음"
 #: src/components/ReportBugDialogBody.tsx
 #: src/lib/install-server-drift-listener.ts
 msgid "Not now"
-msgstr ""
+msgstr "나중에"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Not required for a localhost endpoint like <0>{endpointHost}</0> — most local servers ignore it. Add one only if yours needs it."
@@ -8478,7 +8478,7 @@ msgstr ""
 
 #: src/components/handoff/agent-launcher-labels.tsx
 msgid "Open {displayName} Desktop"
-msgstr ""
+msgstr "{displayName} Desktop 열기"
 
 #: src/components/PropertyWidgets.tsx
 msgid "Open {keyName} in browser"
@@ -8490,7 +8490,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Open <0>Customize</0> in the sidebar <1/> <2>Skills</2>."
-msgstr ""
+msgstr "사이드바에서 <0>사용자 지정</0> 열기 <1/> <2>스킬</2>."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open a blank editor tab."
@@ -8534,7 +8534,7 @@ msgstr "{tooltipName} 활동 패널 열기, {realCurrentDoc} 편집 중"
 
 #: src/components/TerminalRevealTab.tsx
 msgid "Open agents panel"
-msgstr ""
+msgstr "에이전트 패널 열기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open an existing project folder from disk."
@@ -8672,7 +8672,7 @@ msgstr "문서가 변경되면 Open Knowledge가 index.md 파일을 다시 작�
 #. placeholder {4}: item.sourceHost
 #: src/components/acp/ThreadView.tsx
 msgid "Open Knowledge's own copy of {0} is damaged and won't run. It can download a fresh copy of {1} {2} (about {3} MB from {4}) to replace it."
-msgstr ""
+msgstr "OpenKnowledge 자체 복사본 {0} 손상으로 실행 불가. 새 복사본 {1} {2} 다운로드 가능(약 {3}MB, {4}에서). 교체용."
 
 #: src/components/GraphPanel.tsx
 msgid "Open link"
@@ -8729,7 +8729,7 @@ msgstr "소스 열기: {mirrorSrc}"
 
 #: src/components/TerminalRevealTab.tsx
 msgid "Open terminal"
-msgstr ""
+msgstr "터미널 열기"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Open that worktree instead"
@@ -8786,11 +8786,11 @@ msgstr "AI {displayName} Desktop, {hint}(으)로 열기"
 
 #: src/components/handoff/OpenInAgentMenuItem.tsx
 msgid "Open with AI {targetDisplayName}"
-msgstr ""
+msgstr "AI로 {targetDisplayName} 열기"
 
 #: src/components/handoff/OpenInAgentMenuItem.tsx
 msgid "Open with AI {targetDisplayName}, {hint}"
-msgstr ""
+msgstr "AI로 {targetDisplayName} 열기, {hint}"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Open worktree"
@@ -8826,47 +8826,47 @@ msgstr ""
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge checked {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 확인"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge checked for conflicts"
-msgstr ""
+msgstr "OpenKnowledge에서 충돌 확인"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge checked the project"
-msgstr ""
+msgstr "OpenKnowledge에서 프로젝트 확인"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge created a share link"
-msgstr ""
+msgstr "OpenKnowledge에서 공유 링크 생성"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge created a share link for {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 공유 링크 생성"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge deleted {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 삭제"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge deleted a document"
-msgstr ""
+msgstr "OpenKnowledge에서 문서 삭제"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge edited {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 편집"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge edited a document"
-msgstr ""
+msgstr "OpenKnowledge에서 문서 편집"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge imported {source}"
-msgstr ""
+msgstr "OpenKnowledge에서 {source} 가져오기"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge imported a skill"
-msgstr ""
+msgstr "OpenKnowledge에서 스킬 가져오기"
 
 #: src/components/ConsentDialogBody.tsx
 msgid "OpenKnowledge initializes at <0>{projectDir}</0> — the parent of <1>{pickedRelative}</1> because it contains a <2>.git</2> folder (one .ok/ per git repo). <3>Content directory</3> defaults to <4>.</4> (the whole repo); type a sub-folder to narrow it."
@@ -8874,11 +8874,11 @@ msgstr ""
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge installed {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 설치"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge installed a skill"
-msgstr ""
+msgstr "OpenKnowledge에서 스킬 설치"
 
 #: src/lib/install-onboarding-toast.ts
 msgid "OpenKnowledge integrations checked."
@@ -8898,27 +8898,27 @@ msgstr "OpenKnowledge가 이 GitHub 계정을 사용 중입니다."
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge listed the installed skills"
-msgstr ""
+msgstr "OpenKnowledge에서 설치된 스킬 목록 확인"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge looked at the link graph"
-msgstr ""
+msgstr "OpenKnowledge에서 링크 그래프 확인"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge looked up links for {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 링크 조회"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge looked up the authoring palette"
-msgstr ""
+msgstr "OpenKnowledge에서 작성 팔레트 조회"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge moved {subject} to {destination}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 이동 위치 {destination}"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge moved a document"
-msgstr ""
+msgstr "OpenKnowledge에서 문서 이동"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -8927,7 +8927,7 @@ msgstr "GitHub에서 OpenKnowledge 열기"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge opened the live preview"
-msgstr ""
+msgstr "OpenKnowledge에서 실시간 미리보기 열기"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "OpenKnowledge quit unexpectedly last time."
@@ -8935,63 +8935,63 @@ msgstr ""
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge ran {command}"
-msgstr ""
+msgstr "OpenKnowledge에서 {command} 실행"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge ran {tool}"
-msgstr ""
+msgstr "OpenKnowledge에서 {tool} 실행"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge ran a command"
-msgstr ""
+msgstr "OpenKnowledge에서 명령 실행"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge read the edit history"
-msgstr ""
+msgstr "OpenKnowledge에서 편집 기록 조회"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge read the history of {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 기록 조회"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge read the project settings"
-msgstr ""
+msgstr "OpenKnowledge에서 프로젝트 설정 조회"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge read the setting {key}"
-msgstr ""
+msgstr "OpenKnowledge에서 설정 조회: {key}"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge resolved a conflict"
-msgstr ""
+msgstr "OpenKnowledge에서 충돌 해결"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge resolved a conflict in {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 충돌 해결"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge restored an earlier version"
-msgstr ""
+msgstr "OpenKnowledge에서 이전 버전 복원"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge restored an earlier version of {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 이전 버전 복원"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge saved a checkpoint"
-msgstr ""
+msgstr "OpenKnowledge에서 체크포인트 저장"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge searched for {query}"
-msgstr ""
+msgstr "OpenKnowledge에서 {query} 검색"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge searched the knowledge base"
-msgstr ""
+msgstr "OpenKnowledge에서 지식 베이스 검색"
 
 #: src/components/handoff/useHandoffDispatch.ts
 msgid "OpenKnowledge skill saved. Upload it in Claude Desktop, then click Cowork again."
-msgstr ""
+msgstr "OpenKnowledge 스킬 저장됨. Claude Desktop에 업로드 후 Cowork 다시 클릭하세요."
 
 #: src/components/ConsentDialogBody.tsx
 msgid "OpenKnowledge stores its configuration and internal files inside a newly created <0>.ok</0> directory in your project root folder."
@@ -9007,11 +9007,11 @@ msgstr ""
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge wrote a document"
-msgstr ""
+msgstr "OpenKnowledge에서 문서 작성"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge wrote to {subject}"
-msgstr ""
+msgstr "OpenKnowledge에서 {subject} 작성"
 
 #: src/components/CloneDialog.tsx
 msgid "Opens a folder picker to choose where to clone the repository."
@@ -9065,7 +9065,7 @@ msgstr ""
 
 #: src/components/AgentDiffPane.tsx
 msgid "Original file — before this agent's edits."
-msgstr ""
+msgstr "원본 파일, 이 에이전트 변경 전."
 
 #: src/components/GraphPanel.tsx
 msgid "Orphan mode"
@@ -9308,11 +9308,11 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "pending"
-msgstr ""
+msgstr "대기 중"
 
 #: src/components/acp/working-status.ts
 msgid "Percolating…"
-msgstr ""
+msgstr "전파 중…"
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Permanently deletes <0>{targetGitPath}</0> and all its git history. Working files stay in place. If the parent git repo is intentional (e.g. you cloned it), cancel and pick a location outside it."
@@ -9324,7 +9324,7 @@ msgstr ""
 
 #: src/lib/acp/thread-event-model.ts
 msgid "Permission required"
-msgstr ""
+msgstr "권한 필요"
 
 #: src/components/AuthModal.tsx
 msgid "Personal access token"
@@ -9336,7 +9336,7 @@ msgstr "이 디바이스에만 적용됩니다. 사용자 config에 저장되며
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Pick <0>openknowledge.skill</0> from your <1>Downloads</1> folder. It enables automatically."
-msgstr ""
+msgstr "<0>openknowledge.skill</0> 선택: <1>Downloads</1> 폴더. 자동 활성화."
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid "Pick a folder to merge INTO {display}. That folder becomes a symlink to this one, so its agent reads everything placed here. This folder stays real. Conflicting skills abort the merge."
@@ -9380,7 +9380,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Pick up where you left off"
-msgstr ""
+msgstr "중단한 지점부터 계속"
 
 #. placeholder {0}: data.label
 #. placeholder {1}: paneLabel(data.paneId)
@@ -9403,11 +9403,11 @@ msgstr "일반 텍스트"
 #. placeholder {0}: plan.length
 #: src/components/acp/ThreadView.tsx
 msgid "Plan ({done}/{0})"
-msgstr ""
+msgstr "계획 ({done}/{0})"
 
 #: src/components/ConnectingBanner.tsx
 msgid "Play Blob Run"
-msgstr ""
+msgstr "Blob Run 재생"
 
 #: src/components/FeedbackForm.tsx
 msgid "Please choose Good or Not great."
@@ -9432,7 +9432,7 @@ msgstr "의미 기반 검색을 OpenAI 호환 임베딩 엔드포인트에 연�
 
 #: src/components/acp/working-status.ts
 msgid "Pondering…"
-msgstr ""
+msgstr "숙고 중…"
 
 #: src/components/ExploreSkills.tsx
 msgid "Popular"
@@ -9711,19 +9711,19 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Puzzling…"
-msgstr ""
+msgstr "퍼즐 해결 중…"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Queue message"
-msgstr ""
+msgstr "메시지 대기열 추가"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Queued — sends when this run finishes"
-msgstr ""
+msgstr "대기 중. 현재 실행 종료 후 전송"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Queues behind the running turn"
-msgstr ""
+msgstr "현재 실행 뒤 대기열에 추가됨"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Quit"
@@ -9780,15 +9780,15 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Reading from {tail}"
-msgstr ""
+msgstr "{tail}에서 읽는 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Reading from this workspace"
-msgstr ""
+msgstr "이 워크스페이스에서 읽는 중"
 
 #: src/components/acp/working-status.ts
 msgid "Reading…"
-msgstr ""
+msgstr "읽는 중…"
 
 #: src/components/SeedDialog.tsx
 msgid "Ready-made folders and templates to get you started quickly."
@@ -9849,7 +9849,7 @@ msgstr ""
 
 #: src/components/SessionsHost.tsx
 msgid "Reconnecting to the agent service…"
-msgstr ""
+msgstr "에이전트 서비스 재연결 중…"
 
 #: src/components/FileTree.tsx
 msgid "Reconnecting…"
@@ -9879,21 +9879,21 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Reflecting…"
-msgstr ""
+msgstr "검토 중…"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 #: src/components/settings/IntegrationsSection.tsx
 msgid "Reinstall"
-msgstr ""
+msgstr "재설치"
 
 #. Dialog title — installing the OpenKnowledge skill into the Claude Desktop App
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Reinstall for Claude Chat & Cowork"
-msgstr ""
+msgstr "Claude Chat 및 Cowork용 재설치"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Reinstalling"
-msgstr ""
+msgstr "재설치 중"
 
 #: src/components/DiffView.tsx
 msgid "Reject"
@@ -9960,7 +9960,7 @@ msgstr "제거"
 #: src/components/acp/ThreadView.tsx
 #: src/components/FeedbackForm.tsx
 msgid "Remove {0}"
-msgstr ""
+msgstr "{0} 제거"
 
 #: src/components/PropertyWidgets.tsx
 msgid "Remove {chip}"
@@ -10027,11 +10027,11 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Remove queued message"
-msgstr ""
+msgstr "대기 중인 메시지 제거"
 
 #: src/components/BottomComposer.tsx
 msgid "Remove selection"
-msgstr ""
+msgstr "선택 영역 제거"
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Remove the parent <0>.git</0> folder"
@@ -10053,7 +10053,7 @@ msgstr ""
 #. Warning shown when the user unchecks an already-installed skill
 #: src/components/McpConsentDialogBody.tsx
 msgid "Removes this skill from your editors."
-msgstr ""
+msgstr "편집기에서 스킬 제거"
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Removing"
@@ -10076,7 +10076,7 @@ msgstr "이름 변경"
 #. placeholder {0}: session.label
 #: src/components/TerminalTabStrip.tsx
 msgid "Rename {0}"
-msgstr ""
+msgstr "{0} 이름 변경"
 
 #: src/components/FrontmatterRow.tsx
 msgid "Rename {keyName}"
@@ -10134,7 +10134,7 @@ msgstr "렌더링 오류"
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Rendered"
-msgstr ""
+msgstr "렌더링됨"
 
 #: src/comments/ThreadCard.tsx
 msgid "Reopen"
@@ -10142,7 +10142,7 @@ msgstr "다시 열기"
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 msgid "Reopen a past chat"
-msgstr ""
+msgstr "이전 채팅 다시 열기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Reopen closed tab"
@@ -10262,11 +10262,11 @@ msgstr "필수"
 
 #: src/components/handoff/OpenInAgentMenuItem.tsx
 msgid "Requires {brand}."
-msgstr ""
+msgstr "{brand} 필요."
 
 #: src/components/BottomComposer.tsx
 msgid "Research the extinction of flightless birds"
-msgstr ""
+msgstr "날지 못하는 새의 멸종 연구"
 
 #: src/components/TemplateForm.tsx
 msgid "research-note"
@@ -10338,11 +10338,11 @@ msgstr ""
 #: src/components/DocumentErrorBoundary.tsx
 #: src/presence/use-sync-toasts.ts
 msgid "Restart server"
-msgstr ""
+msgstr "서버 재시작"
 
 #: src/components/TerminalExitNotice.tsx
 msgid "Restart terminal"
-msgstr ""
+msgstr "터미널 재시작"
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Restart with this app's version"
@@ -10354,7 +10354,7 @@ msgstr ""
 
 #: src/components/ConnectingBanner.tsx
 msgid "Restarting"
-msgstr ""
+msgstr "재시작 중"
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Restarting closes this project's server. Connected agents (Claude Code, Codex, Cursor) will see their OpenKnowledge MCP connection close unexpectedly — you may need to restart the agent, or toggle its OpenKnowledge MCP server off and on, to reconnect."
@@ -10425,11 +10425,11 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Resuming the chat"
-msgstr ""
+msgstr "채팅 재개 중"
 
 #: src/components/acp/working-status.ts
 msgid "Retrieving…"
-msgstr ""
+msgstr "가져오는 중…"
 
 #: src/components/acp/ThreadView.tsx
 #: src/components/ActivityModeContent.tsx
@@ -10440,7 +10440,7 @@ msgstr ""
 #: src/components/settings/ConfigureAgentsSection.tsx
 #: src/components/TrashFailureModal.tsx
 msgid "Retry"
-msgstr ""
+msgstr "다시 시도"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Retry push"
@@ -10452,7 +10452,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Retrying…"
-msgstr ""
+msgstr "다시 시도 중…"
 
 #: src/components/settings/settings-fields.ts
 msgid "Reuse one tab when clicking through the sidebars. Off opens every click in its own tab."
@@ -10524,7 +10524,7 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Ruminating…"
-msgstr ""
+msgstr "곰곰이 생각 중…"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Run a project audit from the Problems panel."
@@ -10540,11 +10540,11 @@ msgstr "터미널에서 실행"
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Run this in your terminal"
-msgstr ""
+msgstr "터미널에서 실행"
 
 #: src/components/acp/ThreadView.tsx
 msgid "running"
-msgstr ""
+msgstr "실행 중"
 
 #: src/components/ProblemsPanel.tsx
 msgid "Running project audit"
@@ -10583,7 +10583,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Save queued message"
-msgstr ""
+msgstr "대기 중인 메시지 저장"
 
 #: src/components/DiffView.tsx
 msgid "Save resolution"
@@ -10625,7 +10625,7 @@ msgstr "팀을 위해 프로젝트와 함께 저장됨."
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "Saves the file to <0>~/Downloads/openknowledge.skill</0> and opens the Claude Desktop App. Requires Node.js or Bun on your PATH."
-msgstr ""
+msgstr "<0>~/Downloads/openknowledge.skill</0>에 저장 후 Claude Desktop App 열기. PATH에 Node.js 또는 Bun 필요."
 
 #: src/components/settings/SearchSection.tsx
 msgid "Saving"
@@ -10834,7 +10834,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "See the full install guide"
-msgstr ""
+msgstr "전체 설치 안내 보기"
 
 #. placeholder {0}: BASE16_SLOT_ROLES[slot]
 #: src/components/settings/CustomThemeEditor.tsx
@@ -10918,7 +10918,7 @@ msgstr "의미 기반 검색이 켜져 있지만 API 키가 설정되지 않아 
 #: src/components/acp/ThreadView.tsx
 #: src/components/FeedbackForm.tsx
 msgid "Send"
-msgstr ""
+msgstr "전송"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Send & continue"
@@ -10960,7 +10960,7 @@ msgstr "채팅에 보내기 ({0})"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Send when the agent is free"
-msgstr ""
+msgstr "에이전트 유휴 시 전송"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Send your report by email"
@@ -11243,7 +11243,7 @@ msgstr "모두 표시"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Show details"
-msgstr ""
+msgstr "세부 정보 보기"
 
 #: src/components/MermaidFileViewer.tsx
 msgid "Show diagram"
@@ -11319,7 +11319,7 @@ msgstr "터미널 표시 또는 숨기기"
 #: src/components/EditorToolbar.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Show panel"
-msgstr ""
+msgstr "패널 보기"
 
 #: src/components/EditorToolbar.tsx
 msgid "Show panel ({panelShortcutLabel})"
@@ -11344,7 +11344,7 @@ msgstr "해결된 댓글 보기 ({0})"
 
 #: src/components/BottomComposer.tsx
 msgid "Show selection preview"
-msgstr ""
+msgstr "선택 영역 미리보기 보기"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -11395,7 +11395,7 @@ msgstr "코드 본문 위에 표시됩니다. Markdown에서 title=\"...\" 형�
 
 #: src/components/acp/working-status.ts
 msgid "Sifting…"
-msgstr ""
+msgstr "선별 중…"
 
 #: src/components/settings/AccountSection.tsx
 #: src/components/settings/SyncSection.tsx
@@ -11406,21 +11406,21 @@ msgstr "로그인"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Sign in to {agentName} first"
-msgstr ""
+msgstr "먼저 {agentName} 로그인"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Sign in to {agentName} to continue."
-msgstr ""
+msgstr "계속하려면 {agentName} 로그인."
 
 #. placeholder {0}: method.name
 #: src/components/acp/ThreadView.tsx
 msgid "Sign in with {0}"
-msgstr ""
+msgstr "{0}으로 로그인"
 
 #. placeholder {0}: errorText(err)
 #: src/components/acp/ThreadView.tsx
 msgid "Sign-in failed: {0}"
-msgstr ""
+msgstr "로그인 실패: {0}"
 
 #: src/components/AuthModal.tsx
 #: src/lib/transports/auth-transport.ts
@@ -11429,11 +11429,11 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Signing in to {agentName}"
-msgstr ""
+msgstr "{agentName} 로그인 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Signing in to {agentName}…"
-msgstr ""
+msgstr "{agentName} 로그인 중…"
 
 #: src/editor/components/Pdf.tsx
 msgid "Single page"
@@ -11507,12 +11507,12 @@ msgstr ""
 #. Secondary button — dismisses the dialog without wiring any tools
 #: src/components/McpConsentDialogBody.tsx
 msgid "Skip for now"
-msgstr ""
+msgstr "지금 건너뛰기"
 
 #. placeholder {0}: item.displayName
 #: src/components/acp/ThreadView.tsx
 msgid "Skipped downloading {0}."
-msgstr ""
+msgstr "{0} 다운로드 건너뜀."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Slash command menu"
@@ -11597,7 +11597,7 @@ msgstr ""
 
 #: src/components/TerminalGate.tsx
 msgid "Something went wrong starting the terminal."
-msgstr ""
+msgstr "터미널 시작 중 문제 발생."
 
 #: src/components/SubscribeForm.tsx
 msgid "Something went wrong. Please try again."
@@ -11613,7 +11613,7 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Sorting…"
-msgstr ""
+msgstr "정렬 중…"
 
 #: src/components/SkillInstallMenu.tsx
 msgid "source"
@@ -11627,7 +11627,7 @@ msgstr ""
 #: src/components/SkillPreviewTab.tsx
 #: src/components/TimelineDiffPane.tsx
 msgid "Source"
-msgstr ""
+msgstr "소스"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source editing"
@@ -11687,7 +11687,7 @@ msgstr ""
 
 #: src/components/SessionsHost.tsx
 msgid "Start a chat with the ＋ button, or launch an agent from a page."
-msgstr ""
+msgstr "＋ 버튼으로 채팅 시작하거나 페이지에서 에이전트 실행하세요."
 
 #: src/comments/CommentSendFooter.tsx
 #: src/comments/QueueNewChatRow.tsx
@@ -11700,7 +11700,7 @@ msgstr ""
 
 #: src/components/TerminalNewChatButton.tsx
 msgid "Start an agent"
-msgstr ""
+msgstr "에이전트 시작"
 
 #: src/components/NewItemDialog.tsx
 msgid "Start from"
@@ -11737,7 +11737,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Starting {agentName}…"
-msgstr ""
+msgstr "{agentName} 시작 중…"
 
 #: src/components/CloneDialog.tsx
 msgid "Starting clone"
@@ -11749,7 +11749,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Starting the agent…"
-msgstr ""
+msgstr "에이전트 시작 중…"
 
 #: src/components/TemplateForm.tsx
 msgid "status"
@@ -11767,15 +11767,15 @@ msgstr "이 컴퓨터에 유지됩니다. git에 커밋되지 않습니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Steer now"
-msgstr ""
+msgstr "지금 조정"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Steering — waiting for the current run to stop…"
-msgstr ""
+msgstr "조정 대기 중. 현재 실행 종료 대기…"
 
 #: src/components/handoff/useHandoffDispatch.ts
 msgid "Still couldn't reach {displayName} — try one more time?"
-msgstr ""
+msgstr "{displayName} 연결 실패. 한 번 더 시도할까요?"
 
 #: src/components/MountStalledAffordance.tsx
 msgid "Still loading"
@@ -11784,11 +11784,11 @@ msgstr ""
 #: src/components/acp/ThreadView.tsx
 #: src/components/ProblemsPanel.tsx
 msgid "Stop"
-msgstr ""
+msgstr "중지"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Stop (Esc)"
-msgstr ""
+msgstr "중지(Esc)"
 
 #. placeholder {0}: hostLabel(h)
 #. placeholder {1}: skill.name
@@ -11820,11 +11820,11 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Stopping"
-msgstr ""
+msgstr "중지 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Stops the current run and sends this instead"
-msgstr ""
+msgstr "현재 실행 중지 후 대신 전송"
 
 #: src/components/settings/ProjectTemplatesSection.tsx
 msgid "Stored at <0>.ok/templates/</0> in this project. Available in every folder (folder-scoped templates can override by filename)."
@@ -11873,7 +11873,7 @@ msgstr "제안 메뉴 열기"
 
 #: src/components/BottomComposer.tsx
 msgid "Summarize everything I changed this week"
-msgstr ""
+msgstr "이번 주 변경한 내용 모두 요약"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Switch and update branch"
@@ -12203,11 +12203,11 @@ msgstr "터미널"
 #. placeholder {0}: session.ordinal
 #: src/components/SessionsHost.tsx
 msgid "Terminal {0}"
-msgstr ""
+msgstr "터미널 {0}"
 
 #: src/components/TerminalRefusalNotice.tsx
 msgid "Terminal access isn't enabled for this project."
-msgstr ""
+msgstr "이 프로젝트의 터미널 접근 비활성화 상태."
 
 #: src/components/EditorArea.tsx
 msgid "Terminal closed to make room for the agent panel."
@@ -12215,19 +12215,19 @@ msgstr ""
 
 #: src/components/TerminalGate.tsx
 msgid "Terminal disabled"
-msgstr ""
+msgstr "터미널 비활성화됨"
 
 #: src/components/TerminalGate.tsx
 msgid "Terminal failed to load"
-msgstr ""
+msgstr "터미널 로드 실패"
 
 #: src/components/TerminalTabStrip.tsx
 msgid "Terminal sessions"
-msgstr ""
+msgstr "터미널 세션"
 
 #: src/components/TerminalGate.tsx
 msgid "Terminal settings not loaded yet — try again in a moment."
-msgstr ""
+msgstr "터미널 설정 미로드 상태. 잠시 후 다시 시도하세요."
 
 #: src/components/settings/TerminalSection.tsx
 msgid "Terminal settings not yet loaded — try again in a moment"
@@ -12282,12 +12282,12 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "That message already went out — your edit wasn't applied."
-msgstr ""
+msgstr "메시지 전송 완료. 편집 내용 미적용."
 
 #. placeholder {0}: item.displayName
 #: src/components/acp/ThreadView.tsx
 msgid "The {0} download request timed out."
-msgstr ""
+msgstr "{0} 다운로드 요청 시간 초과."
 
 #: src/components/SkillForkDialog.tsx
 msgid "The {editor} folder holds a different version of this skill. Pick which one wins, or keep both under different names. Whatever you replace is backed up first."
@@ -12307,11 +12307,11 @@ msgstr ""
 
 #: src/components/WorkingAvatar.tsx
 msgid "The agent is working"
-msgstr ""
+msgstr "에이전트 작업 중"
 
 #: src/components/acp/ThreadView.tsx
 msgid "The agent isn't stopping. Force stop closes this chat and quits the agent."
-msgstr ""
+msgstr "에이전트 중지 실패. 강제 중지 시 채팅 종료 및 에이전트 종료."
 
 #: src/components/CreatedItemsList.tsx
 msgid "The agent's persona, values, and voice."
@@ -12327,7 +12327,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "The Claude Desktop App didn't open the file. Is it installed? ({msg})"
-msgstr ""
+msgstr "Claude Desktop App 파일 열기 실패. 설치 상태 확인: ({msg})"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "The default branch is protected — pushes need a pull request."
@@ -12339,7 +12339,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "The desktop app isn't responding. Refresh and try again."
-msgstr ""
+msgstr "데스크톱 앱 응답 없음. 새로 고침 후 다시 시도하세요."
 
 #. placeholder {0}: summary.target
 #: src/components/settings/LintingSection.tsx
@@ -12401,7 +12401,7 @@ msgstr "엔드포인트가 제공하는 모델 ID입니다. 벡터 크기는 자
 
 #: src/components/SessionsHost.tsx
 msgid "the open agent"
-msgstr ""
+msgstr "열린 에이전트"
 
 #: src/comments/ThreadCard.tsx
 msgid "The original text was deleted. You can re-place this comment on selected text."
@@ -12458,7 +12458,7 @@ msgstr "스키마 파일이 없거나 불러오지 못했습니다. 필드를 �
 
 #: src/components/ConnectingBanner.tsx
 msgid "the server responded but server.lock has no port yet"
-msgstr ""
+msgstr "서버 응답 완료. server.lock에 포트 없음"
 
 #: src/components/settings/LintingSection.tsx
 msgid "The shapes of title, description, resource, and tags when you use them. None are required; declaring one only pins its type, so tags written as a comma-separated string is flagged."
@@ -12486,25 +12486,25 @@ msgstr ""
 
 #: src/components/TerminalGate.tsx
 msgid "The terminal is turned off for this project. Turn it back on to run commands here."
-msgstr ""
+msgstr "이 프로젝트의 터미널 꺼짐. 다시 켜면 여기서 명령 실행 가능."
 
 #. placeholder {0}: info.exitCode
 #: src/components/TerminalExitNotice.tsx
 msgid "The terminal session ended (exit code {0})."
-msgstr ""
+msgstr "터미널 세션 종료(종료 코드 {0})."
 
 #. placeholder {0}: info.signal
 #: src/components/TerminalExitNotice.tsx
 msgid "The terminal session ended (signal {0})."
-msgstr ""
+msgstr "터미널 세션 종료(신호 {0})."
 
 #: src/components/TerminalExitNotice.tsx
 msgid "The terminal session ended."
-msgstr ""
+msgstr "터미널 세션 종료."
 
 #: src/components/TerminalExitNotice.tsx
 msgid "The terminal stopped unexpectedly."
-msgstr ""
+msgstr "터미널 예기치 않게 중지됨."
 
 #: src/components/AuthModal.tsx
 msgid "The token needs the repo and read:user scopes."
@@ -12554,7 +12554,7 @@ msgstr "테마"
 
 #: src/components/TerminalRefusalNotice.tsx
 msgid "There's no project folder for this window, so a terminal can't start here."
-msgstr ""
+msgstr "이 창에 프로젝트 폴더 없음. 터미널 시작 불가."
 
 #: src/components/settings/markdownlint-rule-browser.tsx
 msgid "These rules come from your project's <0>{configFile}</0> file, which fully governs linting for this project. Turn rules on or off and edit their options here; changes write back to the file."
@@ -12562,11 +12562,11 @@ msgstr "이 규칙은 프로젝트의 <0>{configFile}</0> 파일에서 가져오
 
 #: src/components/acp/ThreadView.tsx
 msgid "Thinking"
-msgstr ""
+msgstr "생각 중"
 
 #: src/components/acp/working-status.ts
 msgid "Thinking…"
-msgstr ""
+msgstr "생각 중…"
 
 #: src/components/share-receive-miss-content.tsx
 msgid "This {targetNoun} has been moved, renamed, or deleted in your local copy of branch <0>{branch}</0>, and that change hasn't synced yet."
@@ -12635,7 +12635,7 @@ msgstr "이 에이전트는 아직 명령을 알리지 않았습니다"
 #. placeholder {5}: item.sourceHost
 #: src/components/acp/ThreadView.tsx
 msgid "This agent runs through {0}, which is installed but won't run — its {1} looks broken. Open Knowledge can download a private copy of {2} {3} (about {4} MB from {5}) that won't touch the rest of your system."
-msgstr ""
+msgstr "에이전트 실행 경로 {0}. 설치 상태지만 실행 불가, {1} 손상 의심. OpenKnowledge에서 시스템 나머지에 영향 없는 개인 복사본 {2} {3} 다운로드 가능(약 {4}MB, {5}에서)."
 
 #. placeholder {0}: item.provides
 #. placeholder {1}: item.displayName
@@ -12644,7 +12644,7 @@ msgstr ""
 #. placeholder {4}: item.sourceHost
 #: src/components/acp/ThreadView.tsx
 msgid "This agent runs through {0}, which isn't installed. Open Knowledge can download a private copy of {1} {2} (about {3} MB from {4}) that won't touch the rest of your system."
-msgstr ""
+msgstr "에이전트 실행 경로 {0}. 미설치 상태. OpenKnowledge에서 시스템 나머지에 영향 없는 개인 복사본 {1} {2} 다운로드 가능(약 {3}MB, {4}에서)."
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "This branch is checked out in:"
@@ -12652,7 +12652,7 @@ msgstr ""
 
 #: src/components/McpConsentDialogBody.tsx
 msgid "This can be configured in Settings > AI tools & CLI"
-msgstr ""
+msgstr "Settings > AI tools & CLI에서 설정 가능"
 
 #: src/comments/ThreadCard.tsx
 msgid "This comment is on the whole property"
@@ -12897,7 +12897,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "This request is no longer active."
-msgstr ""
+msgstr "요청 만료 또는 비활성 상태."
 
 #. placeholder {0}: rootAdvancedKeywords.join(', ')
 #: src/components/settings/frontmatter-schema-field-editor.tsx
@@ -12954,7 +12954,7 @@ msgstr ""
 
 #: src/components/acp/working-status.ts
 msgid "Tidying up…"
-msgstr ""
+msgstr "정리 중…"
 
 #: src/components/DocPanel.tsx
 #: src/components/TimelinePanel.tsx
@@ -13091,7 +13091,7 @@ msgstr ""
 
 #: src/lib/acp/thread-event-model.ts
 msgid "Tool call"
-msgstr ""
+msgstr "도구 호출"
 
 #: src/components/GraphPanel.tsx
 msgid "Top linked pages"
@@ -13133,11 +13133,11 @@ msgstr ""
 
 #: src/components/handoff/useHandoffDispatch.ts
 msgid "Try one more time"
-msgstr ""
+msgstr "한 번 더 시도"
 
 #: src/components/acp/working-status.ts
 msgid "Trying it out…"
-msgstr ""
+msgstr "시험 중…"
 
 #. placeholder {0}: scope === 'global' ? `~/${o.root}` : o.root
 #: src/components/settings/SkillTargetsPicker.tsx
@@ -13183,7 +13183,7 @@ msgstr "끄는 중"
 
 #: src/components/acp/working-status.ts
 msgid "Turning it over…"
-msgstr ""
+msgstr "다시 생각 중…"
 
 #. placeholder {0}: skill.name
 #: src/components/SkillForkDialog.tsx
@@ -13222,7 +13222,7 @@ msgstr "문서를 찾으려면 입력"
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 msgid "unavailable on this platform"
-msgstr ""
+msgstr "이 플랫폼에서 사용 불가"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Uncommitted changes"
@@ -13302,7 +13302,7 @@ msgstr ""
 
 #: src/lib/handoff/skill-installer.ts
 msgid "unknown build failure"
-msgstr ""
+msgstr "빌드 실패 원인 불명"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Unknown component: {componentName} — source editable below"
@@ -13714,7 +13714,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Waiting for your approval"
-msgstr ""
+msgstr "승인 대기 중"
 
 #: src/components/settings/ContentRulesSection.tsx
 #: src/components/settings/ThemePreviewCanvas.tsx
@@ -13735,7 +13735,7 @@ msgstr ""
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 msgid "We'll build <0>openknowledge.skill</0>, save it to <1>~/Downloads</1>, and open the Claude Desktop App for you."
-msgstr ""
+msgstr "<0>openknowledge.skill</0> 빌드 후 <1>~/Downloads</1>에 저장하고 Claude Desktop App 열기."
 
 #: src/components/settings/SyncSection.tsx
 msgid "We'll create a repository and start syncing — no terminal needed."
@@ -13783,7 +13783,7 @@ msgstr ""
 
 #: src/components/handoff/OpenInAgentMenu.tsx
 msgid "What should the AI do? (optional)"
-msgstr ""
+msgstr "AI 작업 내용? (선택 사항)"
 
 #: src/components/CreatedItemsList.tsx
 msgid "What the agent may read, write, and surface."
@@ -13791,13 +13791,13 @@ msgstr ""
 
 #: src/components/McpConsentDialogBody.tsx
 msgid "What this changes"
-msgstr ""
+msgstr "변경 내용"
 
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/settings/AiToolsSection.tsx
 #: src/components/settings/ProjectAiToolsSection.tsx
 msgid "What this checkbox changes"
-msgstr ""
+msgstr "이 체크박스의 변경 내용"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "What to include"
@@ -13890,7 +13890,7 @@ msgstr ""
 #. Disclosure that Add will overwrite the tool's existing OpenKnowledge MCP entry
 #: src/components/McpConsentDialogBody.tsx
 msgid "Will replace existing OpenKnowledge entry"
-msgstr ""
+msgstr "기존 OpenKnowledge 항목 교체 예정"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
@@ -13903,17 +13903,17 @@ msgstr "자동 줄바꿈"
 
 #: src/lib/acp/config-value-hints.ts
 msgid "Work directly, no plan step"
-msgstr ""
+msgstr "계획 단계 없이 바로 작업"
 
 #: src/components/BottomComposer.tsx
 msgid "Work through these comments"
-msgstr ""
+msgstr "이 댓글 기반 작업"
 
 #: src/components/McpConsentDialogBody.tsx
 #: src/components/NewWorktreeDialog.tsx
 #: src/components/SkillEditorActions.tsx
 msgid "Working"
-msgstr ""
+msgstr "작업 중"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Workspace"
@@ -13971,7 +13971,7 @@ msgstr ""
 
 #: src/components/TerminalGate.tsx
 msgid "You can also manage this in Settings."
-msgstr ""
+msgstr "설정에서 관리할 수 있습니다."
 
 #: src/components/FeedbackForm.tsx
 msgid "You can attach up to {MAX_ATTACHMENTS} images."
@@ -14077,7 +14077,7 @@ msgstr "변경사항을 아직 저장 중입니다. 잠시 후 테스트를 다�
 
 #: src/components/acp/ThreadView.tsx
 msgid "Your comments are waiting behind the running turn — they stay queued until the agent picks the message up."
-msgstr ""
+msgstr "현재 실행 뒤 댓글 대기 중. 에이전트 메시지 수신 전까지 대기열 유지."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Your copy of branch <0>{shareBranch}</0> has changes that aren't on GitHub. The {targetNoun} will appear once the branch syncs."
@@ -14123,7 +14123,7 @@ msgstr ""
 
 #: src/components/acp/ThreadView.tsx
 msgid "Your message didn't reach {agentName}."
-msgstr ""
+msgstr "에이전트에 메시지 도달 실패: {agentName}."
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Your report couldn't be sent. Try again or email it instead."
