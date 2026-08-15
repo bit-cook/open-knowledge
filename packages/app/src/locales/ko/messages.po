@@ -519,12 +519,12 @@ msgstr ""
 
 #: src/comments/comment-chips.tsx
 msgid "{count, plural, one {# comment} other {# comments}}"
-msgstr ""
+msgstr "{count, plural, other {댓글 #개}}"
 
 #. placeholder {0}: docs.length
 #: src/comments/comment-chips.tsx
 msgid "{count, plural, one {# comment} other {# comments}} across {0, plural, one {# file} other {# files}}"
-msgstr ""
+msgstr "{count, plural, other {댓글 #개, {0, plural, other {파일 #개}}}}"
 
 #: src/components/settings/applies-to-folder-picker.tsx
 msgid "{count, plural, one {# doc} other {# docs}}"
@@ -536,11 +536,11 @@ msgstr ""
 
 #: src/presence/PresenceBar.tsx
 msgid "{count, plural, one {# more cross-doc participant} other {# more cross-doc participants}}"
-msgstr ""
+msgstr "{count, plural, other {다른 문서 참여자 #명 더}}"
 
 #: src/presence/PresenceBar.tsx
 msgid "{count, plural, one {# more participant} other {# more participants}}"
-msgstr ""
+msgstr "{count, plural, other {참여자 #명 더}}"
 
 #: src/components/file-tree-trash-copy.ts
 msgid "{count, plural, one {Are you sure you want to delete the following # directory and its contents?} other {Are you sure you want to delete the following # directories and their contents?}}"
@@ -649,7 +649,7 @@ msgstr "{enabledCount}/{0}개 켜짐"
 #. placeholder {0}: ids.length
 #: src/comments/store.ts
 msgid "{failed} of {0} comments could not be updated."
-msgstr ""
+msgstr "댓글 {failed}개 중 {0}개 업데이트에 실패했습니다."
 
 #: src/components/FileTree.tsx
 msgid "{failedCount, plural, one {1 file failed to upload} other {{failedCount} files failed to upload}}"
@@ -903,11 +903,11 @@ msgstr ""
 
 #: src/presence/PresenceBar.tsx
 msgid "{userName} · {tabCount, plural, one {# tab} other {# tabs}}"
-msgstr ""
+msgstr "{userName} · {tabCount, plural, other {탭 #개}}"
 
 #: src/presence/PresenceBar.tsx
 msgid "{userName}, {tabCount, plural, one {# concurrent tab} other {# concurrent tabs}}"
-msgstr ""
+msgstr "{userName}, {tabCount, plural, other {동시 탭 #개}}"
 
 #: src/components/EditorFooter.tsx
 msgid "{words, plural, one {word} other {words}}"
@@ -1260,7 +1260,7 @@ msgstr ""
 #: src/comments/CommentSelectionAffordance.tsx
 #: src/comments/PropertyCommentButton.tsx
 msgid "Add a comment"
-msgstr ""
+msgstr "댓글 추가"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Add a key"
@@ -1285,11 +1285,11 @@ msgstr ""
 #: src/comments/CommentSelectionAffordance.tsx
 #: src/comments/PropertyCommentButton.tsx
 msgid "Add Comment"
-msgstr ""
+msgstr "댓글 추가"
 
 #: src/comments/CommentSelectionAffordance.tsx
 msgid "Add Comment (Enter)"
-msgstr ""
+msgstr "댓글 추가 (Enter)"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Add cursors or select matching occurrences through CodeMirror."
@@ -1390,7 +1390,7 @@ msgstr "값 추가"
 
 #: src/comments/comment-chips.tsx
 msgid "Add your comments to this message"
-msgstr ""
+msgstr "이 메시지에 댓글 남기기"
 
 #: src/components/PropertyDiffBlock.tsx
 #: src/components/SkillDirectoryResult.tsx
@@ -2205,7 +2205,7 @@ msgstr ""
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Cancel editing"
@@ -2390,7 +2390,7 @@ msgstr ""
 
 #: src/comments/CommentSendFooter.tsx
 msgid "Choose where to send these comments"
-msgstr ""
+msgstr "댓글 보낼 곳을 선택합니다"
 
 #: src/components/settings/SharingSection.tsx
 msgid "Choose whether this project's OpenKnowledge setup, including its AI-tool connections, is saved with the project so teammates get it too, or kept only on your computer."
@@ -2577,7 +2577,7 @@ msgstr ""
 
 #: src/comments/CommentMarginRail.tsx
 msgid "Close comment"
-msgstr ""
+msgstr "댓글 닫기"
 
 #: src/components/AgentDiffPane.tsx
 #: src/components/TimelineDiffPane.tsx
@@ -2694,7 +2694,7 @@ msgstr ""
 
 #: src/comments/CommentListPanel.tsx
 msgid "Collapse all files"
-msgstr ""
+msgstr "모든 파일 접기"
 
 #: src/components/BottomComposer.tsx
 msgid "Collapse Ask AI"
@@ -2746,11 +2746,11 @@ msgstr "이 컴퓨터에서 사용자 계정의 전체 권한으로 명령을 �
 
 #: src/comments/CommentBubbleButton.tsx
 msgid "Comment"
-msgstr ""
+msgstr "댓글"
 
 #: src/comments/PropertyCommentButton.tsx
 msgid "Comment on {address}"
-msgstr ""
+msgstr "{address}에 댓글 남기기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Comment on selection"
@@ -2758,7 +2758,7 @@ msgstr "선택 영역에 댓글 달기"
 
 #: src/comments/CommentBubbleButton.tsx
 msgid "Comment on this selection"
-msgstr ""
+msgstr "선택 영역에 댓글 남기기"
 
 #. placeholder {0}: descriptor.displayName ?? descriptor.name
 #: src/editor/extensions/JsxComponentView.tsx
@@ -2773,7 +2773,7 @@ msgstr "이 코드 블록에 댓글을 남기거나 AI에 질문"
 #: src/comments/CommentListPanel.tsx
 #: src/components/DocPanel.tsx
 msgid "Comments"
-msgstr ""
+msgstr "댓글"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Commit or stash changes to switch:"
@@ -2994,7 +2994,7 @@ msgstr ""
 
 #: src/presence/use-sync-toasts.ts
 msgid "Connection lost — keep this tab open, your edits will sync when reconnected"
-msgstr ""
+msgstr "연결 끊김. 이 탭을 열어 두면 다시 연결된 뒤 편집 내용도 동기화됩니다."
 
 #. Next step for a Codex project MCP row
 #: src/components/settings/ProjectAiToolsSection.tsx
@@ -3349,11 +3349,11 @@ msgstr ""
 #. placeholder {0}: err.message
 #: src/comments/store.ts
 msgid "Couldn't add that comment: {0}"
-msgstr ""
+msgstr "댓글 추가에 실패했습니다: {0}"
 
 #: src/comments/store.ts
 msgid "Couldn't add that comment."
-msgstr ""
+msgstr "댓글 추가에 실패했습니다."
 
 #. placeholder {0}: err instanceof Error ? err.message : String(err)
 #: src/components/settings/AiToolsSection.tsx
@@ -3435,7 +3435,7 @@ msgstr ""
 
 #: src/comments/store.ts
 msgid "Couldn't delete that comment."
-msgstr ""
+msgstr "댓글 삭제에 실패했습니다."
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Couldn’t delete this theme. Refresh and try again."
@@ -3453,7 +3453,7 @@ msgstr ""
 
 #: src/comments/reveal-comment.ts
 msgid "Couldn't find that passage — the text it was on may have changed."
-msgstr ""
+msgstr "해당 구절을 찾지 못했습니다. 원문 변경 가능성이 있습니다."
 
 #. placeholder {0}: item.displayName
 #: src/components/acp/ThreadView.tsx
@@ -3527,7 +3527,7 @@ msgstr ""
 
 #: src/comments/store.ts
 msgid "Couldn't mark that comment to send."
-msgstr ""
+msgstr "댓글 전송 표시 설정에 실패했습니다."
 
 #. placeholder {0}: result.error
 #: src/hooks/use-move-skill-scope.ts
@@ -3584,7 +3584,7 @@ msgstr ""
 
 #: src/comments/store.ts
 msgid "Couldn't re-place that comment."
-msgstr ""
+msgstr "댓글 다시 배치에 실패했습니다."
 
 #: src/components/handoff/useHandoffDispatch.ts
 msgid "Couldn't reach {displayName} — please try again later."
@@ -3641,12 +3641,12 @@ msgstr ""
 
 #: src/comments/store.ts
 msgid "Couldn't read the comments waiting to send — nothing was sent."
-msgstr ""
+msgstr "전송 대기 댓글을 읽지 못했습니다. 전송된 댓글 없음."
 
 #. placeholder {0}: err.message
 #: src/comments/store.ts
 msgid "Couldn't read the comments waiting to send: {0}"
-msgstr ""
+msgstr "전송 대기 댓글을 읽지 못했습니다: {0}"
 
 #. placeholder {0}: warning.code
 #: src/components/settings/SavedThemesTiles.tsx
@@ -3674,7 +3674,7 @@ msgstr ""
 
 #: src/comments/store.ts
 msgid "Couldn't reopen that comment."
-msgstr ""
+msgstr "댓글 다시 열기에 실패했습니다."
 
 #: src/components/DiffViewBoundary.tsx
 msgid "Couldn't resolve the conflict for {filePath}."
@@ -3730,7 +3730,7 @@ msgstr ""
 
 #: src/comments/store.ts
 msgid "Couldn't save that edit."
-msgstr ""
+msgstr "편집 내용 저장에 실패했습니다."
 
 #. placeholder {0}: result.error
 #: src/hooks/use-skill-origin.ts
@@ -3755,7 +3755,7 @@ msgstr ""
 
 #: src/comments/use-comment-delivery.ts
 msgid "Couldn't send your comments — the workspace isn't ready."
-msgstr ""
+msgstr "댓글 전송에 실패했습니다. 워크스페이스 준비 전입니다."
 
 #: src/components/BottomComposer.tsx
 msgid "Couldn't send your prompt — please try again."
@@ -3801,7 +3801,7 @@ msgstr "나만 보기로 전환하지 못했습니다"
 
 #: src/comments/store.ts
 msgid "Couldn't unmark that comment — it's still waiting to send."
-msgstr ""
+msgstr "댓글 전송 표시 해제에 실패했습니다. 아직 전송 대기 중입니다."
 
 #. placeholder {0}: result.error
 #: src/components/SkillTrackInGitDialog.tsx
@@ -4169,7 +4169,7 @@ msgstr ""
 
 #: src/comments/ThreadCard.tsx
 msgid "Delete this comment"
-msgstr ""
+msgstr "이 댓글 삭제"
 
 #. placeholder {0}: deletedTheme.label
 #: src/components/settings/SavedThemesTiles.tsx
@@ -4475,7 +4475,7 @@ msgstr ""
 
 #: src/comments/ThreadCard.tsx
 msgid "Don't send this comment"
-msgstr ""
+msgstr "이 댓글 보내지 않기"
 
 #: src/components/settings/ContentRulesSection.tsx
 msgid "Don't show"
@@ -4676,7 +4676,7 @@ msgstr "소스 창과 코드 속성 필드를 편집합니다."
 
 #: src/comments/ThreadCard.tsx
 msgid "Edit this comment"
-msgstr ""
+msgstr "이 댓글 편집"
 
 #: src/editor/slash-command/embed-starter-items.tsx
 msgid "Edit this HTML — the preview updates live."
@@ -4704,7 +4704,7 @@ msgstr ""
 
 #: src/presence/PresenceBar.tsx
 msgid "editing [[{realCurrentDoc}]]"
-msgstr ""
+msgstr "[[{realCurrentDoc}]] 편집 중"
 
 #. placeholder {0}: scheme.name
 #: src/components/settings/CustomThemeEditor.tsx
@@ -5043,7 +5043,7 @@ msgstr ""
 
 #: src/comments/CommentListPanel.tsx
 msgid "Expand all files"
-msgstr ""
+msgstr "모든 파일 펼치기"
 
 #: src/components/GraphPanel.tsx
 msgid "Expand graph"
@@ -6144,12 +6144,12 @@ msgstr "바꾸기 숨기기"
 
 #: src/comments/CommentListPanel.tsx
 msgid "Hide resolved"
-msgstr ""
+msgstr "해결됨 숨기기"
 
 #. placeholder {0}: resolved.length
 #: src/comments/CommentListPanel.tsx
 msgid "Hide resolved comments ({0})"
-msgstr ""
+msgstr "해결된 댓글 숨기기 ({0})"
 
 #: src/components/BottomComposer.tsx
 msgid "Hide selection preview"
@@ -6792,7 +6792,7 @@ msgstr "{pageNumber}페이지로 이동"
 
 #: src/comments/ThreadCard.tsx
 msgid "Jump to selected text in property"
-msgstr ""
+msgstr "속성에서 선택한 텍스트로 이동"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Jump to tab 1-8"
@@ -6800,7 +6800,7 @@ msgstr "1~8번 탭으로 이동"
 
 #: src/comments/ThreadCard.tsx
 msgid "Jump to the anchored text"
-msgstr ""
+msgstr "앵커 텍스트로 이동"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Jump to the markdown source for the block at the cursor, centered and highlighted."
@@ -6918,7 +6918,7 @@ msgstr "{title} 자세히 알아보기"
 
 #: src/comments/comment-chips.tsx
 msgid "Leave these comments out of this message"
-msgstr ""
+msgstr "이 메시지에서 댓글 제외"
 
 #: src/components/settings/TerminalSection.tsx
 msgid "Let agents use OpenKnowledge without asking"
@@ -7306,11 +7306,11 @@ msgstr "블록을 기준 소스로 지정합니다. 편집하면 다른 곳의 �
 #. placeholder {0}: docBasename(group.docName)
 #: src/comments/CommentListPanel.tsx
 msgid "Mark every comment in {0} to send"
-msgstr ""
+msgstr "{0}의 모든 댓글 전송 표시"
 
 #: src/comments/CommentListPanel.tsx
 msgid "Mark every comment to send"
-msgstr ""
+msgstr "모든 댓글 전송 표시"
 
 #: src/components/EditorModeToggle.tsx
 msgid "Markdown"
@@ -7910,7 +7910,7 @@ msgstr ""
 
 #: src/comments/use-comment-delivery.ts
 msgid "No agent is set up yet — opening Configure agents."
-msgstr ""
+msgstr "에이전트 미설정. 에이전트 설정을 엽니다."
 
 #: src/components/BottomComposer.tsx
 msgid "No agent is set up yet — pick one from the send menu."
@@ -7923,7 +7923,7 @@ msgstr "사용 가능한 에이전트 없음."
 #: src/comments/CommentSendFooter.tsx
 #: src/components/BottomComposer.tsx
 msgid "No agents enabled"
-msgstr ""
+msgstr "활성화된 에이전트 없음"
 
 #: src/components/settings/ConfigureAgentsSection.tsx
 msgid "No agents match your search."
@@ -7963,11 +7963,11 @@ msgstr ""
 
 #: src/comments/CommentProjectPanel.tsx
 msgid "No comments in this project yet. Comment on a passage to start one."
-msgstr ""
+msgstr "이 프로젝트에 아직 댓글이 없습니다. 구절에 댓글 남기기로 시작합니다."
 
 #: src/comments/CommentsPanel.tsx
 msgid "No comments yet. Select text in the document to add one."
-msgstr ""
+msgstr "아직 댓글 없음. 문서에서 텍스트 선택 후 댓글 추가"
 
 #: src/components/AgentDiffPane.tsx
 msgid "No content changes at this version."
@@ -8408,11 +8408,11 @@ msgstr "켜짐, 검색어와 일치하는 페이지의 텍스트가 임베딩 �
 
 #: src/comments/PropertyCommentButton.tsx
 msgid "On <0>{address}</0>"
-msgstr ""
+msgstr "<0>{address}</0>에"
 
 #: src/comments/PropertyCommentButton.tsx
 msgid "On selected text in <0>{address}</0>"
-msgstr ""
+msgstr "선택 텍스트: <0>{address}</0>"
 
 #: src/components/settings/LintingSection.tsx
 msgid "On the root index, okf_version is written as a quoted string like \"0.2\". Unquoted, YAML reads it as a number and 0.10 silently becomes 0.1."
@@ -8526,11 +8526,11 @@ msgstr "프로젝트 설정 없이 임시 세션에서 Markdown 파일 하나를
 
 #: src/presence/PresenceBar.tsx
 msgid "Open activity panel for {tooltipName}"
-msgstr ""
+msgstr "{tooltipName} 활동 패널 열기"
 
 #: src/presence/PresenceBar.tsx
 msgid "Open activity panel for {tooltipName}, editing {realCurrentDoc}"
-msgstr ""
+msgstr "{tooltipName} 활동 패널 열기, {realCurrentDoc} 편집 중"
 
 #: src/components/TerminalRevealTab.tsx
 msgid "Open agents panel"
@@ -8558,7 +8558,7 @@ msgstr "CodeMirror lint 진단 패널을 엽니다."
 
 #: src/comments/CommentMarginRail.tsx
 msgid "Open comment"
-msgstr ""
+msgstr "댓글 열기"
 
 #: src/components/command-palette-commands.ts
 #: src/lib/platform-labels.ts
@@ -9756,7 +9756,7 @@ msgstr "검색을 실행하면 다시 임베딩되므로, 적용 범위가 0부�
 
 #: src/comments/ThreadCard.tsx
 msgid "Re-place on selected text"
-msgstr ""
+msgstr "선택 텍스트에 다시 배치"
 
 #: src/components/ProblemsPanel.tsx
 msgid "Re-run the project audit"
@@ -9841,7 +9841,7 @@ msgstr ""
 
 #: src/presence/use-sync-toasts.ts
 msgid "Reconnected"
-msgstr ""
+msgstr "다시 연결됨"
 
 #: src/components/EditorActivityPool.tsx
 msgid "Reconnecting after server restart"
@@ -10138,7 +10138,7 @@ msgstr ""
 
 #: src/comments/ThreadCard.tsx
 msgid "Reopen"
-msgstr ""
+msgstr "다시 열기"
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 msgid "Reopen a past chat"
@@ -10320,7 +10320,7 @@ msgstr "삭제하기 전에 {files}의 충돌을 해결하고, +{overflow}개 �
 
 #: src/comments/ThreadCard.tsx
 msgid "Resolved"
-msgstr ""
+msgstr "해결됨"
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Resolving default location"
@@ -10571,7 +10571,7 @@ msgstr "샌드박스 처리된 HTML 삽입입니다. HTML을 작성하면 렌더
 #: src/editor/extensions/InternalLinkPropPanel.tsx
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 #: src/editor/components/CodePreviewEditModal.tsx
 msgid "Save changes"
@@ -10591,7 +10591,7 @@ msgstr ""
 
 #: src/comments/ThreadCard.tsx
 msgid "Save this comment (Enter)"
-msgstr ""
+msgstr "이 댓글 저장 (Enter)"
 
 #: src/components/settings/field-controls.tsx
 #: src/components/settings/OkignoreSection.tsx
@@ -10930,7 +10930,7 @@ msgstr "확인한 댓글을 채팅으로 보내기"
 
 #: src/comments/QueueNewChatRow.tsx
 msgid "Send comments to"
-msgstr ""
+msgstr "댓글 보낼 곳"
 
 #: src/components/command-palette-commands.ts
 #: src/components/HelpPopover.tsx
@@ -10947,16 +10947,16 @@ msgstr ""
 
 #: src/comments/ThreadCard.tsx
 msgid "Send this comment"
-msgstr ""
+msgstr "이 댓글 보내기"
 
 #: src/comments/CommentSendFooter.tsx
 msgid "Send to chat"
-msgstr ""
+msgstr "채팅에 보내기"
 
 #. placeholder {0}: formatShortcutLabel('send-comment-queue')
 #: src/comments/CommentSendFooter.tsx
 msgid "Send to chat ({0})"
-msgstr ""
+msgstr "채팅에 보내기 ({0})"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Send when the agent is free"
@@ -10989,7 +10989,7 @@ msgstr "콘텐츠를 임베딩하기 위해 <0>{endpointHost}</0>로 전송합�
 
 #: src/comments/store.ts
 msgid "Sent, but the comments could not be marked done — they're still waiting to send."
-msgstr ""
+msgstr "보냈지만 댓글 완료 표시에 실패했습니다. 아직 전송 대기 중입니다."
 
 #: src/editor/slash-command/items.tsx
 msgid "Separator"
@@ -11335,12 +11335,12 @@ msgstr "바꾸기 표시"
 
 #: src/comments/CommentListPanel.tsx
 msgid "Show resolved"
-msgstr ""
+msgstr "해결됨 보기"
 
 #. placeholder {0}: resolved.length
 #: src/comments/CommentListPanel.tsx
 msgid "Show resolved comments ({0})"
-msgstr ""
+msgstr "해결된 댓글 보기 ({0})"
 
 #: src/components/BottomComposer.tsx
 msgid "Show selection preview"
@@ -11365,7 +11365,7 @@ msgstr "터미널 표시"
 
 #: src/comments/comment-chips.tsx
 msgid "Show these comments in the Comments panel"
-msgstr ""
+msgstr "댓글 패널에서 이 댓글 보기"
 
 #: src/editor/components/Pdf.tsx
 msgid "Show thumbnails"
@@ -11692,7 +11692,7 @@ msgstr ""
 #: src/comments/CommentSendFooter.tsx
 #: src/comments/QueueNewChatRow.tsx
 msgid "Start a new chat"
-msgstr ""
+msgstr "새 채팅 시작"
 
 #: src/components/NavigatorApp.tsx
 msgid "Start a new OpenKnowledge project."
@@ -12270,7 +12270,7 @@ msgstr ""
 
 #: src/comments/reveal-comment.ts
 msgid "That document didn't open in time. Try again once it has synced."
-msgstr ""
+msgstr "문서 열기 시간 초과. 동기화 후 다시 시도합니다."
 
 #: src/components/settings/SearchSection.tsx
 msgid "That endpoint can't be used. Enter an https:// URL — http:// is only allowed for localhost."
@@ -12405,7 +12405,7 @@ msgstr ""
 
 #: src/comments/ThreadCard.tsx
 msgid "The original text was deleted. You can re-place this comment on selected text."
-msgstr ""
+msgstr "원문 삭제됨. 선택한 텍스트에 댓글 다시 배치 가능"
 
 #: src/editor/components/PreviewBlockedNotice.tsx
 msgid "The preview blocks resources that don't meet its security rules (for example plain http:// URLs, or code that uses eval). The content above may render incompletely."
@@ -12656,7 +12656,7 @@ msgstr ""
 
 #: src/comments/ThreadCard.tsx
 msgid "This comment is on the whole property"
-msgstr ""
+msgstr "이 댓글, 속성 전체에 적용됨"
 
 #: src/components/PanelScopeHeader.tsx
 msgid "This doc"
@@ -13331,12 +13331,12 @@ msgstr "링크 해제"
 
 #: src/comments/CommentListPanel.tsx
 msgid "Unmark every comment"
-msgstr ""
+msgstr "모든 댓글 전송 표시 해제"
 
 #. placeholder {0}: docBasename(group.docName)
 #: src/comments/CommentListPanel.tsx
 msgid "Unmark every comment in {0}"
-msgstr ""
+msgstr "{0}의 모든 댓글 전송 표시 해제"
 
 #: src/editor/slash-command/items.tsx
 msgid "Unordered list of items."
@@ -13645,7 +13645,7 @@ msgstr ""
 
 #: src/comments/CommentSelectionAffordance.tsx
 msgid "View comments"
-msgstr ""
+msgstr "댓글 보기"
 
 #: src/components/ActivityPanelBurstRow.tsx
 msgid "View diff for edit {burstNumber} of {docName}"
