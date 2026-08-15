@@ -6,6 +6,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ko\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #: src/components/acp/ThreadView.tsx
 msgid " · references only (no embedded contents)"
@@ -37,7 +43,7 @@ msgstr ""
 
 #: src/components/FileSidebar.tsx
 msgid ".ok folders"
-msgstr ""
+msgstr ".ok 폴더"
 
 #: src/components/settings/SharingSection.tsx
 msgid ".ok/skills is back to Only me."
@@ -166,7 +172,7 @@ msgstr ""
 #. placeholder {0}: tag.count
 #: src/components/CommandPalette.tsx
 msgid "{0, plural, one {# doc} other {# docs}}"
-msgstr ""
+msgstr "{0, plural, other {#개 문서}}"
 
 #. placeholder {0}: found.length
 #: src/lib/acp/tool-call-display.ts
@@ -211,7 +217,7 @@ msgstr ""
 #. placeholder {0}: results.length
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "{0, plural, one {# result} other {# results}}"
-msgstr ""
+msgstr "{0, plural, other {#개 결과}}"
 
 #. placeholder {0}: folder.templateCount
 #: src/components/CreatedItemsList.tsx
@@ -231,7 +237,7 @@ msgstr ""
 #. placeholder {0}: deleteTargets.length
 #: src/components/FileTree.tsx
 msgid "{0, plural, one {Delete} other {Delete # items}}"
-msgstr ""
+msgstr "{0, plural, other {#개 항목 삭제}}"
 
 #. placeholder {0}: fileRows.length
 #: src/components/CreatedItemsList.tsx
@@ -386,7 +392,7 @@ msgstr ""
 #. placeholder {0}: revealInFileManagerLabel(bridge.platform)
 #: src/components/FileSidebar.tsx
 msgid "{0}, No workspace"
-msgstr ""
+msgstr "{0}, 워크스페이스 없음"
 
 #. placeholder {0}: share.owner
 #. placeholder {1}: share.repo
@@ -578,7 +584,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "{detail} - {kind} \"{createdPath}\" still exists on disk"
-msgstr ""
+msgstr "{detail} - {kind} “{createdPath}”이(가) 디스크에 여전히 있습니다"
 
 #: src/components/FolderOverview.tsx
 msgid "{diffDays}d ago"
@@ -647,7 +653,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "{failedCount, plural, one {1 file failed to upload} other {{failedCount} files failed to upload}}"
-msgstr ""
+msgstr "{failedCount, plural, other {{failedCount}개 파일을 업로드하지 못했습니다}}"
 
 #: src/components/ActivityModeContent.tsx
 msgid "{fileCount, plural, one {# file} other {# files}}"
@@ -876,11 +882,11 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "{truncatedShownCount, plural, one {Showing the first item in one folder — the rest of that folder is hidden.} other {Showing the first {formattedCount} items in one folder — the rest of that folder is hidden.}}"
-msgstr ""
+msgstr "{truncatedShownCount, plural, other {한 폴더의 첫 {formattedCount}개 항목만 표시됩니다. 해당 폴더의 나머지 항목은 숨겨져 있습니다.}}"
 
 #: src/components/FileTree.tsx
 msgid "{uploadedCount, plural, one {Uploaded one file} other {Uploaded {uploadedCount} files}}"
-msgstr ""
+msgstr "{uploadedCount, plural, other {{uploadedCount}개 파일을 업로드했습니다}}"
 
 #. placeholder {0}: files.length
 #: src/components/ImportSkillForm.tsx
@@ -1168,11 +1174,11 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "About"
-msgstr ""
+msgstr "정보"
 
 #: src/lib/native-menu-catalog.ts
 msgid "About {appName}"
-msgstr ""
+msgstr "{appName} 정보"
 
 #: src/editor/slash-command/items.tsx
 msgid "Above"
@@ -1193,7 +1199,7 @@ msgstr ""
 #: src/components/settings/AccountSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Account"
-msgstr ""
+msgstr "계정"
 
 #: src/components/TemplateRow.tsx
 msgid "Actions for {label}"
@@ -1205,19 +1211,19 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Activate one of the first eight editor tabs."
-msgstr ""
+msgstr "처음 8개 편집기 탭 중 하나 활성화"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Activate the last editor tab."
-msgstr ""
+msgstr "마지막 편집기 탭 활성화"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Activate the next editor tab."
-msgstr ""
+msgstr "다음 편집기 탭 활성화"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Activate the previous editor tab."
-msgstr ""
+msgstr "이전 편집기 탭 활성화"
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "active"
@@ -1238,7 +1244,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Actual Size"
-msgstr ""
+msgstr "실제 크기"
 
 #: src/components/FrontmatterRow.tsx
 #: src/components/ObjectWidget.tsx
@@ -1283,7 +1289,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Add cursors or select matching occurrences through CodeMirror."
-msgstr ""
+msgstr "CodeMirror에서 커서를 추가하거나 일치하는 항목을 선택합니다."
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid "Add custom path"
@@ -1315,7 +1321,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Add link"
-msgstr ""
+msgstr "링크 추가"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Add meaning-based ranking to search so conceptually-related pages surface even when they share no keywords. This setting applies only to this computer."
@@ -1364,7 +1370,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Add the next matching source selection."
-msgstr ""
+msgstr "다음으로 일치하는 소스 선택 영역 추가"
 
 #: src/components/SkillTrackInGitDialog.tsx
 msgid "Add to {gitignorePath}"
@@ -1372,7 +1378,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Add to Dictionary"
-msgstr ""
+msgstr "사전에 추가"
 
 #: src/components/settings/frontmatter-schema-field-editor.tsx
 msgid "Add value"
@@ -1446,7 +1452,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Agent configuration file"
-msgstr ""
+msgstr "에이전트 설정 파일"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Agent mode"
@@ -1482,12 +1488,12 @@ msgstr ""
 #: src/components/settings/ProjectAiToolsSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "AI tools"
-msgstr ""
+msgstr "AI 도구"
 
 #: src/components/settings/AiToolsSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "AI tools & CLI"
-msgstr ""
+msgstr "AI 도구 및 CLI"
 
 #: src/editor/bubble-menu/ImageAlignButtons.tsx
 msgid "Align center"
@@ -1523,7 +1529,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "All tags"
-msgstr ""
+msgstr "모든 태그"
 
 #: src/components/settings/frontmatter-schema-field-editor.tsx
 msgid "Allowed element values (empty = any)"
@@ -1641,7 +1647,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Application"
-msgstr ""
+msgstr "애플리케이션"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Applies to"
@@ -1673,7 +1679,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Are you sure you want to convert this file into a template? The original file will be deleted. This action cannot be undone."
-msgstr ""
+msgstr "이 파일을 템플릿으로 변환하시겠습니까? 원본 파일은 삭제됩니다. 이 작업은 취소할 수 없습니다."
 
 #: src/components/file-tree-trash-copy.ts
 msgid "Are you sure you want to delete '{name}' and its contents?"
@@ -1685,7 +1691,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Are you sure you want to delete {folderName}/ and all files inside? This action cannot be undone."
-msgstr ""
+msgstr "“{folderName}/” 폴더와 내부의 모든 파일을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
 
 #: src/components/DeleteConfirmationDialog.tsx
 msgid "Are you sure you want to delete {itemName}? This action cannot be undone."
@@ -1693,7 +1699,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Are you sure you want to delete {targetCount} selected items? Folders and all files inside them will be deleted. This action cannot be undone."
-msgstr ""
+msgstr "선택한 {targetCount}개 항목을 삭제하시겠습니까? 폴더와 내부의 모든 파일도 삭제됩니다. 이 작업은 취소할 수 없습니다."
 
 #: src/components/file-tree-trash-copy.ts
 msgid "Are you sure you want to delete the selected item?"
@@ -1732,15 +1738,15 @@ msgstr ""
 #: src/components/ProblemsPanel.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Ask AI"
-msgstr ""
+msgstr "AI에게 묻기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Ask AI about selection"
-msgstr ""
+msgstr "선택 영역을 AI에게 묻기"
 
 #: src/components/command-palette-commands.ts
 msgid "Ask AI About Selection"
-msgstr ""
+msgstr "선택 영역을 AI에게 묻기"
 
 #: src/components/ProblemsPanel.tsx
 msgid "Ask AI to fix {flatId}"
@@ -1894,7 +1900,7 @@ msgstr ""
 #: src/components/SkillForkDialog.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Back"
-msgstr ""
+msgstr "뒤로"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Back to document view"
@@ -1962,7 +1968,7 @@ msgstr ""
 #: src/components/HelpPopover.tsx
 #: src/components/OkBlobRunnerPage.tsx
 msgid "Blob Run"
-msgstr ""
+msgstr "Blob 실행"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Block math equation rendered with KaTeX from a LaTeX source string."
@@ -1978,7 +1984,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Bold"
-msgstr ""
+msgstr "굵게"
 
 #: src/components/GraphPanel.tsx
 msgid "Both"
@@ -2031,7 +2037,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Bring All to Front"
-msgstr ""
+msgstr "모두 앞으로 가져오기"
 
 #: src/components/settings/ContentRulesSection.tsx
 msgid "Broken internal links"
@@ -2078,7 +2084,7 @@ msgstr ""
 #: src/components/BugReportHistoryDialog.tsx
 #: src/components/command-palette-commands.ts
 msgid "Bug report history"
-msgstr ""
+msgstr "버그 신고 기록"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Bug reporting needs the OpenKnowledge desktop app."
@@ -2110,7 +2116,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Bullet list"
-msgstr ""
+msgstr "글머리 기호 목록"
 
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
@@ -2119,7 +2125,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "By meaning"
-msgstr ""
+msgstr "의미순"
 
 #: src/components/SkillDirectoryResult.tsx
 msgid "By OpenKnowledge"
@@ -2127,7 +2133,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "By tag"
-msgstr ""
+msgstr "태그순"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Cached embeddings belong to the endpoint and model that produced them, so this rebuilds the index from scratch."
@@ -2212,7 +2218,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Cannot delete files with unresolved conflicts"
-msgstr ""
+msgstr "해결되지 않은 충돌이 있는 파일은 삭제할 수 없습니다."
 
 #: src/editor/image-upload/index.ts
 msgid "Cannot upload: no document is open"
@@ -2256,11 +2262,11 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Check for updates"
-msgstr ""
+msgstr "업데이트 확인"
 
 #: src/components/AppMenubar.tsx
 msgid "Check for updates…"
-msgstr ""
+msgstr "업데이트 확인…"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Check out remote branch"
@@ -2273,7 +2279,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
 msgid "Check spelling while typing"
-msgstr ""
+msgstr "입력하는 동안 맞춤법 검사"
 
 #: src/components/PropertyWidgets.tsx
 msgid "Checkbox"
@@ -2408,7 +2414,7 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Claude Desktop"
-msgstr ""
+msgstr "Claude Desktop"
 
 #: src/uninstall/UninstallNoticeScreen.tsx
 msgid "Cleanup log"
@@ -2430,7 +2436,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Clear menu"
-msgstr ""
+msgstr "메뉴 지우기"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Clear the field to reset back to the default OpenAI endpoint."
@@ -2546,7 +2552,7 @@ msgstr ""
 #: src/editor/find-replace/FindReplaceBar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Close"
-msgstr ""
+msgstr "닫기"
 
 #. placeholder {0}: session.label
 #: src/components/TerminalTabStrip.tsx
@@ -2589,7 +2595,7 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Close tab"
-msgstr ""
+msgstr "탭 닫기"
 
 #: src/components/TerminalRefusalNotice.tsx
 msgid "Close terminal"
@@ -2606,7 +2612,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Close Window"
-msgstr ""
+msgstr "창 닫기"
 
 #: src/components/GraphLegend.tsx
 msgid "Clusters"
@@ -2618,7 +2624,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Code block"
-msgstr ""
+msgstr "코드 블록"
 
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
@@ -2648,7 +2654,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Code field undo or redo"
-msgstr ""
+msgstr "코드 필드 실행 취소 또는 다시 실행"
 
 #: src/components/settings/TerminalSection.tsx
 msgid "Codex will still ask until you run \"ok init\" in a terminal for this project."
@@ -2676,7 +2682,7 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/FileTargetMenuItems.tsx
 msgid "Collapse all"
-msgstr ""
+msgstr "모두 접기"
 
 #: src/components/ProblemsPanel.tsx
 msgid "Collapse all file groups"
@@ -2708,7 +2714,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "Color theme"
-msgstr ""
+msgstr "색상 테마"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Column options"
@@ -2716,11 +2722,11 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Command failed."
-msgstr ""
+msgstr "명령에 실패했습니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Command palette"
-msgstr ""
+msgstr "명령 팔레트"
 
 #: src/components/SkillPluginBundleBanner.tsx
 msgid "commands"
@@ -2728,7 +2734,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Commands"
-msgstr ""
+msgstr "명령"
 
 #: src/components/settings/TerminalSection.tsx
 msgid "Commands run with the full access of your user account on this machine. Turn this off to disable the shell."
@@ -2744,7 +2750,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Comment on selection"
-msgstr ""
+msgstr "선택 영역에 댓글 달기"
 
 #: src/comments/CommentBubbleButton.tsx
 msgid "Comment on this selection"
@@ -2795,7 +2801,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Component boundary navigation"
-msgstr ""
+msgstr "구성 요소 경계 탐색"
 
 #: src/components/BottomComposer.tsx
 msgid "Condense my AGENTS.md file to less than 40k characters"
@@ -2804,7 +2810,7 @@ msgstr ""
 #: src/components/settings/SettingsDialogShell.tsx
 #: src/components/settings/SharingSection.tsx
 msgid "Config sharing"
-msgstr ""
+msgstr "설정 공유"
 
 #: src/components/settings/SharingSection.tsx
 msgid "Config sharing is now Only me."
@@ -2852,11 +2858,11 @@ msgstr ""
 #: src/components/settings/SettingsDialogShell.tsx
 #: src/components/TerminalNewChatButton.tsx
 msgid "Configure agents"
-msgstr ""
+msgstr "에이전트 구성"
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Configure user, project, and integration settings."
-msgstr ""
+msgstr "사용자, 프로젝트 및 통합 설정을 구성합니다."
 
 #: src/components/SkillInstallMenu.tsx
 msgid "conflict"
@@ -2915,7 +2921,7 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/FileTree.tsx
 msgid "Connect this project to GitHub to share."
-msgstr ""
+msgstr "공유하려면 이 프로젝트를 GitHub에 연결합니다."
 
 #: src/components/ConsentDialogBody.tsx
 #: src/components/CreateProjectDialog.tsx
@@ -3010,7 +3016,7 @@ msgstr ""
 #: src/components/settings/ContentRulesSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Content rules"
-msgstr ""
+msgstr "콘텐츠 규칙"
 
 #: src/components/settings/ContentRulesSection.tsx
 #: src/components/settings/LintingSection.tsx
@@ -3031,7 +3037,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Convert"
-msgstr ""
+msgstr "변환"
 
 #: src/components/FileTargetMenuItems.tsx
 msgid "Convert (delete original)"
@@ -3051,15 +3057,15 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Convert the current block to a paragraph."
-msgstr ""
+msgstr "현재 블록을 문단으로 변환합니다."
 
 #: src/components/FileTree.tsx
 msgid "Convert to template"
-msgstr ""
+msgstr "템플릿으로 변환"
 
 #: src/components/FileTree.tsx
 msgid "Converting..."
-msgstr ""
+msgstr "변환 중…"
 
 #: src/components/empty-state/CopyablePromptList.tsx
 #: src/components/InstallInClaudeDesktopDialog.tsx
@@ -3075,7 +3081,7 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/FileTree.tsx
 msgid "Copied full path"
-msgstr ""
+msgstr "전체 경로를 복사했습니다"
 
 #: src/components/skill-actions.tsx
 msgid "Copied path"
@@ -3085,7 +3091,7 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/FileTree.tsx
 msgid "Copied relative path"
-msgstr ""
+msgstr "상대 경로를 복사했습니다"
 
 #: src/components/CopyButton.tsx
 msgid "Copied!"
@@ -3111,7 +3117,7 @@ msgstr ""
 #: src/components/settings/CustomThemeEditor.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Copy"
-msgstr ""
+msgstr "복사"
 
 #. placeholder {0}: suggestion.label
 #: src/components/empty-state/CopyablePromptList.tsx
@@ -3145,11 +3151,11 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/components/FileSidebar.tsx
 msgid "Copy full path"
-msgstr ""
+msgstr "전체 경로 복사"
 
 #: src/components/FileSidebar.tsx
 msgid "Copy full path, No workspace"
-msgstr ""
+msgstr "전체 경로 복사, 워크스페이스 없음"
 
 #: src/components/SkillPreviewTab.tsx
 msgid "Copy in"
@@ -3157,12 +3163,12 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Copy link"
-msgstr ""
+msgstr "링크 복사"
 
 #: src/components/AppMenubar.tsx
 #: src/components/FileTargetMenuItems.tsx
 msgid "Copy path"
-msgstr ""
+msgstr "경로 복사"
 
 #: src/components/skill-actions.tsx
 msgid "Copy Path"
@@ -3170,11 +3176,11 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Copy relative path"
-msgstr ""
+msgstr "상대 경로 복사"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Copy selected file or folder"
-msgstr ""
+msgstr "선택한 파일 또는 폴더 복사"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Copy share link"
@@ -3190,7 +3196,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Copy the focused file-tree item so Paste can duplicate it."
-msgstr ""
+msgstr "붙여넣기로 복제할 수 있도록 파일 트리에서 포커스된 항목을 복사합니다."
 
 #: src/components/SkillPreviewTab.tsx
 msgid "Copying"
@@ -3202,7 +3208,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Could not complete delete"
-msgstr ""
+msgstr "삭제를 완료하지 못했습니다"
 
 #: src/components/ShareButton.tsx
 #: src/lib/share/run-share-action.ts
@@ -3213,13 +3219,13 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/FileTree.tsx
 msgid "Could not copy full path"
-msgstr ""
+msgstr "전체 경로를 복사하지 못했습니다"
 
 #: src/components/EditorTabTargetMenuItems.tsx
 #: src/components/FileSidebar.tsx
 #: src/components/FileTree.tsx
 msgid "Could not copy relative path"
-msgstr ""
+msgstr "상대 경로를 복사하지 못했습니다"
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Could not create project. Try again or pick a different location."
@@ -3231,7 +3237,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Could not duplicate item"
-msgstr ""
+msgstr "항목을 복제하지 못했습니다"
 
 #: src/components/AutoSyncOnboardingDialog.tsx
 msgid "Could not enable sync: {detail}"
@@ -3299,7 +3305,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Could not reach server"
-msgstr ""
+msgstr "서버에 연결하지 못했습니다"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Could not read branch state for this project. Close this dialog and open the share link again."
@@ -3311,7 +3317,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Could not start creating a new item"
-msgstr ""
+msgstr "새 항목 만들기를 시작하지 못했습니다"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Could not switch to {shareBranch}. Try switching manually."
@@ -3326,7 +3332,7 @@ msgstr ""
 #: src/components/FileTreeFilteredToZeroNotice.tsx
 #: src/components/NotInSidebarIndicator.tsx
 msgid "Could not update sidebar settings"
-msgstr ""
+msgstr "사이드바 설정을 업데이트하지 못했습니다"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Could not validate folder. Please try again."
@@ -3607,7 +3613,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Couldn't reach the embeddings provider — retry"
-msgstr ""
+msgstr "임베딩 제공업체에 연결하지 못했습니다. 다시 시도하세요."
 
 #: src/components/settings/SearchSection.tsx
 msgid "Couldn't reach the endpoint. Check the URL and that the server is up."
@@ -3813,7 +3819,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "Count skill installs publicly"
-msgstr ""
+msgstr "스킬 설치 횟수를 공개적으로 집계"
 
 #: src/components/ConsentDialogBody.tsx
 msgid "Counting markdown files"
@@ -3847,11 +3853,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Create a file from the current document or folder context."
-msgstr ""
+msgstr "현재 문서 또는 폴더의 컨텍스트에서 파일을 만듭니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Create a folder from the current document or folder context."
-msgstr ""
+msgstr "현재 문서 또는 폴더의 컨텍스트에서 폴더를 만듭니다."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "Create a new branch, or check out an existing one, in its own window."
@@ -3859,7 +3865,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Create a new list item from the current list item."
-msgstr ""
+msgstr "현재 목록 항목에서 새 목록 항목을 만듭니다."
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Create a new OpenKnowledge project in the folder of your choice."
@@ -3940,7 +3946,7 @@ msgstr ""
 #: src/components/CommandPalette.tsx
 #: src/components/NewWorktreeDialog.tsx
 msgid "Create worktree"
-msgstr ""
+msgstr "워크트리 만들기"
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "Create worktree <0>“<1>{typedName}</1>”</0>"
@@ -3949,7 +3955,7 @@ msgstr ""
 #: src/components/FileTree.tsx
 #: src/components/OnboardingCard.tsx
 msgid "Create your first file"
-msgstr ""
+msgstr "첫 파일 만들기"
 
 #: src/components/OnboardingCard.tsx
 msgid "Create your first project"
@@ -4042,11 +4048,11 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Cut"
-msgstr ""
+msgstr "잘라내기"
 
 #: src/components/settings/field-controls.tsx
 msgid "Dark"
-msgstr ""
+msgstr "어두운 테마"
 
 #: src/components/ExploreSkills.tsx
 msgid "Data"
@@ -4099,15 +4105,15 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Delete a table when the active table cell selection covers the full table."
-msgstr ""
+msgstr "활성 표 셀 선택 영역이 표 전체를 포함하면 표를 삭제합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Delete adjacent chip"
-msgstr ""
+msgstr "인접한 칩 삭제"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Delete an adjacent wiki-link or tag chip."
-msgstr ""
+msgstr "인접한 위키 링크 또는 태그 칩을 삭제합니다."
 
 #: src/editor/extensions/RawMdxFallbackCMView.tsx
 msgid "Delete block"
@@ -4139,15 +4145,15 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Delete selected files or folders"
-msgstr ""
+msgstr "선택한 파일 또는 폴더 삭제"
 
 #: src/components/FileTree.tsx
 msgid "Delete selected items"
-msgstr ""
+msgstr "선택 항목 삭제"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Delete selected table"
-msgstr ""
+msgstr "선택한 표 삭제"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Delete table"
@@ -4273,7 +4279,7 @@ msgstr ""
 #: src/components/CommandPalette.tsx
 #: src/components/handoff/OpenInAgentMenuItem.tsx
 msgid "Detecting"
-msgstr ""
+msgstr "감지 중"
 
 #: src/components/InstanceBadge.tsx
 msgid "Dev instance: {label}"
@@ -4346,7 +4352,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Disable Spell Check"
-msgstr ""
+msgstr "맞춤법 검사 비활성화"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Disable Themes"
@@ -4410,7 +4416,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Docs tagged #{tagDocsName}"
-msgstr ""
+msgstr "#{tagDocsName} 태그가 지정된 문서"
 
 #: src/components/share-receive-miss-content.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
@@ -4453,7 +4459,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Documents response did not match expected shape."
-msgstr ""
+msgstr "문서 응답이 예상한 형식과 일치하지 않습니다."
 
 #: src/editor/components/TagDialog.tsx
 msgid "Documents tagged <0>#{tagName}</0>"
@@ -4551,7 +4557,7 @@ msgstr ""
 #: src/components/FileTargetMenuItems.tsx
 #: src/components/skill-actions.tsx
 msgid "Duplicate"
-msgstr ""
+msgstr "복제"
 
 #: src/components/FrontmatterRow.tsx
 msgid "Duplicate name \"{keyName}\""
@@ -4559,19 +4565,19 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Duplicate selected file or folder"
-msgstr ""
+msgstr "선택한 파일 또는 폴더를 복제합니다."
 
 #: src/components/FileTree.tsx
 msgid "Duplicate succeeded but the sidebar may be out of date — refresh to resync"
-msgstr ""
+msgstr "복제는 성공했지만 사이드바가 최신 상태가 아닐 수 있습니다. 다시 동기화하려면 새로 고침하세요."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Duplicate the file-tree item copied from the Files sidebar."
-msgstr ""
+msgstr "파일 트리에서 복사한 항목을 복제합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Duplicate the focused file-tree item when focus is in the Files sidebar."
-msgstr ""
+msgstr "파일 사이드바에 포커스가 있을 때 포커스된 파일 트리 항목을 복제합니다."
 
 #. placeholder {0}: result.name
 #: src/components/skill-actions.tsx
@@ -4616,7 +4622,7 @@ msgstr ""
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Edit"
-msgstr ""
+msgstr "편집"
 
 #. placeholder {0}: theme.label
 #: src/components/settings/ColorThemePicker.tsx
@@ -4662,7 +4668,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Edit source pane and code property fields"
-msgstr ""
+msgstr "소스 창과 코드 속성 필드를 편집합니다."
 
 #: src/comments/ThreadCard.tsx
 msgid "Edit this comment"
@@ -4711,7 +4717,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Editor"
-msgstr ""
+msgstr "편집기"
 
 #: src/components/EditorModeToggle.tsx
 msgid "Editor mode"
@@ -4723,7 +4729,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Editor selection"
-msgstr ""
+msgstr "편집기 선택 영역"
 
 #: src/components/EditorFooter.tsx
 msgid "Editor status bar"
@@ -4880,7 +4886,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Enable Spell Check"
-msgstr ""
+msgstr "맞춤법 검사 활성화"
 
 #: src/components/TerminalGate.tsx
 msgid "Enable terminal"
@@ -4912,7 +4918,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: src/components/settings/CustomThemeEditor.tsx
 msgid "Enter a 6-digit hex like #1A2B3C"
@@ -4967,7 +4973,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Escape"
-msgstr ""
+msgstr "Escape"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Every concept document carries a non-empty type. This is the whole of OKF's conformance floor — a document with only a type is fully conformant."
@@ -5004,7 +5010,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Exit"
-msgstr ""
+msgstr "종료"
 
 #. placeholder {0}: exit.exitCode ?? 0
 #: src/components/acp/ThreadView.tsx
@@ -5025,7 +5031,7 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/FileTargetMenuItems.tsx
 msgid "Expand all"
-msgstr ""
+msgstr "모두 펼치기"
 
 #: src/components/ProblemsPanel.tsx
 msgid "Expand all file groups"
@@ -5104,21 +5110,21 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Failed to clean up after trash"
-msgstr ""
+msgstr "휴지통 정리 후속 작업에 실패했습니다"
 
 #: src/components/FileTree.tsx
 msgid "Failed to clean up pending {kind}"
-msgstr ""
+msgstr "대기 중인 {kind} 정리에 실패했습니다"
 
 #: src/components/FileTree.tsx
 #: src/components/NewItemDialog.tsx
 msgid "Failed to create file"
-msgstr ""
+msgstr "파일을 만들지 못했습니다"
 
 #: src/components/FileTree.tsx
 #: src/components/NewItemDialog.tsx
 msgid "Failed to create folder"
-msgstr ""
+msgstr "폴더를 만들지 못했습니다"
 
 #: src/components/LinksPanel.tsx
 #: src/components/ProblemsPanel.tsx
@@ -5141,7 +5147,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Failed to delete path"
-msgstr ""
+msgstr "경로를 삭제하지 못했습니다"
 
 #: src/components/ObjectWidget.tsx
 msgid "Failed to delete property"
@@ -5161,7 +5167,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Failed to duplicate path"
-msgstr ""
+msgstr "경로를 복제하지 못했습니다"
 
 #: src/components/settings/LinkPreviewsSection.tsx
 msgid "Failed to enable link previews — {detail}"
@@ -5181,7 +5187,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Failed to import template"
-msgstr ""
+msgstr "템플릿을 가져오지 못했습니다"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Failed to load activity"
@@ -5193,11 +5199,11 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Failed to load docs. Press <0>Esc</0> and re-open to retry."
-msgstr ""
+msgstr "문서를 불러오지 못했습니다. <0>Esc</0> 키를 누르고 다시 열어 보세요."
 
 #: src/components/FileTree.tsx
 msgid "Failed to load documents"
-msgstr ""
+msgstr "문서를 불러오지 못했습니다"
 
 #: src/components/use-viewer-text.ts
 msgid "Failed to load file"
@@ -5251,7 +5257,7 @@ msgstr ""
 #: src/components/NavigatorApp.tsx
 #: src/components/ProjectSwitcher.tsx
 msgid "Failed to load recent projects."
-msgstr ""
+msgstr "최근 프로젝트를 불러오지 못했습니다."
 
 #. placeholder {0}: state.message
 #: src/components/settings/SkillTargetsPicker.tsx
@@ -5260,7 +5266,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Failed to load tags. Press <0>Esc</0> and re-open to retry."
-msgstr ""
+msgstr "태그를 불러오지 못했습니다. <0>Esc</0> 키를 누르고 다시 열어 보세요."
 
 #: src/components/TemplatesCard.tsx
 msgid "Failed to load templates: {message}"
@@ -5268,7 +5274,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Failed to move"
-msgstr ""
+msgstr "이동하지 못했습니다"
 
 #: src/components/NavigatorApp.tsx
 msgid "Failed to open cloned project."
@@ -5287,17 +5293,17 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/components/ProjectSwitcher.tsx
 msgid "Failed to open Project Navigator."
-msgstr ""
+msgstr "프로젝트 탐색기를 열지 못했습니다."
 
 #: src/components/CommandPalette.tsx
 #: src/components/NavigatorApp.tsx
 msgid "Failed to open project."
-msgstr ""
+msgstr "프로젝트를 열지 못했습니다"
 
 #: src/components/CommandPalette.tsx
 #: src/components/RecentProjectsMenu.tsx
 msgid "Failed to open worktree."
-msgstr ""
+msgstr "워크트리를 열지 못했습니다"
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "Failed to open."
@@ -5315,7 +5321,7 @@ msgstr ""
 #: src/components/NavigatorApp.tsx
 #: src/components/ProjectSwitcher.tsx
 msgid "Failed to remove project."
-msgstr ""
+msgstr "프로젝트를 제거하지 못했습니다"
 
 #: src/components/settings/frontmatter-schema-field-editor.tsx
 msgid "Failed to remove the field"
@@ -5327,7 +5333,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Failed to rename path"
-msgstr ""
+msgstr "경로 이름을 바꾸지 못했습니다"
 
 #: src/components/ObjectWidget.tsx
 #: src/components/PropertyPanel.tsx
@@ -5409,7 +5415,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Failed to upload file"
-msgstr ""
+msgstr "파일을 업로드하지 못했습니다"
 
 #: src/components/FeedbackForm.tsx
 msgid "Feedback isn't available right now. Please try again later."
@@ -5448,7 +5454,7 @@ msgstr ""
 #: src/editor/slash-command/component-items.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "File"
-msgstr ""
+msgstr "파일"
 
 #: src/components/LinksPanel.tsx
 msgid "File {identity}. Go to reference."
@@ -5456,15 +5462,15 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "File already exists"
-msgstr ""
+msgstr "파일이 이미 있습니다"
 
 #: src/components/FileTree.tsx
 msgid "File drop zone"
-msgstr ""
+msgstr "파일 놓기 영역"
 
 #: src/components/FileTree.tsx
 msgid "File duplicated"
-msgstr ""
+msgstr "파일을 복제했습니다"
 
 #: src/components/NewItemDialog.tsx
 msgid "File name"
@@ -5505,15 +5511,15 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/FilesSkillsToggle.tsx
 msgid "Files"
-msgstr ""
+msgstr "파일"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Files sidebar"
-msgstr ""
+msgstr "파일 사이드바"
 
 #: src/components/FileSidebar.tsx
 msgid "Files toolbar"
-msgstr ""
+msgstr "파일 도구 모음"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Filter languages"
@@ -5527,7 +5533,7 @@ msgstr ""
 #: src/editor/find-replace/FindReplaceBar.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Find"
-msgstr ""
+msgstr "찾기"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Find and replace"
@@ -5535,7 +5541,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Find field navigation"
-msgstr ""
+msgstr "찾기 필드 탐색"
 
 #: src/components/ProseFindBar.tsx
 msgid "Find in file"
@@ -5543,11 +5549,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Find next match"
-msgstr ""
+msgstr "다음 일치 항목 찾기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Find previous match"
-msgstr ""
+msgstr "이전 일치 항목 찾기"
 
 #: src/components/NewItemDialog.tsx
 msgid "First file name"
@@ -5608,11 +5614,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Fold or unfold source"
-msgstr ""
+msgstr "소스 접기 또는 펼치기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Fold, unfold, fold all, or unfold all source ranges."
-msgstr ""
+msgstr "소스 범위를 접거나 펼치거나 모두 접거나 펼칩니다."
 
 #: src/components/share-receive-miss-content.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
@@ -5633,7 +5639,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Folder duplicated"
-msgstr ""
+msgstr "폴더를 복제했습니다"
 
 #: src/components/NewItemDialog.tsx
 msgid "Folder name"
@@ -5710,7 +5716,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Force Reload"
-msgstr ""
+msgstr "강제 새로 고침"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Force stop"
@@ -5725,7 +5731,7 @@ msgstr ""
 #: src/components/NavigationHistoryControls.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Forward"
-msgstr ""
+msgstr "앞으로"
 
 #: src/components/LinksPanel.tsx
 msgid "Forward-links response did not match expected shape."
@@ -5781,7 +5787,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/components/FileTargetMenuItems.tsx
 msgid "Full path"
-msgstr ""
+msgstr "전체 경로"
 
 #: src/components/skill-actions.tsx
 msgid "Full Path"
@@ -5801,7 +5807,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "General"
-msgstr ""
+msgstr "일반"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Generated files"
@@ -5895,11 +5901,11 @@ msgstr ""
 #: src/lib/keyboard-shortcuts.ts
 #: src/lib/skill-scope.ts
 msgid "Global"
-msgstr ""
+msgstr "전역"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Global outside text fields"
-msgstr ""
+msgstr "텍스트 필드 외 전역"
 
 #: src/components/DocumentErrorBoundary.tsx
 #: src/components/LargeFileEditorState.tsx
@@ -5908,7 +5914,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Go to line"
-msgstr ""
+msgstr "줄로 이동"
 
 #. placeholder {0}: diagnostic.range.start.line + 1
 #: src/components/ProblemsPanel.tsx
@@ -5948,11 +5954,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Hand the checked comments to an agent in one turn. On This doc, that document's comments only; on This project, every checked comment. Does nothing while the Comments tab is closed."
-msgstr ""
+msgstr "확인한 댓글을 한 번에 에이전트에게 전달합니다. 이 문서에서는 이 문서의 확인한 댓글만 전달하고, 이 프로젝트에서는 확인한 모든 댓글을 전달합니다. 댓글 탭이 닫혀 있으면 아무 작업도 하지 않습니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Hard break"
-msgstr ""
+msgstr "하드 줄바꿈"
 
 #: src/components/FeedbackForm.tsx
 msgid "Hard to use"
@@ -5983,7 +5989,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Heading levels"
-msgstr ""
+msgstr "제목 수준"
 
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
 msgid "Heading suggestions"
@@ -6018,7 +6024,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Help"
-msgstr ""
+msgstr "도움말"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Helps coding agents choose OKF document types, preserve provenance, and avoid inventing unsupported metadata."
@@ -6038,7 +6044,7 @@ msgstr ""
 #: src/components/EditorTabTargetMenuItems.tsx
 #: src/components/FileTree.tsx
 msgid "Hidden “{basename}”"
-msgstr ""
+msgstr "숨김 “{basename}”"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Hidden content goes here."
@@ -6047,12 +6053,12 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/NotInSidebarIndicator.tsx
 msgid "Hidden files"
-msgstr ""
+msgstr "숨김 파일"
 
 #: src/components/EditorTabTargetMenuItems.tsx
 #: src/components/FileTree.tsx
 msgid "Hidden folder “{basename}”"
-msgstr ""
+msgstr "숨김 폴더 “{basename}”"
 
 #: src/components/TimelinePanel.tsx
 msgid "Hide"
@@ -6065,7 +6071,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Hide {appName}"
-msgstr ""
+msgstr "{appName} 가리기"
 
 #: src/components/settings/OkignoreSection.tsx
 msgid "Hide advanced"
@@ -6073,7 +6079,7 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Hide Agents"
-msgstr ""
+msgstr "에이전트 가리기"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Hide details"
@@ -6082,7 +6088,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
 msgid "Hide document panel"
-msgstr ""
+msgstr "문서 패널 가리기"
 
 #: src/components/GraphPanel.tsx
 msgid "Hide external URL nodes"
@@ -6104,7 +6110,7 @@ msgstr ""
 #: src/components/EditorTabTargetMenuItems.tsx
 #: src/components/FileTree.tsx
 msgid "Hide folder"
-msgstr ""
+msgstr "폴더 가리기"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Hide HTML preview"
@@ -6112,7 +6118,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Hide Others"
-msgstr ""
+msgstr "다른 앱 가리기"
 
 #: src/components/AgentDiffPane.tsx
 #: src/components/EditorToolbar.tsx
@@ -6148,7 +6154,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
 msgid "Hide sidebar"
-msgstr ""
+msgstr "사이드바 가리기"
 
 #: src/components/GraphPanel.tsx
 msgid "Hide skill nodes"
@@ -6156,12 +6162,12 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Hide Terminal"
-msgstr ""
+msgstr "터미널 가리기"
 
 #: src/components/EditorTabTargetMenuItems.tsx
 #: src/components/FileTree.tsx
 msgid "Hide this file"
-msgstr ""
+msgstr "이 파일 가리기"
 
 #: src/editor/components/Pdf.tsx
 msgid "Hide thumbnails"
@@ -6169,7 +6175,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Highlight"
-msgstr ""
+msgstr "강조 표시"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Highlight tips, warnings, and notes."
@@ -6202,7 +6208,7 @@ msgstr ""
 #: src/components/settings/HotkeysSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Hotkeys"
-msgstr ""
+msgstr "단축키"
 
 #: src/components/FeedbackFormDialog.tsx
 msgid "How do you like OpenKnowledge?"
@@ -6282,7 +6288,7 @@ msgstr ""
 #: src/components/settings/OkignoreSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Ignore patterns"
-msgstr ""
+msgstr "무시 패턴"
 
 #: src/components/settings/OkignoreSection.tsx
 msgid "Ignore patterns (raw text)"
@@ -6400,19 +6406,19 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Indent or outdent list item"
-msgstr ""
+msgstr "목록 항목을 들여쓰거나 내어씁니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Indent or outdent source"
-msgstr ""
+msgstr "소스의 들여쓰기 또는 내어쓰기를 조정합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Indent or outdent source editor lines."
-msgstr ""
+msgstr "현재 소스 편집기 줄의 들여쓰기 또는 내어쓰기를 조정합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Indent or outdent the current list item."
-msgstr ""
+msgstr "현재 목록 항목의 들여쓰기 또는 내어쓰기를 조정합니다."
 
 #: src/editor/slash-command/items.tsx
 msgid "Indented blockquote for citations."
@@ -6444,7 +6450,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Indexing your pages — {semanticIndexedCount} of {semanticTotalCount} ready. Results may be incomplete."
-msgstr ""
+msgstr "페이지를 색인하는 중입니다. 준비된 결과: {semanticIndexedCount}/{semanticTotalCount}. 결과가 불완전할 수 있습니다."
 
 #: src/components/FrontmatterRow.tsx
 msgid "inherited"
@@ -6484,7 +6490,7 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Initialize starter pack"
-msgstr ""
+msgstr "스타터 팩 초기화"
 
 #. placeholder {0}: seed.candidatePath
 #: src/components/ShareReceiveDialog.tsx
@@ -6501,7 +6507,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Inline code"
-msgstr ""
+msgstr "인라인 코드"
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Inline hashtag for cross-doc grouping."
@@ -6529,7 +6535,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Insert a markdown hard break."
-msgstr ""
+msgstr "Markdown 하드 줄바꿈을 삽입합니다."
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Insert column left"
@@ -6553,7 +6559,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Insert, delete, move, copy, and indent source editor lines through CodeMirror's default keymap."
-msgstr ""
+msgstr "CodeMirror 기본 키맵을 통해 소스 편집기 줄을 삽입, 삭제, 이동, 복사하고 들여씁니다."
 
 #: src/components/InstallInClaudeDesktopDialog.tsx
 #: src/components/settings/IntegrationsSection.tsx
@@ -6584,11 +6590,11 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Install for Claude Chat & Cowork (desktop app)"
-msgstr ""
+msgstr "Claude Chat 및 Cowork(데스크톱 앱)용 설치"
 
 #: src/components/command-palette-commands.ts
 msgid "Install for Claude Chat & Cowork (Desktop App)"
-msgstr ""
+msgstr "Claude Chat 및 Cowork(데스크톱 앱)에 설치"
 
 #: src/components/SkillPluginBundleDialog.tsx
 msgid "Install from {plugin}"
@@ -6713,7 +6719,7 @@ msgstr ""
 #: src/components/settings/IntegrationsSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Integrations"
-msgstr ""
+msgstr "통합"
 
 #: src/components/settings/SavedThemesTiles.tsx
 msgid "Invalid color value"
@@ -6761,7 +6767,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Italic"
-msgstr ""
+msgstr "기울임꼴"
 
 #. placeholder {0}: index + 1
 #: src/components/ArrayOfObjectsWidget.tsx
@@ -6774,7 +6780,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Jump to last tab"
-msgstr ""
+msgstr "마지막 탭으로 이동"
 
 #: src/editor/components/Pdf.tsx
 msgid "Jump to page {pageNumber}"
@@ -6786,7 +6792,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Jump to tab 1-8"
-msgstr ""
+msgstr "1~8번 탭으로 이동"
 
 #: src/comments/ThreadCard.tsx
 msgid "Jump to the anchored text"
@@ -6794,7 +6800,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Jump to the markdown source for the block at the cursor, centered and highlighted."
-msgstr ""
+msgstr "커서가 있는 블록의 Markdown 소스로 이동해 가운데에 표시하고 강조합니다."
 
 #: src/components/acp/ThreadHistoryMenu.tsx
 #: src/components/FolderOverview.tsx
@@ -6872,7 +6878,7 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Kill Terminal"
-msgstr ""
+msgstr "터미널 종료"
 
 #: src/editor/extensions/WikiLinkPropPanel.tsx
 msgid "Label <0>(optional display text)</0>"
@@ -6884,7 +6890,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "Language"
-msgstr ""
+msgstr "언어"
 
 #: src/components/ActivityPanelBurstRow.tsx
 msgid "Latest edit"
@@ -6916,7 +6922,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Let Tab leave the source editor instead of indenting."
-msgstr ""
+msgstr "들여쓰기 대신 Tab 키로 소스 편집기를 빠져나갑니다."
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Let us follow up by email"
@@ -6931,11 +6937,11 @@ msgstr ""
 
 #: src/components/settings/field-controls.tsx
 msgid "Light"
-msgstr ""
+msgstr "밝은 테마"
 
 #: src/components/settings/settings-fields.ts
 msgid "Light, dark, or follow the OS."
-msgstr ""
+msgstr "밝은 테마, 어두운 테마 또는 운영 체제 설정을 따릅니다."
 
 #: src/components/ProblemsPanel.tsx
 msgid "line {displayLine}"
@@ -6958,7 +6964,7 @@ msgstr ""
 #: src/components/settings/LinkPreviewsSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Link previews"
-msgstr ""
+msgstr "링크 미리보기"
 
 #: src/lib/share/run-share-action.ts
 msgid "Link ready but could not copy to clipboard."
@@ -6982,7 +6988,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Link the selected text, or edit the link under the caret."
-msgstr ""
+msgstr "선택한 텍스트에 링크를 추가하거나 커서 아래의 링크를 편집합니다."
 
 #: src/editor/slash-command/component-items.tsx
 msgid "Link to a page or external URL."
@@ -7078,7 +7084,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Loading docs"
-msgstr ""
+msgstr "문서 불러오는 중"
 
 #: src/components/EditorSkeleton.tsx
 msgid "Loading document"
@@ -7090,7 +7096,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Loading files"
-msgstr ""
+msgstr "파일 불러오는 중"
 
 #: src/components/FolderOverview.tsx
 msgid "Loading folder contents"
@@ -7139,7 +7145,7 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Loading settings"
-msgstr ""
+msgstr "설정 불러오는 중"
 
 #: src/components/SkillsSidebarSection.tsx
 msgid "Loading skills"
@@ -7152,7 +7158,7 @@ msgstr ""
 #: src/components/CommandPalette.tsx
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "Loading tags"
-msgstr ""
+msgstr "태그 불러오는 중"
 
 #: src/components/empty-state/CreateView.tsx
 #: src/components/NewItemDialog.tsx
@@ -7222,7 +7228,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Look Up \"{word}\""
-msgstr ""
+msgstr "“{word}” 찾아보기"
 
 #: src/components/ShareReceiveDialog.tsx
 msgid "Looking for <0>{lookingForUrl}</0>."
@@ -7267,7 +7273,7 @@ msgstr ""
 #: src/components/EditorTabTargetMenuItems.tsx
 #: src/components/FileTree.tsx
 msgid "Manage hidden files in Settings → Ignore patterns."
-msgstr ""
+msgstr "설정 → 무시 패턴에서 숨김 파일을 관리합니다."
 
 #: src/components/SkillInstallMenu.tsx
 msgid "Manage skill folders"
@@ -7312,7 +7318,7 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "markdownlint rules"
-msgstr ""
+msgstr "markdownlint 규칙"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 msgid "Match case"
@@ -7371,7 +7377,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Minimize"
-msgstr ""
+msgstr "최소화"
 
 #: src/editor/components/Mirror.tsx
 msgid "Mirror loading <0>{mirrorRef}</0>"
@@ -7487,11 +7493,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move between table cells"
-msgstr ""
+msgstr "표 셀 사이를 이동합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move block"
-msgstr ""
+msgstr "블록 이동"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Move down"
@@ -7503,33 +7509,33 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Move succeeded but the sidebar may be out of date — refresh to resync"
-msgstr ""
+msgstr "이동은 성공했지만 사이드바가 최신 상태가 아닐 수 있습니다. 다시 동기화하려면 새로 고침하세요."
 
 #: src/components/command-palette-commands.ts
 #: src/components/TerminalTabStrip.tsx
 msgid "Move Terminal to bottom"
-msgstr ""
+msgstr "터미널을 아래로 이동"
 
 #: src/components/command-palette-commands.ts
 #: src/components/TerminalTabStrip.tsx
 msgid "Move Terminal to right"
-msgstr ""
+msgstr "터미널을 오른쪽으로 이동"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move the current block up or down one position."
-msgstr ""
+msgstr "현재 블록을 한 위치 위 또는 아래로 이동합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move the cursor or extend selection through CodeMirror's standard source-editor navigation keymap."
-msgstr ""
+msgstr "CodeMirror 표준 소스 편집기 탐색 키맵을 사용해 커서를 이동하거나 선택 영역을 확장합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move through slash, wiki-link, tag, and path suggestions; accept or dismiss the active suggestion."
-msgstr ""
+msgstr "슬래시, 위키 링크, 태그 및 경로 제안을 이동하고 활성 제안을 수락하거나 닫습니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move through visual-editor find results from the find field."
-msgstr ""
+msgstr "찾기 필드에서 비주얼 편집기 찾기 결과 사이를 이동합니다."
 
 #. placeholder {0}: scopeLabels.global
 #. placeholder {0}: scopeLabels.project
@@ -7554,7 +7560,7 @@ msgstr ""
 #: src/components/file-tree-trash-copy.ts
 #: src/lib/platform-labels.ts
 msgid "Move to Recycle Bin"
-msgstr ""
+msgstr "휴지통으로 이동"
 
 #: src/components/TerminalTabStrip.tsx
 msgid "Move to right panel"
@@ -7562,25 +7568,25 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move to the next CodeMirror lint diagnostic."
-msgstr ""
+msgstr "다음 CodeMirror lint 진단으로 이동합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move to the next or previous table cell."
-msgstr ""
+msgstr "다음 또는 이전 표 셀로 이동합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move to the next visual-editor find result."
-msgstr ""
+msgstr "다음 비주얼 편집기 찾기 결과로 이동합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Move to the previous visual-editor find result."
-msgstr ""
+msgstr "이전 비주얼 편집기 찾기 결과로 이동합니다."
 
 #: src/components/command-palette-commands.ts
 #: src/components/file-tree-trash-copy.ts
 #: src/lib/platform-labels.ts
 msgid "Move to Trash"
-msgstr ""
+msgstr "휴지통으로 이동"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Move up"
@@ -7680,7 +7686,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Navigate CodeMirror source search results or dismiss the search panel."
-msgstr ""
+msgstr "CodeMirror 소스 검색 결과를 탐색하거나 검색 패널을 닫습니다."
 
 #: src/components/ActivityPanelFileRow.tsx
 msgid "Navigate to {docName}"
@@ -7688,7 +7694,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Navigation and suggestions"
-msgstr ""
+msgstr "탐색 및 제안"
 
 #: src/components/NavigationHistoryControls.tsx
 msgid "Navigation history"
@@ -7704,12 +7710,12 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Network error - {kind} \"{createdPath}\" still exists on disk"
-msgstr ""
+msgstr "{kind} “{createdPath}”에 대한 네트워크 오류입니다. 해당 항목이 디스크에 여전히 있습니다."
 
 #: src/components/FileTree.tsx
 #: src/components/NewItemDialog.tsx
 msgid "Network error — please try again"
-msgstr ""
+msgstr "네트워크 오류입니다. 다시 시도하세요."
 
 #: src/components/ConnectingBanner.tsx
 msgid "network error (is `ok start` running?)"
@@ -7717,7 +7723,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Network error during cleanup"
-msgstr ""
+msgstr "정리 중 네트워크 오류가 발생했습니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "never"
@@ -7764,7 +7770,7 @@ msgstr ""
 #: src/components/SkillsTree.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "New file"
-msgstr ""
+msgstr "새 파일"
 
 #: src/components/empty-state/CreateView.tsx
 msgid "New file from template \"{displayTitle}\" ({fileName}) in {targetLabel}"
@@ -7785,7 +7791,7 @@ msgstr ""
 #: src/components/NewItemDialog.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "New folder"
-msgstr ""
+msgstr "새 폴더"
 
 #: src/components/SkillsBasePage.tsx
 msgid "New from scratch"
@@ -7795,11 +7801,11 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/FileTargetMenuItems.tsx
 msgid "New from template"
-msgstr ""
+msgstr "템플릿에서 새로 만들기"
 
 #: src/components/AppMenubar.tsx
 msgid "New from Template…"
-msgstr ""
+msgstr "템플릿에서 새로 만들기…"
 
 #: src/components/settings/OkignoreSection.tsx
 msgid "New ignore pattern"
@@ -7812,11 +7818,11 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/components/ProjectSwitcher.tsx
 msgid "New project"
-msgstr ""
+msgstr "새 프로젝트"
 
 #: src/components/AppMenubar.tsx
 msgid "New project…"
-msgstr ""
+msgstr "새 프로젝트…"
 
 #: src/components/AddPropertyNameField.tsx
 msgid "New property name"
@@ -7828,13 +7834,13 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "New session"
-msgstr ""
+msgstr "새 세션"
 
 #: src/components/command-palette-commands.ts
 #: src/components/NewSkillDialog.tsx
 #: src/components/SkillsTree.tsx
 msgid "New skill"
-msgstr ""
+msgstr "새 스킬"
 
 #: src/components/SkillFileCreateDialog.tsx
 msgid "New skill file"
@@ -7843,7 +7849,7 @@ msgstr ""
 #: src/components/EditorTabs.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "New tab"
-msgstr ""
+msgstr "새 탭"
 
 #: src/components/NewTemplateDialog.tsx
 #: src/components/settings/TemplatesManagerSection.tsx
@@ -7857,21 +7863,21 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "New Terminal"
-msgstr ""
+msgstr "새 터미널"
 
 #: src/lib/native-menu-catalog.ts
 msgid "New Terminal Window"
-msgstr ""
+msgstr "새 터미널 창"
 
 #: src/components/command-palette-commands.ts
 #: src/components/NewWorktreeDialog.tsx
 #: src/components/ProjectSwitcher.tsx
 msgid "New worktree"
-msgstr ""
+msgstr "새 워크트리"
 
 #: src/components/AppMenubar.tsx
 msgid "New worktree…"
-msgstr ""
+msgstr "새 워크트리…"
 
 #: src/components/TimelineDiffPane.tsx
 msgid "Next change"
@@ -7884,11 +7890,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Next source diagnostic"
-msgstr ""
+msgstr "다음 소스 진단으로 이동"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Next tab"
-msgstr ""
+msgstr "다음 탭"
 
 #: src/components/settings/markdownlint-rule-browser.tsx
 msgid "No <0>.markdownlint.*</0> file yet — every rule runs on the same defaults as the VS Code markdownlint extension: all on, except line length."
@@ -7925,7 +7931,7 @@ msgstr ""
 
 #: src/components/FileSidebar.tsx
 msgid "No AI agents installed"
-msgstr ""
+msgstr "설치된 AI 에이전트 없음"
 
 #: src/components/settings/SearchSection.tsx
 msgid "No API key is set for this endpoint. Add one above."
@@ -7973,7 +7979,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "No docs registered under #{tagDocsName}."
-msgstr ""
+msgstr "#{tagDocsName} 아래에 등록된 문서가 없습니다."
 
 #: src/components/ActivityModeContent.tsx
 msgid "No edit session yet"
@@ -7993,7 +7999,7 @@ msgstr ""
 
 #: src/components/FileSidebar.tsx
 msgid "No file or folder selected"
-msgstr ""
+msgstr "선택한 파일 또는 폴더가 없습니다"
 
 #: src/components/ImportSkillForm.tsx
 msgid "No file selected"
@@ -8001,7 +8007,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "No files yet."
-msgstr ""
+msgstr "아직 파일이 없습니다."
 
 #: src/components/settings/applies-to-folder-picker.tsx
 msgid "No folders in this project yet."
@@ -8066,7 +8072,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "No matches. Some files are excluded from search (hidden or ignored files)."
-msgstr ""
+msgstr "일치하는 항목이 없습니다. 일부 파일은 숨김 파일 또는 무시된 파일이라 검색에서 제외됩니다."
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "No matching branches."
@@ -8078,7 +8084,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "No matching commands."
-msgstr ""
+msgstr "일치하는 명령이 없습니다."
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "No matching docs"
@@ -8130,7 +8136,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "No pages matched \"{semanticQueryText}\" by meaning."
-msgstr ""
+msgstr "의미상 “{semanticQueryText}”와 일치하는 페이지가 없습니다."
 
 #: src/components/settings/OkignoreSection.tsx
 msgid "No patterns yet. Type a folder or file name below to start hiding files."
@@ -8150,12 +8156,12 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "No recent files"
-msgstr ""
+msgstr "최근 파일 없음"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "No recent projects"
-msgstr ""
+msgstr "최근 프로젝트 없음"
 
 #: src/components/ProjectSwitcher.tsx
 msgid "No recent projects."
@@ -8188,7 +8194,7 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "No settings found"
-msgstr ""
+msgstr "설정을 찾을 수 없습니다"
 
 #: src/components/ImportSkillForm.tsx
 msgid "No skill found at that source. Import will report why if you continue."
@@ -8208,7 +8214,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "No tags match \"{tagListQuery}\"."
-msgstr ""
+msgstr "“{tagListQuery}”와 일치하는 태그가 없습니다."
 
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "No tags match \"{trimmed}\". Continue typing to create one."
@@ -8216,7 +8222,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "No tags yet — author `#tagname` in any doc to populate the index."
-msgstr ""
+msgstr "아직 태그가 없습니다. 문서에서 `#tagname`을 작성하면 색인에 추가됩니다."
 
 #: src/editor/tag-suggestion/TagSuggestionMenu.tsx
 msgid "No tags yet. Continue typing to create one."
@@ -8244,7 +8250,7 @@ msgstr ""
 #: src/components/handoff/OpenInAgentContextSubmenu.tsx
 #: src/components/handoff/OpenInAgentEmptySpaceSubmenu.tsx
 msgid "No workspace"
-msgstr ""
+msgstr "워크스페이스 없음"
 
 #: src/components/settings/SyncSection.tsx
 msgid "None"
@@ -8295,7 +8301,7 @@ msgstr ""
 #: src/components/handoff/OpenInAgentMenuItem.tsx
 #: src/components/settings/ConfigureAgentsSection.tsx
 msgid "Not installed"
-msgstr ""
+msgstr "설치되지 않음"
 
 #: src/components/acp/ThreadView.tsx
 #: src/components/ReportBugDialogBody.tsx
@@ -8376,7 +8382,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "OK Desktop"
-msgstr ""
+msgstr "OK Desktop"
 
 #. placeholder {0}: f.expected ?? ''
 #. placeholder {0}: o.expected ?? ''
@@ -8433,7 +8439,7 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/NotInSidebarIndicator.tsx
 msgid "Only markdown files"
-msgstr ""
+msgstr "Markdown 파일만"
 
 #: src/components/settings/SharingSection.tsx
 #: src/components/SharingModeField.tsx
@@ -8484,7 +8490,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open a blank editor tab."
-msgstr ""
+msgstr "빈 편집기 탭을 엽니다."
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Open a doc to share its URL."
@@ -8492,7 +8498,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open a new session with your preferred AI. With text selected, stage it there instead of running it."
-msgstr ""
+msgstr "선호하는 AI로 새 세션을 엽니다. 텍스트를 선택한 경우 실행하는 대신 해당 세션에 추가합니다."
 
 #: src/lib/share/publish-wizard.ts
 msgid "Open a project first."
@@ -8500,7 +8506,7 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Open a project to edit."
-msgstr ""
+msgstr "편집할 프로젝트를 엽니다."
 
 #: src/components/settings/ProjectAiToolsSection.tsx
 msgid "Open a project to manage its AI tool connections."
@@ -8512,7 +8518,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open a single markdown file in a temporary session, without project setup."
-msgstr ""
+msgstr "프로젝트 설정 없이 임시 세션에서 Markdown 파일 하나를 엽니다."
 
 #: src/presence/PresenceBar.tsx
 msgid "Open activity panel for {tooltipName}"
@@ -8528,23 +8534,23 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open an existing project folder from disk."
-msgstr ""
+msgstr "디스크에서 기존 프로젝트 폴더를 엽니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open and focus the bottom Ask AI prompt composer."
-msgstr ""
+msgstr "하단의 AI에게 묻기 프롬프트 작성기를 열고 포커스를 둡니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open CodeMirror search in source editor mode."
-msgstr ""
+msgstr "소스 편집기 모드에서 CodeMirror 검색을 엽니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open CodeMirror's go-to-line prompt."
-msgstr ""
+msgstr "CodeMirror의 줄 이동 프롬프트를 엽니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open CodeMirror's lint diagnostics panel."
-msgstr ""
+msgstr "CodeMirror lint 진단 패널을 엽니다."
 
 #: src/comments/CommentMarginRail.tsx
 msgid "Open comment"
@@ -8553,7 +8559,7 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/lib/platform-labels.ts
 msgid "Open containing folder"
-msgstr ""
+msgstr "포함 폴더 열기"
 
 #: src/components/PropertyWidgets.tsx
 msgid "Open date picker for {keyName}"
@@ -8561,7 +8567,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open delete confirmation for the selected file-tree items."
-msgstr ""
+msgstr "선택한 파일 트리 항목의 삭제 확인을 엽니다."
 
 #: src/components/PropertyWidgets.tsx
 msgid "Open documents tagged #{chip}"
@@ -8584,30 +8590,30 @@ msgstr ""
 #: src/components/ViewerStatusPane.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open file"
-msgstr ""
+msgstr "파일 열기"
 
 #: src/components/command-palette-commands.ts
 #: src/components/NavigatorApp.tsx
 msgid "Open file on disk"
-msgstr ""
+msgstr "디스크에서 파일 열기"
 
 #: src/components/ProjectSwitcher.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open folder"
-msgstr ""
+msgstr "폴더 열기"
 
 #: src/components/command-palette-commands.ts
 #: src/components/NavigatorApp.tsx
 msgid "Open folder on disk"
-msgstr ""
+msgstr "디스크에서 폴더 열기"
 
 #: src/components/AppMenubar.tsx
 msgid "Open folder…"
-msgstr ""
+msgstr "폴더 열기…"
 
 #: src/components/command-palette-commands.ts
 msgid "Open graph"
-msgstr ""
+msgstr "그래프 열기"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Open in current branch"
@@ -8615,16 +8621,16 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Open in default app"
-msgstr ""
+msgstr "기본 앱에서 열기"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Open in file manager"
-msgstr ""
+msgstr "파일 관리자에서 열기"
 
 #: src/components/command-palette-commands.ts
 #: src/components/EditorTabs.tsx
 msgid "Open in New Window"
-msgstr ""
+msgstr "새 창에서 열기"
 
 #: src/components/SlidesToolbarControls.tsx
 msgid "Open in Slidev"
@@ -8678,11 +8684,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open or close visual-editor find."
-msgstr ""
+msgstr "비주얼 편집기 찾기를 열거나 닫습니다."
 
 #: src/components/settings/settings-fields.ts
 msgid "Open preview when agent edits"
-msgstr ""
+msgstr "에이전트가 편집할 때 미리보기를 엽니다."
 
 #: src/components/ProjectSwitcher.tsx
 msgid "Open project menu"
@@ -8690,7 +8696,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Open recent project"
-msgstr ""
+msgstr "최근 프로젝트 열기"
 
 #: src/components/settings/plugin-enabled-notice.ts
 msgid "Open settings"
@@ -8711,7 +8717,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open source lint panel"
-msgstr ""
+msgstr "소스 lint 패널 열기"
 
 #: src/editor/extensions/JsxComponentView.tsx
 msgid "Open source: {mirrorSrc}"
@@ -8727,15 +8733,15 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open the comment composer on the current selection and add it to the dispatch queue."
-msgstr ""
+msgstr "현재 선택 영역에 댓글 작성기를 열고 디스패치 대기열에 추가합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open the insert menu in an empty or active text position."
-msgstr ""
+msgstr "비어 있거나 활성화된 텍스트 위치에서 삽입 메뉴를 엽니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open the Project Navigator."
-msgstr ""
+msgstr "프로젝트 탐색기를 엽니다."
 
 #: src/components/GraphPanel.tsx
 msgid "Open this document in the editor and collapse the graph."
@@ -8747,11 +8753,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open this settings dialog."
-msgstr ""
+msgstr "이 설정 대화 상자를 엽니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open visual-editor find with replace controls expanded."
-msgstr ""
+msgstr "교체 컨트롤을 확장한 상태로 비주얼 편집기 찾기를 엽니다."
 
 #: src/components/AppMenubar.tsx
 #: src/components/CommandPalette.tsx
@@ -8759,20 +8765,20 @@ msgstr ""
 #: src/components/handoff/OpenInAgentEmptySpaceSubmenu.tsx
 #: src/components/handoff/OpenInAgentMenu.tsx
 msgid "Open with AI"
-msgstr ""
+msgstr "AI로 열기"
 
 #: src/components/CommandPalette.tsx
 #: src/components/handoff/OpenInAgentContextSubmenu.tsx
 #: src/components/handoff/OpenInAgentEmptySpaceSubmenu.tsx
 #: src/components/handoff/OpenInAgentMenu.tsx
 msgid "Open with AI {displayName} Desktop"
-msgstr ""
+msgstr "AI {displayName} Desktop으로 열기"
 
 #: src/components/CommandPalette.tsx
 #: src/components/handoff/OpenInAgentContextSubmenu.tsx
 #: src/components/handoff/OpenInAgentEmptySpaceSubmenu.tsx
 msgid "Open with AI {displayName} Desktop, {hint}"
-msgstr ""
+msgstr "AI {displayName} Desktop, {hint}(으)로 열기"
 
 #: src/components/handoff/OpenInAgentMenuItem.tsx
 msgid "Open with AI {targetDisplayName}"
@@ -8788,7 +8794,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Open, navigate, accept, or dismiss CodeMirror completion suggestions."
-msgstr ""
+msgstr "CodeMirror 자동 완성 제안을 열고 탐색하고 수락하거나 닫습니다."
 
 #: src/lib/install-onboarding-toast.ts
 msgid "Opened existing OpenKnowledge project at {ancestorPath}"
@@ -8913,7 +8919,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
 msgid "OpenKnowledge on GitHub"
-msgstr ""
+msgstr "GitHub에서 OpenKnowledge 열기"
 
 #: src/lib/acp/tool-call-display.ts
 msgid "OpenKnowledge opened the live preview"
@@ -9038,7 +9044,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Ordered list"
-msgstr ""
+msgstr "번호 매기기 목록"
 
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
@@ -9179,7 +9185,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Paragraph"
-msgstr ""
+msgstr "문단"
 
 #: src/editor/utils/severity.ts
 msgid "parse error"
@@ -9201,7 +9207,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Paste"
-msgstr ""
+msgstr "붙여넣기"
 
 #: src/components/settings/CustomThemeEditor.tsx
 msgid "Paste a base16 theme"
@@ -9213,7 +9219,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Paste duplicate"
-msgstr ""
+msgstr "복제하여 붙여넣기"
 
 #: src/editor/clipboard/source-clipboard.ts
 msgid "Paste failed.{restoreSuffix}"
@@ -9338,7 +9344,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "Pick a palette for light mode and one for dark mode. The theme setting in Preferences chooses between them — on “System”, so does your OS."
-msgstr ""
+msgstr "라이트 모드와 다크 모드에 사용할 팔레트를 선택합니다. 환경설정의 테마 설정은 이 팔레트 중 하나를 선택합니다. “시스템”에서는 운영 체제 설정도 따릅니다."
 
 #: src/components/settings/ThemePluginSection.tsx
 msgid "Pick a theme or create your own."
@@ -9414,7 +9420,7 @@ msgstr ""
 #: src/components/settings/LintingSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Plugins"
-msgstr ""
+msgstr "플러그인"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Point semantic search at any OpenAI-compatible embeddings endpoint — a self-hosted server or another provider. The API key above is for whichever endpoint you set here."
@@ -9435,11 +9441,11 @@ msgstr ""
 #: src/components/settings/SettingsDialogBody.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Preferences"
-msgstr ""
+msgstr "환경설정"
 
 #: src/components/CommandPalette.tsx
 msgid "Preparing search"
-msgstr ""
+msgstr "검색 준비 중"
 
 #: src/components/PublishToGitHubDialog.tsx
 msgid "Preparing share URL..."
@@ -9479,7 +9485,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "Preview tabs"
-msgstr ""
+msgstr "탭 미리보기"
 
 #: src/components/ConsentDialogBody.tsx
 msgid "Preview unavailable: {errorDetail}"
@@ -9504,7 +9510,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Previous tab"
-msgstr ""
+msgstr "이전 탭"
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "primary"
@@ -9553,7 +9559,7 @@ msgstr ""
 #: src/components/settings/ScopeBadge.tsx
 #: src/lib/skill-scope.ts
 msgid "Project"
-msgstr ""
+msgstr "프로젝트"
 
 #: src/components/settings/ProjectAiToolsSection.tsx
 msgid "Project AI tool management is only available in the OpenKnowledge desktop app."
@@ -9574,7 +9580,7 @@ msgstr ""
 #: src/components/FileTree.tsx
 #: src/components/SeedRootPicker.tsx
 msgid "Project root"
-msgstr ""
+msgstr "프로젝트 루트"
 
 #. Group label above the project runtime-skill row in Settings → This project → AI tools
 #: src/components/settings/ProjectAiToolsSection.tsx
@@ -9717,11 +9723,11 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Quit"
-msgstr ""
+msgstr "종료"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Quit {appName}"
-msgstr ""
+msgstr "{appName} 종료"
 
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
@@ -9810,16 +9816,16 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Recent files"
-msgstr ""
+msgstr "최근 파일"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Recent project"
-msgstr ""
+msgstr "최근 프로젝트"
 
 #: src/components/CommandPalette.tsx
 msgid "Recently opened"
-msgstr ""
+msgstr "최근 열기"
 
 #: src/components/settings/LintingSection.tsx
 msgid "Recommended agent skill"
@@ -9843,7 +9849,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Reconnecting…"
-msgstr ""
+msgstr "다시 연결 중…"
 
 #: src/components/TimelinePanel.tsx
 msgid "Recovered content"
@@ -9856,7 +9862,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Redo"
-msgstr ""
+msgstr "다시 실행"
 
 #: src/components/ExploreSkills.tsx
 msgid "Refactoring"
@@ -9892,7 +9898,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/components/FileTargetMenuItems.tsx
 msgid "Relative path"
-msgstr ""
+msgstr "상대 경로"
 
 #: src/components/skill-actions.tsx
 msgid "Relative Path"
@@ -9900,12 +9906,12 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Relaunching to install the update…"
-msgstr ""
+msgstr "업데이트를 설치하기 위해 다시 시작하는 중…"
 
 #: src/components/settings/SettingsDialogShell.tsx
 #: src/components/SubscribeCard.tsx
 msgid "Release notes"
-msgstr ""
+msgstr "릴리스 노트"
 
 #: src/components/settings/ThemePreviewCanvas.tsx
 msgid "Release plan"
@@ -9922,7 +9928,7 @@ msgstr ""
 #: src/lib/locale-load-failure-notice.ts
 #: src/lib/native-menu-catalog.ts
 msgid "Reload"
-msgstr ""
+msgstr "새로 고침"
 
 #: src/components/NewWorktreeDialog.tsx
 msgid "remote"
@@ -10061,7 +10067,7 @@ msgstr ""
 #: src/components/SkillFileRenameDialog.tsx
 #: src/components/SkillRenameDialog.tsx
 msgid "Rename"
-msgstr ""
+msgstr "이름 변경"
 
 #. placeholder {0}: session.label
 #: src/components/TerminalTabStrip.tsx
@@ -10087,7 +10093,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Rename succeeded but the sidebar may be out of date — refresh to resync"
-msgstr ""
+msgstr "이름 변경은 성공했지만 사이드바가 최신 상태가 아닐 수 있습니다. 다시 동기화하려면 새로 고침하세요."
 
 #. placeholder {0}: docLeaf(descriptor.from)
 #. placeholder {1}: docLeaf(descriptor.to)
@@ -10136,11 +10142,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Reopen closed tab"
-msgstr ""
+msgstr "닫은 탭 다시 열기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Reopen the most recently closed editor tab."
-msgstr ""
+msgstr "가장 최근에 닫은 편집기 탭을 다시 엽니다."
 
 #: src/components/AuthModal.tsx
 msgid "Reopen this window to sign in with your browser"
@@ -10157,7 +10163,7 @@ msgstr ""
 #: src/editor/find-replace/FindReplaceBar.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Replace"
-msgstr ""
+msgstr "바꾸기"
 
 #: src/components/PageHeaderWidgets.tsx
 msgid "Replace {keyName}"
@@ -10173,7 +10179,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Replace current match from field"
-msgstr ""
+msgstr "필드에서 현재 일치 항목 바꾸기"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Replace key"
@@ -10181,7 +10187,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Replace the active match from the replace field."
-msgstr ""
+msgstr "바꾸기 필드에서 활성 일치 항목을 바꿉니다."
 
 #: src/components/SkillInstallMenu.tsx
 msgid "Replace the copy at {display} with a symlink to the skill's source folder? Nothing else moves."
@@ -10204,11 +10210,11 @@ msgstr ""
 #: src/components/HelpPopover.tsx
 #: src/components/ReportBugDialogBody.tsx
 msgid "Report a bug"
-msgstr ""
+msgstr "버그 신고"
 
 #: src/components/AppMenubar.tsx
 msgid "Report a bug…"
-msgstr ""
+msgstr "버그 신고…"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Report reference"
@@ -10277,12 +10283,12 @@ msgstr ""
 
 #: src/components/settings/field-controls.tsx
 msgid "Reset {labelText} to default"
-msgstr ""
+msgstr "기본값으로 {labelText} 재설정"
 
 #: src/components/settings/field-controls.tsx
 #: src/components/settings/markdownlint-rule-browser.tsx
 msgid "Reset to default"
-msgstr ""
+msgstr "기본값으로 재설정"
 
 #: src/editor/components/Mermaid.tsx
 msgid "Reset view"
@@ -10302,11 +10308,11 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Resolve the conflict on {files} before deleting."
-msgstr ""
+msgstr "삭제하기 전에 {files}의 충돌을 해결하세요."
 
 #: src/components/FileTree.tsx
 msgid "Resolve the conflict on {files}, +{overflow} more before deleting."
-msgstr ""
+msgstr "삭제하기 전에 {files}의 충돌을 해결하고, +{overflow}개 항목을 더 처리하세요."
 
 #: src/comments/ThreadCard.tsx
 msgid "Resolved"
@@ -10407,7 +10413,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Results capped — this workspace has more files than search can index. A missing file may be a cap artifact, not a typo."
-msgstr ""
+msgstr "결과가 제한되었습니다. 이 워크스페이스에는 검색에서 색인할 수 있는 파일보다 더 많은 파일이 있습니다. 누락된 파일은 오타가 아니라 제한으로 인해 빠진 것일 수 있습니다."
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Resume sync"
@@ -10446,7 +10452,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "Reuse one tab when clicking through the sidebars. Off opens every click in its own tab."
-msgstr ""
+msgstr "사이드바를 클릭할 때 탭 하나를 재사용합니다. 끄면 클릭할 때마다 자체 탭에서 엽니다."
 
 #: src/components/SeedRootPicker.tsx
 msgid "Reused if it already exists, created if not."
@@ -10455,12 +10461,12 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/lib/platform-labels.ts
 msgid "Reveal in File Explorer"
-msgstr ""
+msgstr "파일 탐색기에서 표시"
 
 #: src/components/command-palette-commands.ts
 #: src/lib/platform-labels.ts
 msgid "Reveal in Finder"
-msgstr ""
+msgstr "Finder에서 표시"
 
 #: src/components/SkillOriginInline.tsx
 msgid "Revert"
@@ -10586,7 +10592,7 @@ msgstr ""
 #: src/components/settings/field-controls.tsx
 #: src/components/settings/OkignoreSection.tsx
 msgid "Saved"
-msgstr ""
+msgstr "저장됨"
 
 #: src/components/TemplateForm.tsx
 msgid "Saved as <0>{slug}.md</0>"
@@ -10660,11 +10666,11 @@ msgstr ""
 #: src/components/SidebarSearchBar.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Search"
-msgstr ""
+msgstr "검색"
 
 #: src/components/CommandPalette.tsx
 msgid "Search \"{semanticSubmitQuery}\" by meaning"
-msgstr ""
+msgstr "“{semanticSubmitQuery}”를 의미로 검색"
 
 #: src/components/EditorHeader.tsx
 msgid "Search ({searchShortcutLabel})"
@@ -10684,7 +10690,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Search by meaning"
-msgstr ""
+msgstr "의미로 검색"
 
 #: src/components/emoji-picker.tsx
 msgid "Search emoji"
@@ -10692,7 +10698,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Search failed."
-msgstr ""
+msgstr "검색에 실패했습니다."
 
 #: src/components/ExploreSkills.tsx
 msgid "Search failed. Try again."
@@ -10700,15 +10706,15 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Search files, commands, projects, and AI handoff actions. The K chord adds a link instead when text is selected in the visual editor; the P chord always opens the palette."
-msgstr ""
+msgstr "파일, 명령, 프로젝트 및 AI 핸드오프 작업을 검색합니다. 비주얼 편집기에서 텍스트를 선택하면 K 키 조합 대신 링크를 추가하고, P 키 조합은 항상 팔레트를 엽니다."
 
 #: src/components/CommandPalette.tsx
 msgid "Search files, folders, and commands for the current workspace."
-msgstr ""
+msgstr "현재 워크스페이스의 파일, 폴더 및 명령을 검색합니다."
 
 #: src/components/CommandPalette.tsx
 msgid "Search files, folders, or commands"
-msgstr ""
+msgstr "파일, 폴더 또는 명령 검색"
 
 #: src/components/settings/applies-to-folder-picker.tsx
 msgid "Search folders"
@@ -10721,7 +10727,7 @@ msgstr ""
 #. placeholder {0}: formatShortcut('find')
 #: src/components/CommandPalette.tsx
 msgid "Search matches file names, paths, and folders. Open a file to search its body <0>{0}</0>."
-msgstr ""
+msgstr "검색 결과는 파일 이름, 경로 및 폴더와 일치합니다. 파일을 열면 본문을 검색할 수 있습니다 <0>{0}</0>."
 
 #: src/components/ProjectSwitcher.tsx
 msgid "Search projects"
@@ -10749,7 +10755,7 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Search settings"
-msgstr ""
+msgstr "설정 검색"
 
 #: src/components/settings/SearchSection.tsx
 msgid "Search settings not yet loaded — try again in a moment"
@@ -10765,7 +10771,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Search with Google"
-msgstr ""
+msgstr "Google로 검색"
 
 #: src/components/RecentProjectsMenu.tsx
 msgid "Search worktrees"
@@ -10778,11 +10784,11 @@ msgstr ""
 #: src/components/CommandPalette.tsx
 #: src/components/ExploreSkills.tsx
 msgid "Searching"
-msgstr ""
+msgstr "검색 중"
 
 #: src/components/CommandPalette.tsx
 msgid "Searching by meaning"
-msgstr ""
+msgstr "의미로 검색 중"
 
 #: src/editor/composer-mention/ComposerMentionMenu.tsx
 msgid "Searching docs"
@@ -10803,7 +10809,7 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Sections"
-msgstr ""
+msgstr "섹션"
 
 #: src/components/ExploreSkills.tsx
 msgid "Security"
@@ -10843,31 +10849,31 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Select All"
-msgstr ""
+msgstr "모두 선택"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Select all files and folders"
-msgstr ""
+msgstr "모든 파일과 폴더 선택"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Select all source"
-msgstr ""
+msgstr "모든 소스 선택"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Select every visible file-tree row when focus is in the Files sidebar."
-msgstr ""
+msgstr "파일 사이드바에 포커스가 있을 때 표시되는 모든 파일 트리 행을 선택합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Select next occurrence"
-msgstr ""
+msgstr "다음 발생 항목 선택"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Select the full source document."
-msgstr ""
+msgstr "전체 소스 문서 선택"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Select, enter, or leave block components and fallback source blocks from keyboard boundaries."
-msgstr ""
+msgstr "블록 경계에서 블록 구성 요소와 대체 소스 블록을 선택, 입력 또는 빠져나갑니다."
 
 #: src/components/EditorFooter.tsx
 msgid "Selected"
@@ -10916,7 +10922,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Send checked comments to chat"
-msgstr ""
+msgstr "확인한 댓글을 채팅으로 보내기"
 
 #: src/comments/QueueNewChatRow.tsx
 msgid "Send comments to"
@@ -10925,11 +10931,11 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/components/HelpPopover.tsx
 msgid "Send feedback"
-msgstr ""
+msgstr "피드백 보내기"
 
 #: src/components/AppMenubar.tsx
 msgid "Send feedback…"
-msgstr ""
+msgstr "피드백 보내기…"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Send report"
@@ -11036,11 +11042,11 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Server-side cleanup failed for {failedCount, plural, one {# item} other {# items}}"
-msgstr ""
+msgstr "{failedCount, plural, other {서버 측 정리에 실패했습니다. #개 항목}}"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Services"
-msgstr ""
+msgstr "서비스"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Session ended"
@@ -11068,11 +11074,11 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Set up OpenKnowledge integrations"
-msgstr ""
+msgstr "OpenKnowledge 통합 설정"
 
 #: src/components/AppMenubar.tsx
 msgid "Set up OpenKnowledge integrations…"
-msgstr ""
+msgstr "OpenKnowledge 통합 설정…"
 
 #: src/components/settings/SyncSection.tsx
 msgid "Set up syncing"
@@ -11092,11 +11098,11 @@ msgstr ""
 #: src/components/SettingsButton.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Settings"
-msgstr ""
+msgstr "설정"
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Settings content"
-msgstr ""
+msgstr "설정 콘텐츠"
 
 #: src/components/settings/SettingsDialogErrorBoundary.tsx
 msgid "Settings failed to load"
@@ -11104,11 +11110,11 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Settings sections"
-msgstr ""
+msgstr "설정 섹션"
 
 #: src/components/AppMenubar.tsx
 msgid "Settings…"
-msgstr ""
+msgstr "설정…"
 
 #. Primary button — begins scaffolding the project
 #: src/components/ConsentDialogBody.tsx
@@ -11127,7 +11133,7 @@ msgstr ""
 #: src/components/FileTargetMenuItems.tsx
 #: src/components/ShareButton.tsx
 msgid "Share"
-msgstr ""
+msgstr "공유"
 
 #: src/components/ShareButton.tsx
 msgid "Share doc"
@@ -11193,13 +11199,13 @@ msgstr ""
 
 #: src/components/FileSidebar.tsx
 msgid "Show"
-msgstr ""
+msgstr "표시"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
 #: src/components/FileSidebar.tsx
 msgid "Show .ok folders"
-msgstr ""
+msgstr ".ok 폴더 표시"
 
 #. placeholder {0}: hiddenPacks.length
 #: src/components/PackCardGrid.tsx
@@ -11225,11 +11231,11 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Show Agents"
-msgstr ""
+msgstr "에이전트 표시"
 
 #: src/lib/native-menu-catalog.ts
 msgid "Show All"
-msgstr ""
+msgstr "모두 표시"
 
 #: src/components/acp/ThreadView.tsx
 msgid "Show details"
@@ -11242,7 +11248,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
 msgid "Show document panel"
-msgstr ""
+msgstr "문서 패널 표시"
 
 #: src/components/GraphPanel.tsx
 msgid "Show external URL nodes"
@@ -11268,7 +11274,7 @@ msgstr ""
 #: src/components/FileSidebar.tsx
 #: src/components/NotInSidebarIndicator.tsx
 msgid "Show hidden files"
-msgstr ""
+msgstr "숨김 파일 표시"
 
 #: src/editor/extensions/CodeBlockView.tsx
 msgid "Show HTML preview"
@@ -11276,7 +11282,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Show in Explorer"
-msgstr ""
+msgstr "탐색기에서 표시"
 
 #: src/components/PackCardGrid.tsx
 #: src/components/settings/ConfigureAgentsSection.tsx
@@ -11287,23 +11293,23 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/components/FileSidebar.tsx
 msgid "Show only markdown files"
-msgstr ""
+msgstr "Markdown 파일만 보기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Show or hide agents"
-msgstr ""
+msgstr "에이전트 표시 또는 숨기기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Show or hide document panel"
-msgstr ""
+msgstr "문서 패널 표시 또는 숨기기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Show or hide Files"
-msgstr ""
+msgstr "파일 표시 또는 숨기기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Show or hide Terminal"
-msgstr ""
+msgstr "터미널 표시 또는 숨기기"
 
 #: src/components/AgentDiffPane.tsx
 #: src/components/EditorToolbar.tsx
@@ -11339,7 +11345,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
 msgid "Show sidebar"
-msgstr ""
+msgstr "사이드바 표시"
 
 #: src/components/GraphPanel.tsx
 msgid "Show skill nodes"
@@ -11351,7 +11357,7 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Show Terminal"
-msgstr ""
+msgstr "터미널 표시"
 
 #: src/comments/comment-chips.tsx
 msgid "Show these comments in the Comments panel"
@@ -11363,7 +11369,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Showing results for \"{semanticResultsLabel}\""
-msgstr ""
+msgstr "“{semanticResultsLabel}”에 대한 결과 표시"
 
 #. placeholder {0}: items.length
 #: src/editor/wiki-link-suggestion/WikiLinkSuggestionMenu.tsx
@@ -11465,7 +11471,7 @@ msgstr ""
 #: src/components/settings/SettingsDialogShell.tsx
 #: src/components/settings/SkillsManagerSection.tsx
 msgid "Skills"
-msgstr ""
+msgstr "스킬"
 
 #: src/components/SkillsSidebarSection.tsx
 msgid "Skills are now shared. Commit .ok/skills to share them with your team."
@@ -11475,7 +11481,7 @@ msgstr ""
 #: src/components/command-palette-commands.ts
 #: src/components/FileSidebar.tsx
 msgid "Skills section"
-msgstr ""
+msgstr "스킬 섹션"
 
 #: src/components/settings/SkillsManagerSection.tsx
 msgid "Skills teach agents repeatable tasks. Author and manage them from the Skills section in the editor; each skill's install menu controls where it lives. These are this project's skill folders."
@@ -11506,7 +11512,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Slash command menu"
-msgstr ""
+msgstr "슬래시 명령 메뉴"
 
 #: src/editor/composer-mention/ComposerSlashMenu.tsx
 msgid "Slash command suggestions"
@@ -11519,7 +11525,7 @@ msgstr ""
 #: src/components/settings/LintingSection.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Slidev"
-msgstr ""
+msgstr "Slidev"
 
 #: src/components/SlidesToolbarControls.tsx
 msgid "Slidev couldn't render this document."
@@ -11621,19 +11627,19 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source editing"
-msgstr ""
+msgstr "소스 편집"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source editor"
-msgstr ""
+msgstr "소스 편집기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source editor search panel"
-msgstr ""
+msgstr "소스 편집기 검색 패널"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source find results"
-msgstr ""
+msgstr "소스 찾기 결과"
 
 #: src/components/EditorModeToggle.tsx
 msgid "Source mode requires a live connection — your edits are saved and will appear when you reconnect."
@@ -11641,19 +11647,19 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source multi-cursor and multi-select"
-msgstr ""
+msgstr "소스 다중 커서 및 다중 선택"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source navigation and selection"
-msgstr ""
+msgstr "소스 탐색 및 선택"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source search"
-msgstr ""
+msgstr "소스 검색"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Source undo or redo"
-msgstr ""
+msgstr "소스 실행 취소 또는 다시 실행"
 
 #: src/components/OkBlobRunner.tsx
 msgid "Space to jump · down arrow to duck"
@@ -11665,11 +11671,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Split list item"
-msgstr ""
+msgstr "목록 항목 분할"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Stage the selected passage in the agents panel, ready to extend and send."
-msgstr ""
+msgstr "선택한 구절을 에이전트 패널에 전송할 준비를 합니다."
 
 #: src/components/SubscribeCard.tsx
 msgid "Star us on GitHub"
@@ -11706,7 +11712,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Start source completion"
-msgstr ""
+msgstr "소스 자동 완성 시작"
 
 #: src/components/EditorArea.tsx
 msgid "Start writing to create this page"
@@ -11822,7 +11828,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Strikethrough"
-msgstr ""
+msgstr "취소선"
 
 #: src/components/settings/markdownlint-rule-browser.tsx
 msgid "Style"
@@ -11855,11 +11861,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Suggestion menu navigation"
-msgstr ""
+msgstr "제안 메뉴 탐색"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Suggestion menu open"
-msgstr ""
+msgstr "제안 메뉴 열기"
 
 #: src/components/BottomComposer.tsx
 msgid "Summarize everything I changed this week"
@@ -11875,7 +11881,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Switch between the visual and source editors, keeping your place."
-msgstr ""
+msgstr "현재 위치를 유지하면서 비주얼 편집기와 소스 편집기 사이를 전환합니다."
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Switch branch"
@@ -11885,11 +11891,11 @@ msgstr ""
 #: src/components/ProjectSwitcher.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Switch project"
-msgstr ""
+msgstr "프로젝트 전환"
 
 #: src/components/AppMenubar.tsx
 msgid "Switch project…"
-msgstr ""
+msgstr "프로젝트 전환…"
 
 #: src/lib/share/run-share-action.ts
 msgid "Switch to a branch to share."
@@ -11901,11 +11907,11 @@ msgstr ""
 
 #: src/components/command-palette-commands.ts
 msgid "Switch worktree"
-msgstr ""
+msgstr "워크트리 전환"
 
 #: src/components/AppMenubar.tsx
 msgid "Switch worktree…"
-msgstr ""
+msgstr "워크트리 전환…"
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Switching branches"
@@ -11922,7 +11928,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Symlink"
-msgstr ""
+msgstr "심볼릭 링크"
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid "Symlink another folder into one of these so both agents read the same skills; unlink to manage a folder's skills one by one again."
@@ -11930,7 +11936,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Symlink to {targetPath}"
-msgstr ""
+msgstr "심볼릭 링크: {targetPath}"
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid "symlinked via parent"
@@ -11949,7 +11955,7 @@ msgstr ""
 #: src/components/settings/SyncSection.tsx
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync"
-msgstr ""
+msgstr "동기화"
 
 #: src/components/SyncStatusBadge.tsx
 msgid "Sync disabled"
@@ -12050,7 +12056,7 @@ msgstr ""
 #: src/components/settings/field-controls.tsx
 #: src/components/settings/LanguageSelect.tsx
 msgid "System"
-msgstr ""
+msgstr "시스템"
 
 #: src/components/TrashFailureModal.tsx
 msgid "System error"
@@ -12086,7 +12092,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Tags matching \"{tagListQuery}\""
-msgstr ""
+msgstr "“{tagListQuery}”와 일치하는 태그"
 
 #: src/components/ReportBugDialogBody.tsx
 msgid "Take a look if you'd like. This exact file is what we receive."
@@ -12102,7 +12108,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Task list"
-msgstr ""
+msgstr "작업 목록"
 
 #: src/editor/bubble-menu/BlockTypeSelector.tsx
 #: src/editor/slash-command/items.tsx
@@ -12148,7 +12154,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Template imported"
-msgstr ""
+msgstr "템플릿을 가져왔습니다"
 
 #: src/components/empty-state/CreateView.tsx
 msgid "Template list"
@@ -12165,7 +12171,7 @@ msgstr ""
 
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "Templates"
-msgstr ""
+msgstr "템플릿"
 
 #: src/components/TemplatesCard.tsx
 msgid "Templates available"
@@ -12188,7 +12194,7 @@ msgstr ""
 #: src/components/TerminalPanel.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Terminal"
-msgstr ""
+msgstr "터미널"
 
 #. placeholder {0}: session.ordinal
 #: src/components/SessionsHost.tsx
@@ -12346,7 +12352,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "The file is in your {trashNoun}; the file-watcher will reconcile."
-msgstr ""
+msgstr "파일이 {trashNoun}에 있습니다. 파일 감시자가 상태를 조정합니다."
 
 #: src/components/TemplateForm.tsx
 msgid "The file on disk, and the id agents use."
@@ -12379,7 +12385,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "The language OpenKnowledge speaks; System follows your operating system. Your own notes stay in the language you wrote them in."
-msgstr ""
+msgstr "OpenKnowledge가 사용하는 언어입니다. 시스템은 운영 체제를 따릅니다. 작성한 노트는 작성한 언어로 유지됩니다."
 
 #: src/components/TemplateProperties.tsx
 msgid "The menu label agents pick this template by (required)."
@@ -12502,7 +12508,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "Theme"
-msgstr ""
+msgstr "테마"
 
 #: src/components/settings/CustomThemeEditor.tsx
 msgid "Theme colors"
@@ -12540,7 +12546,7 @@ msgstr ""
 #: src/components/settings/SettingsDialogShell.tsx
 #: src/components/settings/ThemePluginSection.tsx
 msgid "Themes"
-msgstr ""
+msgstr "테마"
 
 #: src/components/TerminalRefusalNotice.tsx
 msgid "There's no project folder for this window, so a terminal can't start here."
@@ -12823,7 +12829,7 @@ msgstr ""
 #: src/components/PanelScopeHeader.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "This project"
-msgstr ""
+msgstr "이 프로젝트"
 
 #: src/components/NewWorktreeDialog.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
@@ -12974,37 +12980,37 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle a bullet list."
-msgstr ""
+msgstr "글머리 기호 목록을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle a fenced code block."
-msgstr ""
+msgstr "펜스 코드 블록을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle a source comment through CodeMirror."
-msgstr ""
+msgstr "CodeMirror를 통해 소스 댓글을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle a task list."
-msgstr ""
+msgstr "작업 목록을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle an ordered list."
-msgstr ""
+msgstr "번호 매기기 목록을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle bold formatting."
-msgstr ""
+msgstr "굵게 표시를 전환합니다."
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Toggle Developer Tools"
-msgstr ""
+msgstr "개발자 도구 전환"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Toggle Full Screen"
-msgstr ""
+msgstr "전체 화면 전환"
 
 #: src/editor/table-controls/TableCellHandles.tsx
 msgid "Toggle header column"
@@ -13016,51 +13022,51 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle heading levels 1 through 6."
-msgstr ""
+msgstr "제목 수준 1~6을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle highlight formatting."
-msgstr ""
+msgstr "강조 표시를 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle inline code formatting."
-msgstr ""
+msgstr "인라인 코드 서식을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle italic formatting."
-msgstr ""
+msgstr "기울임꼴 서식을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle source comment"
-msgstr ""
+msgstr "소스 댓글 전환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle source tab focus mode"
-msgstr ""
+msgstr "소스 탭 포커스 모드 전환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle source view"
-msgstr ""
+msgstr "소스 보기 전환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle strikethrough formatting."
-msgstr ""
+msgstr "취소선 서식을 전환합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle Terminal in its current dock."
-msgstr ""
+msgstr "현재 도크에서 터미널 전환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle the left file sidebar."
-msgstr ""
+msgstr "왼쪽 파일 사이드바 전환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle the right agents panel, where agent conversations live."
-msgstr ""
+msgstr "에이전트 대화가 표시되는 오른쪽 에이전트 패널 전환"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle the right document panel."
-msgstr ""
+msgstr "오른쪽 문서 패널 전환"
 
 #: src/editor/components/Pdf.tsx
 msgid "Toggle thumbnails"
@@ -13068,7 +13074,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle underline formatting."
-msgstr ""
+msgstr "밑줄 서식을 전환합니다."
 
 #. placeholder {0}: row.path
 #: src/components/settings/applies-to-folder-picker.tsx
@@ -13097,15 +13103,15 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Traverse OpenKnowledge navigation history backward."
-msgstr ""
+msgstr "OpenKnowledge 탐색 기록을 뒤로 이동합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Traverse OpenKnowledge navigation history forward."
-msgstr ""
+msgstr "OpenKnowledge 탐색 기록을 앞으로 이동합니다."
 
 #: src/components/FileSidebar.tsx
 msgid "Tree view options"
-msgstr ""
+msgstr "트리 보기 옵션"
 
 #: src/components/empty-state/CreatePromptComposer.tsx
 msgid "Try a prompt"
@@ -13199,7 +13205,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "Type a query, then press <0>↵</0> to search your pages by meaning."
-msgstr ""
+msgstr "쿼리를 입력한 다음 <0>↵</0> 키를 눌러 페이지를 의미로 검색합니다."
 
 #: src/editor/components/CodePreviewEditModal.tsx
 msgid "Type to edit; <0>⌘ Enter</0> saves, <1>Esc</1> cancels."
@@ -13220,7 +13226,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Underline"
-msgstr ""
+msgstr "밑줄"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Undid {dropCount} edits on {docName}"
@@ -13236,7 +13242,7 @@ msgstr ""
 #: src/components/settings/SharingSection.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Undo"
-msgstr ""
+msgstr "실행 취소"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Undo buttons are disabled — per-session state has been garbage-collected."
@@ -13248,15 +13254,15 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Undo or redo"
-msgstr ""
+msgstr "실행 취소 또는 다시 실행"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Undo or redo visual-editor changes through TipTap collaboration history."
-msgstr ""
+msgstr "TipTap 협업 기록을 통해 비주얼 편집기 변경 사항을 실행 취소하거나 다시 실행합니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Undo or redo your own edits, leaving edits from collaborators and agents in place."
-msgstr ""
+msgstr "협업자와 에이전트의 편집은 유지하면서 직접 편집한 내용을 실행 취소하거나 다시 실행합니다."
 
 #: src/components/ActivityPanelBurstRow.tsx
 msgid "Undo to this edit?"
@@ -13264,12 +13270,12 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Undo, redo, or step through selection changes in the Edit source pane or a code-shaped property field."
-msgstr ""
+msgstr "소스 편집 창 또는 코드 형태의 속성 필드에서 선택 영역 변경을 실행 취소, 다시 실행하거나 단계별로 이동합니다."
 
 #: src/lib/native-menu-catalog.ts
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "Uninstall OpenKnowledge"
-msgstr ""
+msgstr "OpenKnowledge 제거"
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "Uninstall OpenKnowledge?"
@@ -13465,7 +13471,7 @@ msgstr ""
 
 #: src/components/FileTree.tsx
 msgid "Upload may have succeeded but the sidebar is out of date — refresh to resync"
-msgstr ""
+msgstr "업로드에 성공했을 수 있지만 사이드바가 최신 상태가 아닙니다. 다시 동기화하려면 새로 고침하세요."
 
 #: src/components/SkillsTree.tsx
 msgid "Upload skill"
@@ -13580,7 +13586,7 @@ msgstr ""
 #: src/components/settings/ScopeBadge.tsx
 #: src/components/settings/SettingsDialogShell.tsx
 msgid "User"
-msgstr ""
+msgstr "사용자"
 
 #: src/components/settings/LintingSection.tsx
 msgid "User plugins are personal to this device — turn them on or off here. The choice lives in your user config and is never committed to the project. Each enabled plugin gets its own page under Plugins in the settings sidebar."
@@ -13613,7 +13619,7 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "via {viaTags}"
-msgstr ""
+msgstr "{viaTags}을(를) 통해"
 
 #: src/components/settings/SkillTargetsPicker.tsx
 msgid "via parent"
@@ -13623,7 +13629,7 @@ msgstr ""
 #: src/components/CommandPalette.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "View"
-msgstr ""
+msgstr "보기"
 
 #: src/components/SkillDirectoryCard.tsx
 msgid "View {name}"
@@ -13643,7 +13649,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "View in source"
-msgstr ""
+msgstr "소스에서 보기"
 
 #: src/editor/bubble-menu/ViewInSourceBubbleButton.tsx
 msgid "View in source markdown"
@@ -13651,7 +13657,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "View in Source Markdown"
-msgstr ""
+msgstr "소스 Markdown에서 보기"
 
 #: src/components/SkillPluginBundleBanner.tsx
 msgid "View plugin"
@@ -13668,35 +13674,35 @@ msgstr ""
 #: src/components/EditorModeToggle.tsx
 #: src/lib/keyboard-shortcuts.ts
 msgid "Visual editor"
-msgstr ""
+msgstr "비주얼 편집기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Visual editor find input focused"
-msgstr ""
+msgstr "비주얼 편집기 찾기 입력 필드에 포커스가 있습니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Visual editor find open"
-msgstr ""
+msgstr "비주얼 편집기 찾기가 열려 있습니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Visual editor list item"
-msgstr ""
+msgstr "비주얼 편집기 목록 항목"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Visual editor replace input focused"
-msgstr ""
+msgstr "비주얼 편집기 바꾸기 입력 필드에 포커스가 있습니다."
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Visual editor selection"
-msgstr ""
+msgstr "비주얼 편집기 선택 영역"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Visual editor table"
-msgstr ""
+msgstr "비주얼 편집기 표"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Visual editor table selection"
-msgstr ""
+msgstr "비주얼 편집기 표 선택 영역"
 
 #: src/components/AuthModal.tsx
 msgid "Waiting for authorization"
@@ -13811,7 +13817,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "When enabled, the agent opens or refreshes the preview after each edit. Disable if you manage your own preview window (OK Desktop, a browser tab on another display, etc.)."
-msgstr ""
+msgstr "사용하도록 설정하면 에이전트가 편집할 때마다 미리보기를 엽니다. 자체 미리보기 창을 관리하는 경우 사용하지 않도록 설정하세요(OK Desktop, 다른 디스플레이의 브라우저 탭 등)."
 
 #: src/components/CreatedItemsList.tsx
 msgid "When the agent runs its scheduled work."
@@ -13819,7 +13825,7 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "When the Comments tab is open"
-msgstr ""
+msgstr "댓글 탭이 열려 있을 때"
 
 #: src/components/settings/LinkPreviewsSection.tsx
 msgid "When you hover an external link, its URL is sent to the destination site to fetch the page's preview metadata — one request per previewed link."
@@ -13827,7 +13833,7 @@ msgstr ""
 
 #: src/components/settings/settings-fields.ts
 msgid "When you install a published skill, tell the skill directory (skills.sh) so its install count is accurate. Sends the skill name, its source repository, and which agent tools it went to — never file contents, and never for a skill from a private, local, or hand-typed source. Once per skill per machine."
-msgstr ""
+msgstr "게시된 스킬을 설치하면 skills.sh에 알려 설치 횟수가 정확해집니다. 스킬 이름, 소스 저장소 및 사용된 에이전트 도구를 전송하지만 파일 내용은 전송하지 않으며, 비공개·로컬·직접 입력한 소스의 스킬에는 적용되지 않습니다. 컴퓨터당 스킬별로 한 번만 전송합니다."
 
 #: src/components/settings/AttachmentsSection.tsx
 msgid "Where newly added attachments are placed."
@@ -13885,11 +13891,11 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Window"
-msgstr ""
+msgstr "창"
 
 #: src/components/settings/settings-fields.ts
 msgid "Word wrap"
-msgstr ""
+msgstr "자동 줄바꿈"
 
 #: src/lib/acp/config-value-hints.ts
 msgid "Work directly, no plan step"
@@ -13907,11 +13913,11 @@ msgstr ""
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Workspace"
-msgstr ""
+msgstr "워크스페이스"
 
 #: src/components/CommandPalette.tsx
 msgid "Workspace Command Palette"
-msgstr ""
+msgstr "워크스페이스 명령 팔레트"
 
 #: src/components/EditorHeader.tsx
 msgid "Workspace navigation"
@@ -13924,15 +13930,15 @@ msgstr ""
 
 #: src/components/CommandPalette.tsx
 msgid "worktree of {worktreeOf}"
-msgstr ""
+msgstr "{worktreeOf}의 워크트리"
 
 #: src/components/CommandPalette.tsx
 msgid "Worktrees"
-msgstr ""
+msgstr "워크트리"
 
 #: src/components/settings/settings-fields.ts
 msgid "Wrap long lines in the markdown source editor."
-msgstr ""
+msgstr "Markdown 소스 편집기에서 긴 줄을 자동으로 줄바꿈합니다."
 
 #: src/components/ConsentDialogBody.tsx
 msgid "Writes a project-MCP config for each selected tool."
@@ -14149,7 +14155,7 @@ msgstr ""
 
 #: src/lib/native-menu-catalog.ts
 msgid "Zoom"
-msgstr ""
+msgstr "확대/축소"
 
 #: src/editor/components/Mermaid.tsx
 #: src/editor/components/Pdf.tsx
@@ -14159,7 +14165,7 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Zoom In"
-msgstr ""
+msgstr "확대"
 
 #: src/editor/components/Mermaid.tsx
 #: src/editor/components/Pdf.tsx
@@ -14169,4 +14175,4 @@ msgstr ""
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
 msgid "Zoom Out"
-msgstr ""
+msgstr "축소"
