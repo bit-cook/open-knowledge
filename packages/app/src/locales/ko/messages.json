@@ -1417,7 +1417,9 @@
     "KFd4xz": ["없음"],
     "KGF42E": ["Agent panel closed to keep Terminal readable."],
     "KGJb9_": ["Conflicts"],
-    "KH5bQi": ["외부에서 관리되는 <0>OK_EMBEDDINGS_API_KEY</0> 환경 변수를 사용합니다."],
+    "KH5bQi": [
+      "OpenKnowledge 외부에서 관리되는 <0>OK_EMBEDDINGS_API_KEY</0> 환경 변수를 사용합니다."
+    ],
     "KIIamL": [
       "OpenKnowledge will create commits and push them to your remote automatically. If you do not want automatic commits in your git history, you should not enable auto-sync."
     ],
@@ -1654,7 +1656,7 @@
     "NJyQi_": ["Branch ", ["shareBranch"], " no longer exists on the remote."],
     "NKkZXl": ["Initialize and open"],
     "NNJsn7": [
-      "한 단계 더 필요합니다. Cursor → Settings → Tools & MCP에서 활성화합니다(Cursor는 프로젝트 서버를 직접 켜기 전까지 꺼 둡니다)."
+      "한 단계 더 필요합니다. Cursor → 설정 → Tools & MCP에서 활성화합니다(Cursor는 프로젝트 서버를 직접 켜기 전까지 꺼 둡니다)."
     ],
     "NOHyEE": ["Retry push"],
     "NORKZU": ["패턴 경고: ", ["summary"]],
@@ -3772,7 +3774,7 @@
       " because it contains a .git folder"
     ],
     "pZAs1T": ["Failed to load outgoing links"],
-    "paCw0z": [["1"], "/ 안의 ", ["0"], "/ 폴더 아래 모든 항목"],
+    "paCw0z": [["0"], "/ 폴더가 ", ["1"], "/ 안에 있는 모든 항목"],
     "pajIrl": ["터미널을 끄지 못했습니다: ", ["0"]],
     "pbwTg6": [["seconds"], "s ago"],
     "pbyEp3": ["OpenKnowledge moved ", ["subject"], " to ", ["destination"]],

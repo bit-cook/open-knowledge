@@ -4996,7 +4996,7 @@ msgstr "{0}/ 아래의 모든 항목"
 #. placeholder {1}: summary.root
 #: src/components/settings/LintingSection.tsx
 msgid "everything under {0}/ folders inside {1}/"
-msgstr "{1}/ 안의 {0}/ 폴더 아래 모든 항목"
+msgstr "{0}/ 폴더가 {1}/ 안에 있는 모든 항목"
 
 #. placeholder {0}: summary.folder
 #: src/components/settings/LintingSection.tsx
@@ -8421,7 +8421,7 @@ msgstr "루트 인덱스에서 okf_version은 \"0.2\"와 같은 따옴표 문자
 #. Next step for a Cursor project MCP row — Cursor leaves project servers disabled
 #: src/components/settings/ProjectAiToolsSection.tsx
 msgid "One more step: enable it in Cursor → Settings → Tools & MCP (Cursor leaves project servers off until you turn them on)."
-msgstr "한 단계 더 필요합니다. Cursor → Settings → Tools & MCP에서 활성화합니다(Cursor는 프로젝트 서버를 직접 켜기 전까지 꺼 둡니다)."
+msgstr "한 단계 더 필요합니다. Cursor → 설정 → Tools & MCP에서 활성화합니다(Cursor는 프로젝트 서버를 직접 켜기 전까지 꺼 둡니다)."
 
 #. Next step for a Claude Code project MCP row
 #: src/components/settings/ProjectAiToolsSection.tsx
@@ -13598,7 +13598,7 @@ msgstr "사용자 플러그인은 이 디바이스에만 적용됩니다. 여기
 
 #: src/components/settings/SearchSection.tsx
 msgid "Using the <0>OK_EMBEDDINGS_API_KEY</0> environment variable (managed outside OpenKnowledge)."
-msgstr "외부에서 관리되는 <0>OK_EMBEDDINGS_API_KEY</0> 환경 변수를 사용합니다."
+msgstr "OpenKnowledge 외부에서 관리되는 <0>OK_EMBEDDINGS_API_KEY</0> 환경 변수를 사용합니다."
 
 #: src/components/settings/LintingSection.tsx
 msgid "Validate document frontmatter against JSON Schema files, scoped to doc sets by glob."
