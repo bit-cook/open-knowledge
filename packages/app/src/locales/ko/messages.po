@@ -343,7 +343,7 @@ msgstr "{0} 교체 필요"
 #. placeholder {1}: projects.length
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "{0} of {1} projects selected"
-msgstr ""
+msgstr "전체 {1}개 프로젝트 중 {0}개 선택됨"
 
 #. placeholder {0}: selected.size
 #. placeholder {1}: names.length
@@ -1231,7 +1231,7 @@ msgstr "이전 편집기 탭 활성화"
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "active"
-msgstr ""
+msgstr "활성"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Active"
@@ -1631,7 +1631,7 @@ msgstr "누구나 볼 수 있음"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Anything you'd like to add? (optional)"
-msgstr ""
+msgstr "추가할 내용이 있나요? (선택 사항)"
 
 #: src/components/settings/SearchSection.tsx
 msgid "API key set"
@@ -1936,7 +1936,7 @@ msgstr "동기화하기 전에 git 커밋에 사용할 사용자 정보를 설�
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Before you go, mind sharing why?"
-msgstr ""
+msgstr "떠나기 전에 이유를 알려주시겠어요?"
 
 #: src/editor/slash-command/items.tsx
 msgid "Below"
@@ -2096,7 +2096,7 @@ msgstr "버그 보고에는 OpenKnowledge 데스크톱 앱이 필요합니다."
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Bugs, crashes, or it felt unreliable"
-msgstr ""
+msgstr "버그, 충돌 또는 불안정한 동작"
 
 #: src/components/empty-state/use-create-suggestions.ts
 msgid "Build a competitor research knowledge base. Start with an overview page, then add cross-linked pages for each competitor, their products and pricing, and the sources behind every claim."
@@ -2422,7 +2422,7 @@ msgstr "Claude Desktop"
 
 #: src/uninstall/UninstallNoticeScreen.tsx
 msgid "Cleanup log"
-msgstr ""
+msgstr "정리 로그"
 
 #: src/components/settings/SearchSection.tsx
 #: src/components/SkillPluginBundleDialog.tsx
@@ -4278,7 +4278,7 @@ msgstr "이 컴퓨터에서 감지됨"
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "Detected OpenKnowledge projects"
-msgstr ""
+msgstr "감지된 OpenKnowledge 프로젝트"
 
 #: src/components/CommandPalette.tsx
 #: src/components/handoff/OpenInAgentMenuItem.tsx
@@ -4498,7 +4498,7 @@ msgstr "완료"
 
 #: src/uninstall/UninstallNoticeScreen.tsx
 msgid "Done."
-msgstr ""
+msgstr "완료"
 
 #: src/components/ui/tag-pill-input.tsx
 msgid "Double-click to edit"
@@ -6273,7 +6273,7 @@ msgstr "이미 로컬에 있음 →"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "I'm switching to another tool"
-msgstr ""
+msgstr "다른 도구로 전환하려고 합니다"
 
 #: src/editor/components/IconPickerInput.tsx
 msgid "Icon picker"
@@ -6755,19 +6755,19 @@ msgstr "잘못된 YAML"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "It didn't fit into my workflow"
-msgstr ""
+msgstr "내 작업 방식에 맞지 않았습니다"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "It was a trial or one-off project"
-msgstr ""
+msgstr "시험 삼아 사용했거나 일회성 프로젝트였습니다"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "It was missing a feature I needed"
-msgstr ""
+msgstr "필요한 기능이 없었습니다"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "It was too hard to set up or get started"
-msgstr ""
+msgstr "설정하거나 시작하기가 너무 어려웠습니다"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Italic"
@@ -6930,7 +6930,7 @@ msgstr "들여쓰기 대신 Tab 키로 소스 편집기를 빠져나갑니다."
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Let us follow up by email"
-msgstr ""
+msgstr "이메일로 후속 연락 받기"
 
 #: src/components/SkillLevelSelect.tsx
 #: src/components/SkillPluginBundleDialog.tsx
@@ -7906,7 +7906,7 @@ msgstr "아직 <0>.markdownlint.*</0> 파일이 없습니다. 모든 규칙은 V
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "No active or recent OpenKnowledge projects were found."
-msgstr ""
+msgstr "활성 상태이거나 최근에 사용한 OpenKnowledge 프로젝트가 없습니다."
 
 #: src/comments/use-comment-delivery.ts
 msgid "No agent is set up yet — opening Configure agents."
@@ -9457,7 +9457,7 @@ msgstr "공유 URL 준비 중…"
 
 #: src/uninstall/UninstallApp.tsx
 msgid "Preparing to uninstall OpenKnowledge"
-msgstr ""
+msgstr "OpenKnowledge 제거 준비 중"
 
 #: src/components/settings/SlidesPluginSection.tsx
 msgid "Present a document as a slide deck in its own window. Add <0>slides: true</0> to a document's frontmatter, then open it with the Slidev action. Rendering is handled by the Slidev CLI, which OpenKnowledge does not bundle."
@@ -9812,7 +9812,7 @@ msgstr "객체 수신 중"
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "recent"
-msgstr ""
+msgstr "최근"
 
 #: src/components/NavigatorApp.tsx
 msgid "Recent"
@@ -10019,7 +10019,7 @@ msgstr "링크 제거"
 #. placeholder {0}: project.path
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "Remove OpenKnowledge from {0}"
-msgstr ""
+msgstr "{0}에서 OpenKnowledge 제거"
 
 #: src/components/TemplateForm.tsx
 msgid "Remove property"
@@ -10061,7 +10061,7 @@ msgstr "제거 중"
 
 #: src/uninstall/UninstallProgressScreen.tsx
 msgid "Removing OpenKnowledge files…"
-msgstr ""
+msgstr "OpenKnowledge 파일 제거 중…"
 
 #: src/components/AppMenubar.tsx
 #: src/components/command-palette-commands.ts
@@ -10922,7 +10922,7 @@ msgstr "전송"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Send & continue"
-msgstr ""
+msgstr "보내고 계속하기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Send checked comments to chat"
@@ -11573,7 +11573,7 @@ msgstr "문제가 발생했습니다"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Something else"
-msgstr ""
+msgstr "기타"
 
 #: src/components/AppErrorBoundary.tsx
 msgid "Something went wrong"
@@ -12249,7 +12249,7 @@ msgstr "텍스트"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "Thanks for giving OpenKnowledge a try."
-msgstr ""
+msgstr "OpenKnowledge를 사용해 주셔서 감사합니다."
 
 #: src/components/SubscribeForm.tsx
 msgid "Thanks for subscribing. Watch your inbox for product updates."
@@ -12772,7 +12772,7 @@ msgstr "드라이브 루트처럼 보입니다(예: Windows 드라이브 루트)
 
 #: src/uninstall/UninstallProgressScreen.tsx
 msgid "This may take a moment. Your markdown content is kept."
-msgstr ""
+msgstr "잠시 시간이 걸릴 수 있습니다. markdown 콘텐츠는 유지됩니다."
 
 #. placeholder {0}: scopeLabels[scope]
 #. placeholder {1}: scopeLabels[toScope]
@@ -12884,7 +12884,7 @@ msgstr "이 프로젝트의 서버(v{0})가 이 앱(v{1})보다 최신입니다.
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "This removes OpenKnowledge’s settings and integrations from your Mac and any projects you select below, but keeps your markdown content and authored skills."
-msgstr ""
+msgstr "이 작업은 Mac과 아래에서 선택한 프로젝트에서 OpenKnowledge의 설정과 통합을 제거하지만, markdown 콘텐츠와 직접 작성한 스킬은 유지합니다."
 
 #. placeholder {0}: caps.join(', ')
 #: src/components/SkillPluginBundleBanner.tsx
@@ -12980,7 +12980,7 @@ msgstr "할 일"
 
 #: src/uninstall/UninstallNoticeScreen.tsx
 msgid "To do."
-msgstr ""
+msgstr "할 일"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Toggle a bullet list."
@@ -13283,7 +13283,7 @@ msgstr "OpenKnowledge 제거"
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "Uninstall OpenKnowledge?"
-msgstr ""
+msgstr "OpenKnowledge를 제거하시겠습니까?"
 
 #. placeholder {0}: skill.name
 #. placeholder {1}: label(removed)
@@ -13813,7 +13813,7 @@ msgstr "무엇을 만들까요?"
 
 #: src/uninstall/UninstallSurveyScreen.tsx
 msgid "What you share is sent to the OpenKnowledge team."
-msgstr ""
+msgstr "공유하신 내용은 OpenKnowledge 팀에 전송됩니다."
 
 #: src/components/HelpPopover.tsx
 msgid "What's new"
