@@ -77,6 +77,27 @@ test.describe('language picker', () => {
     await expect(page.locator('html')).toHaveAttribute('lang', 'es', { timeout: 10_000 });
   });
 
+  test('picking Korean activates it and persists the choice', async ({ page }) => {
+    // Normalize through English first: the picker label is translated, so this
+    // keeps the endonym selection independent of the preference left by a prior
+    // test or retry.
+    await openLanguagePicker(page);
+    await page.getByRole('option', { name: 'English' }).click();
+    await expect(page.locator('html')).toHaveAttribute('lang', 'en', { timeout: 10_000 });
+
+    const trigger = await openLanguagePicker(page);
+    await page.getByRole('option', { name: '한국어' }).click();
+
+    await expect(page.locator('html')).toHaveAttribute('lang', 'ko', { timeout: 10_000 });
+    await expect(trigger).toHaveText('한국어');
+    await expect(page.getByRole('button', { name: '환경설정' })).toBeVisible({
+      timeout: 10_000,
+    });
+
+    await page.reload();
+    await expect(page.locator('html')).toHaveAttribute('lang', 'ko', { timeout: 10_000 });
+  });
+
   test('picking System hands the language back to the browser', async ({ page }) => {
     await openLanguagePicker(page);
     await page.getByRole('option', { name: '简体中文' }).click();
