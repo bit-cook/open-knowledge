@@ -10381,7 +10381,7 @@ msgstr "복원 실패, 문서는 변경되지 않음"
 
 #: src/components/ActivityPanelBurstRow.tsx
 msgid "Restore to edit {burstNumber} of {docName}"
-msgstr "{docName}의 편집 {burstNumber}로 복원"
+msgstr "편집 {burstNumber} 시점의 {docName} 버전으로 복원"
 
 #: src/components/ActivityPanelBurstRow.tsx
 msgid "Restore to this edit"
@@ -13234,7 +13234,7 @@ msgstr "밑줄"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Undid {dropCount} edits on {docName}"
-msgstr "{docName}에서 편집 {dropCount}개를 실행 취소했습니다"
+msgstr "편집 {dropCount}개를 {docName}에서 실행 취소했습니다"
 
 #: src/components/ActivityModeContent.tsx
 msgid "Undid the last edit on {docName}"
@@ -13649,7 +13649,7 @@ msgstr "댓글 보기"
 
 #: src/components/ActivityPanelBurstRow.tsx
 msgid "View diff for edit {burstNumber} of {docName}"
-msgstr "{docName}의 편집 {burstNumber} 차이 보기"
+msgstr "편집 {burstNumber} 시점의 {docName} 변경 사항 보기"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "View in source"
