@@ -2488,7 +2488,7 @@ msgstr "클론이 예기치 않게 종료되었습니다."
 
 #: src/lib/transports/clone-transport.ts
 msgid "Clone failed — check the URL and try again ({status})"
-msgstr ""
+msgstr "클론 실패, URL을 확인하고 다시 시도하세요 ({status})"
 
 #: src/components/CloneDialog.tsx
 #: src/lib/transports/clone-transport.ts
@@ -2497,7 +2497,7 @@ msgstr "클론 실패. 연결 오류"
 
 #: src/lib/transports/clone-transport.ts
 msgid "Clone failed — empty response body"
-msgstr ""
+msgstr "클론 실패, 응답 본문이 비어 있습니다"
 
 #: src/components/CloneDialog.tsx
 msgid "Clone failed: {cloneError}"
@@ -2505,7 +2505,7 @@ msgstr "클론 실패: {cloneError}"
 
 #: src/lib/transports/clone-transport.ts
 msgid "Clone failed: {title}"
-msgstr ""
+msgstr "클론 실패: {title}"
 
 #: src/components/CloneDialog.tsx
 #: src/components/NavigatorApp.tsx
@@ -2843,7 +2843,7 @@ msgstr "config 공유가 변경되지 않았습니다. 자세한 내용은 아�
 
 #: src/lib/install-onboarding-toast.ts
 msgid "Config sharing unchanged: {trackedCount, plural, one {# OK file} other {# OK files}} tracked upstream — see message below."
-msgstr ""
+msgstr "구성 공유 변경 없음: {trackedCount, plural, other {OK 파일 #개}}가 업스트림에서 추적됩니다. 아래 메시지를 확인하세요."
 
 #: src/components/settings/LintingSection.tsx
 msgid "Configuration problems"
@@ -3268,7 +3268,7 @@ msgstr ""
 #. placeholder {0}: failures.length
 #: src/lib/project-fix-sweep-store.ts
 msgid "Could not fix {0} of {total} files."
-msgstr ""
+msgstr "{0}/{total}개 파일을 수정하지 못했습니다."
 
 #. placeholder {0}: seed.candidatePath
 #: src/components/ShareReceiveDialog.tsx
@@ -3305,7 +3305,7 @@ msgstr "GitHub 로그인 화면을 열 수 없습니다. 다시 시도하세요.
 
 #: src/lib/open-note-window.ts
 msgid "Could not open this document in a new window."
-msgstr ""
+msgstr "이 문서를 새 창에서 열지 못했습니다."
 
 #: src/components/FileTree.tsx
 msgid "Could not reach server"
@@ -3483,7 +3483,7 @@ msgstr "스킬 설치 실패: {0}"
 #. placeholder {0}: result.error
 #: src/hooks/use-explore-preview-install.ts
 msgid "Couldn't install: {0}"
-msgstr ""
+msgstr "설치하지 못했습니다: {0}"
 
 #: src/components/ViewerStatusPane.tsx
 msgid "Couldn't load {fileName}"
@@ -3691,11 +3691,11 @@ msgstr "서버를 다시 시작할 수 없습니다. 다른 프로세스가 사�
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Couldn't restart the server — it's running under a different account. Restart your computer to clear it, then reopen this project."
-msgstr ""
+msgstr "서버를 다시 시작하지 못했습니다. 다른 계정으로 실행 중입니다. 컴퓨터를 다시 시작하여 해결한 다음 이 프로젝트를 다시 여세요."
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Couldn't restart the server automatically. Try running `ok stop all` in a terminal, then reopen this project — or restart your computer if it persists."
-msgstr ""
+msgstr "서버를 자동으로 다시 시작하지 못했습니다. 터미널에서 `ok stop all`을 실행한 다음 이 프로젝트를 다시 여세요. 문제가 계속되면 컴퓨터를 다시 시작하세요."
 
 #: src/lib/restart-collab-server.ts
 msgid "Couldn't restart the server. Try `ok start` in this folder."
@@ -3793,7 +3793,7 @@ msgstr "동기화를 시작할 수 없습니다. 연결을 확인한 후 다시 
 
 #: src/lib/locale-load-failure-notice.ts
 msgid "Couldn't switch to {language}."
-msgstr ""
+msgstr "언어를 {language}로 전환하지 못했습니다."
 
 #: src/components/settings/SharingSection.tsx
 msgid "Couldn't switch to Only me"
@@ -5167,7 +5167,7 @@ msgstr "의미 기반 검색을 끄지 못했습니다: {detail}"
 
 #: src/hooks/use-enable-sync-with-confirm.ts
 msgid "Failed to disable sync — {detail}"
-msgstr ""
+msgstr "동기화를 사용 중지하지 못했습니다. {detail}"
 
 #: src/components/FileTree.tsx
 msgid "Failed to duplicate path"
@@ -5183,11 +5183,11 @@ msgstr "의미 기반 검색을 켜지 못했습니다: {detail}"
 
 #: src/hooks/use-enable-sync-with-confirm.ts
 msgid "Failed to enable sync — {detail}"
-msgstr ""
+msgstr "동기화를 사용 설정하지 못했습니다. {detail}"
 
 #: src/lib/transports/auth-query-transport.ts
 msgid "Failed to fetch repositories"
-msgstr ""
+msgstr "리포지토리를 가져오지 못했습니다"
 
 #: src/components/FileTree.tsx
 msgid "Failed to import template"
@@ -5377,7 +5377,7 @@ msgstr "테마 설정을 저장하지 못했습니다"
 
 #: src/lib/transports/auth-transport.ts
 msgid "Failed to start sign-in — try again"
-msgstr ""
+msgstr "로그인을 시작하지 못했습니다. 다시 시도하세요"
 
 #: src/components/AuthModal.tsx
 #: src/lib/transports/auth-transport.ts
@@ -5399,11 +5399,11 @@ msgstr "속성 업데이트 실패"
 
 #: src/hooks/use-enable-sync-with-confirm.ts
 msgid "Failed to update sync — {detail}"
-msgstr ""
+msgstr "동기화를 업데이트하지 못했습니다. {detail}"
 
 #: src/hooks/use-enable-sync-with-confirm.ts
 msgid "Failed to update sync mode — {detail}"
-msgstr ""
+msgstr "동기화 모드를 업데이트하지 못했습니다. {detail}"
 
 #: src/components/settings/TerminalSection.tsx
 msgid "Failed to update the auto-approve setting — {detail}"
@@ -5590,7 +5590,7 @@ msgstr "AI로 모두 수정 ({count})"
 
 #: src/lib/project-fix-sweep-store.ts
 msgid "Fixed {total, plural, one {# file} other {# files}}."
-msgstr ""
+msgstr "{total, plural, other {파일 #개}}를 수정했습니다."
 
 #: src/components/settings/AttachmentsSection.tsx
 msgid "Fixed folder in content root"
@@ -5610,7 +5610,7 @@ msgstr "{0}/{1} 수정 중"
 
 #: src/lib/project-fix-sweep-store.ts
 msgid "Fixing files stopped unexpectedly."
-msgstr ""
+msgstr "파일 수정이 예기치 않게 중지되었습니다."
 
 #: src/components/settings/LintingSection.tsx
 msgid "Flag common markdown issues in the editor. Powered by <0>markdownlint<1/></0>."
@@ -6503,7 +6503,7 @@ msgstr "{0} 초기화 완료. 열기에 실패했습니다."
 
 #: src/lib/install-onboarding-toast.ts
 msgid "Initialized OpenKnowledge at {gitRoot} — opened parent of {subPath} because it contains a .git folder"
-msgstr ""
+msgstr "{gitRoot}에서 OpenKnowledge를 초기화했습니다. .git 폴더가 포함되어 있어 {subPath}의 상위 폴더를 열었습니다"
 
 #: src/components/CloneDialog.tsx
 msgid "Initializing project"
@@ -6585,7 +6585,7 @@ msgstr "{brand} 설치 →"
 #. placeholder {0}: res.error
 #: src/hooks/use-explore-preview-install.ts
 msgid "Install failed: {0}"
-msgstr ""
+msgstr "설치 실패: {0}"
 
 #. Dialog title — installing the OpenKnowledge skill into the Claude Desktop App
 #: src/components/InstallInClaudeDesktopDialog.tsx
@@ -7220,7 +7220,7 @@ msgstr "로컬 경로"
 
 #: src/lib/install-onboarding-toast.ts
 msgid "Local-only requested but no git repository was created. Switch later via Settings → Config sharing once the project is in a git repo."
-msgstr ""
+msgstr "로컬 전용이 요청되었지만 git 리포지토리가 생성되지 않았습니다. 프로젝트가 git 리포지토리에 들어간 후 설정 → 구성 공유에서 전환할 수 있습니다."
 
 #: src/components/CreateProjectDialog.tsx
 msgid "Location"
@@ -7338,7 +7338,7 @@ msgstr "에이전트 최대 실행 수 도달"
 
 #: src/lib/install-onboarding-toast.ts
 msgid "MCP auto-repair failed"
-msgstr ""
+msgstr "MCP 자동 복구 실패"
 
 #. Group label above the per-editor MCP list in Settings → AI tools & CLI — each row wires OpenKnowledge's MCP server into that tool
 #. Group label above the per-editor project MCP list in Settings → This project → AI tools
@@ -8279,7 +8279,7 @@ msgstr "응답하지 않음"
 #: src/lib/consent-store.ts
 #: src/lib/mcp-consent-store.ts
 msgid "Not attached to desktop bridge"
-msgstr ""
+msgstr "데스크톱 브리지에 연결되지 않음"
 
 #: src/components/settings/ConfigureAgentsSection.tsx
 msgid "Not available on this platform"
@@ -8802,11 +8802,11 @@ msgstr "CodeMirror 자동 완성 제안을 열고 탐색하고 수락하거나 �
 
 #: src/lib/install-onboarding-toast.ts
 msgid "Opened existing OpenKnowledge project at {ancestorPath}"
-msgstr ""
+msgstr "{ancestorPath}에 있는 기존 OpenKnowledge 프로젝트를 열었습니다"
 
 #: src/lib/install-deep-link-listener.ts
 msgid "Opened on branch {branch}"
-msgstr ""
+msgstr "{branch} 브랜치에서 열었습니다"
 
 #: src/components/NavigatorApp.tsx
 msgid "Opening {openingLabel}…"
@@ -8882,7 +8882,7 @@ msgstr "OpenKnowledge에서 스킬 설치"
 
 #: src/lib/install-onboarding-toast.ts
 msgid "OpenKnowledge integrations checked."
-msgstr ""
+msgstr "OpenKnowledge 통합을 확인했습니다."
 
 #: src/components/CreateProjectDialog.tsx
 msgid "OpenKnowledge is set up at the repository root here, so the pack goes inside <0>{sanitized}</0> rather than at the top of the repository."
@@ -9272,7 +9272,7 @@ msgstr ""
 
 #: src/lib/install-onboarding-toast.ts
 msgid "PATH install failed: {summary}"
-msgstr ""
+msgstr "PATH 설치 실패: {summary}"
 
 #: src/components/TrashFailureModal.tsx
 msgid "Path resolves outside project"
@@ -9861,7 +9861,7 @@ msgstr "복구된 콘텐츠"
 
 #: src/lib/platform-labels.ts
 msgid "Recycle Bin"
-msgstr ""
+msgstr "휴지통"
 
 #: src/components/AppMenubar.tsx
 #: src/lib/native-menu-catalog.ts
@@ -10048,7 +10048,7 @@ msgstr "다른 모든 위치에서 \"{0}\"을 제거했습니다. 소스 폴더�
 
 #: src/lib/install-recent-removed-listener.ts
 msgid "Removed \"{projectName}\" from recent projects. Its folder no longer exists."
-msgstr ""
+msgstr "최근 프로젝트에서 \"{projectName}\"을 제거했습니다. 폴더가 더 이상 존재하지 않습니다."
 
 #. Warning shown when the user unchecks an already-installed skill
 #: src/components/McpConsentDialogBody.tsx
@@ -10162,7 +10162,7 @@ msgstr "새 로컬 협업 캐시로 \"{docName}\"을 다시 여는 중입니다.
 
 #: src/lib/install-onboarding-toast.ts
 msgid "repaired {names} MCP integration"
-msgstr ""
+msgstr "{names} MCP 통합 복구됨"
 
 #: src/editor/find-replace/FindReplaceBar.tsx
 #: src/lib/keyboard-shortcuts.ts
@@ -10346,11 +10346,11 @@ msgstr "터미널 재시작"
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Restart with this app's version"
-msgstr ""
+msgstr "이 앱의 버전으로 다시 시작"
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Restarted — now running v{appRuntime}."
-msgstr ""
+msgstr "다시 시작했습니다. 현재 v{appRuntime}을 실행 중입니다."
 
 #: src/components/ConnectingBanner.tsx
 msgid "Restarting"
@@ -10358,11 +10358,11 @@ msgstr "재시작 중"
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Restarting closes this project's server. Connected agents (Claude Code, Codex, Cursor) will see their OpenKnowledge MCP connection close unexpectedly — you may need to restart the agent, or toggle its OpenKnowledge MCP server off and on, to reconnect."
-msgstr ""
+msgstr "다시 시작하면 이 프로젝트의 서버가 닫힙니다. 연결된 에이전트(Claude Code, Codex, Cursor)는 OpenKnowledge MCP 연결이 예기치 않게 닫힌 것을 감지합니다. 다시 연결하려면 에이전트를 다시 시작하거나 OpenKnowledge MCP 서버를 껐다가 켜야 할 수 있습니다."
 
 #: src/lib/install-server-drift-listener.ts
 msgid "Restarting the server…"
-msgstr ""
+msgstr "서버 다시 시작 중…"
 
 #: src/components/TimelineDiffPane.tsx
 #: src/components/TimelinePanel.tsx
@@ -11030,7 +11030,7 @@ msgstr "서버에서 잘못된 업로드 응답을 반환했습니다."
 
 #: src/hooks/use-folder-config.ts
 msgid "Server returned an incomplete folder response."
-msgstr ""
+msgstr "서버가 불완전한 폴더 응답을 반환했습니다."
 
 #: src/hooks/use-skill-targets.ts
 msgid "Server returned an incomplete skill-targets response."
@@ -11042,7 +11042,7 @@ msgstr "서버에서 불완전한 스킬 응답을 반환했습니다."
 
 #: src/hooks/use-folder-config.ts
 msgid "Server returned an incomplete templates response."
-msgstr ""
+msgstr "서버가 불완전한 템플릿 응답을 반환했습니다."
 
 #: src/components/FileTree.tsx
 msgid "Server-side cleanup failed for {failedCount, plural, one {# item} other {# items}}"
@@ -11816,7 +11816,7 @@ msgstr "index.md 유지 관리 중지"
 
 #: src/lib/project-fix-sweep-store.ts
 msgid "Stopped fixing. Files already fixed stay fixed."
-msgstr ""
+msgstr "수정을 중지했습니다. 이미 수정된 파일은 그대로 유지됩니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Stopping"
@@ -12004,7 +12004,7 @@ msgstr "동기화가 일시 중지되었습니다. 재개하려면 충돌을 해
 
 #: src/hooks/use-no-push-permission-toast.ts
 msgid "Sync paused — you don't have permission to push to this repo"
-msgstr ""
+msgstr "동기화 일시 중지됨, 이 리포지토리에 푸시할 권한이 없습니다"
 
 #: src/components/AutoSyncOnboardingDialog.tsx
 #: src/components/settings/SyncSection.tsx
@@ -12385,7 +12385,7 @@ msgstr "인덱스 파일은 그대로 유지됩니다. Open Knowledge가 추가�
 
 #: src/lib/locale-load-failure-notice.ts
 msgid "The interface is still in the language you were reading. Check your connection, then reload to try again."
-msgstr ""
+msgstr "인터페이스가 아직 읽고 있던 언어로 표시됩니다. 연결을 확인한 다음 다시 로드하여 시도하세요."
 
 #: src/components/settings/settings-fields.ts
 msgid "The language OpenKnowledge speaks; System follows your operating system. Your own notes stay in the language you wrote them in."
@@ -12855,13 +12855,13 @@ msgstr "이 프로젝트는 로컬 전용이므로 .ok/skills가 git에서 숨�
 #. placeholder {0}: info.appRuntime
 #: src/lib/install-server-drift-listener.ts
 msgid "This project is running a different, incompatible build of OpenKnowledge than this app (v{0})."
-msgstr ""
+msgstr "이 프로젝트는 이 앱과 다른 호환되지 않는 OpenKnowledge 빌드(v{0})를 실행 중입니다."
 
 #. placeholder {0}: info.serverRuntime
 #. placeholder {1}: info.appRuntime
 #: src/lib/install-server-drift-listener.ts
 msgid "This project is running an older version of OpenKnowledge (v{0}) than this app (v{1})."
-msgstr ""
+msgstr "이 프로젝트는 이 앱보다 오래된 OpenKnowledge 버전(v{0})을 실행 중입니다(v{1})."
 
 #: src/components/NewWorktreeDialog.tsx
 #: src/components/ShareBranchSwitchDialog.tsx
@@ -12880,7 +12880,7 @@ msgstr "이 프로젝트에서 실행 중인 서버는 실시간 편집을 지�
 #. placeholder {1}: info.appRuntime
 #: src/lib/install-server-drift-listener.ts
 msgid "This project's server (v{0}) is newer than this app (v{1})."
-msgstr ""
+msgstr "이 프로젝트의 서버(v{0})가 이 앱(v{1})보다 최신입니다."
 
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "This removes OpenKnowledge’s settings and integrations from your Mac and any projects you select below, but keeps your markdown content and authored skills."
@@ -13103,7 +13103,7 @@ msgstr "git에서 추적됨. 업데이트는 자동 업데이트가 아니라 �
 
 #: src/lib/platform-labels.ts
 msgid "Trash"
-msgstr ""
+msgstr "휴지통"
 
 #: src/lib/keyboard-shortcuts.ts
 msgid "Traverse OpenKnowledge navigation history backward."
