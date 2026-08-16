@@ -343,7 +343,7 @@ msgstr "{0} 교체 필요"
 #. placeholder {1}: projects.length
 #: src/uninstall/UninstallPickerScreen.tsx
 msgid "{0} of {1} projects selected"
-msgstr "전체 {1}개 프로젝트 중 {0}개 선택됨"
+msgstr "{0}개 선택됨 (전체 {1}개 프로젝트 중)"
 
 #. placeholder {0}: selected.size
 #. placeholder {1}: names.length
