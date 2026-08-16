@@ -4862,11 +4862,11 @@ msgstr "외부 링크 미리보기 사용"
 #: src/components/AutoSyncOnboardingDialog.tsx
 #: src/components/EnableSyncConfirmDialog.tsx
 msgid "Enable Follow"
-msgstr "팔로우 사용"
+msgstr "Follow 사용"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Enable Follow?"
-msgstr "팔로우를 사용하시겠습니까?"
+msgstr "Follow를 사용하시겠습니까?"
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Enable git auto-sync?"
@@ -5674,24 +5674,24 @@ msgstr "폴더"
 #: src/components/settings/SyncSection.tsx
 #: src/components/SyncStatusBadge.tsx
 msgid "Follow"
-msgstr "따라오기"
+msgstr "Follow"
 
 #: src/components/settings/SyncSection.tsx
 #: src/components/SyncStatusBadge.tsx
 msgid "Follow — updates flow in from your remote; your edits stay on this computer."
-msgstr "따라오기, 원격 변경사항을 가져오고 편집 내용은 이 컴퓨터에 유지합니다."
+msgstr "Follow, 원격 변경사항을 가져오고 편집 내용은 이 컴퓨터에 유지합니다."
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Follow fetches updates from your remote git repository and fast-forwards your copy automatically. Your local edits stay on this computer and are never pushed."
-msgstr "팔로우는 원격 git 저장소에서 업데이트를 가져와 사본을 자동으로 빨리 감기합니다. 로컬 편집 내용은 이 컴퓨터에만 남고 절대 푸시되지 않습니다."
+msgstr "Follow는 원격 git 저장소에서 업데이트를 가져와 사본을 자동으로 fast-forward합니다. 로컬 편집 내용은 이 컴퓨터에만 남고 절대 푸시되지 않습니다."
 
 #: src/hooks/use-worktree-autosync-notice.tsx
 msgid "Follow is on for this worktree, inherited from {project}. Change it in Settings → Sync."
-msgstr "이 워크트리의 팔로우가 켜져 있습니다. {project}에서 상속되었습니다. 설정 → 동기화에서 변경하세요."
+msgstr "이 워크트리의 Follow가 켜져 있습니다. {project}에서 상속되었습니다. 설정 → 동기화에서 변경하세요."
 
 #: src/components/AutoSyncEnableWarning.tsx
 msgid "Follow never pushes or commits your local changes. They stay only on this machine."
-msgstr "팔로우는 로컬 변경 사항을 푸시하거나 커밋하지 않습니다. 이 컴퓨터에만 남습니다."
+msgstr "Follow는 로컬 변경 사항을 푸시하거나 커밋하지 않습니다. 이 컴퓨터에만 남습니다."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Follow the agent's edits"
@@ -6857,7 +6857,7 @@ msgstr "이름은 64자 이하로 유지하세요."
 
 #: src/components/settings/SyncSection.tsx
 msgid "Keep this project in sync with your git remote. Follow fetches updates without pushing; full sync pushes your commits too. Turning sync on requires confirmation."
-msgstr "이 프로젝트를 git 원격 저장소와 동기화합니다. 따라오기는 푸시하지 않고 업데이트를 가져오며, 전체 동기화는 커밋도 푸시합니다. 동기화를 켜려면 확인이 필요합니다."
+msgstr "이 프로젝트를 git 원격 저장소와 동기화합니다. Follow는 푸시하지 않고 업데이트를 가져오며, 전체 동기화는 커밋도 푸시합니다. 동기화를 켜려면 확인이 필요합니다."
 
 #: src/lib/pack-copy.ts
 msgid "Keep track of the people and companies you work with and the meetings you have with them. Good for remembering who someone is, how you know them, and what you last talked about."
@@ -11907,7 +11907,7 @@ msgstr "공유하려면 브랜치로 전환하세요."
 
 #: src/components/settings/SyncSection.tsx
 msgid "Switch to Follow"
-msgstr "따라오기로 전환"
+msgstr "Follow로 전환"
 
 #: src/components/command-palette-commands.ts
 msgid "Switch worktree"
@@ -14016,7 +14016,7 @@ msgstr "이 저장소에 푸시 권한이 없습니다."
 
 #: src/components/settings/SyncSection.tsx
 msgid "You don't have permission to push to this repo. Follow can still keep your copy up to date."
-msgstr "이 저장소에 푸시할 권한이 없습니다. 따라오기를 사용하면 복사본을 최신 상태로 유지할 수 있습니다."
+msgstr "이 저장소에 푸시할 권한이 없습니다. Follow를 사용하면 복사본을 최신 상태로 유지할 수 있습니다."
 
 #: src/components/ShareFreshnessWarning.tsx
 msgid "You don't have write access to this repo."
@@ -14081,7 +14081,7 @@ msgstr "현재 실행 뒤 댓글 대기 중. 에이전트 메시지 수신 전�
 
 #: src/components/ShareBranchSwitchDialog.tsx
 msgid "Your copy of branch <0>{shareBranch}</0> has changes that aren't on GitHub. The {targetNoun} will appear once the branch syncs."
-msgstr "브랜치 <0>{shareBranch}</0> 사본에 GitHub 미반영 변경 사항이 있습니다. 브랜치 동기화 후 {targetNoun} 표시"
+msgstr "브랜치 <0>{shareBranch}</0> 사본에 GitHub에 없는 변경 사항이 있습니다. 브랜치가 동기화되면 {targetNoun}이 나타납니다."
 
 #: src/components/TimelineDiffPane.tsx
 #: src/components/TimelinePanel.tsx
@@ -14119,7 +14119,7 @@ msgstr "브랜치 <0>{branch}</0>의 로컬 사본이 뒤처져 있습니다."
 
 #: src/components/share-receive-miss-content.tsx
 msgid "Your local copy of branch <0>{branch}</0> is behind. Pull the latest changes, then open the link again."
-msgstr "브랜치 <0>{branch}</0>의 로컬 사본이 뒤처져 있습니다. 최신 변경 사항을 푼 후 링크를 다시 여세요."
+msgstr "브랜치 <0>{branch}</0>의 로컬 사본이 뒤처져 있습니다. 최신 변경 사항을 가져온 후 링크를 다시 여세요."
 
 #: src/components/acp/ThreadView.tsx
 msgid "Your message didn't reach {agentName}."
