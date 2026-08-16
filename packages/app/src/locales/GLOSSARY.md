@@ -92,6 +92,8 @@ These carry through every locale byte-for-byte:
 - **knowledge base** is the user's own collection of notes. Where a native compound exists and
   reads naturally it wins over a transliteration; `ur` keeps the transliteration because the
   native compound is not in common software use.
+- **Follow** is the pull-only sync mode. Korean uses 팔로우 consistently rather than mixing the
+  English label with 따라오기.
 
 ## Changing an entry
 
